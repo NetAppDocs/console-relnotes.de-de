@@ -1,0 +1,7 @@
+= 
+:allow-uri-read: 
+
+
+* Sie können auf die Upgrade Advisor-Seite für Ihre Standard-Watchlist zugreifen, indem Sielink:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade-Berater"^] Link.
+* Der Upgrade-Plan ist optimiert, um redundante Upgrade-Schritte zu entfernen und den Backout-Plan zu vereinfachen.  Die gemeinsamen Schritte für alle Knoten in einem Cluster sind zusammengefasst und im Abschnitt „Allgemeine Informationen“ des Upgradeplans verfügbar. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Erfahren Sie, wie Sie den Upgrade-Plan erstellen und anzeigen"] .
+

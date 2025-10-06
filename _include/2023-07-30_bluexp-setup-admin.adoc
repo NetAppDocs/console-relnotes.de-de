@@ -1,0 +1,21 @@
+= 
+:allow-uri-read: 
+
+
+* Sie können jetzt die BlueXP Audit-Service-API verwenden, um Audit-Protokolle zu exportieren.
++
+Der Audit-Dienst zeichnet Informationen zu den von BlueXP -Diensten durchgeführten Vorgängen auf.  Dazu gehören Arbeitsbereiche, verwendete Konnektoren und andere Telemetriedaten.  Anhand dieser Daten können Sie feststellen, welche Aktionen durchgeführt wurden, wer sie durchgeführt hat und wann sie stattgefunden haben.
+
++
+https://docs.netapp.com/us-en/bluexp-automation/audit/overview.html["Erfahren Sie mehr über die Verwendung der Audit-Service-API"^]
+
++
+Beachten Sie, dass dieser Link auch über die BlueXP -Benutzeroberfläche auf der Seite „Timeline“ zugänglich ist.
+
+* Diese Version des Connectors enthält auch Verbesserungen für Cloud Volumes ONTAP und On-Premise ONTAP -Cluster.
++
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#30-july-2023["Erfahren Sie mehr über die Verbesserungen von Cloud Volumes ONTAP"^]
+** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#30-july-2023["Erfahren Sie mehr über die Verbesserungen des ONTAP On-Prem-Clusters"^]
+
+
+

@@ -1,0 +1,12 @@
+= 
+:allow-uri-read: 
+
+
+Diese Vorabversion der BlueXP disaster recovery enthält die folgenden Updates.
+
+Mit der BlueXP disaster recovery können Sie jetzt Ihre lokalen, NFS-basierten VMware-Workloads zusätzlich zur öffentlichen Cloud vor Katastrophen in einer anderen lokalen, NFS-basierten VMware-Umgebung schützen.  BlueXP disaster recovery orchestriert die Durchführung der Disaster-Recovery-Pläne.
+
+
+NOTE: Bei diesem Vorschauangebot behält sich NetApp das Recht vor, Angebotsdetails, Inhalte und Zeitplan vor der allgemeinen Verfügbarkeit zu ändern.
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["Erfahren Sie mehr über die BlueXP disaster recovery"] .

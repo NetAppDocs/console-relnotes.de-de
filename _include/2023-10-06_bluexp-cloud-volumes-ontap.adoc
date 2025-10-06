@@ -1,0 +1,13 @@
+= Cloud Volumes ONTAP 9.14.0
+:allow-uri-read: 
+
+
+Die folgenden Änderungen wurden mit der Version 3.9.34 des Connectors eingeführt.
+
+
+
+=== Cloud Volumes ONTAP 9.14.0
+
+BlueXP kann jetzt die allgemein verfügbare Version von Cloud Volumes ONTAP 9.14.0 in AWS, Azure und Google Cloud bereitstellen und verwalten.
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["Erfahren Sie mehr über die neuen Funktionen dieser Version von Cloud Volumes ONTAP"^] .

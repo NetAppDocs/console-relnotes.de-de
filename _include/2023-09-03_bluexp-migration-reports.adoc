@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+Der aktualisierte BlueXP Migrationsberichtsdienst stellt Aktualisierungen der Berichtsdaten bereit.  Berichte enthalten jetzt die zugewiesene Kapazität.

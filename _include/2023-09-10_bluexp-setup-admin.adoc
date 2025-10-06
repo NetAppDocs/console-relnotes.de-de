@@ -1,0 +1,10 @@
+= 
+:allow-uri-read: 
+
+
+* Wenn Sie einen Connector in AWS von BlueXP aus erstellen, können Sie jetzt im Feld „Schlüsselpaar“ suchen, um das Schlüsselpaar, das Sie mit der Connector-Instanz verwenden möchten, einfacher zu finden.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["Ein Screenshot der Suchoption im Feld „Schlüsselpaar“, das auf der Netzwerkseite angezeigt wird, wenn Sie von BlueXP aus einen Connector in AWS erstellen."]
+
+* Dieses Update enthält auch Fehlerbehebungen.
+

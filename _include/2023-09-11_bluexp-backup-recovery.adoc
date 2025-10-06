@@ -1,0 +1,33 @@
+= Neues Richtlinienmanagement für ONTAP -Daten
+:allow-uri-read: 
+
+
+
+
+=== Neues Richtlinienmanagement für ONTAP -Daten
+
+Diese Version bietet innerhalb der Benutzeroberfläche die Möglichkeit, benutzerdefinierte Snapshot-Richtlinien, Replikationsrichtlinien und Richtlinien für Backups im Objektspeicher für ONTAP -Daten zu erstellen.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["Weitere Informationen zu Richtlinien"] .
+
+
+
+=== Unterstützung für die Wiederherstellung von Dateien und Ordnern von Volumes im ONTAP S3-Objektspeicher
+
+Bisher konnten Sie Dateien und Ordner mit der Funktion „Durchsuchen und Wiederherstellen“ nicht wiederherstellen, wenn Volumes im ONTAP S3-Objektspeicher gesichert wurden.  Diese Version hebt diese Einschränkung auf.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["Erfahren Sie mehr über die Wiederherstellung von Daten"] .
+
+
+
+=== Möglichkeit, Sicherungsdaten sofort zu archivieren, anstatt sie zuerst auf den Standardspeicher zu schreiben
+
+Jetzt können Sie Ihre Sicherungsdateien sofort an den Archivspeicher senden, anstatt die Daten in einen Standard-Cloud-Speicher zu schreiben.  Dies kann besonders für Benutzer hilfreich sein, die selten auf Daten aus Cloud-Backups zugreifen müssen, oder für Benutzer, die eine Backup-to-Tape-Umgebung ersetzen.
+
+
+
+=== Zusätzliche Unterstützung für das Sichern und Wiederherstellen von SnapLock -Volumes
+
+Mit Backup und Recovery können jetzt sowohl FlexVol als auch FlexGroup -Volumes gesichert werden, die entweder mit dem SnapLock Compliance oder dem SnapLock Enterprise Schutzmodus konfiguriert sind.  Für diese Unterstützung müssen Ihre Cluster ONTAP 9.14 oder höher ausführen.  Das Sichern von FlexVol -Volumes im SnapLock Enterprise Modus wird seit ONTAP Version 9.11.1 unterstützt.  Frühere ONTAP Versionen bieten keine Unterstützung für die Sicherung von SnapLock Schutzvolumes.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Erfahren Sie mehr über den Schutz von ONTAP -Daten"] .

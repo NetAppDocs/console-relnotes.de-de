@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: Versionshinweise zur NetApp Konsole
+  summary: Diese Versionshinweise beschreiben die jüngsten Verbesserungen der NetApp
+    Konsole und der von ihr unterstützten Datendienste.  Für jeden einzelnen Dienst
+    stehen Links zu den vollständigen Versionshinweisen zur Verfügung.
+  keywords: release notes, enhancements, bluexp, what's new
+  lead: Diese Versionshinweise beschreiben die jüngsten Verbesserungen der NetApp
+    Konsole und der von ihr unterstützten Datendienste.  Für jeden einzelnen Dienst
+    stehen Links zu den vollständigen Versionshinweisen zur Verfügung.
+  tiles:
+  - title: Was ist neu
+    links:
+    - title: Aktuelle Änderungen in der NetApp -Konsole
+      url: whats-new.html
+  - title: Versionshinweise nach Dienst
+    links:
+    - title: Index der Versionshinweise
+      url: release-notes-index.html
+  - title: Blogs und Community
+    links:
+    - title: NetApp Konsole
+      url: https://www.netapp.com/console
+    - title: NetApp Datenservices
+      url: https://www.netapp.com/data-services/
+    - title: NetApp Community
+      url: https://community.netapp.com/

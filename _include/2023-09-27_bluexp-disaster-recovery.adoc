@@ -1,0 +1,38 @@
+= 
+:allow-uri-read: 
+
+
+Diese Vorabversion der BlueXP disaster recovery enthält die folgenden Updates:
+
+* *Dashboard-Updates*: Sie können jetzt auf die Optionen im Dashboard klicken, was Ihnen die schnelle Überprüfung der Informationen erleichtert.  Außerdem zeigt das Dashboard jetzt den Status von Failovers und Migrationen an.
++
+Siehe https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/dashboard-view.html["Sehen Sie sich den Zustand Ihrer Notfallwiederherstellungspläne auf dem Dashboard an"] .
+
+* *Aktualisierungen des Replikationsplans*:
++
+** *RPO*: Sie können jetzt das Recovery Point Objective (RPO) und die Aufbewahrungsanzahl im Abschnitt „Datenspeicher“ des Replikationsplans eingeben.  Dies gibt die Menge an Daten an, die vorhanden sein müssen und nicht älter als die eingestellte Zeit sind.  Wenn Sie ihn beispielsweise auf 5 Minuten einstellen, kann das System im Katastrophenfall bis zu 5 Minuten Daten verlieren, ohne dass geschäftskritische Anforderungen beeinträchtigt werden.
++
+Siehe https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Erstellen eines Replikationsplans"] .
+
+** *Netzwerkverbesserungen*: Wenn Sie im Abschnitt „Virtuelle Maschinen“ des Replikationsplans das Netzwerk zwischen Quell- und Zielstandorten zuordnen, bietet die BlueXP disaster recovery jetzt zwei Optionen: DHCP oder statische IP.  Bisher wurde nur DHCP unterstützt.  Für statische IPs konfigurieren Sie das Subnetz, das Gateway und die DNS-Server.  Darüber hinaus können Sie jetzt Anmeldeinformationen für virtuelle Maschinen eingeben.
++
+Siehe https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Erstellen eines Replikationsplans"] .
+
+** *Zeitpläne bearbeiten*: Sie können jetzt Zeitpläne für Replikationspläne aktualisieren.
++
+Siehe https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["Ressourcen verwalten"] .
+
+** * SnapMirror Automatisierung*: Während Sie in dieser Version den Replikationsplan erstellen, können Sie die SnapMirror Beziehung zwischen Quell- und Zielvolumes in einer der folgenden Konfigurationen definieren:
++
+*** 1 bis 1
+*** 1 zu viele in einer Fanout-Architektur
+*** Viele zu 1 als Konsistenzgruppe
+*** Viele zu viele
++
+Siehe https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Erstellen eines Replikationsplans"] .
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+= Verwenden Sie beim Erstellen eines Datenbrokers vorhandene Azure-Sicherheitsgruppen
+:allow-uri-read: 
+
+
+
+
+=== Verwenden Sie beim Erstellen eines Datenbrokers vorhandene Azure-Sicherheitsgruppen
+
+Benutzer haben jetzt die Möglichkeit, beim Erstellen eines Datenbrokers vorhandene Azure-Sicherheitsgruppen zu verwenden.
+
+Das beim Erstellen des Datenbrokers verwendete Dienstkonto muss über die folgenden Berechtigungen verfügen:
+
+* „Microsoft.Network/networkSecurityGroups/securityRules/read“
+* „Microsoft.Network/networkSecurityGroups/read“
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["Erfahren Sie mehr über das Erstellen eines Datenbrokers in Azure."]
+
+
+
+=== Daten beim Synchronisieren mit Google Storage verschlüsseln
+
+Benutzer haben jetzt die Möglichkeit, beim Erstellen einer Synchronisierungsbeziehung mit einem Google Storage-Bucket als Ziel einen vom Kunden verwalteten Verschlüsselungsschlüssel anzugeben.  Sie können Ihren Schlüssel manuell eingeben oder aus einer Liste Ihrer Schlüssel in einer einzelnen Region auswählen.
+
+Das beim Erstellen des Datenbrokers verwendete Dienstkonto muss über die folgenden Berechtigungen verfügen:
+
+* cloudkms.cryptoKeys.list
+* cloudkms.keyRings.list
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["Erfahren Sie mehr über die Bucket-Anforderungen von Google Cloud Storage."]

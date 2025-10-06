@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+keywords: release notes 
+summary: Sehen Sie sich die vollständigen Versionshinweise zu den Verwaltungs- und Speicherfunktionen der NetApp Konsole sowie zu den NetApp -Datendiensten an. 
+---
+= Index der Versionshinweise
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sehen Sie sich die vollständigen Versionshinweise zu den NetApp Console-Funktionen und NetApp -Datendiensten an.
+
+
+
+== Verwaltung
+
+* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["Einrichtung und Administration"^]
+* https://docs.netapp.com/us-en/console-alerts/whats-new.html["Warnungen"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Automatisierungs-Hub"^]
+* https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Digitaler Berater"^]
+* https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["Wirtschaftlichkeit"^]
+* https://docs.netapp.com/us-en/console-license-subscriptions/index.html["Lizenzen und Abonnements"^]
+* https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["Software-Updates"^]
+
+
+
+
+== Storage
+
+* https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["Amazon FSx für ONTAP"^]
+* https://docs.netapp.com/us-en/storage-management-s3-storage/whats-new.html["Amazon S3-Speicher"^]
+* https://docs.netapp.com/us-en/storage-management-blob-storage/index.html["Azure Blob-Speicher"^]
+* https://docs.netapp.com/us-en/storage-management-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP -Verwaltung in der NetApp Konsole"^]
+* https://docs.netapp.com/us-en/storage-management-e-series/whats-new.html["Systeme der E-Serie"^]
+* https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/whats-new.html["Google Cloud NetApp Volumes"^]
+* https://docs.netapp.com/us-en/storage-management-google-cloud-storage/whats-new.html["Google Cloud-Speicher"^]
+* https://docs.netapp.com/us-en/storage-management-ontap-onprem/whats-new.html["On-Premise- ONTAP Cluster"^]
+* https://docs.netapp.com/us-en/storage-management-storagegrid/whats-new.html["StorageGRID"^]
+
+
+
+
+== Speicher als Service
+
+* https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
+
+
+
+
+== Datendienste
+
+* https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Sicherung und Wiederherstellung"^]
+* https://docs.netapp.com/us-en/data-services-classification/whats-new.html["Datenklassifizierung"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["Kopieren und synchronisieren"^]
+* https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-whats-new.html["Notfallwiederherstellung"^]
+* https://docs.netapp.com/us-en/data-services-ransomware-resilience/whats-new.html["Ransomware-Resilienz"^]
+* https://docs.netapp.com/us-en/data-services-replication/whats-new.html["Replikation"^]
+* https://docs.netapp.com/us-en/data-services-cloud-tiering/whats-new.html["Cloud-Tiering"^]
+* https://docs.netapp.com/us-en/console-volume-caching/release-notes/cache-whats-new.html["Volume-Caching"^]
+* https://docs.netapp.com/us-en/workload-relnotes/whats-new.html["Workload-Factory"^]
+
