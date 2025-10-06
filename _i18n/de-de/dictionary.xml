@@ -312,13 +312,7 @@
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block> .</block>
   <block id="b1f6aa5cd3cf83ad821c79fe598931fd" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="bed0d14e17dcfaaeaea51dce2d7189fc" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="34bdf6666741d1723fe415cb7110b288" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/storage-management-blob-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="e1f625690813304873d1e222e5ec1e33" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/storage-management-azure-netapp-files/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="6e58424b1994733f6eda17c4add9118e" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/data-services-backup-recovery/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="3c0111f2c48542b406af35d9096e7cf7" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/data-services-data-classification/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="9b347ca6c6b9f6424900c29d64c47e32" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/storage-management-cloud-volumes-ontap/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">Kopieren und Synchronisieren</block>
-  <block id="e2b5a6f8f3746ae0672242481a8333c8" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06. August 2025</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="section-title">Unterstützt berechtigte Switches</block>
@@ -359,7 +353,6 @@
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">30. Juli 2023</block>
   <block id="1f44f33aeb1b63e7094b0cbb0522d33b" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="78072e204b2393b0dbcc91fa82c6cb89" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/storage-management-e-series/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">Lebenszyklusplanung</block>
   <block id="97ab9dfb96ee1d5aedf3102c6777b5c7" category="section-title">BlueXP economic efficiency ist jetzt Lebenszyklusplanung</block>
   <block id="0f073941848193a160ce5e5bf8f7d006" category="paragraph">Die BlueXP economic efficiency wurde in Lebenszyklusplanung umbenannt.</block>
@@ -401,13 +394,10 @@
   <block id="080f313851ea933f8837533bd9d2015d" category="paragraph">Der Dienst für Migrationsberichte wurde am 7. August 2024 entfernt.</block>
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">Betriebsstabilität</block>
   <block id="5f2e609dafef66bdac17d517b701b5cd" category="paragraph">Die Funktionen zur betrieblichen Ausfallsicherheit wurden am 22. August 2025 entfernt.</block>
-  <block id="e53b07ba66e79a2d740d3ecd4db054db" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/data-services-ransomware-resilience/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">Sanierung</block>
   <block id="d80d66faf1506d2c22d481620ab133ea" category="paragraph">Der Sanierungsdienst wurde am 22. April 2024 entfernt.</block>
-  <block id="415a9b0499c8358f57046142d870bf77" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/data-services-replication/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="b5a69118f32e3db146c29d98f8baf80d" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="ec5be73f5b6f32ab0f879db6114d6b44" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="dbffe2253db6b5aaefd3b4582fd8f6a7" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::https://raw.githubusercontent.com/NetAppDocs/console-volume-caching/main/release-notes/cache-whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">29. Juni 2025</block>
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Berechtigungsaktualisierung für Datenbanken</block>
   <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">Die folgende Berechtigung ist jetzt im _schreibgeschützten_ Modus für Datenbanken verfügbar:<block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
@@ -422,18 +412,7 @@
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">Wenn Sie die BlueXP workload factory CloudShell verwenden, können Sie mit der Eingabe eines Befehls beginnen und die Tabulatortaste drücken, um die verfügbaren Optionen anzuzeigen.  Wenn mehrere Möglichkeiten vorhanden sind, zeigt die CLI eine Liste mit Vorschlägen an.  Diese Funktion steigert die Produktivität, indem sie Fehler minimiert und die Befehlsausführung beschleunigt.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Aktualisierte Berechtigungsterminologie</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.</block>
-  <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">30. März 2025</block>
-  <block id="ef74d01649997b60252254da8a1573fd" category="section-title">CloudShell meldet KI-generierte Fehlerantworten für ONTAP CLI-Befehle</block>
-  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Wenn Sie CloudShell verwenden und ein Fehler auftritt, können Sie jedes Mal, wenn Sie einen ONTAP CLI-Befehl ausführen, KI-generierte Fehlerantworten erhalten, die eine Beschreibung des Fehlers, die Fehlerursache und eine detaillierte Lösung enthalten.</block>
-  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">Verwenden von CloudShell</block>
-  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
-  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:SimulatePermissionPolicy-Berechtigungsaktualisierung</block>
-  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Jetzt können Sie die<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> Berechtigung von der Workload Factory-Konsole, wenn Sie zusätzliche AWS-Kontoanmeldeinformationen hinzufügen oder eine neue Workload-Funktion wie die GenAI-Workload hinzufügen.</block>
-  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">02. Februar 2025</block>
-  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="section-title">CloudShell in der BlueXP workload factory Konsole verfügbar</block>
-  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell ist überall in der BlueXP workload factory Konsole verfügbar.  Mit CloudShell können Sie die AWS- und ONTAP Anmeldeinformationen verwenden, die Sie in Ihrem BlueXP Konto angegeben haben, und AWS CLI-Befehle oder ONTAP CLI-Befehle in einer Shell-ähnlichen Umgebung ausführen.</block>
-  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">Die folgende Berechtigung ist jetzt im Lesemodus für Datenbanken verfügbar:<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> .</block>
   <block id="605c54a5f35aa6fcc6b2e6907209ffc8" category="sidebar">Diese Versionshinweise beschreiben die jüngsten Verbesserungen der NetApp Konsole und der von ihr unterstützten Datendienste.  Für jeden einzelnen Dienst stehen Links zu den vollständigen Versionshinweisen zur Verfügung.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Was ist neu</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">Versionshinweise nach Dienst</block>
@@ -450,10 +429,7 @@
   <block id="ddd56b1479dbec10cfb6fc0a3a8afe57" category="inline-image-macro">Ein Screenshot der Systemseite.</block>
   <block id="028a5defa734a1e5527100ece8ea2e66" category="paragraph"><block ref="028a5defa734a1e5527100ece8ea2e66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e6ee78fd171283b1b449978ae0c73e06" category="section-title">Erweitertes Speichermenü</block>
-  <block id="52f2049d6a6b3b78ceb9820e5ce16a9d" category="paragraph">Das Menü *Speicher* enthält außerdem *Warnungen* zum Anzeigen von ONTAP -Systemwarnungen und *Lebenszyklusplanung* (früher *Wirtschaftlichkeit*) zum Identifizieren ungenutzter oder nicht ausreichend genutzter Ressourcen.</block>
-  <block id="b75b41949ffca5829d6a1887ecf0ebd4" category="paragraph">NetApp hat Keystone außerdem in das Menü *Speicher* verschoben, wo Sie Ihre NetApp Keystone -Abonnements verwalten und Ihre Nutzung anzeigen können.</block>
   <block id="0bc00d5c9372c38aa1f6078843c22005" category="inline-image-macro">Ein Screenshot des Speichermenüs.</block>
-  <block id="748eeb353f241e217120dfabd2fa058d" category="paragraph"><block ref="748eeb353f241e217120dfabd2fa058d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0e279d1eb32921bbbc940faea63f4db6" category="section-title">Menü „Verwaltung“</block>
   <block id="08386d27df9de73a030b8e5da1f8112b" category="paragraph">Verwenden Sie das zentralisierte Menü *Administration*, um die NetApp Konsole, Supportfälle, Lizenzen und Abonnements (früher als digitale Geldbörse bezeichnet) zu verwalten.</block>
   <block id="c952530b2009e9e6caa227e55b2c5e17" category="inline-image-macro">Ein Screenshot des Administrationsmenüs.</block>
@@ -600,4 +576,452 @@
   <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">02. April 2025</block>
   <block id="f50a226c5a51111405309ae78236d95d" category="section-title">Geminderte Risiken</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">Im Zusammenfassungsbereich der BlueXP software updates können Sie jetzt die Gesamtzahl der Risiken anzeigen, die durch das Betriebssystemupdate gemindert werden können. Auf diese Weise können Benutzer die Sicherheits- und Stabilitätsverbesserungen ihrer Installationsbasis beurteilen.</block>
+  <block id="56ed5396ea479b4ed31e75f97a4377c7" category="paragraph">Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration, die äußerst sicher und konform ist.</block>
+  <block id="e4374974e911590511a1add55932606e" category="paragraph">Das Menü *Speicher* umfasst *Warnungen* zum Anzeigen von ONTAP -Systemwarnungen und *Lebenszyklusplanung* (früher *Wirtschaftlichkeit*) zum Identifizieren ungenutzter oder nicht ausreichend genutzter Ressourcen.</block>
+  <block id="b3289075ae80ce2a2ae0b68cf8c95606" category="paragraph">NetApp hat Keystone in das Menü *Speicher* verschoben, wo Sie Ihre NetApp Keystone -Abonnements verwalten und Ihre Nutzung anzeigen können.</block>
+  <block id="f445c6d565697b0932cf841aca945e2a" category="paragraph"><block ref="f445c6d565697b0932cf841aca945e2a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="58770c745f8af8b420df40e44a144c15" category="section-title">05. Juni 2023</block>
+  <block id="f9037e3eb23130835367334e3aa5a34b" category="section-title">Möglichkeit, neue Speicherkonten von BlueXP hinzuzufügen</block>
+  <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">Erfahren Sie, wie Sie neue Azure Blob-Speicherkonten hinzufügen</block>
+  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">Sie haben schon seit einiger Zeit die Möglichkeit, Azure Blob Storage auf dem BlueXP Canvas anzuzeigen. Jetzt können Sie direkt von BlueXP aus neue Speicherkonten hinzufügen und Eigenschaften für vorhandene Speicherkonten ändern. <block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> .</block>
+  <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln.</block>
+  <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">Die NetApp Console ermöglicht eine zentrale Verwaltung von Speicher- und Datendiensten in lokalen und Cloud-Umgebungen auf Unternehmensebene und liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Verwaltung.</block>
+  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
+  <block id="2b513ec32615ab736c1cab315db516f8" category="section-title">13. Januar 2025</block>
+  <block id="944c1cc3564ebb8c58254a0340102350" category="section-title">Netzwerkfunktionen werden jetzt in BlueXP unterstützt</block>
+  <block id="79d2f91b3755917d79acfd5be561d67b" category="paragraph">Beim Konfigurieren eines Volumes in Azure NetApp Files von BlueXP können Sie jetzt Netzwerkfunktionen angeben. Dies entspricht der Funktionalität, die in nativen Azure NetApp Files verfügbar ist.</block>
+  <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">12. Juni 2024</block>
+  <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">Neue Berechtigung erforderlich</block>
+  <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">Zum Verwalten von Azure NetApp Files Volumes von BlueXP aus ist jetzt die folgende Berechtigung erforderlich:</block>
+  <block id="d84dc0ddea3fe691a4f90418dade9248" category="paragraph">Microsoft.Network/virtualNetworks/subnets/read</block>
+  <block id="642c767a957f879cd5a09310eef9e35e" category="paragraph">Diese Berechtigung ist zum Lesen eines virtuellen Netzwerksubnetzes erforderlich.</block>
+  <block id="f1c8aee091d7af06827bd81ed4e56e5a" category="paragraph">Wenn Sie derzeit Azure NetApp Files von BlueXP aus verwalten, müssen Sie diese Berechtigung der benutzerdefinierten Rolle hinzufügen, die mit der zuvor erstellten Microsoft Entra-Anwendung verknüpft ist.</block>
+  <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">Erfahren Sie, wie Sie eine Microsoft Entra-Anwendung einrichten und die benutzerdefinierten Rollenberechtigungen anzeigen</block>
+  <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block> .</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">22. April 2024</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">Volume-Vorlagen werden nicht mehr unterstützt</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">Sie können kein Volume mehr aus einer Vorlage erstellen. Diese Aktion war mit dem BlueXP -Korrekturdienst verknüpft, der nicht mehr verfügbar ist.</block>
+  <block id="b3f4950f8261377915f43d28700ec58c" category="paragraph">Diese Version von NetApp Backup and Recovery enthält die folgenden Updates.</block>
+  <block id="fc93653f0e9d2392483e6d5d49522050" category="section-title">NetApp Backup and Recovery heißt jetzt NetApp Backup and Recovery</block>
+  <block id="380fa8333654730810eec55ed85c680c" category="paragraph">NetApp Backup and Recovery wurde in NetApp Backup and Recovery umbenannt.</block>
+  <block id="387c71fcb2fb7fdf9038db9d12137530" category="inline-link-macro">Versionshinweise zur NetApp Konsole.</block>
+  <block id="3a1e37eecca95e81d9e509646022ffda" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="019a5c722618673de9fa5ca0cf2abddb" category="inline-link-macro-rx"></block></block>
+  <block id="86df852f08da7feceb910d31327e83d7" category="section-title">Hyper-V-Workload-Unterstützung als private Vorschau</block>
+  <block id="9fb98f9a29d9d72ef6008750be44e084" category="paragraph">Diese Version von NetApp Backup and Recovery bietet Unterstützung für die Erkennung und Verwaltung von Hyper-V-Workloads:</block>
+  <block id="bd0905239cb012ebf878ac40c3981660" category="list-text">Sichern und Wiederherstellen von VMs auf eigenständigen Instanzen sowie Failover-Cluster-Instanzen (FCI)</block>
+  <block id="cb861f226468f5c5741c826734953432" category="list-text">Schützen Sie auf SMB3-Freigaben gespeicherte VMs</block>
+  <block id="165a3a57ae6cbe2ce8d382109a648112" category="list-text">Massenschutz auf virtueller Maschinenebene</block>
+  <block id="6ae4f2cef4c8268fb48e1bf1ad1145fc" category="list-text">VM- und absturzkonsistente Backups</block>
+  <block id="1e2c3f75c2996070badf4cdcfa9188be" category="list-text">Stellen Sie VMs aus dem primären, sekundären und Objektspeicher wieder her</block>
+  <block id="318dd7c3ae3e9302e9fc1054a535b274" category="list-text">Suchen und Wiederherstellen von VM-Backups</block>
+  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">Übersicht zum Schützen von Hyper-V-Workloads</block>
+  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block> .</block>
+  <block id="ade0d83a8d5df6524dcf5bc339bf6236" category="section-title">KVM-Workload-Unterstützung als private Vorschau</block>
+  <block id="c42adba211239f644f4ee6954d8a909e" category="paragraph">Diese Version von NetApp Backup and Recovery bietet Unterstützung für die Erkennung und Verwaltung von KVM-Workloads:</block>
+  <block id="99803398691d47a569fe2e0eeaf8a74c" category="list-text">Sichern und Wiederherstellen von auf NFS-Freigaben gespeicherten qcow2-VM-Images</block>
+  <block id="81e3905959a6e11107e52c1db1aa927a" category="list-text">Sichern von Speicherpools</block>
+  <block id="be660bd29054ec196c26b5d7ab12eca9" category="list-text">Massenschutz von VMs und Speicherpools mithilfe von Schutzgruppen</block>
+  <block id="d6e3a9bbd154922a83873ce4e8ee4f0d" category="list-text">VM-konsistente und absturzkonsistente VM-Backups</block>
+  <block id="01edc88c05b373b3f7ebaedf025e6c66" category="list-text">Geführter Prozess zum Sichern und Wiederherstellen von KVM-basierten VMs und VM-Daten</block>
+  <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Übersicht über den Schutz von KVM-Workloads</block>
+  <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">Weitere Informationen zum Schutz von KVM-Workloads finden Sie unter<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
+  <block id="7f72a27277a7289e66ee8f5e8c51ffe5" category="section-title">Verbesserungen in der Kubernetes-Vorschau</block>
+  <block id="0de024d994558b5d82bfea2474dcdb5a" category="paragraph">Die Vorschauversion der Kubernetes-Workloads führt die folgenden Verbesserungen ein:</block>
+  <block id="7f6a04aadde1854e173d7668132da89b" category="list-text">Unterstützung der 3-2-1 Fan-Out-Backup-Architektur</block>
+  <block id="b3b9066f003af6e4047de0ee6690e863" category="list-text">Unterstützung für ONTAP S3 als Backup-Ziel</block>
+  <block id="e35ded7c45cf2f4d4c707e6aeb803b42" category="list-text">Neues Kubernetes-Dashboard für einfachere Verwaltung</block>
+  <block id="578d6e20754edfe961ecf1fc836dde24" category="list-text">Die erweiterte rollenbasierte Zugriffssteuerungskonfiguration (RBAC) umfasst Unterstützung für die folgenden Rollen:</block>
+  <block id="63f384d43c70cef2a442eed93538b096" category="list-text">Superadministrator für Backup und Wiederherstellung</block>
+  <block id="69fc5d74b4cae1d8411c6e1ef7fef337" category="list-text">Backup- und Wiederherstellungs-Backup-Administrator</block>
+  <block id="e7ccdca9cb72dcc628612957211d3e80" category="list-text">Administrator für die Wiederherstellung von Backup und Wiederherstellung</block>
+  <block id="2865d4b5e918de90349087089aeb52d0" category="list-text">Backup- und Wiederherstellungs-Viewer</block>
+  <block id="96b3cdda555459aef6cfc365956ed0b8" category="list-text">Unterstützung für die SUSE Rancher Kubernetes-Distribution</block>
+  <block id="ba6bb9bc1bfb2e864cfaaa2229f7e2d8" category="list-text">Multi-Bucket-Unterstützung: Sie können jetzt die Volumes innerhalb eines Systems mit mehreren Buckets pro System über verschiedene Cloud-Anbieter hinweg schützen</block>
+  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Übersicht zum Schützen von Kubernetes-Workloads</block>
+  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter <block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block> .</block>
+  <block id="5454583dc62ad7e77c5ba8c488ba6d58" category="section-title">Oracle Database-Workload-Unterstützung als private Vorschau</block>
+  <block id="e43c46b8feaf8eb93753d791ff5f0c4f" category="paragraph">Diese Version von NetApp Backup and Recovery bietet Unterstützung für die Erkennung und Verwaltung von Oracle Database-Workloads:</block>
+  <block id="ef788408f77a6fc39041c0a817c65602" category="list-text">Entdecken Sie eigenständige Oracle-Datenbanken</block>
+  <block id="30b7966bb7dc1aa9438906ea08ff7f3a" category="list-text">Erstellen Sie Schutzrichtlinien nur für Daten oder Daten- und Protokollsicherungen</block>
+  <block id="7c04ebe00ea4e3919d3a0db1523941c4" category="list-text">Schützen Sie Oracle-Datenbanken mit einem 3-2-1-Backup-Schema</block>
+  <block id="2b94050a52114db1558a04e2b09f87c6" category="list-text">Konfigurieren der Sicherungsaufbewahrung</block>
+  <block id="6b5a8199a9a85c919be0b93e58f873db" category="list-text">Mounten und Unmounten von ARCHIVELOG-Backups</block>
+  <block id="290536edae9da601f8170c5b55f24416" category="list-text">Virtualisierte Datenbanken</block>
+  <block id="fa13bdfd9eed88794d8035a9e287804f" category="list-text">Suchen und Wiederherstellen von Datenbanksicherungen</block>
+  <block id="50f97ccd9c70c1fad84f646a4f0a7844" category="list-text">Oracle-Dashboard-Unterstützung</block>
+  <block id="51d8503c0e8b0708c3068080f066d721" category="inline-link">Übersicht zum Schützen von Oracle-Workloads</block>
+  <block id="834f349029c5bc6715f25a9eac82f171" category="paragraph">Weitere Informationen zum Schutz von Oracle Database-Workloads finden Sie unter<block ref="aa11c9ead0c1847dba5fa900ff49219a" category="inline-link-rx"></block> .</block>
+  <block id="0428e48e7f58929099e52febd0558232" category="section-title">25. August 2025</block>
+  <block id="f7919ff057187672b74306b219aadaa0" category="section-title">Unterstützung für den Schutz von VMware-Workloads in der Vorschau</block>
+  <block id="5e8801556a1a15a279f09b79ad9c4141" category="paragraph">Diese Version fügt Vorschauunterstützung zum Schutz von VMware-Workloads hinzu. Sichern Sie VMware-VMs und Datenspeicher von lokalen ONTAP -Systemen auf Amazon Web Services und StorageGRID.</block>
+  <block id="b7aad0efced7f2a5664d2d5fcafeac91" category="admonition">Dokumentation zum Schutz von VMware-Workloads wird als Technologievorschau bereitgestellt. Bei diesem Vorschauangebot behält sich NetApp das Recht vor, Angebotsdetails, Inhalte und Zeitplan vor der allgemeinen Verfügbarkeit zu ändern.</block>
+  <block id="5b3ee7a2b0e2cc1719a9dc8c2b849352" category="inline-link-macro">Erfahren Sie mehr über den Schutz von VMware-Workloads mit NetApp Backup and Recovery</block>
+  <block id="a4604657c4916d399ee4757122138b92" category="paragraph"><block ref="d36db2686cf22b4733dc580e6187e664" category="inline-link-macro-rx"></block> .</block>
+  <block id="e4fadb4a8e44a20b9cae72da5f43dd1c" category="section-title">Hochleistungsindizierung für AWS, Azure und GCP ist allgemein verfügbar</block>
+  <block id="d2437297e3bf3cd7adfa86f57b8629f0" category="paragraph">Im Februar 2025 haben wir die Vorschau der Hochleistungsindizierung (Indexed Catalog v2) für AWS, Azure und GCP angekündigt. Diese Funktion ist jetzt allgemein verfügbar (GA). Im Juni 2025 haben wir es allen _neuen_ Kunden standardmäßig zur Verfügung gestellt. Mit dieser Version steht der Support _allen_ Kunden zur Verfügung. Durch die Hochleistungsindizierung wird die Leistung von Sicherungs- und Wiederherstellungsvorgängen für Workloads verbessert, die im Objektspeicher geschützt sind.</block>
+  <block id="5ced283cbe92781b3a48240fd1fde5cd" category="paragraph">Standardmäßig aktiviert:</block>
+  <block id="234f6b906c6e6adf3ab5f1a4906d5366" category="list-text">Wenn Sie ein neuer Kunde sind, ist die Hochleistungsindizierung standardmäßig aktiviert.</block>
+  <block id="3b98c4910d4638f409d4421b51847611" category="list-text">Wenn Sie bereits Kunde sind, können Sie die Neuindizierung aktivieren, indem Sie zum Abschnitt „Wiederherstellen“ der Benutzeroberfläche gehen.</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">12. August 2025</block>
+  <block id="34d9ae368d6cbba40bdf79d1f39e1e89" category="section-title">Microsoft SQL Server-Workload wird in der allgemeinen Verfügbarkeit (GA) unterstützt</block>
+  <block id="1534c8a3f402a9506d8a2c322843be33" category="paragraph">Die Unterstützung für Microsoft SQL Server-Workloads ist jetzt in NetApp Backup and Recovery allgemein verfügbar (GA). Organisationen, die eine MSSQL-Umgebung auf ONTAP, Cloud Volumes ONTAP und Amazon FSx for NetApp ONTAP -Speicher verwenden, können jetzt diesen neuen Backup- und Wiederherstellungsdienst zum Schutz ihrer Daten nutzen.</block>
+  <block id="7c4ac41d9ce169718af7b2351c645fee" category="paragraph">Diese Version enthält die folgenden Verbesserungen der Microsoft SQL Server-Workload-Unterstützung gegenüber der vorherigen Vorschauversion:</block>
+  <block id="bd9b8df5b0fceebd251cc779b03be6d1" category="list-text">* SnapMirror Active Sync*: Diese Version unterstützt jetzt SnapMirror Active Sync (auch als SnapMirror Business Continuity [SM-BC] bezeichnet), wodurch Geschäftsdienste auch bei einem vollständigen Site-Ausfall weiter ausgeführt werden können und Anwendungen mithilfe einer sekundären Kopie ein transparentes Failover durchführen können. NetApp Backup and Recovery unterstützt jetzt den Schutz von Microsoft SQL Server-Datenbanken in einer SnapMirror Active Sync- und Metrocluster-Konfiguration. Die Informationen werden im Abschnitt *Speicher- und Beziehungsstatus* der Seite mit den Schutzdetails angezeigt. Die Beziehungsinformationen werden im aktualisierten Abschnitt *Sekundäre Einstellungen* der Richtlinienseite angezeigt.</block>
+  <block id="b1d2c2774c4d9793c46ef609a13172fd" category="inline-link">Verwenden Sie Richtlinien zum Schutz Ihrer Workloads</block>
+  <block id="711b69e58f62590ca0de7699a7676712" category="paragraph">Siehe<block ref="c7bafc1ba0118e2b068edd873743b965" category="inline-link-rx"></block> .</block>
+  <block id="4e5bd320085cb5547546d4395b10e4de" category="inline-image-macro">Seite mit Schutzdetails für die Microsoft SQL Server-Workload</block>
+  <block id="bd23896d5be654cd74ec23ce58ada0ea" category="paragraph"><block ref="bd23896d5be654cd74ec23ce58ada0ea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="805bbdd364c648372b69605a6ef120af" category="list-text">*Multi-Bucket-Unterstützung*: Sie können jetzt die Volumes innerhalb einer Arbeitsumgebung mit bis zu 6 Buckets pro Arbeitsumgebung über verschiedene Cloud-Anbieter hinweg schützen.</block>
+  <block id="9b3839f7dca86ec8c8d0dff3066b4f0b" category="list-text">*Lizenzierung und kostenlose Testupdates* für SQL Server-Workloads: Sie können jetzt das vorhandene NetApp Backup and Recovery-Lizenzmodell zum Schutz von SQL Server-Workloads verwenden. Für SQL Server-Workloads besteht keine separate Lizenzanforderung.</block>
+  <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">Einrichten der Lizenzierung für NetApp Backup and Recovery</block>
+  <block id="4e368513b7ebb68d8593dcee06fef4b6" category="paragraph">Weitere Einzelheiten finden Sie unter<block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block> .</block>
+  <block id="36586a1356d9a222252ef42596ce2fb2" category="list-text">*Benutzerdefinierter Snapshot-Name*: Sie können jetzt Ihren eigenen Snapshot-Namen in einer Richtlinie verwenden, die die Sicherungen für Microsoft SQL Server-Workloads regelt. Geben Sie diese Informationen im Abschnitt *Erweiterte Einstellungen* der Richtlinienseite ein.</block>
+  <block id="0c0f9d354cdf6cd082a320c127a78ea4" category="inline-image-macro">Screenshot der SnapMirror und Snapshot-Formateinstellungen für NetApp Backup- und Recovery-Richtlinien</block>
+  <block id="0f93c185ff1dea4a4e3c9471a96d8546" category="paragraph"><block ref="0f93c185ff1dea4a4e3c9471a96d8546" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b97c16ab5864b241e5900d7cd01c42c2" category="list-text">*Präfix und Suffix des sekundären Volumes*: Sie können im Abschnitt *Erweiterte Einstellungen* der Richtlinienseite ein benutzerdefiniertes Präfix und Suffix eingeben.</block>
+  <block id="7f9858481b62d28afaa3e2ca5af23bd2" category="list-text">*Identität und Zugriff*: Sie können jetzt den Zugriff der Benutzer auf Funktionen steuern.</block>
+  <block id="c055fc9337a8b1ecf06de87b2294213b" category="inline-link">Melden Sie sich bei NetApp Backup and Recovery an</block>
+  <block id="4132da4055fd87ede59e271f4bdb6837" category="inline-link">Zugriff auf NetApp Backup und Recovery-Funktionen</block>
+  <block id="aefa856e57bb5ff80b4e180f360cdaa2" category="paragraph">Siehe<block ref="4b9ae09a4a0f724986dd6b54b288ee79" category="inline-link-rx"></block> Und<block ref="11bb4b3a1661fc5a156246c118d724d8" category="inline-link-rx"></block> .</block>
+  <block id="827015a207d3e0b7327c58d340f787a7" category="list-text">*Wiederherstellung vom Objektspeicher auf einem alternativen Host*: Sie können jetzt vom Objektspeicher auf einem alternativen Host wiederherstellen, selbst wenn der primäre Speicher ausgefallen ist.</block>
+  <block id="2e26a760bb33d17f4e33afe630be5b52" category="list-text">*Protokollsicherungsdaten*: Auf der Seite mit den Datenbankschutzdetails werden jetzt Protokollsicherungen angezeigt. In der Spalte „Sicherungstyp“ wird angezeigt, ob es sich bei der Sicherung um eine vollständige Sicherung oder eine Protokollsicherung handelt.</block>
+  <block id="2bfb72338c51e52cf0223e776c0cfa1c" category="list-text">*Verbessertes Dashboard*: Das Dashboard zeigt jetzt Speicher- und Klon-Einsparungen an.</block>
+  <block id="d4cda55d3e2f6f3f489e76167ad1cfb9" category="inline-image-macro">NetApp Backup- und Recovery-Dashboard</block>
+  <block id="521e9e813b5cfcac396333e0adae8d58" category="paragraph"><block ref="521e9e813b5cfcac396333e0adae8d58" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b3a6ba86ba805f11e462a231b680cd28" category="section-title">Verbesserungen der ONTAP Volume-Workload</block>
+  <block id="665af67f3db1f042d0a953751ea6c74b" category="list-text">*Wiederherstellung mehrerer Ordner für ONTAP -Volumes*: Bisher konnten Sie mit der Funktion „Durchsuchen und Wiederherstellen“ entweder einen Ordner oder mehrere Dateien gleichzeitig wiederherstellen. NetApp Backup and Recovery bietet jetzt die Möglichkeit, mithilfe der Funktion „Durchsuchen und Wiederherstellen“ mehrere Ordner gleichzeitig auszuwählen.</block>
+  <block id="355500af087063d88c41bf46074004fe" category="list-text">*Backups gelöschter Volumes anzeigen und verwalten*: Das NetApp Backup and Recovery Dashboard bietet jetzt eine Option zum Anzeigen und Verwalten von Volumes, die aus ONTAP gelöscht wurden. Damit können Sie Backups von Volumes anzeigen und löschen, die in ONTAP nicht mehr vorhanden sind.</block>
+  <block id="49b495f4c80550ba37a3fad8caaef041" category="list-text">*Löschen von Backups erzwingen*: In einigen extremen Fällen möchten Sie möglicherweise, dass NetApp Backup and Recovery keinen Zugriff mehr auf Backups hat. Dies kann beispielsweise passieren, wenn der Dienst keinen Zugriff mehr auf den Backup-Bucket hat oder Backups durch DataLock geschützt sind, Sie diese aber nicht mehr möchten. Bisher konnten Sie diese nicht selbst löschen und mussten den NetApp -Support anrufen. Mit dieser Version können Sie die Option zum erzwungenen Löschen von Sicherungen (auf Volume- und Arbeitsumgebungsebene) verwenden.</block>
+  <block id="e7f33fd3a093230a1ab040696f740815" category="admonition">Verwenden Sie diese Option mit Vorsicht und nur bei extremem Reinigungsbedarf. NetApp Backup and Recovery hat keinen Zugriff mehr auf diese Backups, auch wenn sie nicht im Objektspeicher gelöscht werden. Sie müssen zu Ihrem Cloud-Anbieter gehen und die Backups manuell löschen.</block>
+  <block id="04c7a623f8e877c84e93d77694cc5035" category="inline-link">Schützen Sie ONTAP -Workloads</block>
+  <block id="153da5b9285f55abd473720df63ece72" category="paragraph">Siehe<block ref="9533efc3a935fa4adf8c1dad65e6530d" category="inline-link-rx"></block> .</block>
+  <block id="5d8fc779baf0d068c296ee5013b2224f" category="section-title">Kubernetes-Workload-Unterstützung als Vorschau</block>
+  <block id="3544c31b5491dc7ecb73e28d6e25a1e8" category="paragraph">Diese Version von NetApp Backup and Recovery bietet Unterstützung für die Erkennung und Verwaltung von Kubernetes-Workloads:</block>
+  <block id="200a1ca96330b8c7561607ba3e8efa76" category="list-text">Entdecken Sie Red Hat OpenShift und Open-Source-Kubernetes-Cluster, unterstützt von NetApp ONTAP, ohne Kubeconfig-Dateien freizugeben.</block>
+  <block id="bc97cde5f3a6fe336563401fb4b522a7" category="list-text">Entdecken, verwalten und schützen Sie Anwendungen über mehrere Kubernetes-Cluster hinweg mithilfe einer einheitlichen Steuerungsebene.</block>
+  <block id="8671fb87efe354c05f9373edb6889d96" category="list-text">Lagern Sie Datenverschiebungsvorgänge zur Sicherung und Wiederherstellung von Kubernetes-Anwendungen auf NetApp ONTAP aus.</block>
+  <block id="be6ced50bfb2300cc42f3b12987b1359" category="list-text">Orchestrieren Sie lokale und objektspeicherbasierte Anwendungssicherungen.</block>
+  <block id="780f81400ecdaedf5afa343aa9bd9abf" category="list-text">Sichern und stellen Sie ganze Anwendungen und einzelne Ressourcen in beliebigen Kubernetes-Clustern wieder her.</block>
+  <block id="a914111953cd6ee9c63146474d7745de" category="list-text">Arbeiten Sie mit Containern und virtuellen Maschinen, die auf Kubernetes laufen.</block>
+  <block id="87418d35e5df78aab70f2540a73bdaf6" category="list-text">Erstellen Sie anwendungskonsistente Backups mithilfe von Ausführungs-Hooks und Vorlagen.</block>
+  <block id="f2673d4a3fe0162a501d43f5168ae950" category="section-title">14. Juli 2025</block>
+  <block id="c65f3468fbd84ca6a3ed5c4f86c93ec8" category="section-title">Verbessertes ONTAP Volume Dashboard</block>
+  <block id="4fd717f9bf23502f14b97a4e0dd209e6" category="paragraph">Im April 2025 haben wir eine Vorschau eines verbesserten ONTAP Volume Dashboards veröffentlicht, das viel schneller und effizienter ist.</block>
+  <block id="24c045ea49f5ec7c22662da2305601e6" category="paragraph">Dieses Dashboard wurde entwickelt, um Unternehmenskunden mit einer hohen Anzahl an Workloads zu helfen. Selbst für Kunden mit 20.000 Bänden wird das neue Dashboard in &lt;10 Sekunden geladen.</block>
+  <block id="ccb1e3c46732fa6a863335c0d3359b2f" category="paragraph">Nach einer erfolgreichen Vorschau und großartigem Feedback von Vorschaukunden machen wir es jetzt zum Standarderlebnis für alle unsere Kunden. Machen Sie sich bereit für ein blitzschnelles Dashboard.</block>
+  <block id="af8b4f65e7fa2a1d85a8cfe4869c4fcb" category="inline-link-macro">Anzeigen des Schutzstatus im Dashboard</block>
+  <block id="fe7fc4b6e0aab1d852676cdf2925008a" category="paragraph">Weitere Informationen finden Sie unter <block ref="a67104d9d510f7caac4c2e88e851be6e" category="inline-link-macro-rx"></block> .</block>
+  <block id="a9914dd2bff753372c826876918372e9" category="section-title">Microsoft SQL Server-Workload-Unterstützung als Public Technology Preview</block>
+  <block id="5df254900f443d0785dc8625b28c0cee" category="paragraph">Diese Version von NetApp Backup and Recovery bietet eine aktualisierte Benutzeroberfläche, mit der Sie Microsoft SQL Server-Workloads mithilfe einer 3-2-1-Schutzstrategie verwalten können, die Sie von NetApp Backup and Recovery kennen. Mit dieser neuen Version können Sie diese Workloads im Primärspeicher sichern, sie im Sekundärspeicher replizieren und sie im Cloud-Objektspeicher sichern.</block>
+  <block id="b8307a4d76527581a7b59e0e8b710824" category="inline-link">Vorschau des Anmeldeformulars</block>
+  <block id="240b59983b641b146915b794a0fa4966" category="paragraph">Sie können sich für die Vorschau anmelden, indem Sie dieses Formular ausfüllen.<block ref="b33811e9e55ab63ce9fecada8cb8558a" category="inline-link-rx"></block> .</block>
+  <block id="6e23fbb0baad6a7a72bd41e60b71f566" category="admonition">Diese Dokumentation zum Schutz von Microsoft SQL Server-Workloads wird als Technologievorschau bereitgestellt. NetApp behält sich das Recht vor, Details, Inhalte und Zeitplan dieses Vorschauangebots vor der allgemeinen Verfügbarkeit zu ändern.</block>
+  <block id="fc6d12951f9c00632b6ab417ce6114ca" category="paragraph">Diese Version von NetApp Backup and Recovery enthält die folgenden Updates:</block>
+  <block id="5317ac4a506d3eee7c5d152f23cc5745" category="list-text">*3-2-1-Backup-Funktion*: Diese Version integriert SnapCenter -Funktionen und ermöglicht Ihnen die Verwaltung und den Schutz Ihrer SnapCenter -Ressourcen mit einer 3-2-1-Datensicherungsstrategie über die NetApp Backup and Recovery-Benutzeroberfläche.</block>
+  <block id="1f64b8ebe2726adf19ba096724227008" category="list-text">*Import aus SnapCenter*: Sie können SnapCenter -Sicherungsdaten und -Richtlinien in NetApp Backup and Recovery importieren.</block>
+  <block id="27fd3fe1fde83a5778ca2bdff7d35a26" category="list-text">*Eine neu gestaltete Benutzeroberfläche* ermöglicht eine intuitivere Verwaltung Ihrer Sicherungs- und Wiederherstellungsaufgaben.</block>
+  <block id="100ec5381ceb57f1ebd54920cf4c4530" category="list-text">*Sicherungsziele*: Sie können Buckets in Amazon Web Services (AWS), Microsoft Azure Blob Storage, StorageGRID und ONTAP S3-Umgebungen hinzufügen, um sie als Sicherungsziele für Ihre Microsoft SQL Server-Workloads zu verwenden.</block>
+  <block id="84e5809e87da621940984a7b53dd397d" category="list-text">*Workload-Unterstützung*: Mit dieser Version können Sie Microsoft SQL Server-Datenbanken und Verfügbarkeitsgruppen sichern, wiederherstellen, überprüfen und klonen. (Unterstützung für andere Workloads wird in zukünftigen Versionen hinzugefügt.)</block>
+  <block id="8cac2f9e6361ec291505b029028e1e57" category="list-text">*Flexible Wiederherstellungsoptionen*: Mit dieser Version können Sie Datenbanken im Falle einer Beschädigung oder eines versehentlichen Datenverlusts sowohl am ursprünglichen als auch an alternativen Speicherorten wiederherstellen.</block>
+  <block id="5cc6c945afadd3db450213b2e4987ce2" category="list-text">*Sofortige Produktionskopien*: Erstellen Sie platzsparende Produktionskopien für Entwicklung, Tests oder Analysen in Minuten statt in Stunden oder Tagen.</block>
+  <block id="01df7075c09ba1702ebb21e73980f60d" category="list-text">Diese Version beinhaltet die Möglichkeit, detaillierte Berichte zu erstellen.</block>
+  <block id="98098f483a253beb7553c18cb8256903" category="inline-link-macro">Übersicht zum Schützen von Microsoft SQL Server-Workloads</block>
+  <block id="4a424da5b576a6607f5d253de9a1e2a8" category="paragraph">Weitere Informationen zum Schutz von Microsoft SQL Server-Workloads finden Sie unter<block ref="fb4f00b780062c5b9ae2a61a65c916f5" category="inline-link-macro-rx"></block> .</block>
+  <block id="791d05d0e9072626d0316ef0a7cf21bc" category="section-title">09. Juni 2025</block>
+  <block id="2c5854d2e2f5eea8fdb60c2eab7c9f48" category="section-title">Updates zur Unterstützung indizierter Kataloge</block>
+  <block id="53aeb816923ef5b0712bab3d06115f47" category="paragraph">Im Februar 2025 haben wir die aktualisierte Indizierungsfunktion (Indexed Catalog v2) eingeführt, die Sie während der Such- und Wiederherstellungsmethode zum Wiederherstellen von Daten verwenden. Die vorherige Version hat die Leistung der Datenindizierung in lokalen Umgebungen erheblich verbessert. Mit dieser Version ist der Indexierungskatalog jetzt in den Umgebungen Amazon Web Services, Microsoft Azure und Google Cloud Platform (GCP) verfügbar.</block>
+  <block id="109a536d105313ba22a3a245fbe42d66" category="paragraph">Wenn Sie ein neuer Kunde sind, ist der indizierte Katalog v2 standardmäßig für alle neuen Umgebungen aktiviert. Wenn Sie bereits Kunde sind, können Sie Ihre Umgebung neu indizieren, um den Indexed Catalog v2 zu nutzen.</block>
+  <block id="eb3dc66c3f5547559da4bd69622b70f1" category="paragraph-title">Wie aktivieren Sie die Indizierung?</block>
+  <block id="ed568c90c2ab6e924749399e3a2572f7" category="paragraph">Bevor Sie die Methode „Suchen und Wiederherstellen“ zum Wiederherstellen von Daten verwenden können, müssen Sie die „Indizierung“ in jeder Quellarbeitsumgebung aktivieren, aus der Sie Volumes oder Dateien wiederherstellen möchten. Wählen Sie die Option *Indizierung aktivieren*, wenn Sie eine Suche und Wiederherstellung durchführen.</block>
+  <block id="53b903d5c7d704138f78087fb044d909" category="paragraph">Der indizierte Katalog kann dann jedes Volume und jede Sicherungsdatei verfolgen, sodass Ihre Suche schnell und effizient erfolgt.</block>
+  <block id="4818e0e89efe2955c1288f2df1d064bb" category="inline-link">Indizierung für Suchen und Wiederherstellen aktivieren</block>
+  <block id="79ea1095de565828a2dc2eef2353ebe9" category="paragraph">Weitere Informationen finden Sie unter <block ref="d416747d352a3037531882a260528401" category="inline-link-rx"></block> .</block>
+  <block id="a5e1a06a60e331b5d516136e96719929" category="section-title">Azure Private Link-Endpunkte und Dienstendpunkte</block>
+  <block id="bb3ee9c26b818e7abdcd5644dcb73dad" category="paragraph">Normalerweise richtet NetApp Backup and Recovery einen privaten Endpunkt beim Cloud-Anbieter ein, um Schutzaufgaben zu übernehmen. Diese Version führt eine optionale Einstellung ein, mit der Sie die automatische Erstellung eines privaten Endpunkts durch NetApp Backup and Recovery aktivieren oder deaktivieren können. Dies kann für Sie nützlich sein, wenn Sie mehr Kontrolle über den Prozess der Erstellung privater Endpunkte wünschen.</block>
+  <block id="2211c8a4939111428200ceec5f271f42" category="paragraph">Sie können diese Option aktivieren oder deaktivieren, wenn Sie den Schutz aktivieren oder den Wiederherstellungsprozess starten.</block>
+  <block id="e642532444d0db4591ce8b9d729f92b3" category="paragraph">Wenn Sie diese Einstellung deaktivieren, müssen Sie den privaten Endpunkt manuell erstellen, damit NetApp Backup and Recovery ordnungsgemäß funktioniert. Ohne ordnungsgemäße Konnektivität können Sie Sicherungs- und Wiederherstellungsaufgaben möglicherweise nicht erfolgreich durchführen.</block>
+  <block id="fad4c67d1d97874133e7a367fe5038fd" category="section-title">Unterstützung für SnapMirror to Cloud Resync auf ONTAP S3</block>
+  <block id="8e0a943cdbcd7f9c7f29128489119715" category="paragraph">In der vorherigen Version wurde die Unterstützung für SnapMirror to Cloud Resync (SM-C Resync) eingeführt. Die Funktion optimiert den Datenschutz während der Volumemigration in NetApp -Umgebungen. Diese Version fügt Unterstützung für SM-C Resync auf ONTAP S3 sowie anderen S3-kompatiblen Anbietern wie Wasabi und MinIO hinzu.</block>
+  <block id="fa551b5810fe894fcd21bf7c8ffc98d1" category="section-title">Bringen Sie Ihren eigenen Bucket für StorageGRID mit</block>
+  <block id="4b2511d38450982bde4f504e80a44028" category="paragraph">Wenn Sie Sicherungsdateien im Objektspeicher für eine Arbeitsumgebung erstellen, erstellt NetApp Backup and Recovery standardmäßig den Container (Bucket oder Speicherkonto) für die Sicherungsdateien im von Ihnen konfigurierten Objektspeicherkonto. Bisher konnten Sie dies überschreiben und Ihren eigenen Container für Amazon S3, Azure Blob Storage und Google Cloud Storage angeben. Mit dieser Version können Sie jetzt Ihren eigenen StorageGRID Objektspeichercontainer mitbringen.</block>
+  <block id="e6e5a011626c6db86099687e0a358c1f" category="inline-link">Erstellen Sie Ihren eigenen Objektspeichercontainer</block>
+  <block id="51c4ba7436895c5fa861c805e1caee68" category="paragraph">Sehen<block ref="63f7d9c65b21d9a782eb05b351422f54" category="inline-link-rx"></block> .</block>
+  <block id="ffc4cf2b04c0381567893ed4b4045ccf" category="section-title">Version 1.47</block>
+  <block id="6f36bf9a9811b172de79706eb4020697" category="paragraph-title">BlueXP classification heißt jetzt NetApp Datenklassifizierung</block>
+  <block id="5aac44f6ff056f1c6c2f526f52fa4c03" category="paragraph">Die BlueXP classification wurde in NetApp Data Classification umbenannt. Neben der Umbenennung wurde auch die Benutzeroberfläche verbessert.</block>
+  <block id="7c2f2b72d5ae6fd05d7d6047507f2af7" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block> .</block>
+  <block id="946f70163294fc4ea89cf3a8a4f7979b" category="paragraph-title">Verbesserte Untersuchungserfahrung</block>
+  <block id="576845aedce0c5b1e2da0722b6d5b908" category="paragraph">Finden und verstehen Sie Ihre Daten schneller mit neuen durchsuchbaren Filtern, Ergebniszählungen pro Wert, Echtzeit-Einblicken, die die wichtigsten Ergebnisse zusammenfassen, und einer aktualisierten Ergebnistabelle mit anpassbaren Spalten und einem ausziehbaren Detailbereich.</block>
+  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">Daten untersuchen</block>
+  <block id="50ccc3c910d687d185cba54457548270" category="paragraph">Weitere Informationen finden Sie unter <block ref="93a993564ec95ed7a219162140437cd9" category="inline-link-macro-rx"></block> .</block>
+  <block id="893b2443c1eb73a025f5c3a5bafda52a" category="paragraph-title">Neue Governance- und Compliance-Dashboards</block>
+  <block id="3520b3d47203763a73081f6d97f46d23" category="inline-link-macro">Überprüfen Sie die Governance-Informationen zu Ihren Daten</block>
+  <block id="885746277f8f91a4f015c86ee1723838" category="inline-link-macro">Zeigen Sie Compliance-Informationen zu Ihren Daten an</block>
+  <block id="b079dfcfb953333a976ef2f897a33fe7" category="paragraph">Gewinnen Sie schneller wichtige Erkenntnisse mit intuitiven Widgets, klareren Grafiken und verbesserter Ladeleistung. Weitere Informationen finden Sie unter<block ref="e763feb2558444e18702b24a8d7b126c" category="inline-link-macro-rx"></block> Und<block ref="635393ff0ea5792fd291ac9f76f0ede9" category="inline-link-macro-rx"></block> .</block>
+  <block id="505912d307cab52606f6debfb848dd6b" category="paragraph-title">Richtlinien für gespeicherte Abfragen (Vorschau)</block>
+  <block id="640ed4c4729a4d5d09e9b663e79d7d98" category="paragraph">Mithilfe der Datenklassifizierung können Sie jetzt die Governance mit bedingten Aktionen automatisieren. Sie können Aufbewahrungsregeln mit automatischer Löschung erstellen und regelmäßige E-Mail-Benachrichtigungen einrichten. Alles wird über eine aktualisierte Seite mit gespeicherten Abfragen verwaltet.</block>
+  <block id="663b8460da445a8bdcdacd5586794a5a" category="inline-link-macro">Erstellen von Richtlinien</block>
+  <block id="8ce840152bdbc7f0d0ab73586b35794e" category="paragraph">Weitere Informationen finden Sie unter <block ref="8475d31dfff4871bdba543b2c91cd563" category="inline-link-macro-rx"></block> .</block>
+  <block id="d57567637ab51796d55a7b44fb6ebc11" category="paragraph-title">Aktionen (Vorschau)</block>
+  <block id="680190e7731697b57d44b7ccb192ec16" category="paragraph">Übernehmen Sie die direkte Kontrolle von der Untersuchungsseite aus – löschen, verschieben, kopieren oder markieren Sie Dateien einzeln oder in großen Mengen, für eine effiziente Datenverwaltung und -behebung.</block>
+  <block id="89d69ff3dca93dc4c1c160728186e722" category="paragraph-title">Unterstützung für Google Cloud NetApp Volumes</block>
+  <block id="028f3210e3fb8059c59cfc831af1660c" category="paragraph">Die Datenklassifizierung unterstützt jetzt das Scannen auf Google Cloud NetApp Volumes. Fügen Sie Google Cloud NetApp Volumes einfach über die NetApp -Konsole hinzu, um Daten nahtlos zu scannen und zu klassifizieren.</block>
+  <block id="7a4e65e1bd3f1685ea059c893a13cb58" category="section-title">Version 1.46</block>
+  <block id="98f52421b10c8b076970cd9d4bc2932c" category="paragraph">Diese Version der Datenklassifizierung enthält Fehlerbehebungen und die folgenden Updates:</block>
+  <block id="2c3661dfa2b24a2bf7320699cd536d69" category="paragraph-title">Verbesserte Einblicke in Scan-Ereignisse auf der Audit-Seite</block>
+  <block id="56693a88c5f83646349fbcd49bc5c045" category="paragraph">Die Audit-Seite unterstützt jetzt erweiterte Einblicke in Scan-Ereignisse für die BlueXP classification. Auf der Audit-Seite wird jetzt angezeigt, wann der Scan eines Systems beginnt, sowie der Status der Systeme und etwaige Probleme. Status für Freigaben und Systeme sind nur für Mapping-Scans verfügbar.</block>
+  <block id="00b752fcc4ff0f02c4a53ddfe7ca85f1" category="inline-link-macro">Überwachen Sie NetApp -Konsolenvorgänge</block>
+  <block id="2602ef05ceb5e5b51fe554db44e59c2c" category="paragraph">Weitere Informationen zur Seite „Audit“ finden Sie unter<block ref="33e0fa7818f83bbe32f6e9c2e830952c" category="inline-link-macro-rx"></block> .</block>
+  <block id="e5d2f68147d287044a7fffa2d0926eae" category="paragraph-title">Unterstützung für RHEL 9.6</block>
+  <block id="f1513d7b9b8ef1acb75bb450ddd12a6c" category="paragraph">Diese Version fügt Unterstützung für Red Hat Enterprise Linux v9.6 für die manuelle Vor-Ort-Installation der BlueXP classification hinzu, einschließlich Dark Site-Bereitstellungen.</block>
+  <block id="3461c6d70dff5780cf443e0892f0b5af" category="paragraph">Die folgenden Betriebssysteme erfordern die Verwendung der Podman-Container-Engine und die BlueXP classification 1.30 oder höher: Red Hat Enterprise Linux Version 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4 und 9.5.</block>
+  <block id="d0169e5c24cd4c5e05dcb7edb4ca10d7" category="section-title">Version 1.45</block>
+  <block id="8321b9867214f5caa9d5a37197549cfb" category="paragraph">Diese BlueXP classification Klassifizierungsversion enthält Codeänderungen, die die Ressourcennutzung optimieren und:</block>
+  <block id="8f993d1847870bf5334f9e8a709029c8" category="paragraph-title">Verbesserter Workflow zum Hinzufügen von Dateifreigaben zum Scannen</block>
+  <block id="7363f98210e80281886d9b88b644899c" category="paragraph">Der Arbeitsablauf zum Hinzufügen von Dateifreigaben zu einer Dateifreigabegruppe wurde vereinfacht. Der Prozess unterscheidet jetzt auch die CIFS-Protokollunterstützung basierend auf dem Authentifizierungstyp (Kerberos oder NTLM).</block>
+  <block id="628bc6ea752b2d2bd10bc4f22b8cfcca" category="inline-link-macro">Dateifreigaben scannen</block>
+  <block id="9b403464e6af8d2ec9948d73766ff20b" category="paragraph">Weitere Informationen finden Sie unter <block ref="127ec44212ed37ce8b3bcb004aea4f22" category="inline-link-macro-rx"></block> .</block>
+  <block id="2cc1f0459a8aa18da26c0c17c08edd37" category="paragraph-title">Erweiterte Informationen zum Dateieigentümer</block>
+  <block id="4c59149345d32f10d4c1edb221d77028" category="paragraph">Sie können jetzt weitere Informationen zu Dateibesitzern für erfasste Dateien auf der Registerkarte „Untersuchung“ anzeigen. Wenn Sie die Metadaten für eine Datei auf der Registerkarte „Untersuchung“ anzeigen, suchen Sie den Dateibesitzer und wählen Sie dann **Details anzeigen** aus, um den Benutzernamen, die E-Mail-Adresse und den SAM-Kontonamen anzuzeigen. Sie können auch andere Elemente anzeigen, die diesem Benutzer gehören. Diese Funktion ist nur für Arbeitsumgebungen mit Active Directory verfügbar.</block>
+  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link-macro">Untersuchen Sie die in Ihrer Organisation gespeicherten Daten</block>
+  <block id="726bb63ef50725c7e3c4766906388acd" category="paragraph">Weitere Informationen finden Sie unter <block ref="26029df2267a3a60cd67c1340e62ae48" category="inline-link-macro-rx"></block> .</block>
+  <block id="0e42c2b565849349fc544a0196ef1b6a" category="section-title">10. Juni 2025</block>
+  <block id="1c4322a2b157ac1326426ebdbd680c74" category="section-title">Version 1.44</block>
+  <block id="83962582dc3c189ba60063fe7990755c" category="paragraph">Diese BlueXP classification Klassifizierungsversion umfasst:</block>
+  <block id="c7ea7ba68a180dd7fffb65d260820bdf" category="paragraph-title">Verbesserte Aktualisierungszeiten für das Governance-Dashboard</block>
+  <block id="4a225b50559fc3e5c91e7a224bca4f82" category="paragraph">Die Aktualisierungszeiten für einzelne Komponenten des Governance-Dashboards wurden verbessert. Die folgende Tabelle zeigt die Aktualisierungshäufigkeit für jede Komponente.</block>
+  <block id="2cb05e4bb7830be982f0922fed86b4cd" category="cell">Komponente</block>
+  <block id="b5c592ebd16824471b1dac54611da0f9" category="cell">Aktualisierungszeiten</block>
+  <block id="aa414adba4c4fe0e85f670431eeaa7a2" category="cell">Zeitalter der Daten</block>
+  <block id="e1f57d0c474bedaae9c88fad138dcfd0" category="cell">24 Stunden</block>
+  <block id="af1b98adf7f686b84cd0b443e022b7a0" category="cell">Kategorien</block>
+  <block id="b70528883a2d1dce278c3b16e0f8c608" category="cell">Datenübersicht</block>
+  <block id="4adcc26418f545df76ab44c53fc55702" category="cell">5 Minuten</block>
+  <block id="6db4df856c2ad3b66b59b98767190ee4" category="cell">Doppelte Dateien</block>
+  <block id="6619a70f8ab8877e4131643fb8ded723" category="cell">2 Stunden</block>
+  <block id="f12b42eece54a56ffab836a42eb37488" category="cell">Dateitypen</block>
+  <block id="8c8fee331e9f3e5231bff4fd3c702b79" category="cell">Nicht-geschäftliche Daten</block>
+  <block id="ce7a0235b268c4eaa207fb036462b6a0" category="cell">Berechtigungen öffnen</block>
+  <block id="e804ac99d8e193e9d3e3437979ce7bdf" category="cell">Gespeicherte Suchen</block>
+  <block id="8b15c77295fd06496b4e5497d3038948" category="cell">Sensible Daten und umfassende Berechtigungen</block>
+  <block id="3b082340d0ec4e5cb8705d8e8dbd7b20" category="cell">Datengröße</block>
+  <block id="3c321d8be960cf9c4e3de3feeb79454d" category="cell">Veraltete Daten</block>
+  <block id="66f1eb6a68ea177f7b25f4befa2afcb5" category="cell">Top-Datenspeicher nach Vertraulichkeitsstufe</block>
+  <block id="b97835ec7267635dbdb6a030bb594b9b" category="inline-link-macro">Zeigen Sie Governance-Details zu den in Ihrer Organisation gespeicherten Daten an</block>
+  <block id="190630723d230843de3c85b32a478df5" category="paragraph">Sie können den Zeitpunkt der letzten Aktualisierung anzeigen und die Komponenten „Doppelte Dateien“, „Nicht geschäftliche Daten“, „Gespeicherte Suchen“, „Veraltete Daten“ und „Top-Datenspeicher nach Vertraulichkeitsstufe“ manuell aktualisieren. Weitere Informationen zum Governance-Dashboard finden Sie unter<block ref="e54252fa31ad44dc404e5787faf06263" category="inline-link-macro-rx"></block> .</block>
+  <block id="98b92205e576b5e6498a01750fffbf6b" category="paragraph-title">Leistungs- und Sicherheitsverbesserungen</block>
+  <block id="890d5712449921f1a6ffa08636045ac2" category="paragraph">Es wurden Verbesserungen vorgenommen, um die Leistung, den Speicherverbrauch und die Sicherheit der BlueXP Klassifizierung zu verbessern.</block>
+  <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="paragraph-title">Fehlerbehebungen</block>
+  <block id="cb000a9ed4aba8f6a1db1f518019d44e" category="paragraph">Redis wurde aktualisiert, um die Zuverlässigkeit der BlueXP classification zu verbessern. Die BlueXP classification verwendet jetzt Elasticsearch, um die Genauigkeit der Dateianzahlberichterstattung während der Scans zu verbessern.</block>
+  <block id="67840d2b3ccd99d7c6db2904273f95ef" category="section-title">Version 1.43</block>
+  <block id="bb4c36ac9f10bc64e16bd125cb997dcd" category="paragraph">Diese Version der Datenklassifizierung umfasst:</block>
+  <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">Priorisieren Sie Klassifizierungsscans</block>
+  <block id="4aff63c206df7556bccc48f3a5f50de4" category="paragraph">Die Datenklassifizierung unterstützt die Möglichkeit, neben reinen Mapping-Scans auch Map- und Classify-Scans zu priorisieren, sodass Sie auswählen können, welche Scans zuerst abgeschlossen werden. Die Priorisierung von Map &amp; Classify-Scans wird während und vor Beginn der Scans unterstützt. Wenn Sie einem laufenden Scan Priorität einräumen, werden sowohl die Zuordnungs- als auch die Klassifizierungsscans priorisiert.</block>
+  <block id="ce7ca903497eb6081e95129584ddf094" category="inline-link-macro">Priorisieren Sie Scans</block>
+  <block id="f5d1ea19c8b9424efdf2f986ffd4074f" category="paragraph">Weitere Informationen finden Sie unter <block ref="b9518738dcb31100f52b6bb549f809dc" category="inline-link-macro-rx"></block> .</block>
+  <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">Unterstützung für kanadische Datenkategorien personenbezogener Daten (PII)</block>
+  <block id="e01a3dc881c55884c6048183c704e40b" category="paragraph">Datenklassifizierungsscans identifizieren kanadische PII-Datenkategorien. Zu diesen Kategorien gehören Bankdaten, Passnummern, Sozialversicherungsnummern, Führerscheinnummern und Krankenversicherungskartennummern für alle kanadischen Provinzen und Territorien.</block>
+  <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-link-macro">Kategorien personenbezogener Daten</block>
+  <block id="75d2298c4d2e2b8d379d579c681b0581" category="paragraph">Weitere Informationen finden Sie unter <block ref="39444789f4adf1075cd6ff8f0426a2b4" category="inline-link-macro-rx"></block> .</block>
+  <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">Benutzerdefinierte Klassifizierung (Vorschau)</block>
+  <block id="3a5909ab4d10a09f1edd87c832553506" category="paragraph">Die Datenklassifizierung unterstützt benutzerdefinierte Klassifizierungen für Map &amp; Classify-Scans. Mit benutzerdefinierten Klassifizierungen können Sie Datenklassifizierungsscans anpassen, um mithilfe regulärer Ausdrücke unternehmensspezifische Daten zu erfassen. Diese Funktion befindet sich derzeit in der Vorschau.</block>
+  <block id="68fcca37a232a8993c6b392c92803de3" category="inline-link-macro">Benutzerdefinierte Klassifizierungen hinzufügen</block>
+  <block id="a31a7b73e0f6489cdde14ea7754e29d2" category="paragraph">Weitere Informationen finden Sie unter <block ref="496eb865a6bb9e6228b16bf86701d2c1" category="inline-link-macro-rx"></block> .</block>
+  <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">Registerkarte „Gespeicherte Suchen“</block>
+  <block id="1005b3a447fe9caf1ce373cf96b4dc01" category="inline-link-macro">**Gespeicherte Suchen**</block>
+  <block id="7d05e5a22d1961e95b7be92d35164378" category="paragraph">Die Registerkarte **Richtlinien** wurde umbenannt<block ref="8d1bca00b0b16766f87fd78ec3ac185e" category="inline-link-macro-rx"></block> . Die Funktionalität bleibt unverändert.</block>
+  <block id="2e2e722b53fe801ed6bcd1713f8325ac" category="paragraph-title">Scanereignisse an die Audit-Seite senden</block>
+  <block id="0d01ca23121427aff206ecc678cb7af3" category="inline-link-macro">NetApp Console Audit-Seite</block>
+  <block id="0fddd3e20389e20ca1c63de5412406ae" category="paragraph">Die Datenklassifizierung unterstützt das Senden von Klassifizierungsereignissen (wenn ein Scan gestartet wird und wenn er endet) an die<block ref="3dcf10816a01bda1b4320932f26d59f3" category="inline-link-macro-rx"></block> .</block>
+  <block id="ddba4621d4e9a4c39c38ef2131834760" category="list-title">Sicherheitsupdates</block>
+  <block id="0a39c7bc14a0f00de22f1ead79c18b0c" category="list-text">Das Keras-Paket wurde aktualisiert, um Schwachstellen (BDSA-2025-0107 und BDSA-2025-1984) zu beheben.</block>
+  <block id="408f8b982d641a307784a27c0fb6d9c9" category="list-text">Die Konfiguration der Docker-Container wurde aktualisiert. Der Container hat keinen Zugriff mehr auf die Netzwerkschnittstellen des Hosts, um rohe Netzwerkpakete zu erstellen. Durch die Reduzierung unnötiger Zugriffe mindert das Update potenzielle Sicherheitsrisiken.</block>
+  <block id="4a02475d909bd7464565a63664e4dc8b" category="paragraph-title">Leistungsverbesserungen</block>
+  <block id="38942def5d8bae857c7eab12e7216c36" category="paragraph">Es wurden Codeverbesserungen implementiert, um die RAM-Nutzung zu reduzieren und die Gesamtleistung der Datenklassifizierung zu verbessern.</block>
+  <block id="223594359ca2e5c0c959aa756dea2d50" category="paragraph">Fehler, die dazu führten, dass StorageGRID -Scans fehlschlugen, die Filteroptionen der Untersuchungsseite nicht geladen wurden und die Data Discovery-Bewertung bei Bewertungen mit hohem Volumen nicht heruntergeladen wurde, wurden behoben.</block>
+  <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">14. April 2025</block>
+  <block id="33fc2a8f6921fec02571495993aa2c6c" category="section-title">Version 1.42</block>
+  <block id="2dcf334efa4f886393cac0e44ff5a917" category="paragraph-title">Massenscannen für Arbeitsumgebungen</block>
+  <block id="530bfca85ebf27593e2eac002245d941" category="paragraph">Die BlueXP classification unterstützt Massenvorgänge für Arbeitsumgebungen. Sie können Mapping-Scans aktivieren, Map &amp; Classify-Scans aktivieren, Scans deaktivieren oder eine benutzerdefinierte Konfiguration über Volumes in der Arbeitsumgebung hinweg erstellen. Wenn Sie eine Auswahl für ein einzelnes Volume treffen, wird die Massenauswahl überschrieben. Um einen Massenvorgang durchzuführen, navigieren Sie zur Seite **Konfiguration** und treffen Sie Ihre Auswahl.</block>
+  <block id="7c021042892d25e3e5d4271749e03344" category="paragraph-title">Untersuchungsbericht lokal herunterladen</block>
+  <block id="5914525550e0efce454828b3fc5f9313" category="paragraph">Die BlueXP classification unterstützt die Möglichkeit, Datenuntersuchungsberichte lokal herunterzuladen und im Browser anzuzeigen. Wenn Sie die lokale Option wählen, ist die Datenuntersuchung nur im CSV-Format verfügbar und zeigt nur die ersten 10.000 Datenzeilen an.</block>
+  <block id="6b41c846432704bbeebdc71cd92e0ac2" category="inline-link-macro">Untersuchen Sie die in Ihrer Organisation gespeicherten Daten mit der BlueXP classification</block>
+  <block id="e5ec12d2090a6862ed376344a123c006" category="paragraph">Weitere Informationen finden Sie unter <block ref="fceb47647e62ca77cd0675b07a84c97b" category="inline-link-macro-rx"></block> .</block>
+  <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">Version 1.41</block>
+  <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">Diese BlueXP classification Klassifizierungsversion enthält allgemeine Verbesserungen und Fehlerbehebungen. Es beinhaltet außerdem:</block>
+  <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">Scanstatus</block>
+  <block id="6a5c0bfd72f9b6c51f4f17f0d32a0bf5" category="paragraph">Die BlueXP classification verfolgt den Echtzeitfortschritt der _ersten_ Zuordnungs- und Klassifizierungsscans auf einem Datenträger. Separate progressive Balken verfolgen die Zuordnungs- und Klassifizierungsscans und stellen einen Prozentsatz aller gescannten Dateien dar. Sie können auch mit der Maus über einen Fortschrittsbalken fahren, um die Anzahl der gescannten Dateien und die Gesamtzahl der Dateien anzuzeigen. Durch die Verfolgung des Status Ihrer Scans erhalten Sie tiefere Einblicke in den Scan-Fortschritt, sodass Sie Ihre Scans besser planen und die Ressourcenzuweisung verstehen können.</block>
+  <block id="dea24de819351c63f66685576d21ee25" category="paragraph">Um den Status Ihrer Scans anzuzeigen, navigieren Sie in der BlueXP classification zu **Konfiguration** und wählen Sie dann die **Konfiguration der Arbeitsumgebung** aus. Der Fortschritt wird für jeden Band in der Zeile angezeigt.</block>
+  <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">19. Februar 2025</block>
+  <block id="6b9d9a04ff593ff427731819f0c3618f" category="section-title">Version 1.40</block>
+  <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">Diese BlueXP classification Klassifizierungsversion enthält die folgenden Updates.</block>
+  <block id="dc4b47101650865122105745fe8d0a2c" category="paragraph-title">Unterstützung für RHEL 9.5</block>
+  <block id="1d26b47b0bf4a8a52ca8e66bcb8661dc" category="paragraph">Diese Version bietet zusätzlich zu den zuvor unterstützten Versionen Unterstützung für Red Hat Enterprise Linux v9.5. Dies gilt für jede manuelle Vor-Ort-Installation der BlueXP classification, einschließlich Dark-Site-Bereitstellungen.</block>
+  <block id="9340ce8741905e7d6ff4c0ca07a7a39a" category="paragraph-title">Priorisieren Sie reine Mapping-Scans</block>
+  <block id="bc19fc1fb9d36ac2eec32fb81f6e5cca" category="paragraph">Wenn Sie reine Mapping-Scans durchführen, können Sie den wichtigsten Scans Priorität einräumen. Diese Funktion ist hilfreich, wenn Sie über viele Arbeitsumgebungen verfügen und sicherstellen möchten, dass Scans mit hoher Priorität zuerst abgeschlossen werden.</block>
+  <block id="cb79cf2c786ed3992ebf9c4489793af5" category="paragraph">Standardmäßig werden Scans in der Reihenfolge ihrer Einleitung in die Warteschlange gestellt. Mit der Möglichkeit, Scans zu priorisieren, können Sie Scans an den Anfang der Warteschlange verschieben. Mehrere Scans können priorisiert werden. Die Priorität wird in der Reihenfolge „First In, First Out“ vergeben. Das bedeutet, dass der erste Scan, den Sie priorisieren, an den Anfang der Warteschlange rückt, der zweite Scan, den Sie priorisieren, an den zweiten in der Warteschlange usw.</block>
+  <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">Die Priorität wird einmalig gewährt. Automatische erneute Scans der Zuordnungsdaten erfolgen in der Standardreihenfolge.</block>
+  <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">Nur-Mapping-Scans</block>
+  <block id="ed16e45a63496894d4f69f3ad9257c0a" category="paragraph">Die Priorisierung beschränkt sich auf<block ref="9f49d69d8a2b2a5c3ff36b98378f6446" category="inline-link-macro-rx"></block> ; es ist nicht für Karten- und Klassifizierungsscans verfügbar.</block>
+  <block id="382361d81e14da89918a76b71860bcab" category="paragraph">Weitere Informationen finden Sie unter <block ref="2f2c0cf6c40ec606389bccf6943b3b53" category="inline-link-macro-rx"></block> .</block>
+  <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">Alle Scans wiederholen</block>
+  <block id="fc758db0d443b9a8e3de231c43de89d5" category="paragraph">Die BlueXP classification unterstützt die Möglichkeit, alle fehlgeschlagenen Scans stapelweise erneut durchzuführen.</block>
+  <block id="ce19c0b7b750b810547f423b2290cfd8" category="paragraph">Mit der Funktion **Alle wiederholen** können Sie Scans in einem Stapelvorgang erneut versuchen. Wenn Klassifizierungsscans aufgrund eines vorübergehenden Problems wie beispielsweise eines Netzwerkausfalls fehlschlagen, können Sie alle Scans gleichzeitig mit einer Schaltfläche wiederholen, anstatt sie einzeln zu wiederholen. Scans können beliebig oft wiederholt werden.</block>
+  <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">So wiederholen Sie alle Scans:</block>
+  <block id="09d7e52dfc68f84cd7ef45e3c26a0389" category="list-text">Wählen Sie im BlueXP classification *Konfiguration* aus.</block>
+  <block id="8e66898002589c26f968e6fd94a57988" category="list-text">Um alle fehlgeschlagenen Scans erneut durchzuführen, wählen Sie *Alle Scans wiederholen*.</block>
+  <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">Verbesserte Genauigkeit des Kategorisierungsmodells</block>
+  <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link-macro">vordefinierte Kategorien</block>
+  <block id="3c83d9ffa8db579e805de307f057c519" category="paragraph">Die Genauigkeit des maschinellen Lernmodells für<block ref="4258f204d4b8f149538aa226ed3589d3" category="inline-link-macro-rx"></block> hat sich um 11 % verbessert.</block>
+  <block id="009d2060a609114df262eff04e83f241" category="section-title">22. Januar 2025</block>
+  <block id="0a401367ec8a2cd84bb197e6d12c99af" category="section-title">Version 1.39</block>
+  <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">Diese BlueXP classification Klassifizierungsversion aktualisiert den Exportprozess für den Datenuntersuchungsbericht. Dieses Export-Update ist nützlich, um zusätzliche Analysen Ihrer Daten durchzuführen, zusätzliche Visualisierungen der Daten zu erstellen oder die Ergebnisse Ihrer Datenuntersuchung mit anderen zu teilen.</block>
+  <block id="a4a7057d917e03803441c79badd6d519" category="paragraph">Bisher war der Export des Data Investigation-Berichts auf 10.000 Zeilen beschränkt. Mit dieser Version wurde die Beschränkung aufgehoben, sodass Sie alle Ihre Daten exportieren können. Diese Änderung ermöglicht Ihnen den Export von mehr Daten aus Ihren Datenuntersuchungsberichten und bietet Ihnen so mehr Flexibilität bei Ihrer Datenanalyse.</block>
+  <block id="72fa9e7ff6f311a170ad8d720dff3f2f" category="paragraph">Sie können die Arbeitsumgebung, Volumes, Zielordner und entweder das JSON- oder CSV-Format auswählen. Der exportierte Dateiname enthält einen Zeitstempel, der Ihnen hilft, den Zeitpunkt des Datenexports zu identifizieren.</block>
+  <block id="7afa5ec6a3f715e47b3c6fa2655f18b0" category="paragraph">Zu den unterstützten Arbeitsumgebungen gehören:</block>
+  <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSx für ONTAP</block>
+  <block id="253b40ae359ba25b56231803430c4873" category="list-text">ONTAP</block>
+  <block id="a512cd9b163bcb1be6bf96aa95fdfe74" category="list-text">Gruppe „Freigeben“</block>
+  <block id="d3fdc77553ad7d05684cea9b7806dac8" category="paragraph">Für den Export von Daten aus dem Data Investigation-Bericht gelten die folgenden Einschränkungen:</block>
+  <block id="d33a90467b78849917ec44b3e694a192" category="list-text">Die maximale Anzahl der herunterzuladenden Datensätze beträgt 500 Millionen pro Typ (Dateien, Verzeichnisse und Tabellen).</block>
+  <block id="9720aabb6c8d5eb9cfcffd189ef86ed1" category="list-text">Der Export von einer Million Datensätzen dauert voraussichtlich etwa 35 Minuten.</block>
+  <block id="e7b42111154b9b878df538017c7943a0" category="inline-link">Untersuchen Sie die in Ihrer Organisation gespeicherten Daten</block>
+  <block id="d310870b76fd0108508e2cefec1ac4a4" category="paragraph">Einzelheiten zur Datenuntersuchung und zum Bericht finden Sie unter<block ref="100af2ad54892a67967d5c4b6c0a5d22" category="inline-link-rx"></block> .</block>
+  <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">16. Dezember 2024</block>
+  <block id="5ae300808387123005a76abbd5a99f46" category="section-title">Version 1.38</block>
+  <block id="074f06822cc9864b1be34066c52ec21d" category="paragraph">Diese BlueXP classification Klassifizierungsversion enthält allgemeine Verbesserungen und Fehlerbehebungen.</block>
+  <block id="9b1b4baddf39eab23180764b39d6be96" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="38ad9b7940db9af3f58b46078cacc605" category="inline-link-rx"></block> .</block>
+  <block id="0de27445b78be9ada0e38746bd2c7572" category="section-title">Vereinfachte Cloud Volumes ONTAP Bereitstellung in AWS</block>
+  <block id="bc9124fb3616fb45396bce21e05afe6a" category="paragraph">Sie können Cloud Volumes ONTAP jetzt in AWS mithilfe einer schnellen Bereitstellungsmethode sowohl für Einzelknoten- als auch für Hochverfügbarkeitskonfigurationen (HA) bereitstellen. Dieser optimierte Prozess reduziert die Anzahl der Schritte im Vergleich zur erweiterten Methode, legt automatisch Standardwerte auf einer einzigen Seite fest und minimiert die Navigation, wodurch die Bereitstellung schneller und einfacher wird.</block>
+  <block id="be6e964d6cf7f9094cd37614b45cc30d" category="inline-link">Stellen Sie Cloud Volumes ONTAP in AWS mithilfe der Schnellbereitstellung bereit</block>
+  <block id="a4ef38fe8e86058aa5e29448b78ed10a" category="paragraph">Weitere Informationen finden Sie unter <block ref="d2530c67b5959523bc3493cd24da13cb" category="inline-link-rx"></block> .</block>
+  <block id="ba3c0cba3a3d15ce8426fc737476a59c" category="section-title">4. September 2025</block>
+  <block id="186b3997de3027cf87a351ba0a1f9bf4" category="section-title">Cloud Volumes ONTAP 9.17.1 RC</block>
+  <block id="2a0942c706fe1023b055df5cfc6720d2" category="paragraph">Sie können jetzt BlueXP verwenden, um den Release Candidate 1 von Cloud Volumes ONTAP 9.17.1 in Azure und Google Cloud bereitzustellen und zu verwalten. Diese Version ist jedoch nicht für die Bereitstellung und Aktualisierung in AWS verfügbar.</block>
+  <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">Erfahren Sie mehr über diese Version von Cloud Volumes ONTAP</block>
+  <block id="e0a027f4bdcd16cda78c830ace94fc76" category="paragraph"><block ref="539cae97b36c04420caaf667f01300c8" category="inline-link-macro-rx"></block> .</block>
+  <block id="9def883103b7b964dcbb0993e3f8a065" category="section-title">Ende der Verfügbarkeit optimierter Lizenzen</block>
+  <block id="667b631b672b77239becd955ba1e71e7" category="paragraph">Ab dem 11. August 2025 wird die Lizenz „Cloud Volumes ONTAP Optimized“ veralten und kann in den Azure- und Google Cloud-Marktplätzen für Pay-as-you-go-Abonnements (PAYGO) nicht mehr erworben oder verlängert werden. Wenn Sie einen bestehenden Jahresvertrag mit einer optimierten Lizenz haben, können Sie die Lizenz bis zum Ende Ihres Vertrags weiter verwenden. Wenn Ihre optimierte Lizenz abläuft, können Sie sich für Cloud Volumes ONTAP Essentials- oder Professional-Lizenzen in BlueXP entscheiden.</block>
+  <block id="09027718866a8a3a2edb0bb0eb53c926" category="paragraph">Die Möglichkeit, optimierte Lizenzen hinzuzufügen oder zu erneuern, besteht jedoch über die APIs.</block>
+  <block id="be02aeef4770b69cefbe40935aba2797" category="inline-link">Lizenzierung für Cloud Volumes ONTAP</block>
+  <block id="2b8e43c95c1d15bc0824064c3dc0f993" category="paragraph">Informationen zu Lizenzpaketen finden Sie unter<block ref="4b2776d787a70224c2441f63d3888380" category="inline-link-rx"></block> .</block>
+  <block id="ed1f600d01a229b43b3196dd2f2e48ca" category="inline-link">Verwalten der kapazitätsbasierten Lizenzierung</block>
+  <block id="1d4a9a37e700957e9d79664f032cf5ec" category="paragraph">Informationen zum Umschalten auf eine andere Lademethode finden Sie unter<block ref="eeeecd1116eaf4db26e064552c04366d" category="inline-link-rx"></block> .</block>
+  <block id="80c6ec7a181e7260841769dbc15f1b0b" category="section-title">BlueXP copy and sync heißt jetzt NetApp Copy and Sync</block>
+  <block id="978ab06bd4634b113d212f8311cddadc" category="paragraph">BlueXP copy and sync wurde in NetApp Copy and Sync umbenannt.</block>
+  <block id="83f73c94bb5f748ce272fa98b9d62582" category="section-title">Neue Betriebssystemunterstützung für Datenbroker</block>
+  <block id="726c1f4efc6286c68c0e686bb97c19c5" category="paragraph">Der Datenbroker wird jetzt auf Hosts unterstützt, auf denen Red Hat Enterprise 9.4, Ubuntu 23.04 und Ubuntu 24.04 ausgeführt wird.</block>
+  <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">Linux-Hostanforderungen anzeigen</block>
+  <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block> .</block>
+  <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">27. Oktober 2024</block>
+  <block id="30f0449964e6b2ac20bc975e920c6185" category="paragraph">Wir haben NetApp Copy and Sync und den Datenbroker aktualisiert, um einige Fehler zu beheben. Die neue Data Broker-Version ist 1.0.56.</block>
+  <block id="60cb699c3ab20c62c28cbc8ba6498f15" category="section-title">06. Oktober 2025</block>
+  <block id="0366ff255ad441b45d52df443a7b3b55" category="paragraph">Sie benötigen jetzt eine der folgenden Zugriffsrollen, um E-Series in BlueXP anzuzeigen, zu entdecken oder zu verwalten: Organisationsadministrator, Ordner- oder Projektadministrator, Speicheradministrator oder Systemintegritätsspezialist. <block ref="0b85dd2db07f757bcca365b0bb453a52" category="inline-link-rx"></block></block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18. September 2022</block>
+  <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">Support für die E-Serie</block>
+  <block id="8060a341461a61edc489285d4c464062" category="paragraph">Sie können Ihre E-Serie-Systeme jetzt direkt von BlueXP aus entdecken. Durch die Erkennung von E-Series-Systemen erhalten Sie einen vollständigen Überblick über die Daten in Ihrer gesamten Hybrid-Multicloud.</block>
+  <block id="e9a4d0eabbdfce5c177732ed63963a62" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> . == 21. Juli 2025</block>
+  <block id="71d0ee5d411b8f72f571401cdab213ac" category="section-title">Unterstützung für Google Cloud NetApp Volumes in BlueXP</block>
+  <block id="775e62d1bed90f08196ce9665fe3b625" category="paragraph">Sie können Google Cloud NetApp Volumes jetzt direkt von BlueXP aus verwalten:</block>
+  <block id="bfcabace496e3d26dcf080c810ecd405" category="list-text">Fügen Sie eine Arbeitsumgebung hinzu.</block>
+  <block id="062a6e04f65117f2c5ad969cc8e0116c" category="list-text">Bände anzeigen.</block>
+  <block id="e093c974eb3629147ecf532045c7e226" category="list-text">Arbeitsumgebungen entfernen.</block>
+  <block id="c6fdca864c59429ff2c0a1e35c775ae4" category="section-title">BlueXP ransomware protection heißt jetzt NetApp Ransomware Resilience</block>
+  <block id="b1243a3724853addea33e0cf141fe5df" category="paragraph">Die BlueXP -Ransomware-Replikation wurde in NetApp Ransomware Resilience umbenannt.</block>
+  <block id="36981b3e282313667db719384f6f7a69" category="section-title">15. Juli 2025</block>
+  <block id="90b6690e6ff7c4f6c224ce1794630ced" category="section-title">SAN-Workload-Unterstützung</block>
+  <block id="bbc67024ab73d889ccf53c2243f12ec0" category="paragraph">Diese Version umfasst Unterstützung für SAN-Workloads im BlueXP ransomware protection. Sie können jetzt zusätzlich zu NFS- und CIFS-Workloads auch SAN-Workloads schützen.</block>
+  <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="inline-link-macro">Voraussetzungen für den BlueXP ransomware protection</block>
+  <block id="b0be1d6aabf21f92b904023f7be7a58f" category="paragraph">Weitere Informationen finden Sie unter <block ref="33be8222deb74c9ad42f0bbaa1bb9ee8" category="inline-link-macro-rx"></block> .</block>
+  <block id="e155741c288e2488f325db0165488b59" category="section-title">Verbesserter Workload-Schutz</block>
+  <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">Diese Version verbessert den Konfigurationsprozess für Workloads mit Snapshot- und Backup-Richtlinien von anderen NetApp Tools wie SnapCenter oder BlueXP backup and recovery. In früheren Versionen erkannte der BlueXP ransomware protection die Richtlinien anderer Tools und ermöglichte Ihnen nur, die Erkennungsrichtlinie zu ändern. Mit dieser Version können Sie jetzt Snapshot- und Backup-Richtlinien durch BlueXP ransomware protection -Schutzrichtlinien ersetzen oder die Richtlinien anderer Tools weiterhin verwenden.</block>
+  <block id="bf4011ddd9ae5a6521f75843972999ab" category="inline-link-macro">Workloads schützen</block>
+  <block id="e987acfdc962b0eb42352c6d8ec215e7" category="paragraph">Weitere Einzelheiten finden Sie unter<block ref="dbda711c6a230fdddbe71a22c957db68" category="inline-link-macro-rx"></block> .</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">E-Mail-Benachrichtigungen</block>
+  <block id="2e56c79ddae096c75542884a58378a73" category="paragraph">Wenn der BlueXP ransomware protection einen möglichen Angriff erkennt, wird eine Benachrichtigung in den BlueXP Benachrichtigungen angezeigt und eine E-Mail an die von Ihnen konfigurierte E-Mail-Adresse gesendet.</block>
+  <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">Die E-Mail enthält Informationen zum Schweregrad, zur betroffenen Arbeitslast und einen Link zur Warnung auf der Registerkarte *Warnungen* des BlueXP ransomware protection .</block>
+  <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">Wenn Sie im BlueXP ransomware protection ein Sicherheits- und Ereignismanagementsystem (SIEM) konfiguriert haben, sendet der Dienst Warndetails an Ihr SIEM-System.</block>
+  <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link-macro">Behandeln Sie erkannte Ransomware-Warnungen</block>
+  <block id="473c570ea2acf44ac968aff271fe6ce8" category="paragraph">Weitere Einzelheiten finden Sie unter<block ref="8a71d50b7ca933f633225cea05d9764f" category="inline-link-macro-rx"></block> .</block>
+  <block id="f27f1ce6df3e2ec2518f77e8e1a4a531" category="section-title">9. Juni 2025</block>
+  <block id="07008bfe30be6fadcf287348a234142c" category="section-title">Aktualisierungen der Zielseite</block>
+  <block id="1f054df4aa4b46ec1a714386afb99b06" category="paragraph">Diese Version enthält Aktualisierungen der Zielseite für den BlueXP ransomware protection , die den Start der kostenlosen Testversion und die Entdeckung erleichtern.</block>
+  <block id="473497e2f273f2b53065b2de9535b764" category="section-title">Aktualisierungen der Bereitschaftsübung</block>
+  <block id="eaced322bf25e3f9f2b44b904f4851cb" category="paragraph">Bisher konnten Sie eine Ransomware-Bereitschaftsübung durchführen, indem Sie einen Angriff auf eine neue Beispiel-Workload simulierten. Mit dieser Funktion können Sie den simulierten Angriff untersuchen und die Arbeitslast wiederherstellen. Verwenden Sie diese Funktion, um Warnbenachrichtigungen, Reaktionen und Wiederherstellungen zu testen. Führen Sie diese Übungen so oft wie nötig durch und planen Sie sie.</block>
+  <block id="5e0279378617bd12ec67145646285fab" category="paragraph">Mit dieser Version können Sie über eine neue Schaltfläche im BlueXP ransomware protection eine Ransomware-Bereitschaftsübung für eine Test-Workload ausführen. So können Sie Ransomware-Angriffe einfacher simulieren, ihre Auswirkungen untersuchen und Workloads effizient wiederherstellen – und das alles in einer kontrollierten Umgebung.</block>
+  <block id="a539ada725302fb5ecd1f180a2aed531" category="paragraph">Sie können jetzt Bereitschaftsübungen zusätzlich zu NFS-Workloads auch für CIFS-Workloads (SMB) durchführen.</block>
+  <block id="50b24b085ac9888ffc4b0ba727107bd7" category="inline-link">Führen Sie eine Übung zur Vorbereitung auf Ransomware-Angriffe durch</block>
+  <block id="9b1eb2dbe181e9f7b73db8a0785c0419" category="paragraph">Weitere Einzelheiten finden Sie unter<block ref="83090590e567818593b829ba2ced1db1" category="inline-link-rx"></block> .</block>
+  <block id="8a09aacd3cf1c88c3c2a4d746cad44f5" category="section-title">Aktivieren Sie BlueXP classification Klassifizierungsaktualisierungen</block>
+  <block id="ba91dfda650db88e3bc3dd36c32fa577" category="paragraph">Bevor Sie die BlueXP classification innerhalb des BlueXP ransomware protection verwenden, müssen Sie die BlueXP classification aktivieren, um Ihre Daten zu scannen. Durch die Klassifizierung von Daten können Sie personenbezogene Daten (PII) finden, die das Sicherheitsrisiko erhöhen können.</block>
+  <block id="960c237c5456a08952ee4a0c6bc67ab9" category="paragraph">Sie können die BlueXP classification auf einer Dateifreigabe-Workload innerhalb des BlueXP ransomware protection bereitstellen. Wählen Sie in der Spalte *Datenschutzgefährdung* die Option *Gefährdung identifizieren*. Wenn Sie den Klassifizierungsdienst aktiviert haben, identifiziert diese Aktion die Gefährdung. Andernfalls wird mit dieser Version in einem Dialogfeld die Option zum Bereitstellen der BlueXP classification angezeigt. Wählen Sie *Bereitstellen*, um zur Zielseite des BlueXP classification zu gelangen, wo Sie diesen Dienst bereitstellen können. W</block>
+  <block id="55d5a81a565b7cb4265c8c73ecd4aa37" category="inline-link">Stellen Sie die BlueXP classification in der Cloud bereit</block>
+  <block id="6b0e91bb98e8a9394dda94307f3217d0" category="inline-link">Scannen Sie mit der BlueXP classification nach personenbezogenen Daten</block>
+  <block id="1ebb3fd0e37e111d097f72f481a8495f" category="paragraph">Weitere Einzelheiten finden Sie unter<block ref="3daa2f037f0ac9e3dc92dfaca32cdfd8" category="inline-link-rx"></block> und um den Dienst innerhalb des BlueXP ransomware protection zu nutzen, beziehen Sie sich auf<block ref="92298fee5b4e50be64de76505f153d1a" category="inline-link-rx"></block> .</block>
+  <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">13. Mai 2025</block>
+  <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="section-title">Meldung nicht unterstützter Arbeitsumgebungen im BlueXP ransomware protection</block>
+  <block id="670b6a838a9eab9baafd717669b2bcc5" category="paragraph">Während des Erkennungsworkflows meldet der BlueXP ransomware protection weitere Details, wenn Sie mit der Maus über „Unterstützte“ oder „Nicht unterstützte Workloads“ fahren. Dies wird Ihnen helfen zu verstehen, warum einige Ihrer Workloads vom BlueXP ransomware protection nicht erkannt werden.</block>
+  <block id="960c5f3106f70ebe4000fa5d5121f60f" category="paragraph">Es gibt viele Gründe, warum der Dienst eine Arbeitsumgebung nicht unterstützt. Beispielsweise könnte die ONTAP Version in Ihrer Arbeitsumgebung niedriger sein als die erforderliche Version. Wenn Sie mit der Maus über eine nicht unterstützte Arbeitsumgebung fahren, wird in einem Tooltip der Grund angezeigt.</block>
+  <block id="e7aba228bdeba9407e415c5afb1137a2" category="paragraph">Sie können die nicht unterstützten Arbeitsumgebungen während der ersten Erkennung anzeigen und dort auch die Ergebnisse herunterladen. Sie können die Ergebnisse der Erkennung auch über die Option *Workload-Erkennung* auf der Seite „Einstellungen“ anzeigen.</block>
+  <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="inline-link">Entdecken Sie Workloads im BlueXP ransomware protection</block>
+  <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">Weitere Einzelheiten finden Sie unter<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block> .</block>
+  <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">29. April 2025</block>
+  <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">Unterstützung für Amazon FSx for NetApp ONTAP</block>
+  <block id="24964ea0918b681c02283685b1da1438" category="paragraph">Diese Version unterstützt Amazon FSx for NetApp ONTAP. Diese Funktion hilft Ihnen, Ihre FSx für ONTAP -Workloads mit BlueXP ransomware protection zu schützen.</block>
+  <block id="1e2a1ff777d742c50d6c64a6b6350f90" category="paragraph">FSx für ONTAP ist ein vollständig verwalteter Dienst, der die Leistung des NetApp ONTAP -Speichers in der Cloud bereitstellt. Es bietet dieselben Funktionen, dieselbe Leistung und dieselben Verwaltungsfunktionen, die Sie vor Ort verwenden, mit der Agilität und Skalierbarkeit eines nativen AWS-Dienstes.</block>
+  <block id="4fc90f7d90d19ba5f3581d326200a5f1" category="paragraph">Am BlueXP ransomware protection -Workflow wurden die folgenden Änderungen vorgenommen:</block>
+  <block id="65053514fea19aa395ec9799580be143" category="list-text">Discovery umfasst Workloads in FSx für ONTAP 9.15-Arbeitsumgebungen.</block>
+  <block id="6ea987783dda6093154792926d8e285c" category="list-text">Auf der Registerkarte „Schutz“ werden Workloads in FSx für ONTAP -Umgebungen angezeigt. In dieser Umgebung sollten Sie Sicherungsvorgänge mit dem FSx for ONTAP -Sicherungsdienst durchführen. Sie können diese Workloads mithilfe von BlueXP ransomware protection -Snapshots wiederherstellen.</block>
+  <block id="2e09d92e8822f80e9aac61fdb75fa3c8" category="admonition">Sicherungsrichtlinien für eine auf FSx für ONTAP ausgeführte Workload können in BlueXP nicht festgelegt werden. Alle vorhandenen Sicherungsrichtlinien, die in Amazon FSx for NetApp ONTAP festgelegt sind, bleiben unverändert.</block>
+  <block id="97c627f1fcd3a299ac19157a8f566694" category="list-text">Warnmeldungen zeigen die neue FSx for ONTAP Arbeitsumgebung.</block>
+  <block id="1d40c591d842224b16a448bc26a6bfab" category="inline-link">Erfahren Sie mehr über den BlueXP ransomware protection</block>
+  <block id="280931b406a1e00d83a4a8faa2e537a0" category="paragraph">Weitere Einzelheiten finden Sie unter<block ref="4517bbdfa51110822f93ef44df6a4f92" category="inline-link-rx"></block> .</block>
+  <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">Einschränkungen des BlueXP ransomware protection</block>
+  <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">Informationen zu den unterstützten Optionen finden Sie im<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block> .</block>
+  <block id="4dd9f1961ea018706909f1155d36c91a" category="paragraph">Sie benötigen jetzt eine der folgenden Zugriffsrollen, um den BlueXP ransomware protection anzuzeigen, zu erkennen oder zu verwalten: Organisationsadministrator, Ordner- oder Projektadministrator, Ransomware-Schutzadministrator oder Ransomware-Schutz-Viewer.</block>
+  <block id="34397c830c77af93d96e3ed470658d45" category="inline-link">Erfahren Sie mehr über BlueXP -Zugriffsrollen für alle Dienste</block>
+  <block id="0d46f65a7717513cadcb109363fb6c6d" category="paragraph"><block ref="06a5d1f4c488b014d10a11f3fe7273ba" category="inline-link-rx"></block> .</block>
+  <block id="4fe331eaa4881ca37fd2ff947e6b8bec" category="section-title">Bereitschaftsübungsberichte</block>
+  <block id="e78c37e0abce1f032a2a34eda9e02a54" category="paragraph">Mit dieser Version können Sie Übungsberichte zur Vorbereitung auf Ransomware-Angriffe überprüfen. Mithilfe einer Bereitschaftsübung können Sie einen Ransomware-Angriff auf eine neu erstellte Beispiel-Workload simulieren. Untersuchen Sie dann den simulierten Angriff und stellen Sie die Beispiel-Arbeitslast wieder her. Mithilfe dieser Funktion können Sie durch das Testen von Warnbenachrichtigungen, Reaktions- und Wiederherstellungsprozessen sicherstellen, dass Sie im Falle eines tatsächlichen Ransomware-Angriffs vorbereitet sind.</block>
+  <block id="cc61bd0d76dc349aa4d70e26ca03704d" category="section-title">Neue rollenbasierte Zugriffskontrollrollen und -berechtigungen</block>
+  <block id="a9e4a39d54899a1c668bdab8048e1dc5" category="paragraph">Bisher konnten Sie Benutzern basierend auf ihren Verantwortlichkeiten Rollen und Berechtigungen zuweisen, was Ihnen bei der Verwaltung des Benutzerzugriffs auf den BlueXP ransomware protection half. Mit dieser Version gibt es zwei neue Rollen speziell für den BlueXP ransomware protection mit aktualisierten Berechtigungen. Die neuen Rollen sind:</block>
+  <block id="a95fe9e5a7b678fa4abc81ea69f1e257" category="list-text">Ransomware-Schutzadministrator</block>
+  <block id="6a05decc7d63f19c1d5812a3c728ce8a" category="list-text">Ransomware-Schutz-Viewer</block>
+  <block id="51871ed75f741b0dab90d2d1612f6499" category="inline-link">Rollenbasierter Zugriff auf Funktionen des BlueXP ransomware protection</block>
+  <block id="b42fe8f702412cfa14541d3fab58efa6" category="paragraph">Weitere Informationen zu Berechtigungen finden Sie unter<block ref="01046b99aab91b10679a0fac299864df" category="inline-link-rx"></block> .</block>
+  <block id="25ccc48b022e2433d5b379cc51530139" category="section-title">Zahlungsverbesserungen</block>
+  <block id="a3d54846581a4bb8314f87602a4ba2c0" category="paragraph">Diese Version enthält mehrere Verbesserungen des Zahlungsvorgangs.</block>
+  <block id="7ffb0c59c068d14b0ee6581cde479463" category="inline-link">Einrichten von Lizenzierungs- und Zahlungsoptionen</block>
+  <block id="52a7f2b6af87f28195cf6badbad6c667" category="paragraph">Weitere Einzelheiten finden Sie unter<block ref="a8b1ada7f83ee5659f868a512032628f" category="inline-link-rx"></block> .</block>
+  <block id="747ef7cb70bddb84c8ef27217b868e12" category="section-title">BlueXP replication heißt jetzt NetApp -Replikation</block>
+  <block id="57ff97c571d4da9035b6687a3eb97fea" category="paragraph">Die BlueXP replication wurde in NetApp -Replikation umbenannt.</block>
+  <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSx für ONTAP zu Cloud Volumes ONTAP</block>
+  <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">Sie können jetzt Daten von einem Amazon FSx for ONTAP -Dateisystem auf Cloud Volumes ONTAP replizieren.</block>
+  <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">Erfahren Sie, wie Sie die Datenreplikation einrichten</block>
+  <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block> .</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">31. Juli 2022</block>
+  <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSx for ONTAP als Datenquelle</block>
+  <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">Sie können jetzt Daten von einem Amazon FSx for ONTAP -Dateisystem an die folgenden Ziele replizieren:</block>
+  <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">On-Premises- ONTAP -Cluster</block>
+  <block id="c0c4e254eb7382750d30e5d2119f551b" category="section-title">02. September 2021</block>
+  <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">Support für Amazon FSx für ONTAP</block>
+  <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">Sie können jetzt Daten von einem Cloud Volumes ONTAP -System oder einem lokalen ONTAP Cluster auf ein Amazon FSx für ONTAP Dateisystem replizieren.</block>
+  <block id="9b5a1e6c05cb5a9a8a4d5f1e2605ce55" category="section-title">BlueXP volume caching ist jetzt Volume-Caching</block>
+  <block id="f8e8412fccd7f025d572fec3a13f08fe" category="paragraph">BlueXP volume caching wurde in Volume-Caching umbenannt.</block>
+  <block id="1404848cfe6595d928cbdff8fae23869" category="paragraph">Sie können über die linke Navigationsleiste der NetApp Konsole darauf zugreifen, indem Sie *Mobilität* &gt; *Volume-Caching* auswählen.</block>
+  <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">04. Juni 2023</block>
+  <block id="5f63db6bf0512dc0612ee852c1faf373" category="section-title">BlueXP volume caching</block>
+  <block id="b83ba84e8b66440b0a36bc88ba58ce87" category="paragraph">BlueXP volume caching, eine Funktion der ONTAP 9-Software, ist eine Remote-Caching-Funktion, die die Dateiverteilung vereinfacht, die WAN-Latenz reduziert, indem Ressourcen näher an den Standort Ihrer Benutzer und Rechenressourcen gebracht werden, und die WAN-Bandbreitenkosten senkt. Durch Volume-Caching wird ein dauerhaftes, beschreibbares Volume an einem entfernten Ort bereitgestellt. Sie können das BlueXP volume caching verwenden, um den Datenzugriff zu beschleunigen oder den Datenverkehr von stark beanspruchten Volumes zu entlasten. Cache-Volumes eignen sich ideal für leseintensive Workloads, insbesondere wenn Clients wiederholt auf dieselben Daten zugreifen müssen.</block>
+  <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">Mit BlueXP volume caching verfügen Sie über Caching-Funktionen für die Cloud, insbesondere für Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP und On-Premises als Arbeitsumgebung.</block>
+  <block id="2012f97762e54c6c0012de439f8eb421" category="inline-link-macro">Erfahren Sie mehr über Volume-Caching</block>
+  <block id="32e43821995e99fb72cdac5dd21f43b4" category="paragraph"><block ref="d441c17803a6d3d32848ba89d4709eae" category="inline-link-macro-rx"></block> .</block>
+  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="section-title">BlueXP workload factory jetzt NetApp Workload Factory</block>
+  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.</block>
+  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Ask Me-Integration mit MCP</block>
+  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Ask Me, der KI-Assistent von Workload Factory, ist in das Model Context Protocol (MCP) integriert. Mithilfe von MCP stellt Ask Me eine sichere Schnittstelle zu externen Umgebungen und Abfrage-API-Tools her, um Antworten zu liefern, die auf Ihre spezifische Speicherumgebung zugeschnitten sind.</block>
+  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">05. Oktober 2025</block>
+  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="section-title">Neue Benachrichtigung für Speicher</block>
+  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">Der Benachrichtigungsdienst von NetApp Workload Factory umfasst die Benachrichtigung bei gut strukturierten Problemen für Storage.</block>
+  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">Benachrichtigungen für NetApp Workload Factory</block>
+  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
 </blocks>
