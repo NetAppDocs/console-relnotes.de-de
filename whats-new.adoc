@@ -22,7 +22,289 @@ Informieren Sie sich über die neuesten Änderungen an den Funktionen und Datend
 
 In diesem Abschnitt werden neue Funktionen im Zusammenhang mit den Verwaltungsfunktionen der NetApp Konsole beschrieben: Organisationen, Identifizierung und Zugriff, Konsolenagenten, Anmeldeinformationen des Cloud-Anbieters und mehr.
 
-Ungelöste Direktive in <stdin> – include::https://raw.githubusercontent.com/NetAppDocs/console-setup-admin/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 6. Oktober 2025
+
+
+
+=== BlueXP heißt jetzt NetApp Console
+
+Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
+
+
+
+==== Navigationsmenüs und -seiten
+
+NetApp hat die meisten Menüoptionen in den linken Navigationsbereich verschoben und die Menüs neu organisiert, um die Navigation in der NetApp Konsole zu vereinfachen.
+
+
+
+===== Canvas wird durch die Seite „Systeme“ ersetzt
+
+NetApp hat den Canvas in die Seite *Systeme* umbenannt. Navigieren Sie über das Menü *Speicher > Verwaltung* zur Seite *System*.
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-storage-mgmt.png["Ein Screenshot der Systemseite."]
+
+
+
+===== Erweitertes Speichermenü
+
+Das Menü *Speicher* enthält außerdem *Warnungen* zum Anzeigen von ONTAP -Systemwarnungen und *Lebenszyklusplanung* (früher *Wirtschaftlichkeit*) zum Identifizieren ungenutzter oder nicht ausreichend genutzter Ressourcen.
+
+NetApp hat Keystone außerdem in das Menü *Speicher* verschoben, wo Sie Ihre NetApp Keystone -Abonnements verwalten und Ihre Nutzung anzeigen können.
+
+image:https://docs.netapp.com/us-en/console-setup-admin/screenshot-storage-menu.png["Ein Screenshot des Speichermenüs."]
+
+
+
+===== Menü „Verwaltung“
+
+Verwenden Sie das zentralisierte Menü *Administration*, um die NetApp Konsole, Supportfälle, Lizenzen und Abonnements (früher als digitale Geldbörse bezeichnet) zu verwalten.
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-admin-menu.png["Ein Screenshot des Administrationsmenüs."]
+
+
+
+===== Gesundheitsmenü
+
+Ein effizientes *Health*-Menü umfasst *Software-Updates*, wo Sie ONTAP -Software-Updates verwalten können, *Sustainability*, wo Sie Ihre Umweltauswirkungen überwachen können, und * Digital Advisor*, wo Sie proaktive Empfehlungen zur Optimierung Ihrer Speicherumgebung erhalten.
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-health-menu.png["Ein Screenshot des Gesundheitsmenüs."]
+
+
+
+===== Governance-Menü
+
+Das Menü *Governance* umfasst die *Datenklassifizierung*, wo Sie die Datenklassifizierung und -konformität verwalten können, und den *Automatisierungs-Hub*, wo Sie Automatisierungs-Workflows erstellen und verwalten können.
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-governance-menu.png["Ein Screenshot des Governance-Menüs."]
+
+
+
+==== Intuitivere Benennung von Elementen, Datendiensten und Funktionen
+
+NetApp hat mehrere Elemente, Datendienste und Funktionen umbenannt, um ihren Zweck zu verdeutlichen. Zu den wichtigsten Änderungen gehören:
+
+[cols="10,24"]
+|===
+| *Vorheriger Name* | * NetApp -Konsolenname* 
+
+
+| Anschlüsse  a| 
+Konsolenagenten.
+
+Sie können Ihre Agenten über das Menü *Administration > Agenten* anzeigen, hinzufügen und verwalten.
+
+
+
+| Zeitleistenseite  a| 
+Audit-Seite
+
+Zeigen Sie die Aktivität der Audit-Konsole über das Menü *Administration > Audit* an.
+
+
+
+| Arbeitsumgebungen  a| 
+Systeme
+
+Zeigen Sie Ihre Systeme über das Menü *Speicher > Verwaltung* an, fügen Sie sie hinzu und verwalten Sie sie.
+
+
+
+| BlueXP Ransomware-Schutz  a| 
+NetApp Ransomware-Resilienz.
+
+Ransomware Resilience hilft Ihnen, Ihre Daten zu schützen und sich schnell von einem Ransomware-Angriff zu erholen.
+
+
+
+| BlueXP Wirtschaftlichkeit  a| 
+Lebenszyklusplanung.
+
+Mithilfe der Lebenszyklusplanung können Sie Ihre Speicherkosten optimieren, indem Sie ungenutzte und nicht ausreichend genutzte Ressourcen identifizieren.
+
+Greifen Sie über das Menü *Speicher > Lebenszyklusplanung* auf die Lebenszyklusplanung zu.
+
+
+
+| BlueXP digital wallet  a| 
+Lizenzen und Abonnements
+
+Greifen Sie über das Menü *Administration > Lizenzen und Abonnements* auf Ihre Lizenzen und Abonnements zu.
+
+|===
+
+
+==== Konsolenagenten
+
+Greifen Sie über das Menü *Administration > Agenten* auf Ihre Konsolenagenten zu und verwalten Sie sie. NetApp hat die Art und Weise geändert, wie ein Konsolenagent für die Seite *Systeme* (früher Canvas) ausgewählt wird. NetApp hat den Connector-Menünamen durch ein Symbol ersetztimage:icon-agent.png["Agentensymbol"] , sodass Sie den Konsolenagenten auswählen können, für den Sie Systeme anzeigen möchten.
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-agent-icon-menu.png["Ein Screenshot, der das Symbol zum Auswählen eines Konsolenagenten zeigt."]
+
+Sie können Ihre Agenten auch über das Menü *Administration > Agenten* verwalten.
+
+
+
+=== Konsolenagent 4.0.0
+
+Diese Version des Konsolenagenten enthält Sicherheitsverbesserungen, Fehlerbehebungen und die folgenden neuen Funktionen.
+
+Die Version 4.0.0 ist für den Standardmodus und den eingeschränkten Modus verfügbar.
+
+
+
+==== Konsolidierung und Reduzierung der benötigten Netzwerkendpunkte
+
+NetApp hat die erforderlichen Netzwerkendpunkte für die Konsole und Konsolenagenten reduziert, wodurch die Sicherheit verbessert und die Bereitstellung vereinfacht wird. Wichtig ist, dass alle Bereitstellungen vor Version 4.0.0 weiterhin vollständig unterstützt werden. Während vorherige Endpunkte für vorhandene Agenten weiterhin verfügbar bleiben, empfiehlt NetApp dringend, die Firewall-Regeln auf die aktuellen Endpunkte zu aktualisieren, nachdem die erfolgreichen Agent-Upgrades bestätigt wurden.
+
+* link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console-previous.html#update-endpoint-list["Erfahren Sie, wie Sie Ihre Endpunktliste aktualisieren"] .
+* link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console.html["Erfahren Sie mehr über erforderliche Endpunkte."]
+
+
+
+
+==== Unterstützung für die VCenter-Bereitstellung von Konsolenagenten
+
+Sie können Konsolenagenten in VMware-Umgebungen mithilfe einer OVA-Datei bereitstellen. Die OVA-Datei enthält ein vorkonfiguriertes VM-Image mit Konsolen-Agent-Software und Einstellungen für die Verbindung mit der NetApp Konsole. Ein Dateidownload oder eine URL-Bereitstellung ist direkt über die NetApp Konsole möglich.link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem-ova.html["Erfahren Sie, wie Sie einen Konsolenagenten in VMware-Umgebungen bereitstellen."]
+
+Der Console Agent OVA für VMware bietet ein vorkonfiguriertes VM-Image für eine schnelle Bereitstellung.
+
+
+
+==== Validierungsberichte für fehlgeschlagene Agentenbereitstellungen
+
+Wenn Sie einen Konsolenagenten von der NetApp Konsole aus bereitstellen, haben Sie jetzt die Möglichkeit, die Agentenkonfiguration zu validieren. Wenn die Bereitstellung des Agenten durch die Konsole fehlschlägt, wird ein herunterladbarer Bericht bereitgestellt, der Sie bei der Fehlerbehebung unterstützt.
+
+
+
+==== Verbesserte Fehlerbehebung für Konsolenagenten
+
+Der Konsolenagent verfügt über verbesserte Fehlermeldungen, die Ihnen helfen, Probleme besser zu verstehen.link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-connector.html["Erfahren Sie, wie Sie Probleme mit Konsolenagenten beheben."]
+
+
+
+=== NetApp Konsole
+
+Die NetApp Konsolenverwaltung umfasst die folgenden neuen Funktionen:
+
+
+
+==== Startseiten-Dashboard
+
+Das Dashboard auf der Startseite der NetApp Konsole bietet Echtzeit-Einblicke in die Speicherinfrastruktur mit Kennzahlen zu Zustand, Kapazität, Lizenzstatus und Datendiensten.link:https://docs.netapp.com/us-en/console-setup-admin/task-dashboard.html["Erfahren Sie mehr über die Startseite."]
+
+
+
+==== NetApp Assistent
+
+Neue Benutzer mit der Rolle „Organisationsadministrator“ können den NetApp Assistenten zum Konfigurieren der Konsole verwenden, einschließlich des Hinzufügens eines Agenten, des Verknüpfens eines NetApp -Supportkontos und des Hinzufügens eines Speichersystems.link:https://docs.netapp.com/us-en/console-setup-admin/task-console-assistant.html["Erfahren Sie mehr über den NetApp Assistenten."]
+
+
+
+==== Dienstkontoauthentifizierung
+
+Die NetApp Konsole unterstützt die Authentifizierung von Servicekonten entweder mithilfe einer systemgenerierten Client-ID und geheimer oder kundenverwalteter JWTs. So können Unternehmen den Ansatz auswählen, der ihren Sicherheitsanforderungen und Integrations-Workflows am besten entspricht. Die JWT-Client-Authentifizierung mit privatem Schlüssel verwendet asymmetrische Kryptografie und bietet eine höhere Sicherheit als herkömmliche Client-ID- und Geheimmethoden. Die Private Key JWT-Client-Authentifizierung verwendet asymmetrische Kryptografie, wodurch der private Schlüssel in der Umgebung des Kunden sicher bleibt, das Risiko des Diebstahls von Anmeldeinformationen verringert und die Sicherheit Ihres Automatisierungsstapels und Ihrer Client-Anwendungen verbessert wird.link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#service-account["Erfahren Sie, wie Sie ein Dienstkonto hinzufügen."]
+
+
+
+==== Sitzungs-Timeouts
+
+Das System meldet Benutzer nach 24 Stunden oder beim Schließen ihres Webbrowsers ab.
+
+
+
+==== Unterstützung von Partnerschaften zwischen Organisationen
+
+Sie können in der NetApp Konsole Partnerschaften erstellen, die es Partnern ermöglichen, NetApp -Ressourcen über Unternehmensgrenzen hinweg sicher zu verwalten, wodurch die Zusammenarbeit vereinfacht und die Sicherheit verbessert wird. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-create.html["Erfahren Sie, wie Sie Partnerschaften verwalten"] .
+
+
+
+==== Super-Admin- und Super-Viewer-Rollen
+
+Die Rollen *Super-Admin* und *Super-Viewer* wurden hinzugefügt. *Superadministrator* gewährt vollständigen Verwaltungszugriff auf Konsolenfunktionen, Speicher und Datendienste. *Super Viewer* bietet Prüfern und Stakeholdern schreibgeschützte Sichtbarkeit. Diese Rollen sind für kleinere Teams mit erfahrenen Mitgliedern nützlich, bei denen ein breiter Zugriff üblich ist. Zur Verbesserung der Sicherheit und Überprüfbarkeit wird Organisationen empfohlen, den *Superadministrator*-Zugriff sparsam zu verwenden und nach Möglichkeit fein abgestufte Rollen zuzuweisen.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über Zugriffsrollen."]
+
+
+
+==== Zusätzliche Rolle für Ransomware-Resilienz
+
+Die Rollen *Ransomware Resilience-Benutzerverhaltensadministrator* und *Ransomware Resilience-Benutzerverhaltensbetrachter* wurden hinzugefügt. Mit diesen Rollen können Benutzer das Benutzerverhalten und Analysedaten konfigurieren und anzeigen.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über Zugriffsrollen."]
+
+
+
+==== Support-Chat entfernt
+
+NetApp hat die Support-Chat-Funktion aus der NetApp Konsole entfernt. Verwenden Sie die Seite *Administration > Support*, um Supportfälle zu erstellen und zu verwalten.
+
+
+
+=== 11. August 2025
+
+
+
+==== Connector 3.9.55
+
+Diese Version des BlueXP Connector enthält Sicherheitsverbesserungen und Fehlerbehebungen.
+
+Die Version 3.9.55 ist für den Standardmodus und den eingeschränkten Modus verfügbar.
+
+
+
+==== Unterstützung der japanischen Sprache
+
+Die BlueXP -Benutzeroberfläche ist jetzt in japanischer Sprache verfügbar. Wenn Ihre Browsersprache Japanisch ist, wird BlueXP auf Japanisch angezeigt. Um auf die Dokumentation auf Japanisch zuzugreifen, verwenden Sie das Sprachmenü auf der Dokumentationswebsite.
+
+
+
+==== Funktion zur betrieblichen Ausfallsicherheit
+
+Die Funktion „Betriebsstabilität“ wurde aus BlueXP entfernt. Wenden Sie sich bei Problemen an den NetApp -Support.
+
+
+
+==== BlueXP Identitäts- und Zugriffsmanagement (IAM)
+
+Das Identitäts- und Zugriffsmanagement in BlueXP bietet jetzt die folgende Funktion.
+
+
+
+==== Neue Zugriffsrolle für den operativen Support
+
+BlueXP unterstützt jetzt die Rolle eines Betriebssupportanalysten. Diese Rolle erteilt einem Benutzer die Berechtigung, Speicherwarnungen zu überwachen, die BlueXP Audit-Zeitleiste anzuzeigen und NetApp Supportfälle einzugeben und zu verfolgen.
+
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Verwendung von Zugriffsrollen."]
+
+
+
+=== 31. Juli 2025
+
+
+
+==== Freigabe des Privatmodus (3.9.54)
+
+Eine neue Version des privaten Modus steht jetzt zum Download bereit von der https://mysupport.netapp.com/site/downloads["NetApp Support Site"^]
+
+Die Version 3.9.54 enthält Updates für die folgenden BlueXP Komponenten und -Dienste.
+
+[cols="3*"]
+|===
+| Komponente oder Dienst | In dieser Version enthaltene Version | Änderungen seit der letzten Version des privaten Modus 
+
+
+| Anschluss | 3.9.54, 3.9.53 | Gehen Sie zum https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["Was gibt es Neues auf der BlueXP -Seite?"^] und beziehen Sie sich auf die Änderungen, die in den Versionen 3.9.54 und 3.9.53 enthalten sind. 
+
+
+| Sicherung und Wiederherstellung | 28. Juli 2025 | Gehen Sie zum https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["Was ist neu auf der BlueXP backup and recovery?"^] und beziehen Sie sich auf die Änderungen, die in der Version vom Juli 2025 enthalten sind. 
+
+
+| Einstufung | 14. Juli 2025 (Version 1.45) | Gehen Sie zum https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["Was ist neu auf der BlueXP classification ?"^] . 
+|===
+Weitere Einzelheiten zum privaten Modus, einschließlich der Aktualisierungsinformationen, finden Sie hier:
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Erfahren Sie mehr über den privaten Modus"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["Erfahren Sie, wie Sie mit BlueXP im privaten Modus beginnen"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["Erfahren Sie, wie Sie den Connector im privaten Modus aktualisieren."]
+
 
 
 
@@ -354,13 +636,50 @@ Der Edge-Caching-Dienst wurde am 7. August 2024 entfernt.
 
 == Google Cloud NetApp Volumes
 
-Ungelöste Direktive in <stdin> – include::https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-netapp-volumes/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 06. Oktober 2025
+
+
+
+==== BlueXP heißt jetzt NetApp Console
+
+Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
+
+e9a4d0eabbdfce5c177732ed63963a62
+
+
+
+==== 71d0ee5d411b8f72f571401cdab213ac
+
+775e62d1bed90f08196ce9665fe3b625
+
+* bfcabace496e3d26dcf080c810ecd405
+* 062a6e04f65117f2c5ad969cc8e0116c
+* e093c974eb3629147ecf532045c7e226
+
 
 
 
 == Google Cloud-Speicher
 
-Ungelöste Direktive in <stdin> – include::https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 06. Oktober 2025
+
+
+
+==== BlueXP heißt jetzt NetApp Console
+
+Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
+
+Einzelheiten zu den Änderungen finden Sie imlink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Konsole"] . == 10. Juli 2023
+
+
+
+==== Möglichkeit, neue Buckets hinzuzufügen und vorhandene Buckets von BlueXP aus zu verwalten
+
+Sie können Google Cloud Storage-Buckets eine ganze Weile lang auf dem BlueXP Canvas anzeigen. Jetzt können Sie direkt von BlueXP aus neue Buckets hinzufügen und Eigenschaften für vorhandene Buckets ändern. https://docs.netapp.com/us-en/storage-management-google-cloud-storage/task-add-gcp-bucket.html["Erfahren Sie, wie Sie neue Google Cloud Storage-Buckets hinzufügen"] .
 
 
 
@@ -376,7 +695,7 @@ Ungelöste Direktive in <stdin> – include::https://raw.githubusercontent.com/N
 
 Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
 
-2ef72cc8a56fc5999e258b450b9fca24
+Einzelheiten zu den Änderungen finden Sie imlink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Konsole"^] .
 
 
 
@@ -432,7 +751,41 @@ Der Dienst für Migrationsberichte wurde am 7. August 2024 entfernt.
 
 == On-Premise- ONTAP Cluster
 
-Ungelöste Direktive in <stdin> – include::https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 06. Oktober 2025
+
+
+
+==== BlueXP heißt jetzt NetApp Console
+
+Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
+
+Einzelheiten zu den Änderungen finden Sie imlink:https://docs.netapp.com/us-en/console-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .
+
+
+
+=== 12. Mai 2025
+
+
+
+==== BlueXP -Zugriffsrolle erforderlich
+
+Sie benötigen jetzt eine der folgenden Zugriffsrollen, um lokale ONTAP Cluster anzuzeigen, zu erkennen oder zu verwalten: Organisationsadministrator, Ordner- oder Projektadministrator, Speicheradministrator oder Systemintegritätsspezialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über Zugriffsrollen."^]
+
+
+
+=== 26. November 2024
+
+
+
+==== Unterstützung für ASA R2-Systeme mit privatem Modus
+
+Sie können jetzt NetApp ASA r2-Systeme erkennen, wenn Sie BlueXP im privaten Modus verwenden. Diese Unterstützung ist ab der Version 3.9.46 im privaten Modus von BlueXP verfügbar.
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["Erfahren Sie mehr über ASA r2-Systeme"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["Erfahren Sie mehr über die Bereitstellungsmodi von BlueXP"^]
+
 
 
 
@@ -462,7 +815,45 @@ Ungelöste Direktive in <stdin> – include::https://raw.githubusercontent.com/N
 
 == Software-Updates
 
-Ungelöste Direktive in <stdin> – include::https://raw.githubusercontent.com/NetAppDocs/console-software-updates/main/release-notes/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 06. Oktober 2025
+
+
+
+==== BlueXP software updates sind jetzt Softwareupdates
+
+BlueXP software updates wurden in Softwareupdates umbenannt.
+
+Sie können über die linke Navigationsleiste der NetApp Konsole darauf zugreifen, indem Sie *Health* > *Software-Updates* auswählen.
+
+
+
+==== BlueXP heißt jetzt NetApp Console
+
+Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
+
+Einzelheiten zu den Änderungen finden Sie im https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .
+
+
+
+=== 12. Mai 2025
+
+
+
+==== BlueXP -Zugriffsrolle erforderlich
+
+Sie benötigen jetzt eine der folgenden Zugriffsrollen, um Softwareupdates zu installieren: *Organisationsadministrator*, *Ordner- oder Projektadministrator*, *Speicheradministrator*, *Speicherbetrachter* oder *Speicherintegritätsspezialist*. Benutzer mit der Rolle „Speicherbetrachter“ verfügen über verschiedene Berechtigungen im Zusammenhang mit Softwareupdates, können jedoch keine Softwareupdates installieren.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über BlueXP -Zugriffsrollen."^]
+
+
+
+=== 02. April 2025
+
+
+
+==== Geminderte Risiken
+
+Im Zusammenfassungsbereich der BlueXP software updates können Sie jetzt die Gesamtzahl der Risiken anzeigen, die durch das Betriebssystemupdate gemindert werden können. Auf diese Weise können Benutzer die Sicherheits- und Stabilitätsverbesserungen ihrer Installationsbasis beurteilen.
 
 
 
