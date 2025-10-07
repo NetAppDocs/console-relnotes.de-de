@@ -427,13 +427,27 @@ Sie haben schon seit einiger Zeit die Möglichkeit, Amazon S3-Buckets auf dem Bl
 
 
 
+=== 06. Oktober 2025
+
+
+
+==== BlueXP heißt jetzt NetApp Console
+
+BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln.
+
+Die NetApp Console ermöglicht eine zentrale Verwaltung von Speicher- und Datendiensten in lokalen und Cloud-Umgebungen auf Unternehmensebene und liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Verwaltung.
+
+Einzelheiten zu den Änderungen finden Sie im https://docs.netapp.com/us-en/console-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .
+
+
+
 === 05. Juni 2023
 
 
 
 ==== Möglichkeit, neue Speicherkonten von BlueXP hinzuzufügen
 
-Sie haben schon seit einiger Zeit die Möglichkeit, Azure Blob Storage auf dem BlueXP Canvas anzuzeigen. Jetzt können Sie direkt von BlueXP aus neue Speicherkonten hinzufügen und Eigenschaften für vorhandene Speicherkonten ändern. xref:../task-add-blob-storage.html[Erfahren Sie, wie Sie neue Azure Blob-Speicherkonten hinzufügen] .
+Sie haben schon seit einiger Zeit die Möglichkeit, Azure Blob Storage auf dem BlueXP Canvas anzuzeigen. Jetzt können Sie direkt von BlueXP aus neue Speicherkonten hinzufügen und Eigenschaften für vorhandene Speicherkonten ändern. link:https://docs.netapp.com/us-en/storage-management-blob-storage/["Erfahren Sie, wie Sie neue Azure Blob-Speicherkonten hinzufügen"^] .
 
 
 
