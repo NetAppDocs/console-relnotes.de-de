@@ -430,7 +430,6 @@
   <block id="b3a4d40f62316bd15534c438b8057c89" category="inline-link">Unterstützte Clientprotokolle für Cloud Volumes ONTAP: NVMe-TCP</block>
   <block id="748f500c59212ec947a9dc03913e95cb" category="paragraph">Weitere Informationen finden Sie unter<block ref="b12aae47ee00e2542df4c8a098a5e7ff" category="inline-link-rx"></block> Die</block>
   <block id="fbbad2021b0a185cdad950acc088e8d4" category="doc">Unterstützung für die Replikation zwischen lokalen ONTAP Systemen und FSx für ONTAP Dateisystemen</block>
-  <block id="6b3e3878a5fe9ddfda803127234f4a18" category="paragraph">Die Datenreplikation zwischen einem lokalen ONTAP -System und einem FSx for ONTAP Dateisystem ist über die NetApp Console von FSx for ONTAP aus möglich.</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Diese Versionshinweise beschreiben die jüngsten Verbesserungen der NetApp Console und der von ihr unterstützten Datendienste. Links zu den vollständigen Versionshinweisen für jeden einzelnen Dienst.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Informieren Sie sich über die neuesten Änderungen an den Funktionen und Datendiensten, die Teil der NetApp Console sind. Eine vollständige Übersicht über die Versionshistorie finden Sie in den vollständigen Versionshinweisen für jeden einzelnen Dienst.</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">Veraltete Dienste</block>
@@ -444,4 +443,5 @@
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">E-Serie :leveloffset: +1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">22. September 2025</block>
   <block id="0428e48e7f58929099e52febd0558232" category="section-title">25. August 2025</block>
+  <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">Die Datenreplikation zwischen einem lokalen ONTAP -System und einem FSx for ONTAP Dateisystem ist über die NetApp Console Systems-Seite möglich.</block>
 </blocks>
