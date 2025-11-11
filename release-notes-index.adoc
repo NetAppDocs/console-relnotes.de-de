@@ -22,7 +22,7 @@ Sehen Sie sich die vollständigen Versionshinweise zu den NetApp Console Funktio
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["Einrichtung und Administration"^]
 * https://docs.netapp.com/us-en/console-alerts/whats-new.html["Warnungen"^]
-* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Automatisierungs-Hub"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Automatisierungskatalog"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Digitaler Berater"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["Wirtschaftlichkeit"^]
 * https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
