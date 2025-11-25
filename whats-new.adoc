@@ -52,6 +52,22 @@ Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
 
+== 24. November 2025
+
+
+
+=== Keystone
+
+Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
+
+
+
+==== Tracking-ID für Abonnements mit Abdeckungslücke
+
+Im Benachrichtigungsfeld *Vervollständigen Sie Ihre Abdeckung* unter *Überwachung > Alarmmonitore* wird nun für jedes Abonnement neben der Abonnementnummer die Tracking-ID angezeigt.
+
+
+
 == 17. November 2025
 
 
