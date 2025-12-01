@@ -52,6 +52,22 @@ Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
 
+== 27. November 2025
+
+
+
+=== Google Cloud NetApp Volumes
+
+
+
+==== Änderungen der Anmeldeinformationen für die Google Cloud Platform
+
+Da Kunden immer mehr Google Cloud NetApp Volumes Systeme einrichten und autorisieren, hat sich die Verwaltung der Zugangsdaten verändert.
+
+Die Anmeldeinformationen für NetApp Volumes-Systeme werden jetzt in einem Google Cloud-Backend gespeichert, beispielsweise im Cloud Key Management-Dienst oder einem ähnlichen Dienst. Beim Erstellen eines neuen Systems werden die Anmeldeinformationen für die Identitätswechselfunktion des Dienstkontos verwendet.
+
+
+
 == 24. November 2025
 
 
