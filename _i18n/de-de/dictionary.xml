@@ -460,4 +460,9 @@
   <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">Verbesserte Ladeleistung</block>
   <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">Die Ladeleistung aller Seiten in der Datenklassifizierung wurde verbessert, um ein effizienteres Benutzererlebnis zu schaffen.</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">8. Dezember 2025</block>
+  <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware Workloads Vorschau-Verbesserungen</block>
+  <block id="24936fb650df7af8295e75a3667becef" category="list-text">Sie können Backups und Snapshots jetzt an einem alternativen Speicherort wiederherstellen. Dies ist nützlich, wenn Sie Versionen einer VM auf verschiedenen VMware vCenter-Bereitstellungen, VMware ESXi-Hosts oder VMware-Datenspeichern verwalten möchten.</block>
+  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">Sie können nun bestimmte virtuelle VMware-Festplatten (VMDK-Images) entweder von einem primären oder einem sekundären Speicherort wiederherstellen, was eine feinere Kontrolle über die Wiederherstellung von VM-Daten ermöglicht.</block>
+  <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">Erfahren Sie mehr über die Wiederherstellung von VMware-Workloads mit NetApp Backup and Recovery.</block>
+  <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>.</block>
 </blocks>
