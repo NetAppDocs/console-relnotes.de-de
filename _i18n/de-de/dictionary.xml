@@ -451,4 +451,13 @@
   <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">Einschränkungen</block>
   <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">01. Dezember 2025</block>
   <block id="8497094e0d678632f29aeaad49708682" category="paragraph">Bitte überprüfen Sie die<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block> Und<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block> für Google Cloud.</block>
+  <block id="6a6493990827c82055e808631b52c236" category="doc">Version 1.49</block>
+  <block id="640602402999fbf572de482a35f449bc" category="paragraph">Diese Version der Datenklassifizierung enthält Fehlerbehebungen und die folgenden Aktualisierungen:</block>
+  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">Überwachen Sie Kennzahlen und Leistung im Dashboard für die Gesundheitsüberwachung.</block>
+  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">Die Datenklassifizierung bietet jetzt ein Dashboard zur Gesundheitsüberwachung, das eine Echtzeitüberwachung Ihrer Ressourcen sowie Einblicke in Speichernutzung, Festplattennutzung, Festplattenauslastung und mehr ermöglicht. Mithilfe der Erkenntnisse aus dem Dashboard zur Gesundheitsüberwachung können Sie die Infrastruktur Ihrer Bereitstellung überprüfen und Einblicke gewinnen, um Speicher und Leistung zu optimieren.</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Überwachen Sie den Zustand der Datenklassifizierung</block>
+  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">Weitere Informationen finden Sie unter <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>.</block>
+  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">Verbesserte Ladeleistung</block>
+  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">Die Ladeleistung aller Seiten in der Datenklassifizierung wurde verbessert, um ein effizienteres Benutzererlebnis zu schaffen.</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">8. Dezember 2025</block>
 </blocks>
