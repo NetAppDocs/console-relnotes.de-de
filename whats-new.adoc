@@ -90,6 +90,18 @@ Die Ladeleistung aller Seiten in der Datenklassifizierung wurde verbessert, um e
 
 
 
+=== Keystone
+
+Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
+
+
+
+==== Umbenannt in „Aufgelaufene Auslösekapazität“
+
+Die Bezeichnung *Accrued burst capacity* wird in *Accrued burst* umbenannt.
+
+
+
 == 01. Dezember 2025
 
 
