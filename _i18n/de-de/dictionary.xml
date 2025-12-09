@@ -467,4 +467,24 @@
   <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>.</block>
   <block id="236430e108e8394ac19913076b10fb55" category="doc">Umbenannt in „Aufgelaufene Auslösekapazität“</block>
   <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">Die Bezeichnung *Accrued burst capacity* wird in *Accrued burst* umbenannt.</block>
+  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">Die Blockierung von Erweiterungen ist auf Workload-Ebene aktiviert.</block>
+  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">Wenn Sie die Erweiterungsblockierung aktivieren, erfolgt die Aktivierung nun auf Workload-Ebene und nicht mehr auf Ebene der Speicher-VM.</block>
+  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">Benutzerverhaltenswarnungsstatus bearbeiten</block>
+  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">Ransomware Resilience ermöglicht es Ihnen nun, den Status von Warnmeldungen zum Benutzerverhalten zu bearbeiten. Sie können Warnmeldungen manuell verwerfen und beheben. Sie können Benachrichtigungen nun auch als „In Bearbeitung“ markieren.</block>
+  <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">Verwalten von Warnungen</block>
+  <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">Weitere Informationen finden Sie unter <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">Unterstützung für mehrere Konsolenagenten</block>
+  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">Ransomware Resilience unterstützt jetzt die Verwendung mehrerer Console-Agenten zur Verwaltung derselben Systeme.</block>
+  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">Erstellen eines Konsolenagenten</block>
+  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">Weitere Informationen zu Console-Agenten finden Sie unter<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block> Die</block>
+  <block id="b706122b5735a672dec906da7d14b15c" category="doc">Beibehaltung der Ordnerhierarchie</block>
+  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">Standardmäßig behält Disaster Recovery die VM-Inventarhierarchie (Ordnerstruktur) beim Failover bei. Falls das Wiederherstellungsziel den erforderlichen Ordner nicht enthält, wird dieser von Disaster Recovery erstellt.</block>
+  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">Sie können diese Einstellung nun überschreiben, indem Sie einen neuen übergeordneten VM-Ordner festlegen oder die Option **Ursprüngliche Ordnerhierarchie beibehalten** deaktivieren.</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Erstellen eines Replikationsplans</block>
+  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">Weitere Informationen finden Sie unter <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>.</block>
+  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">Optimierte Aktualisierung des Konsolenagenten</block>
+  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">Die Disaster-Recovery-Lösung unterstützt nun einen optimierten Prozess für die Verwendung mehrerer Console-Agenten in einer Arbeitsumgebung. Um zwischen verschiedenen Console-Agenten zu wechseln, müssen Sie Ihre vCenter-Konfiguration bearbeiten, die Anmeldeinformationen neu ermitteln und die Replikationspläne aktualisieren, um den neuen Console-Agenten zu verwenden.</block>
+  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">Switch Console-Agenten</block>
+  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">Weitere Informationen finden Sie unter <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
+  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">9. Dezember 2025</block>
 </blocks>
