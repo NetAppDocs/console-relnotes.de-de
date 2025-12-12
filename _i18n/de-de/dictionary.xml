@@ -528,4 +528,12 @@
   <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">Detaillierte Informationen zu Ihren ONTAP On-Premises-Systemen (und FSx für ONTAP) können jetzt einfacher über die Speicherverwaltungsseiten angezeigt und verwaltet werden.</block>
   <block id="c513928c0b95afec773bd29d135d4632" category="list-text">Die Seite * Discoverable systems* trennt die zusammenfassenden Informationen von der Registerkartenansicht der verfügbaren Systeme und erleichtert so die Anzeige umfassender Informationen über auffindbare Systeme.</block>
   <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">10. Dezember 2025</block>
+  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">Verbesserungen der Benutzerfreundlichkeit bei der Anzeige von ONTAP -Systemen über die NetApp Console (nur Standardmodus)</block>
+  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">Die Seite *Systeme* in der NetApp Console wurde hinsichtlich Übersichtlichkeit und Benutzerfreundlichkeit bei der Verwaltung von Volumes und Clustern verbessert. Diese Aktualisierungen gleichen die Benutzererfahrung stärker an den System Manager für neuere ONTAP Versionen an und vereinfachen die Navigation.</block>
+  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">Clusterkapazität ist für ONTAP Versionen 9.5 und höher enthalten (nur Konsolen-Standardmodus).</block>
+  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">Auf der Seite *Systeme &gt; Übersicht* wird die Clustergröße zusammen mit der ONTAP Version für Cluster angezeigt, auf denen ONTAP 9.5 und höher ausgeführt wird.</block>
+  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">Für NetApp Console im eingeschränkten Modus oder ONTAP Versionen 9.5 und niedriger bleiben die Informationen zum bereitgestellten Volume unverändert.</block>
+  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">Die Registerkarte „Volumes“ auf der Seite „Systeme“ zeigt standardmäßig die Rasteransicht an, wenn Sie mehr als 20 lokale ONTAP Cluster haben.</block>
+  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">Wenn Sie mehr als 20 lokale ONTAP Cluster in der NetApp Console verwalten, wird die Registerkarte *Volume* standardmäßig in der Rasteransicht angezeigt, um die Navigation zu vereinfachen. Die Kartenansicht ist deaktiviert.</block>
+  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Diese Änderung gilt nur für den Standardmodus und für ONTAP Versionen ab 9.6.</block>
 </blocks>
