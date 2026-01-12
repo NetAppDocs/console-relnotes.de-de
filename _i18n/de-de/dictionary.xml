@@ -116,13 +116,7 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">On-Premises- ONTAP -Cluster</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">Die Vorschauversion von VMware-Workloads führt die folgenden erweiterten Funktionen ein:</block>
-  <block id="13f711a55db449e74aa63517fe680750" category="doc">Spalte „QoS-Richtlinie außer Kraft setzen“ auf der Registerkarte „Assets“</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:</block>
-  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">Die Registerkarte *Volumes in Clustern* innerhalb der Registerkarte *Assets* enthält jetzt eine Spalte *Außerkraftsetzung der QoS-Richtlinie*, die angibt, ob QoS-Regeln für Sicherungs- und Spiegelvolumes umgangen werden. Dabei wird *true* (Regeln ignoriert), *false* (Regeln erzwungen) oder *N/A* (für Spiegelvolumes) angezeigt.</block>
-  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">Bei Keystone v3-Abonnements wird in dieser Spalte *N/A* angezeigt, da QoS-Richtlinien im v3-Angebot nicht anwendbar sind.</block>
-  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">Verbesserte Sichtbarkeit von Warnungen auf der Übersichtsseite</block>
-  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">Keystone -Dashboard in der NetApp Console</block>
-  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">Die Seite *Übersicht* enthält jetzt zwei neue Warnabschnitte mit den Namen *Ungelöste Warnmeldungen nach Schweregrad* und *Älteste ungelöste Keystone Warnmeldungen*. Weitere Informationen finden Sie unter <block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block>.</block>
   <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Cloud Volumes ONTAP in Azure jetzt auf die neuesten unterstützten Versionen beschränkt</block>
   <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">Bereitstellungen und Upgrades von Cloud Volumes ONTAP in Azure über die NetApp Console sind jetzt auf die neuesten unterstützten Versionen beschränkt. Dies gewährleistet die Kompatibilität mit der neuesten von Microsoft unterstützten Hardwaregeneration und bietet die neuesten Funktionen und Sicherheitsverbesserungen. Die Konsole fordert Sie auf, auf die unterstützten Versionen zu aktualisieren.</block>
   <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">Weitere Einzelheiten finden Sie unter:</block>
@@ -168,7 +162,6 @@
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11. November 2025</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10. November 2025</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">17. Oktober 2025</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">13. Oktober 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">Die Datenreplikation zwischen einem lokalen ONTAP -System und einem FSx for ONTAP Dateisystem ist über die NetApp Console Systems-Seite möglich.</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Abrechnungseinstellungen verwalten</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Sie können Ihre *Abrechnungseinstellungen* jetzt direkt in der NetApp Console konfigurieren und verwalten. Diese Erweiterung ermöglicht es Administratoren, zu definieren und einzusehen, wie Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Verträge abgerechnet werden.</block>
@@ -283,4 +276,28 @@
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Diese Änderung gilt nur für den Standardmodus und für ONTAP Versionen ab 9.6.</block>
   <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">Weitere Informationen finden Sie unter <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>.</block>
   <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">Weitere Informationen finden Sie unter <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>.</block>
+  <block id="6da53899225555a506524070f96e33df" category="doc">Unterstützung für mehrere Konsolenagenten in lokalen Umgebungen</block>
+  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">Wenn Sie Disaster Recovery lokal einsetzen, können Sie jetzt für jede vCenter-Instanz einen Console-Agenten bereitstellen und so die Ausfallsicherheit verbessern.</block>
+  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">Wenn Sie beispielsweise zwei Standorte haben (Standorte A und B), kann Standort A über den Console Agent A verfügen, der an vCenter 1, ONTAP -Bereitstellung 1 und ONTAP Bereitstellung 2 angebunden ist. Standort B kann über einen Konsolenagenten B verfügen, der an vCenter 2 und ONTAP Bereitstellungen 3 und 4 angebunden ist.</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">Erstellen des Konsolenagenten</block>
+  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">Informationen zum Console-Agenten in der Notfallwiederherstellung finden Sie unter <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>Die</block>
+  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">Fügen Sie nach einem Failover VMs für Replikationspläne hinzu, die datenspeicherbasierten Schutz verwenden.</block>
+  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">Wenn ein Failover ausgelöst wird, umfasst jeder Replikationsplan, der datenspeicherbasierten Schutz verwendet, auch VMs, die dem Datenspeicher hinzugefügt wurden, sofern diese erkannt wurden. Sie müssen die Zuordnungsdetails für die hinzugefügten VMs angeben, bevor das Failover abgeschlossen ist.</block>
+  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">Ausfallsichere Anwendungen</block>
+  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">Weitere Informationen finden Sie unter <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>.</block>
+  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">Neue E-Mail-Benachrichtigungen</block>
+  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">Die Notfallwiederherstellung bietet nun E-Mail-Benachrichtigungen für die folgenden Ereignisse:</block>
+  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">Annäherung an die Kapazitätsauslastungsgrenze</block>
+  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">Berichtserstellung abgeschlossen</block>
+  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">Jobmisserfolge</block>
+  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">Ablauf der Lizenz oder Verstöße</block>
+  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Swagger-Verbesserungen</block>
+  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
+  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">Sie können nun direkt aus dem Disaster Recovery-Bereich auf die Swagger-Dokumentation zugreifen. Wählen Sie im Disaster Recovery-Menü **Einstellungen** und dann **API-Dokumentation**, um auf Swagger zuzugreifen, oder besuchen Sie diese URL im Inkognito-/Privatmodus Ihres Browsers: <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>Die</block>
+  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">Verbesserte Benutzeroberflächen</block>
+  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">Die Notfallwiederherstellung bietet jetzt verbesserte Warnungen und Fehlerbehebungen. Diese Version behebt einen Fehler, der verhinderte, dass abgebrochene Aufträge in der Benutzeroberfläche angezeigt wurden. Stornierte Aufträge sind jetzt sichtbar. Außerdem gibt es eine neue Warnung, wenn dasselbe Zielnetzwerk mehreren verschiedenen Quellnetzwerken zugeordnet wird.</block>
+  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">Die als Standard hinzugefügte VM-Ordnerstruktur in Replikationsplänen beibehalten</block>
+  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">Beim Erstellen einer Replikation ist die neue Standardeinstellung, die Ordnerstruktur der VM beizubehalten. Falls das Wiederherstellungsziel nicht über die ursprüngliche Ordnerhierarchie verfügt, erstellt Disaster Recovery diese. Sie können diese Option deaktivieren, um die ursprüngliche Ordnerhierarchie zu ignorieren.</block>
+  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">Weitere Informationen finden Sie unter <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
+  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">12. Januar 2026</block>
 </blocks>
