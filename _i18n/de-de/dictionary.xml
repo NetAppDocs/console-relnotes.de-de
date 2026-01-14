@@ -137,7 +137,6 @@
   <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">Verbesserte Darstellung des Scanfortschritts</block>
   <block id="206c07a2ed5644be711186a00b2c6ae2" category="paragraph">Die Scan-Konfigurationen beinhalten jetzt verbesserte Einblicke in den Scan-Abschluss. Bisher wurde ein Fortschrittsbalken nur während des Scanvorgangs angezeigt. Nun bleibt der Fortschrittsbalken auch nach Abschluss der Scans sichtbar, um zu bestätigen, dass diese erfolgreich durchgeführt wurden. Sie können auch die Anzahl der zugeordneten und gescannten Dateien einsehen.</block>
   <block id="de10ad3938875667137fa1bd63542e62" category="inline-link-macro">Ändern Sie die NetApp Data Classification -Scaneinstellungen für Ihre Repositories</block>
-  <block id="dc9fb8f25cdf758c060f4782f41b0b0f" category="paragraph">Weitere Informationen zu den Scaneinstellungen finden Sie unter <block ref="19cf1405cd38e956788f418f2be34a68" category="inline-link-macro-rx"></block>Die</block>
   <block id="5b5de768a01e088dbab56f46d97b5a38" category="doc">Kaskadierende Ausfallunterstützung</block>
   <block id="8115dd8449bd907d08f3347f6d04324a" category="paragraph">Sie können nun in ONTAP eine kaskadierende Beziehung konfigurieren und jeden Zweig dieser Replikationsbeziehung für die Notfallwiederherstellung nutzen.</block>
   <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">Herabstufung der VMware-Hardwareunterstützung während der Registrierung</block>
@@ -323,7 +322,19 @@
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">Erfahren Sie, wie Sie Ihre Rolle aufwerten können, wenn sich Ihre Organisation im Nur-Lese-Modus befindet.</block>
   <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
-  <block id="772b95b1a689cd9ca0f7d8935114e25c" category="paragraph-title">Zusätzliche Google Cloud-Berechtigungen für Cloud Volumes ONTAP</block>
-  <block id="335ea2f40a7e49b48a24b0867a975d2b" category="paragraph">Zur Unterstützung der Cloud Volumes ONTAP -Verwaltung in Google Cloud benötigt der Console-Agent nun eine zusätzliche Berechtigung. Dem vom Console-Agenten verwendeten Dienstkonto wurde die folgende Berechtigung hinzugefügt: compute.forwardingRules.update</block>
-  <block id="b4c9682d1423fe286221a4951d5900b8" category="paragraph"><block ref="b4c9682d1423fe286221a4951d5900b8" category="inline-link-macro-rx"></block></block>
+  <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">Weitere Informationen zu den Scaneinstellungen finden Sie unter <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>Die</block>
+  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">Version 1.50</block>
+  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">Verbesserungen der benutzerdefinierten Klassifizierung</block>
+  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">Die Datenklassifizierung unterstützt jetzt das Erstellen benutzerdefinierter Kategorien für Ihre Daten. Sie können Dateien hochladen, um ein KI-Modell, das die Datenklassifizierung verwendet, um die Kategoriemarkierung auf Daten anzuwenden, feinabzustimmen. Die Benutzeroberfläche für alle benutzerdefinierten Klassifizierungen wurde verbessert.</block>
+  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">Erstellen einer benutzerdefinierten Klassifizierung</block>
+  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">Weitere Informationen finden Sie unter <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>.</block>
+  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">Benutzerdefinierte Definition für veraltete Daten</block>
+  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">Die Datenklassifizierung ermöglicht es Ihnen nun, die Definition veralteter Daten so anzupassen, dass sie Ihren organisatorischen Bedürfnissen entspricht. Bisher galten Daten als veraltet, wenn sie zuletzt vor drei Jahren geändert wurden. Veraltete Daten lassen sich nun anhand des Zeitpunkts des letzten Zugriffs _oder_ der letzten Änderung identifizieren; der Zeitraum kann von vor 6 Monaten bis vor 10 Jahren reichen.</block>
+  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">Anpassen der Definition veralteter Daten</block>
+  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">Weitere Informationen finden Sie unter <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>.</block>
+  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">Verbesserte Leistung</block>
+  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">Die Ladezeiten für alle Seiten in der Datenklassifizierung, den Datenmapping-Bericht und die Filter auf der Untersuchungsseite wurden verkürzt.</block>
+  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">Geschätzte Bearbeitungszeit für Untersuchungsberichte</block>
+  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Beim Herunterladen eines Untersuchungsberichts zeigt die Datenklassifizierung nun die voraussichtliche Downloadzeit an.</block>
+  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14. Januar 2026</block>
 </blocks>
