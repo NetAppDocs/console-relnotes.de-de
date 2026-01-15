@@ -117,13 +117,6 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">Die Vorschauversion von VMware-Workloads führt die folgenden erweiterten Funktionen ein:</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:</block>
-  <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Cloud Volumes ONTAP in Azure jetzt auf die neuesten unterstützten Versionen beschränkt</block>
-  <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">Bereitstellungen und Upgrades von Cloud Volumes ONTAP in Azure über die NetApp Console sind jetzt auf die neuesten unterstützten Versionen beschränkt. Dies gewährleistet die Kompatibilität mit der neuesten von Microsoft unterstützten Hardwaregeneration und bietet die neuesten Funktionen und Sicherheitsverbesserungen. Die Konsole fordert Sie auf, auf die unterstützten Versionen zu aktualisieren.</block>
-  <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">Weitere Einzelheiten finden Sie unter:</block>
-  <block id="c7c36710c319ba2646765acbeed52820" category="inline-link">Unterstützte ONTAP -Versionen für Cloud Volumes ONTAP Bereitstellungen</block>
-  <block id="8a79801dc6892f83b39904d935baeea6" category="list-text">Einsatz:<block ref="defc681ae2012fb7f8f998224eac55e5" category="inline-link-rx"></block></block>
-  <block id="b2f564ccc8dab8d25ce5727e3ac0f553" category="inline-link">Unterstützte Upgradepfade für Azure</block>
-  <block id="cd28d8af5b4308747357925ae313e125" category="list-text">Aktualisierung:<block ref="9fd9abde9fac7cd4edc5e352cd251056" category="inline-link-rx"></block></block>
   <block id="9c1b6a208384484254769349d91e3af9" category="doc">Konsolenagent 4.1.0</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">Diese Version des Konsolenagenten enthält Sicherheitsverbesserungen, Fehlerbehebungen und die folgenden Funktionen:</block>
   <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">Die Version 4.1.0 ist für den Standardmodus und den eingeschränkten Modus verfügbar.</block>
@@ -160,7 +153,6 @@
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">Veraltete Dienste</block>
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11. November 2025</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10. November 2025</block>
-  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">17. Oktober 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">Die Datenreplikation zwischen einem lokalen ONTAP -System und einem FSx for ONTAP Dateisystem ist über die NetApp Console Systems-Seite möglich.</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Abrechnungseinstellungen verwalten</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Sie können Ihre *Abrechnungseinstellungen* jetzt direkt in der NetApp Console konfigurieren und verwalten. Diese Erweiterung ermöglicht es Administratoren, zu definieren und einzusehen, wie Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Verträge abgerechnet werden.</block>
@@ -300,7 +292,6 @@
   <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">Abrechnungseinstellungen und Überschreitungen</block>
   <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>Die</block>
   <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">Snapshots in ONTAP replizieren</block>
-  <block id="f67d671d0eb9b2810d472b2c73fb65d6" category="paragraph">Ransomware Resilience unterstützt nun das Hinzufügen der Replikation von Snapshots zu einem sekundären ONTAP Standort. Sie können eine Ransomware-Schutzstrategie erstellen, die Replikation beinhaltet, oder die vordefinierte Strategie verwenden. Mit Schutzgruppen, die eine Replikationsrichtlinie verwenden, können Sie für jede Arbeitslast an dasselbe Ziel oder an verschiedene Ziele replizieren.</block>
   <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">Workloads im Rahmen der Ransomware-Resilienz schützen</block>
   <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">Weitere Informationen finden Sie unter <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>.</block>
   <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">Workloads von der Ransomware-Resilienz ausschließen</block>
@@ -337,4 +328,5 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">Geschätzte Bearbeitungszeit für Untersuchungsberichte</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Beim Herunterladen eines Untersuchungsberichts zeigt die Datenklassifizierung nun die voraussichtliche Downloadzeit an.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14. Januar 2026</block>
+  <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">Ransomware Resilience unterstützt nun das Hinzufügen der Replikation von Snapshots zu einem sekundären ONTAP Standort. Sie können eine Ransomware-Schutzstrategie erstellen, die Replikation beinhaltet, oder die vordefinierte Strategie verwenden.</block>
 </blocks>
