@@ -329,4 +329,8 @@
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Beim Herunterladen eines Untersuchungsberichts zeigt die Datenklassifizierung nun die voraussichtliche Downloadzeit an.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14. Januar 2026</block>
   <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">Ransomware Resilience unterstützt nun das Hinzufügen der Replikation von Snapshots zu einem sekundären ONTAP Standort. Sie können eine Ransomware-Schutzstrategie erstellen, die Replikation beinhaltet, oder die vordefinierte Strategie verwenden.</block>
+  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">Rollenbasierter Zugriff für Verbundgruppen in der NetApp Console</block>
+  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">Die NetApp Console unterstützt die Zuweisung von Rollen zu föderierten Gruppen (z. B. Active Directory-Gruppen) und ermöglicht es Administratoren, das Onboarding und Offboarding von Benutzern auf der Grundlage der Gruppenzugehörigkeit im Identitätsanbieter (IdP) der Organisation zu automatisieren. Diese Funktion reduziert den Verwaltungsaufwand und gewährleistet einen sicheren und konsistenten Zugriff, indem der Konsolenzugriff bei Änderungen der Gruppenzugehörigkeiten sofort aktualisiert wird.</block>
+  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">Erfahren Sie, wie Sie Ihrer Organisation Zugriff auf eine föderierte Gruppe gewähren.</block>
+  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
 </blocks>
