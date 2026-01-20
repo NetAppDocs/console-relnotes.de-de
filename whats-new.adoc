@@ -52,6 +52,22 @@ Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
 
+== 19. Januar 2026
+
+
+
+=== Keystone
+
+Aktualisierungen im Keystone -Dashboard in der NetApp Console:
+
+
+
+==== Abonnementänderung nicht möglich
+
+Die Option zur Änderung der zugesicherten Kapazität für Keystone -Abonnements ist derzeit nicht verfügbar. Diese Funktionalität wird in einer zukünftigen Version wieder eingeführt.
+
+
+
 == 14. Januar 2026
 
 
