@@ -337,4 +337,28 @@
   <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">Aktualisierungen im Keystone -Dashboard in der NetApp Console:</block>
   <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">Die Option zur Änderung der zugesicherten Kapazität für Keystone -Abonnements ist derzeit nicht verfügbar. Diese Funktionalität wird in einer zukünftigen Version wieder eingeführt.</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">19. Januar 2026</block>
+  <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP Volume-Workload-Erweiterungen</block>
+  <block id="70cc82710208295496c70c203368aaf9" category="paragraph">Diese Version der ONTAP Volume-Workloads führt die folgenden erweiterten Funktionen ein:</block>
+  <block id="cbab7e5b614b876bebcce0c29fd1afb6" category="paragraph">*Unterstützung für mehrere Buckets*: (Private Vorschau) Ab ONTAP 9.17.1 und neueren Versionen können Sie nun die Volumes innerhalb eines Systems mit bis zu 6 Buckets pro System über verschiedene Cloud-Anbieter hinweg schützen.</block>
+  <block id="695e42eb94aa8a143b557dc75e4cc65e" category="inline-link-macro">Erfahren Sie mehr über die Sicherung von ONTAP Volume-Daten mit NetApp Backup and Recovery.</block>
+  <block id="c380d2c239579706adcab966ccded39a" category="paragraph"><block ref="040f925aac1483fc9f3f6e8bd68d3888" category="inline-link-macro-rx"></block>Die</block>
+  <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware-Workload-Verbesserungen</block>
+  <block id="d8cf45a94e57901a57764525baf2f9bf" category="paragraph">Diese Version von VMware-Workloads bietet die folgenden erweiterten Funktionen:</block>
+  <block id="0f685163e47b1dbc7208e24f5639ed4c" category="list-text">Die Unterstützung für VMware-Workloads ist jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery.</block>
+  <block id="3b2cdba7e0b9954f4d9e79b310fdbccd" category="list-text">Sie können jetzt Gastbetriebssystemdateien und -ordner wiederherstellen.</block>
+  <block id="7646858e9d2b15a6ffb584e47fd5567e" category="paragraph"><block ref="4f4eca7ac15d647aeef99bf9ca19ff76" category="inline-link-rx"></block>Die</block>
+  <block id="1ae0fe82c82eb100fa0d7221b899a229" category="inline-link">Erfahren Sie mehr über das Wiederherstellen von Gastdateien und -ordnern.</block>
+  <block id="f73006a3da0451caefdac27f55b5a651" category="paragraph"><block ref="ec740e6f2b69e9d5eeb44cc6164f597c" category="inline-link-rx"></block>Die</block>
+  <block id="2fcce708931d6d68e1d88fc4a46eef94" category="section-title">Vorschau der Verbesserungen für Hyper-V-Workloads</block>
+  <block id="0c95402d3c8d84b27c1f2eb1f4757c29" category="paragraph">Diese Version von Hyper-V-Workloads bietet die folgenden erweiterten Funktionen:</block>
+  <block id="1bfaec2035ab816cb33f0b9264b08184" category="list-text">Sie können nun Hyper-V VM-Backups und Snapshots an einem alternativen Speicherort wiederherstellen. Dies ist nützlich, wenn Sie Versionen einer VM auf verschiedenen Hyper-V-Hosts verwalten möchten.</block>
+  <block id="86ef33bcd420761fa8d995a0d265b43f" category="list-text">Von System Center Virtual Machine Manager (SCVMM) bereitgestellte und auf einer CIFS-Freigabe gehostete Hyper-V-VMs werden jetzt von NetApp Backup and Recovery unterstützt.</block>
+  <block id="3d0f94ed484d5b1224a05746eeef7916" category="list-text">Sie können nun Schutzgruppen bearbeiten.</block>
+  <block id="33c7653a8f2aa564c4ccd96aaacf4f4f" category="admonition">Nur in dieser Version ist es nicht möglich, die NetApp -Plugins für Hyper-V oder Windows über die Option *Upgrade* im Menü Aktionen zu aktualisieren. Entfernen Sie stattdessen jeden Hyper-V-Host und fügen Sie ihn anschließend wieder hinzu, um die Plugins zu aktualisieren.</block>
+  <block id="2e9a0674716cf9fc0f20713c35ea7c92" category="inline-link">Erfahren Sie mehr über die Wiederherstellung von Hyper-V-VMs mit NetApp Backup and Recovery.</block>
+  <block id="b6346010c4ef2da943c1c7fa6a17d974" category="paragraph"><block ref="7ec45f32ee1da46f6d69c07cb5d19e8e" category="inline-link-rx"></block>Die</block>
+  <block id="4b39db76689788868bda30b97106ca4a" category="section-title">Vorschau der Verbesserungen für KVM-Workloads</block>
+  <block id="0daeca72fa8b0acaee6fea8ae743cb8c" category="paragraph">Die Vorschau für KVM-Workloads unterstützt jetzt die Integration mit der Apache CloudStack-Managementplattform, sodass Sie KVM-Hosts und virtuelle Maschinen schützen können, die von Apache CloudStack verwaltet werden.</block>
+  <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Übersicht über den Schutz von KVM-Workloads</block>
+  <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">Weitere Informationen zum Schutz von KVM-Workloads finden Sie unter<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
 </blocks>
