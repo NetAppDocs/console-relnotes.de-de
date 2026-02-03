@@ -52,6 +52,40 @@ Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
 
+== 02. Februar 2026
+
+
+
+=== Keystone
+
+Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
+
+
+
+==== Interaktive Filterung für täglich akkumulierte Burst-Daten
+
+Die Tabelle *Accrued burst by days* im Tab *Consumption trend* unterstützt jetzt interaktives Filtern. Wählen Sie einen beliebigen Balken im Diagramm der aufgelaufenen Ausfälle aus, um nur die Tage innerhalb dieses Abrechnungszeitraums anzuzeigen. Weitere Informationen finden Sie unter link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Tägliche angesammelte Burst-Datennutzung anzeigen"].
+
+
+
+==== Erweiterte Datumsbereichsanzeige im Diagramm der kumulierten Ausbrüche
+
+Das Diagramm der aufgelaufenen Spitzenabrechnungen im Tab *Consumption trend* zeigt jetzt für jeden Abrechnungszeitraum vollständige Datumsbereiche an, wie zum Beispiel 01. Okt 2025 bis 31. Okt 2025, anstatt nur Monat und Jahr.
+
+
+
+==== Erweiterbare Ansicht der Abonnementdetails
+
+Die Registerkarte *Abonnements* enthält eine Option, um alle Abonnements zu erweitern und gleichzeitig Informationen zu den Performance-Servicelevels für jedes Abonnement anzuzeigen. Weitere Informationen finden Sie unter link:./integrations/subscriptions-tab.html["Details zu Ihren Keystone Abonnements anzeigen"].
+
+
+
+==== Neue Spalte Nutzungstyp
+
+Die Registerkarte *Abonnements* enthält eine Spalte *Nutzungstyp*, die anzeigt, ob das Abonnement auf Basis der bereitgestellten, physischen oder logischen Nutzung abgerechnet wird. Weitere Informationen finden Sie unter link:./integrations/subscriptions-tab.html["Details zu Ihren Keystone Abonnements anzeigen"].
+
+
+
 == 19. Januar 2026
 
 
@@ -66,7 +100,7 @@ Diese Version der ONTAP Volume-Workloads führt die folgenden erweiterten Funkti
 
 *Unterstützung für mehrere Buckets*: (Private Vorschau) Ab ONTAP 9.17.1 und neueren Versionen können Sie nun die Volumes innerhalb eines Systems mit bis zu 6 Buckets pro System über verschiedene Cloud-Anbieter hinweg schützen.
 
-link:prev-ontap-backup-manage.html["Erfahren Sie mehr über die Sicherung von ONTAP Volume-Daten mit NetApp Backup and Recovery."]Die
+link:https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-manage.html["Erfahren Sie mehr über die Sicherung von ONTAP Volume-Daten mit NetApp Backup and Recovery."].
 
 
 
@@ -115,18 +149,6 @@ Weitere Informationen zum Schutz von KVM-Workloads finden Sie unter https://docs
 Die Berichte zur Ransomware-Resilienz erfassen nun Informationen über unterstützte und nicht unterstützte Volumes im **Zusammenfassungsbericht**. Nutzen Sie diese Informationen, um zu diagnostizieren, warum Volumes in einem System möglicherweise nicht für den Ransomware-Schutz geeignet sind.
 
 Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Berichte zum Thema Ransomware-Resilienz herunterladen"^].
-
-
-
-=== Keystone
-
-Aktualisierungen im Keystone -Dashboard in der NetApp Console:
-
-
-
-==== Abonnementänderung nicht möglich
-
-Die Option zur Änderung der zugesicherten Kapazität für Keystone -Abonnements ist derzeit nicht verfügbar. Diese Funktionalität wird in einer zukünftigen Version wieder eingeführt.
 
 
 
