@@ -52,6 +52,32 @@ Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
 
+== 04. Februar 2026
+
+
+
+=== Digitaler Berater
+
+
+
+==== Neuer Sicherheitsbericht für umfassende Sicherheitsaufsicht
+
+Digital Advisor enthält jetzt einen Sicherheitsbericht, der eine einheitliche Ansicht der ONTAP-Sicherheitsrisiken in Ihrer Speicherumgebung bietet. Dieser Bericht ermöglicht eine schnellere Erkennung von Fehlkonfigurationen, Compliance-Lücken und Sicherheitsproblemen in Clustern, SVMs und Volumes und hilft Ihnen, eine sichere Speicherinfrastruktur aufrechtzuerhalten.
+
+
+
+==== Erweiterte Upgrade Advisor-Unterstützung für gemischte Patch-Versionen
+
+Upgrade Advisor generiert jetzt Upgrade-Berichte für Cluster, in denen Knoten unterschiedliche Patch-Level innerhalb derselben ONTAP Hauptversion verwenden. Diese Verbesserung gewährleistet, dass Kunden Upgrades nahtlos durchführen können, solange der Cluster nicht verschiedene Hauptversionen umfasst, und bietet so mehr Flexibilität bei der Upgrade-Planung.
+
+
+
+==== Erweiterte Unterstützung für ONTAP-Versionen mit abgelaufenem begrenztem Support
+
+Upgrade Advisor unterstützt jetzt die Erstellung von Upgrade-Plänen für ONTAP-Versionen, die das Ende des eingeschränkten Supports erreicht haben, mit einer 9‑monatigen Übergangsfrist. Diese Funktion hilft Kunden, rechtzeitig zu handeln und Upgrade-Unterbrechungen zu vermeiden, indem sie während der Übergangsfrist klare Anweisungen gibt.
+
+
+
 == 02. Februar 2026
 
 
