@@ -393,4 +393,11 @@
   <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">Die Unterstützung für Microsoft Hyper-V-Workloads ist jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery.</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="section-title">KVM-Workloads, die in der General Availability (GA) unterstützt werden</block>
   <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">Die Unterstützung für KVM-Workloads ist jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery.</block>
+  <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Console Agent 4.4.0</block>
+  <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">Die Version 4.4.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.</block>
+  <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen.</block>
+  <block id="83d800fe01b0b9d8ce89e835fc6accad" category="paragraph-title">Unterstützung für rollenbasierte Zugriffssteuerung für NetApp Backup and Recovery-Workloads (Oracle und Microsoft SQL Server)</block>
+  <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">Sie können Backup- und Wiederherstellungs-Workloads (Oracle und Microsoft SQL Server) Projekten zuordnen. Nach der Zuordnung zu einem Projekt können Benutzer, die für das Projekt eine Backup- und Wiederherstellungsrolle zugewiesen bekommen haben, mit den Workloads arbeiten. Andere Workloads werden derzeit nicht mit rollenbasiertem Zugriff unterstützt.</block>
+  <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Erfahren Sie mehr über die Einrichtung von rollenbasiertem Zugriff für Backup- und Recovery-Workloads.</block>
+  <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
 </blocks>
