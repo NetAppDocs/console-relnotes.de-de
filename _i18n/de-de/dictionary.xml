@@ -363,4 +363,32 @@
   <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">Beim Kopieren oder Verschieben von Dateien können Sie jetzt Dateien mit einer Größe von bis zu 250 MB kopieren oder verschieben, eine Erhöhung gegenüber dem vorherigen Limit von 50 MB.</block>
   <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">Verbesserte Darstellung für Bildschirme mit niedriger Auflösung</block>
   <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification hat die Anzeigeleistung für Bildschirme mit niedriger Auflösung verbessert und so die Benutzererfahrung verbessert.</block>
+  <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes-Workloads-Erweiterungen</block>
+  <block id="de8616724d177017abdd720d7365feff" category="paragraph">Diese Version von Kubernetes-Workloads bietet die folgenden erweiterten Funktionen:</block>
+  <block id="e83849cb5376223ea17f24fcaf9756e4" category="list-text">*CR-Workflow-Unterstützung*: Sie können jetzt gängige Schutzaufgaben sowohl mit CRs als auch über die Backup and Recovery-Weboberfläche durchführen.</block>
+  <block id="e572a091207dcc253fde964cd9d716cb" category="list-text">*Clustermigration*: Sie können jetzt bestehende Kubernetes-Cluster, die mit Trident Protect geschützt sind, zu Backup and Recovery hinzufügen.</block>
+  <block id="9674b909ef82dfe8331f77d84e878c04" category="list-text">*Unterstützung des Alerting-Frameworks*: Sie können jetzt E-Mail- und UI-Benachrichtigungen für bestimmte Kubernetes-Workload-Ereignisse erhalten.</block>
+  <block id="ea6aa972206a8b460e06b79e84a9211b" category="list-text">*Integration der Registerkarte "Wiederherstellen"*: Sie können jetzt über das Menü "Wiederherstellen" auf die Aktionen zur Wiederherstellung von Kubernetes-Workloads zugreifen.</block>
+  <block id="bf72fb868ac644263293cb0c5ccc59c1" category="list-text">*Unterstützung für die 3-2-1-Fanout-Backup-Architektur*: Sie können jetzt eine 3-2-1-Fanout-Architektur in Ihrer Datensicherungsstrategie verwenden, wenn Sie Kubernetes-Workloads schützen.</block>
+  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Übersicht zum Schutz von Kubernetes-Workloads</block>
+  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter <block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>.</block>
+  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Verbesserungen der Oracle Database Workloads</block>
+  <block id="b663bfd2f714b44e458d15bb1e6002bc" category="paragraph">Diese Version der Oracle Database Workloads bietet die folgenden erweiterten Funktionen:</block>
+  <block id="c1cb9a739430571a50b81bf3a48a1ab8" category="list-text">*Unterstützung für Nicht-Root-Benutzer*: Nicht-Root-Benutzer können nun Sicherungs-, Wiederherstellungs- und Klonvorgänge durchführen, was die Sicherheit und Compliance verbessert.</block>
+  <block id="2b8a690a9b9248405fb6bba05b997f16" category="list-text">*Klonunterstützung*: Klonfunktionen werden jetzt in primären und sekundären NAS-, SAN- und ASM-Umgebungen mithilfe der ASM library v2 unterstützt, wodurch koordinierte Schutz-Workflows ermöglicht werden.</block>
+  <block id="8ff8833aaf25d3ffbe1942bc11221a77" category="list-text">*Unterstützung für das Aufteilen von Klonen*: Sie können jetzt beschreibbare Snapshots (Klone) von ihren übergeordneten Volumes trennen, Speicherplatz freigeben und unabhängige Operationen ermöglichen.</block>
+  <block id="de315feba3cc97f871a801444cebe8a8" category="list-text">*Sicherung und Wiederherstellung für Objektspeicher*: Native Sicherungs- und Wiederherstellungsfunktionen werden jetzt für objektbasierte S3-kompatible Speicherziele unterstützt.</block>
+  <block id="ffb4de355aa6d4aa7e8805128e9c2860" category="list-text">*Clone Lifecycle Management (CLM)*: Klonaktualisierungsvorgänge werden auf dem primären Speicher unterstützt.</block>
+  <block id="bb34df9f9d35ad561edcc8780a11b63c" category="list-text">*Auf alternativen Host klonen*: Sie können jetzt Datenbanken zu Test- oder Analysezwecken sowohl vom primären als auch vom sekundären Speicher auf einen anderen Host klonen.</block>
+  <block id="ec76c85c764d367b1028b426d5aaa897" category="list-text">*ONTAP Konsistenzgruppen-Support*: ONTAP Konsistenzgruppen werden jetzt unterstützt, wodurch applikationskonsistente Snapshots über mehrere Volumes hinweg gewährleistet werden.</block>
+  <block id="07bac542633034a121251f74bf3c7880" category="list-text">Backup and Recovery unterstützt jetzt die folgenden Datensicherungsstrategie-Architekturen für Oracle Database-Workloads:</block>
+  <block id="8f8f2fbe982fd62b69f6aa2faf0d46da" category="list-text">3-2-1 Fanout</block>
+  <block id="55cf8812c6c22803ddfa5fd41279187d" category="list-text">Festplatte zu Festplatte</block>
+  <block id="0f6d38819f95da81f8bc80258fee7071" category="list-text">Festplatte zu Objektspeicher</block>
+  <block id="e3b858c29172bddae0dbb7e461b2f7df" category="list-text">Kaskadierend</block>
+  <block id="a3ea5994e4599e8634011a1c5ba8a9ed" category="list-text">Lokaler Snapshot</block>
+  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Übersicht zum Schutz von Oracle Database-Workloads</block>
+  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Weitere Informationen zum Schutz von Oracle Database-Workloads finden Sie unter <block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
+  <block id="cc5d8c9d6668803b438b03567e08b611" category="section-title">Weitere Verbesserungen</block>
+  <block id="6ec61dc6a9b7787975d159ba164424f9" category="paragraph">Hyper-V-Workloads, KVM-Workloads und VMware-Workloads sind jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery.</block>
 </blocks>
