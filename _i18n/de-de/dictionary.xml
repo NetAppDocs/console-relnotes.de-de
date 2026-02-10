@@ -400,4 +400,8 @@
   <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">Sie können Backup- und Wiederherstellungs-Workloads (Oracle und Microsoft SQL Server) Projekten zuordnen. Nach der Zuordnung zu einem Projekt können Benutzer, die für das Projekt eine Backup- und Wiederherstellungsrolle zugewiesen bekommen haben, mit den Workloads arbeiten. Andere Workloads werden derzeit nicht mit rollenbasiertem Zugriff unterstützt.</block>
   <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Erfahren Sie mehr über die Einrichtung von rollenbasiertem Zugriff für Backup- und Recovery-Workloads.</block>
   <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
+  <block id="e050f36de18bf9eec79dfa74451d3df0" category="doc">Unterstützung für die Replikation von Daten zwischen Cloud Volumes ONTAP und FSx for ONTAP</block>
+  <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">Die Datenreplikation ist jetzt zwischen einem Cloud Volumes ONTAP-System und einem FSx for ONTAP-Dateisystem über die NetApp Console verfügbar.</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Daten replizieren</block>
+  <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
 </blocks>
