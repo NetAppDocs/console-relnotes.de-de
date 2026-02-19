@@ -52,6 +52,26 @@ Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
 
+== 19. Februar 2026
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Neue Regionen werden in Azure unterstützt
+
+Sie können jetzt Cloud Volumes ONTAP 9.12.1 GA und höher in einzelnen und mehreren Verfügbarkeitszonen in Azure in den folgenden Regionen bereitstellen. Dies umfasst die Unterstützung sowohl für Einzelknoten- als auch für Hochverfügbarkeits- (HA) Bereitstellungen.
+
+* Japan West (japanwest)
+* Indonesien Central (indonesiacentral)
+
+
+Eine Liste aller Regionen finden Sie unter https://bluexp.netapp.com/cloud-volumes-global-regions["Globale Regionskarte unter Azure"^].
+
+
+
 == 17. Februar 2026
 
 
