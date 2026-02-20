@@ -192,6 +192,18 @@ Um diese Funktion zu nutzen, link:https://docs.netapp.com/us-en/storage-manageme
 
 
 
+=== Keystone
+
+Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
+
+
+
+==== DII Add-on-Verbrauchsanzeige
+
+Der Data Infrastructure Insights (DII) Add-on-Verbrauch wird jetzt in den Tabs *Aktueller Verbrauch* und *Verbrauchstrend* angezeigt. Weitere Informationen finden Sie unter link:./concepts/data-infra-insights.html#view-dii-consumption["DII consumption anzeigen"].
+
+
+
 == 12. Februar 2026
 
 
