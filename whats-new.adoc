@@ -62,13 +62,13 @@ Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 ==== KVM-Workloads, die in der General Availability (GA) unterstützt werden
 
-Die Unterstützung für Microsoft Hyper-V-Workloads ist jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery.
+Die Unterstützung für KVM-Workloads ist jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery.
 
 Weitere Informationen zum Schutz von KVM-Workloads finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Übersicht über den Schutz von KVM-Workloads"] .
 
 
 
-==== Kubernetes wird in der General Availability (GA) unterstützt
+==== Unterstützte Kubernetes-Workloads in der General Availability (GA)
 
 Die Unterstützung für Kubernetes-Workloads ist jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery. Diese Version von Kubernetes-Workloads bietet außerdem die folgenden erweiterten Funktionen:
 
@@ -908,19 +908,3 @@ Die Bezeichnung *Accrued burst capacity* wird in *Accrued burst* umbenannt.
 NetApp Disaster Recovery unterstützt jetzt Google Cloud VMware Engine unter Verwendung von Google Cloud NetApp Volumes für Migrations-, Failover-, Failback- und Testvorgänge. Diese Integration ermöglicht nahtlose Disaster-Recovery-Workflows zwischen lokalen Umgebungen und Google Cloud.
 
 Bitte überprüfen Sie dielink:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["Voraussetzungen"] Undlink:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Einschränkungen"] für Google Cloud.
-
-
-
-== 27. November 2025
-
-
-
-=== Google Cloud NetApp Volumes
-
-
-
-==== Änderungen der Anmeldeinformationen für die Google Cloud Platform
-
-Da Kunden immer mehr Google Cloud NetApp Volumes Systeme einrichten und autorisieren, hat sich die Verwaltung der Zugangsdaten verändert.
-
-Die Anmeldeinformationen für NetApp Volumes-Systeme werden jetzt in einem Google Cloud-Backend gespeichert, beispielsweise im Cloud Key Management-Dienst oder einem ähnlichen Dienst. Beim Erstellen eines neuen Systems werden die Anmeldeinformationen für die Identitätswechselfunktion des Dienstkontos verwendet.
