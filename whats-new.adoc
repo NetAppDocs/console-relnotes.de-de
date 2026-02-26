@@ -16,40 +16,18 @@ summary: Informieren Sie sich über die neuesten Änderungen an den Funktionen u
 [role="lead"]
 Informieren Sie sich über die neuesten Änderungen an den Funktionen und Datendiensten, die Teil der NetApp Console sind.  Eine vollständige Versionshistorie finden Sie unterlink:release-notes-index.html["Vollständiger Satz der Versionshinweise"] für jeden einzelnen Dienst.
 
+[NOTE]
+====
+Die folgenden Dienste wurden eingestellt:
+
+Edge-Caching:: Der Edge-Caching-Dienst wurde am 7. August 2024 entfernt.
+Kubernetes:: Die Unterstützung für die Erkennung und Verwaltung von Kubernetes-Clustern wurde am 7. August 2024 entfernt.
+Migrationsberichte:: Der Dienst für Migrationsberichte wurde am 7. August 2024 entfernt.
+Betriebsstabilität:: Die Funktionen zur betrieblichen Ausfallsicherheit wurden am 22. August 2025 entfernt.
+Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
-== Veraltete Dienste
-
-
-
-=== Edge-Caching
-
-Der Edge-Caching-Dienst wurde am 7. August 2024 entfernt.
-
-
-
-=== Kubernetes
-
-Die Unterstützung für die Erkennung und Verwaltung von Kubernetes-Clustern wurde am 7. August 2024 entfernt.
-
-
-
-=== Migrationsberichte
-
-Der Dienst für Migrationsberichte wurde am 7. August 2024 entfernt.
-
-
-
-=== Betriebsstabilität
-
-Die Funktionen zur betrieblichen Ausfallsicherheit wurden am 22. August 2025 entfernt.
-
-
-
-=== Sanierung
-
-Der Sanierungsdienst wurde am 22. April 2024 entfernt.
-
+====
 
 
 == 26. Februar 2026

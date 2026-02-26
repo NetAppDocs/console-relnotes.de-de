@@ -120,7 +120,6 @@
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Diese Version enthält Folgendes:</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Diese Versionshinweise beschreiben die jüngsten Verbesserungen der NetApp Console und der von ihr unterstützten Datendienste. Links zu den vollständigen Versionshinweisen für jeden einzelnen Dienst.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Informieren Sie sich über die neuesten Änderungen an den Funktionen und Datendiensten, die Teil der NetApp Console sind. Eine vollständige Übersicht über die Versionshistorie finden Sie in den vollständigen Versionshinweisen für jeden einzelnen Dienst.</block>
-  <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">Veraltete Dienste</block>
   <block id="cab2138409405e17442c0b2913348b5c" category="doc">Unterstützung für Google Cloud VMware Engine mit Google Cloud NetApp Volumes</block>
   <block id="eccf4b156fba5109ca6b1ef2be2fd64e" category="paragraph">NetApp Disaster Recovery unterstützt jetzt Google Cloud VMware Engine unter Verwendung von Google Cloud NetApp Volumes für Migrations-, Failover-, Failback- und Testvorgänge. Diese Integration ermöglicht nahtlose Disaster-Recovery-Workflows zwischen lokalen Umgebungen und Google Cloud.</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">Voraussetzungen</block>
@@ -523,4 +522,5 @@
   <block id="0ab04d2bfcc6d88bde2adee5587eeb44" category="cell">1.5.1 (9. Februar 2026)</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Was ist neu auf der Seite NetApp Klassifizierung</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Gehe zu<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
+  <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">Die folgenden Dienste wurden eingestellt:</block>
 </blocks>
