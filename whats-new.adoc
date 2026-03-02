@@ -30,6 +30,20 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+== 01. März 2026
+
+
+
+=== Amazon FSX für ONTAP
+
+
+
+==== NetApp Console-Agentenstatus wird für FSx für ONTAP-Dateisysteme unterstützt
+
+NetApp Console zeigt jetzt den Console-Agentenstatus für FSx for ONTAP-Dateisysteme in Workloads an. Der Status gibt an, ob der Agent läuft und mit dem FSx for ONTAP-Dateisystem kommunizieren kann. Diese Information kann Ihnen helfen, Verbindungsprobleme zu beheben.
+
+
+
 == 26. Februar 2026
 
 
