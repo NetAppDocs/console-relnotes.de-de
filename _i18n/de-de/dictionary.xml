@@ -509,7 +509,6 @@
   <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">Was ist neu auf der NetApp Console-Seite</block>
   <block id="d9546787b8341bfee8dbbe4f87c60436" category="cell">Gehen Sie zu <block ref="9edfdcbb835e82f6dae46ac911dcb157" category="inline-link-rx"></block> und informieren Sie sich über die Änderungen in Version 4.4.0.</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">Datensicherung und Wiederherstellung</block>
-  <block id="380c830a3c13f16e4d36530d1de2be47" category="cell">5.0.2 (9. Februar 2026)</block>
   <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">Was ist neu auf der Seite NetApp Backup and Recovery</block>
   <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Gehe zu<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">Einstufung</block>
@@ -520,4 +519,5 @@
   <block id="3acecbd4317d789f549785c17e6afb2c" category="doc">NetApp Console-Agentenstatus wird für FSx für ONTAP-Dateisysteme unterstützt</block>
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console zeigt jetzt den Console-Agentenstatus für FSx for ONTAP-Dateisysteme in Workloads an. Der Status gibt an, ob der Agent läuft und mit dem FSx for ONTAP-Dateisystem kommunizieren kann. Diese Information kann Ihnen helfen, Verbindungsprobleme zu beheben.</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">01. März 2026</block>
+  <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2. März 2026)</block>
 </blocks>
