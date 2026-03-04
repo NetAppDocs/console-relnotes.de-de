@@ -1,0 +1,29 @@
+= Neue Spalten auf der Registerkarte Volumes in clusters
+:allow-uri-read: 
+
+
+Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
+
+
+
+=== Neue Spalten auf der Registerkarte Volumes in clusters
+
+Drei neue Spalten, *Hot data*, *Cold tier (%)* und *Hot tier (%)*, wurden dem Tab *Volumes in clusters* in *Assets* hinzugefügt. Weitere Informationen finden Sie unter link:./integrations/assets-tab.html["Assets anzeigen, die mit einem Keystone-Abonnement verknüpft sind"] und link:./integrations/assets.html["Assets in Ihren Keystone-Abonnements anzeigen"].
+
+
+
+=== Fakturierte, nicht fakturierte und vorläufige Spitzennutzung im Verbrauchstrend
+
+Das Diagramm zur aufgelaufenen Burst-Abrechnung im Tab *Consumption trend* zeigt jetzt abgerechnete, nicht abgerechnete und vorläufige Burst-Nutzung an. Weitere Informationen finden Sie unter link:./integrations/consumption-tab.html#view-accrued-burst["Aufgelaufene Burst-Kapazität anzeigen"].
+
+
+
+=== Verbesserungen an der Überwachungsansicht
+
+Die *Monitoring*-Ansicht umfasst die folgenden Aktualisierungen:
+
+* *Registerkarte „Alerts“*: Die Spalte *Alert* wurde in *Alert type & condition* umbenannt. Sie können jetzt auch das Auslassungspunkte-Symbol neben der Spalte *Status* verwenden, um einen Alert zu bearbeiten, eine Notiz hinzuzufügen oder Alert-Details anzuzeigen.
+* *Registerkarte Warnmonitore*: Die Spalte *Bedingung* wurde in *Überwachungstyp & Bedingung* umbenannt.
+
+
+Weitere Informationen finden Sie unter link:./integrations/monitoring-alerts.html["Benachrichtigungen für Keystone Abonnements anzeigen und verwalten"] und link:./integrations/monitoring-alert-monitors.html["Benachrichtigungsmonitore für Keystone Abonnements anzeigen und erstellen"].
