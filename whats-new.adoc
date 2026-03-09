@@ -67,6 +67,40 @@ Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://
 
 
 
+=== Notfallwiederherstellung
+
+
+
+==== Einen Datenspeicher von Replikationsplänen ausschließen
+
+Beim Erstellen eines Replikationsplans in Disaster können Sie nun bestimmte Datenspeicher von der Replikation ausschließen. In Situationen, in denen eine VM für die Verwendung mehrerer Datenspeicher konfiguriert ist, können Sie so einschränken, welche repliziert werden.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.adoc["Erstellen eines Replikationsplans"^].
+
+
+
+==== Passwortvalidierung aus vCenter-Passwort entfernt
+
+Die Notfallwiederherstellung hat die Passwortbeschränkungen für vCenter-Passwörter aufgehoben, sodass Passwörter Leerzeichen enthalten dürfen.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/reference/evs-deploy-guide-add-vcenters.html["Fügen Sie lokale und Amazon EVS-vCenter-Cluster in NetApp Disaster Recovery hinzu"^].
+
+
+
+==== Neues Untermenü für Replikationsplan
+
+Disaster Recover bietet jetzt neue Menüoptionen, um vCenter-Aktualisierungen vom Replikationsplan-Dashboard aus auszulösen. Sie können auf das Untermenü über das Aktionsmenü des Replikationsplan-Dashboards zugreifen: Wählen Sie **Plan Health** und dann **Refresh Source vCenter / Refresh Target vCenter**.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#modify-a-replication-plan["Einen Replikationsplan ändern"^].
+
+
+
+==== Verbesserte Netzwerkerkennung
+
+Disaster Recovery umfasst nun eine verbesserte Netzwerkerkennung, um ein breiteres Spektrum an Netzwerkkonfigurationen zu unterstützen.
+
+
+
 == 02. März 2026
 
 
