@@ -534,4 +534,13 @@
   <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">Die Datenklassifizierung unterstützt jetzt transparente Proxy-Konfigurationen, was eine reibungslosere Bereitstellung in proxied oder eingeschränkten Netzwerkumgebungen ermöglicht.</block>
   <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">Installieren Sie NetApp Data Classification auf einem Linux-Host ohne Internetzugang</block>
   <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">Weitere Informationen zum Einsatz in eingeschränkten Umgebungen finden Sie unter <block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>.</block>
+  <block id="dd340069cb16665edf781618805f1165" category="doc">Console Agent 4.5.0</block>
+  <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">Die Version 4.5.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.</block>
+  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen sowie die folgende neue Funktion.</block>
+  <block id="b8ea9a14287592fd39444f5f11f22b28" category="paragraph-title">Unterstützung für Konfigurationsprüfungen für erforderliche Ports</block>
+  <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">Erfahren Sie mehr über die Durchführung von Konfigurationsprüfungen auf dem Console agent.</block>
+  <block id="8fab8f63a86cd4593eb84501e6b42574" category="paragraph">Sie können mithilfe von Konfigurationsprüfungen überprüfen, ob die erforderlichen Ports für den Console Agent geöffnet sind. Sie können Konfigurationsprüfungen entweder von der Console oder der Agent Maintenance Console aus durchführen. <block ref="b6bcdf4dfaf7604bd81efc4009e39859" category="inline-link-macro-rx"></block></block>
+  <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">Konsolenverwaltung</block>
+  <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">Erfahren Sie mehr über die Zuweisung von Keystone-Rollen an Partnerbenutzer.</block>
+  <block id="f932e5731af0b28e3d04131c77f23704" category="paragraph">Sie können Keystone-Rollen Partnerbenutzern zuweisen, um diesen Benutzern die Verwaltung von Keystone-Ressourcen in einer Partnerorganisation zu ermöglichen. <block ref="37c7e4a6dbebd9961095310c537fa832" category="inline-link-macro-rx"></block></block>
 </blocks>
