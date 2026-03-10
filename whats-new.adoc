@@ -30,6 +30,34 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+== 10. März 2026
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Möglichkeit zur Verwaltung der Console-Agent-Proxy-Einstellungen für Cloud Volumes ONTAP
+
+Sie können jetzt die Proxy-Einstellungen auf dem NetApp Console-Agenten für Cloud Volumes ONTAP verwalten, selbst wenn Sie die Verbindung verlieren oder der Proxy falsch eingerichtet ist. Bisher wurden Ihre manuellen Proxy-Einstellungen durch Standardeinstellungen überschrieben, wenn der Console-Agent 20 Minuten lang keine Verbindung zu Cloud Volumes ONTAP herstellen konnte. Dies führte zu Kommunikationsfehlern, einschließlich Problemen mit AutoSupport-Nachrichten. Um Ihre Proxy-Einstellungen für bestehende Systeme beizubehalten, führen Sie den folgenden API-Aufruf aus:
+
+`PUT /occm/config`
+
+Fügen Sie den folgenden Parameter in den Anfragetext ein:
+
+[source, json]
+----
+{
+  "proxyMode": "No_Overwrites"
+}
+----
+Der Standardmodus ist aktiviert, was bedeutet, dass der Console-Agent Ihre Proxy-Einstellungen mit Standardeinstellungen überschreibt, wenn er 20 Minuten lang keine Verbindung zu Cloud Volumes ONTAP herstellen kann.
+
+https://docs.netapp.com/us-en/console-automation/cvo/put-occm-config.html["Konfigurieren Sie veränderbare NetApp Console-Parameter"^]
+
+
+
 == 09. März 2026
 
 
@@ -147,6 +175,26 @@ Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-s
 ==== Verbesserte Netzwerkerkennung
 
 Disaster Recovery umfasst nun eine verbesserte Netzwerkerkennung, um ein breiteres Spektrum an Netzwerkkonfigurationen zu unterstützen.
+
+
+
+=== Ransomware-Resilienz
+
+
+
+==== Benutzer massenhaft von Benutzerverhaltenswarnungen ausschließen
+
+Ransomware Resilience unterstützt jetzt das Hochladen einer JSON-Liste von Benutzern, die von Warnmeldungen zu Benutzerverhaltensaktivitäten ausgeschlossen werden sollen, zusätzlich zu den bestehenden UI- und CSV-basierten Optionen.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["Benutzer von Warnmeldungen ausschließen"^].
+
+
+
+==== Verbesserungen der Nutzerverhaltensaktivität
+
+Ransomware Resilience bietet verbesserte Einblicke in das Nutzerverhalten durch E-Mail-Benachrichtigungen und die Einbeziehung von Nutzerverhaltensereignissen in die unterstützten SIEM-Ereignisdaten (AWS Security Hub, Microsoft Sentinel, und Splunk Cloud). Diese Verbesserungen bieten genauere Einblicke in Ihre Sicherheits- und Compliance-Überwachung.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["Verbinden Sie NetApp Ransomware Resilience mit einem SIEM"^].
 
 
 
@@ -422,7 +470,7 @@ Die Swagger-Dokumentation der Disaster Recovery API ist jetzt in einem reguläre
 
 Ransomware Resilience unterstützt jetzt Azure NetApp Files-Systeme und ermöglicht Ihnen, Ransomware-Bedrohungen in Azure NetApp Files effizient zu erkennen und darauf zu reagieren. Wenn Sie Workloads entdecken, zeigt Ransomware Resilience jetzt Azure NetApp Files an und stellt sie im Schutz-Dashboard dar. Die Unterstützung von Ransomware Resilience für Azure NetApp Files umfasst Erkennungs- und Schutzstrategien ausschließlich mit Snapshots. Die Unterstützung für Azure NetApp Files befindet sich derzeit in der Vorschau.
 
-Weitere Informationen finden Sie unter folgendem Link: link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["Erfahren Sie mehr über Ransomware Resilience"^].
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["Erfahren Sie mehr über Ransomware Resilience"^].
 
 
 
@@ -968,72 +1016,3 @@ Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-s
 Sie können nun eine bevorzugte Abrechnungsoption für die Berechnung Ihrer Cloud Volumes ONTAP Nutzung und etwaiger Mehrkosten auswählen. Da das Lizenzmodell Bring Your Own Licenses (BYOL) ab dem 25. Juni 2025 nur noch eingeschränkt verfügbar ist, hat NetApp im Abschnitt *Lizenzierung und Abonnements* der NetApp Console bevorzugte Abrechnungsmethoden hinzugefügt. Sie können entweder Ihr jährliches Marktplatz-Abonnement für die Abrechnung und die Beitreibung von Mehrkosten oder das bestehende BYOL-Modell als bevorzugte Option nutzen. Dies gibt Ihnen die Flexibilität, die Abrechnungsmethode zu wählen, die am besten zur Finanzstrategie und den Nutzungsmustern Ihres Unternehmens passt.
 
 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing-charging.html#billing-preferences-and-overages["Abrechnungseinstellungen und Überschreitungen"^]Die
-
-
-
-== 10. Dezember 2025
-
-
-
-=== Konsoleneinrichtung und -verwaltung
-
-
-
-==== Konsolenagent 4.2.0
-
-Die Version 4.2.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.
-
-Diese Version des Konsolenagenten enthält Sicherheitsverbesserungen, Fehlerbehebungen und die folgenden Funktionen:
-
-.Unterstützung für Google Cloud Infrastructure Manager
-NetApp verwendet jetzt Google Cloud Infrastructure Manager (IM) anstelle von Google Cloud Deployment Manager, um Agenten in Google Cloud bereitzustellen und zu verwalten. Diese Änderung wurde vorgenommen, weil Google die Funktion einstellen wird. link:https://docs.cloud.google.com/deployment-manager/docs/deprecations["Cloud-Bereitstellungsmanager"]Die
-
-* Alle neuen Agenten ab Version 4.2.0 verwenden Infrastructure Manager. Sie sollten daher sowohl die Benutzer- als auch die Dienstkontoberechtigungen, die für die Bereitstellung verwendet werden, aktualisieren. link:https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Das Änderungsprotokoll der Berechtigungen ansehen."^]
-* Wenn Sie einen Agenten bereitstellen, erstellt das System auch einen Google Cloud-Bucket zum Speichern der Bereitstellungsdateien.
-
-
-.Verbesserte Konfigurationsprüfungen für Konsolenagenten
-* Der Console-Agent prüft nun bei der Konfigurationsprüfung auch auf veraltete Endpunkte. Wenn Sie die neue Endpunktliste für Version 4.0.0 oder höher noch nicht aktualisiert haben, ist die Installation erfolgreich, wenn das System die vorherige Endpunktliste erreichen kann. link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console-previous.html#update-endpoint-list["Erfahren Sie mehr über die erforderlichen Endpunkte für Console-Agenten."^]
-* Führen Sie Konfigurationsprüfungen an installierten Console-Agenten über die Console- oder Agentenwartungskonsole durch, um die Konnektivität zu überprüfen und Probleme zu beheben. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html#verify-network-access["Erfahren Sie, wie Sie Konfigurationsprüfungen auf Console-Agenten durchführen."^]
-
-
-.Laden Sie die Agentensoftware direkt von der NetApp Console herunter.
-Wenn Sie einen Agenten manuell installieren müssen, können Sie die Agentensoftware zusätzlich zur NetApp Support-Website auch direkt über die NetApp Console aufrufen. link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem.html#install-the-console-agent-manually["Erfahren Sie, wie Sie die Console-Agent-Software direkt von der NetApp Console herunterladen können."^]
-
-
-
-==== NetApp Console
-
-Diese Version enthält Folgendes:
-
-.Möglichkeit, Benachrichtigungen für ablaufende Anmeldeinformationen einzurichten.
-Benachrichtigungen für ablaufende Anmeldeinformationen von Dienstkonten und Verbunddiensten einrichten. Wählen Sie zwischen sieben oder 30 Tagen. Die Konsole zeigt Benachrichtigungen an und versendet E-Mails an Benutzer mit der entsprechenden Rolle. Organisationsadministratoren erhalten Benachrichtigungen über Dienstkonten. Organisationsadministratoren, Föderationsadministratoren und Föderationsbetrachter erhalten Föderationsbenachrichtigungen.
-
-.Lokale Anmeldungen sind nach der Aktivierung der Föderation nicht mehr möglich.
-Nach der Aktivierung der Föderation für eine Konsolenorganisation können Benutzer keine lokalen Anmeldungen mehr verwenden und werden zu Föderationsanmeldungen weitergeleitet.
-
-.Verbesserungen der Benutzerfreundlichkeit der Speicherverwaltungsseiten
-Detaillierte Informationen zu Ihren ONTAP On-Premises-Systemen (und FSx für ONTAP) können jetzt einfacher über die Speicherverwaltungsseiten angezeigt und verwaltet werden.
-
-* Die Seite * Discoverable systems* trennt die zusammenfassenden Informationen von der Registerkartenansicht der verfügbaren Systeme und erleichtert so die Anzeige umfassender Informationen über auffindbare Systeme.
-
-
-
-
-=== On-Premises- ONTAP -Cluster
-
-
-
-==== Verbesserungen der Benutzerfreundlichkeit bei der Anzeige von ONTAP -Systemen über die NetApp Console (nur Standardmodus)
-
-Die Seite *Systeme* in der NetApp Console wurde hinsichtlich Übersichtlichkeit und Benutzerfreundlichkeit bei der Verwaltung von Volumes und Clustern verbessert. Diese Aktualisierungen gleichen die Benutzererfahrung stärker an den System Manager für neuere ONTAP Versionen an und vereinfachen die Navigation.
-
-.Clusterkapazität ist für ONTAP Versionen 9.5 und höher enthalten (nur Konsolen-Standardmodus).
-Auf der Seite *Systeme > Übersicht* wird die Clustergröße zusammen mit der ONTAP Version für Cluster angezeigt, auf denen ONTAP 9.5 und höher ausgeführt wird.
-
-Für NetApp Console im eingeschränkten Modus oder ONTAP Versionen 9.5 und niedriger bleiben die Informationen zum bereitgestellten Volume unverändert.
-
-.Die Registerkarte „Volumes“ auf der Seite „Systeme“ zeigt standardmäßig die Rasteransicht an, wenn Sie mehr als 20 lokale ONTAP Cluster haben.
-Wenn Sie mehr als 20 lokale ONTAP Cluster in der NetApp Console verwalten, wird die Registerkarte *Volume* standardmäßig in der Rasteransicht angezeigt, um die Navigation zu vereinfachen. Die Kartenansicht ist deaktiviert.
-
-Diese Änderung gilt nur für den Standardmodus und für ONTAP Versionen ab 9.6.
