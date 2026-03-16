@@ -30,6 +30,24 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+== 16. März 2026
+
+
+
+=== Sicherung und Wiederherstellung
+
+
+
+==== VMware-Workload-Verbesserungen
+
+In dieser Version führt VMware workloads die folgenden Verbesserungen ein:
+
+*VM-Konsistenzunterstützung pro Zeitplanstufe*: Sie können jetzt VM-konsistente und anwendungskonsistente Backups für bestimmte Zeitplanstufen aktivieren, wenn Sie Schutzrichtlinien für VMware-Workloads konfigurieren. Jährliche, monatliche und wöchentliche Zeitplanstufen werden unterstützt.
+
+Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Überblick über den Schutz von VMware-Workloads"].
+
+
+
 == 12. März 2026
 
 
