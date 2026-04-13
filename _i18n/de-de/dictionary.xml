@@ -516,11 +516,11 @@
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console Agent 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">Die Version 4.6.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.</block>
   <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">Unterstützung für Konfigurationsprüfungen des benötigten Speicherplatzes</block>
-  <block id="6644a48d7e2c01ea2eb4118705a6aecb" category="inline-link-macro">Erfahren Sie mehr über die Durchführung von Konfigurationsprüfungen auf dem Konsolenagenten</block>
+  <block id="6644a48d7e2c01ea2eb4118705a6aecb" category="inline-link-macro">Erfahren Sie mehr über die Durchführung von Konfigurationsprüfungen auf dem Konsolenagent.</block>
   <block id="01ec5c0199a20329cd9739a87994ba1d" category="paragraph">Sie können mithilfe von Konfigurationsprüfungen sicherstellen, dass der für den Konsolenagenten erforderliche Speicherplatz verfügbar ist. Sie können Konfigurationsprüfungen von der Konsole oder der Wartungskonsole des Agenten aus durchführen. <block ref="2f1b890fa743352ff9f5cd648c952940" category="inline-link-macro-rx"></block></block>
   <block id="6f8cdd1e2991c2d2f9a4580b6f79bf52" category="paragraph-title">Aktualisieren Sie einen mit vCenter bereitgestellten Console-Agenten mithilfe einer ISO</block>
-  <block id="307d2695a2fce9ab7e904c8ad0ec1904" category="inline-link-macro">Erfahren Sie, wie Sie einen von vCenter bereitgestellten Konsolenagenten aktualisieren</block>
-  <block id="30c4a8a1d5fde5730fe4249081e4d06c" category="paragraph">Wenn Sie einen Console-Agenten in vCenter mithilfe einer OVA bereitgestellt haben, können Sie ihn jetzt auf eine neue Version aktualisieren, indem Sie eine ISO an die VM anhängen und das Upgrade über die VM-Wartungskonsole ausführen. <block ref="5494ba1785de42707e7a1fa6cefcddcd" category="inline-link-macro-rx"></block></block>
+  <block id="307d2695a2fce9ab7e904c8ad0ec1904" category="inline-link-macro">Erfahren Sie, wie Sie einen vCenter-bereitgestellten Konsolenagenten aktualisieren</block>
+  <block id="30c4a8a1d5fde5730fe4249081e4d06c" category="paragraph">Wenn Sie einen Console-Agenten in vCenter mithilfe einer OVA bereitgestellt haben, können Sie ihn jetzt auf eine neue Version aktualisieren, indem Sie eine ISO an die VM anhängen und das Upgrade von der VM-Wartungskonsole ausführen. <block ref="5494ba1785de42707e7a1fa6cefcddcd" category="inline-link-macro-rx"></block></block>
   <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">In dieser Version führt ONTAP Volumes-Workloads die folgende Verbesserung ein:</block>
   <block id="a83b3bb31eda1beff171bab61e67aa23" category="paragraph">*NetApp MetroCluster Aktiv/Aktiv-Konfigurationen unterstützt*: NetApp Backup and Recovery for Volumes-Workloads unterstützt jetzt MetroCluster in der Aktiv/Aktiv-Konfiguration.</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Überblick über den Schutz von ONTAP Volumes Workloads</block>
@@ -536,7 +536,7 @@
   <block id="6f9c0bad860671276c7314dda8468d6b" category="list-text">*Verbesserte Auftragsabwicklung*: Backup and Recovery verarbeitet jetzt mehrere gleichzeitig laufende Aufträge effizienter.</block>
   <block id="f02d5e72af9add59ab18089e0f4cc895" category="list-text">*SAN-Unterstützung (Vorschau)*: Backup and Recovery unterstützt jetzt den Schutz von Hyper-V-VMs, die auf SAN-Speichern abgelegt sind.</block>
   <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">Übersicht zum Schutz von Hyper-V-Workloads</block>
-  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>.</block>
+  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter <block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>.</block>
   <block id="354bffd56a05a78c1495900b2fa41f88" category="section-title">Verbesserungen für KVM-Workloads</block>
   <block id="9e61640a2e25b290407c7bce4b5f72fb" category="paragraph">In dieser Version werden für KVM-Workloads die folgenden Verbesserungen eingeführt:</block>
   <block id="02055854e5f8d7c0a2161503c5645d5a" category="inline-link">Stellen Sie KVM-VMs mit NetApp Backup and Recovery wieder her</block>
@@ -554,4 +554,17 @@
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Diese Version der Datenklassifizierung enthält Fehlerbehebungen, Sicherheitsverbesserungen und Leistungsoptimierungen.</block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
   <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">Nicht aufgelöste Direktive in _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]</block>
+  <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Saubere Wiederherstellung</block>
+  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience unterstützt jetzt Clean Restores, eine neue Wiederherstellungsoption, mit der Sie sich schnell und einfach von Ransomware-Angriffen erholen können. Clean Restores bieten geführte Arbeitsabläufe, die optimale Wiederherstellungspunkte identifizieren, um Ihre Workloads wieder zum Laufen zu bringen und Ausfallzeiten zu minimieren. Die Arbeitsabläufe in Clean Restore bieten außerdem Einblicke auf Dateiebene in Ihre Daten, sodass Sie malwarefreie Workloads wiederherstellen können, was eine erneute Infektion verhindert und Datenverlust minimiert.</block>
+  <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">Erstellen Sie eine isolierte Wiederherstellungsumgebung</block>
+  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">Stellen Sie Workloads mit einer sauberen Wiederherstellung wieder her</block>
+  <block id="a9e75b5aa64910e787dec413e103a858" category="paragraph">Informationen zu unterstützten Konfigurationen und zur Konfiguration Ihres Systems für eine vollständige Wiederherstellung finden Sie unter <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>. Informationen zur Wiederherstellung mittels vollständiger Wiederherstellung finden Sie unter <block ref="455be04ee07ce68cbcdf924300b59eba" category="inline-link-macro-rx"></block>.</block>
+  <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">SIEM-Unterstützung für Splunk Enterprise</block>
+  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience bietet jetzt Security Information Event Management (SIEM)-Unterstützung für Splunk Enterprise, wodurch Sie Protokoll- und Ereignisdaten zentralisieren und die Bedrohungsanalyse und -erkennung optimieren können.</block>
+  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Verbinden Sie Ransomware Resilience mit einem SIEM</block>
+  <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">Weitere Informationen finden Sie unter <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>.</block>
+  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">Verbesserung der Nutzerverhaltensaktivität</block>
+  <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">Erkenntnisse über Datenschutzverletzungen werden nun 13 Monate nach dem Vorfall gespeichert, wodurch eine längere Datenspeicherung für Ihre Berichtspflichten ermöglicht wird.</block>
+  <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">Erfahren Sie mehr über die Erkennung von Benutzeraktivitäten</block>
+  <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">Weitere Informationen finden Sie unter <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>.</block>
 </blocks>

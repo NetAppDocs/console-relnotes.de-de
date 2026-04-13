@@ -37,7 +37,7 @@ In dieser Version werden für Hyper-V-Workloads die folgenden Verbesserungen ein
 * *SAN-Unterstützung (Vorschau)*: Backup and Recovery unterstützt jetzt den Schutz von Hyper-V-VMs, die auf SAN-Speichern abgelegt sind.
 
 
-Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Übersicht zum Schutz von Hyper-V-Workloads"].
+Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Übersicht zum Schutz von Hyper-V-Workloads"].
 
 
 
