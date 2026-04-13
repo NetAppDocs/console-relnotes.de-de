@@ -114,65 +114,15 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">On-Premises- ONTAP -Cluster</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:</block>
-  <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">Diese Version des Konsolenagenten enthält Sicherheitsverbesserungen, Fehlerbehebungen und die folgenden Funktionen:</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Diese Version enthält Folgendes:</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Diese Versionshinweise beschreiben die jüngsten Verbesserungen der NetApp Console und der von ihr unterstützten Datendienste. Links zu den vollständigen Versionshinweisen für jeden einzelnen Dienst.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Informieren Sie sich über die neuesten Änderungen an den Funktionen und Datendiensten, die Teil der NetApp Console sind. Eine vollständige Übersicht über die Versionshistorie finden Sie in den vollständigen Versionshinweisen für jeden einzelnen Dienst.</block>
   <block id="640602402999fbf572de482a35f449bc" category="paragraph">Diese Version der Datenklassifizierung enthält Fehlerbehebungen und die folgenden Aktualisierungen:</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Erstellen eines Replikationsplans</block>
-  <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">Warnmeldungen in der Ransomware-Resilienz verwalten</block>
-  <block id="869c8807275d576171cb34b892652da6" category="paragraph">Weitere Informationen finden Sie unter <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
-  <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Bevorzugte Abrechnungsoption für Cloud Volumes ONTAP</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Unterstützte Konfigurationen für Cloud Volumes ONTAP in Azure</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Unterstützung für Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">Cloud-Bereitstellungsmanager</block>
-  <block id="6da53899225555a506524070f96e33df" category="doc">Unterstützung für mehrere Konsolenagenten in lokalen Umgebungen</block>
-  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">Wenn Sie Disaster Recovery lokal einsetzen, können Sie jetzt für jede vCenter-Instanz einen Console-Agenten bereitstellen und so die Ausfallsicherheit verbessern.</block>
-  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">Wenn Sie beispielsweise zwei Standorte haben (Standorte A und B), kann Standort A über den Console Agent A verfügen, der an vCenter 1, ONTAP -Bereitstellung 1 und ONTAP Bereitstellung 2 angebunden ist. Standort B kann über einen Konsolenagenten B verfügen, der an vCenter 2 und ONTAP Bereitstellungen 3 und 4 angebunden ist.</block>
-  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">Erstellen des Konsolenagenten</block>
-  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">Informationen zum Console-Agenten in der Notfallwiederherstellung finden Sie unter <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>Die</block>
-  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">Fügen Sie nach einem Failover VMs für Replikationspläne hinzu, die datenspeicherbasierten Schutz verwenden.</block>
-  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">Wenn ein Failover ausgelöst wird, umfasst jeder Replikationsplan, der datenspeicherbasierten Schutz verwendet, auch VMs, die dem Datenspeicher hinzugefügt wurden, sofern diese erkannt wurden. Sie müssen die Zuordnungsdetails für die hinzugefügten VMs angeben, bevor das Failover abgeschlossen ist.</block>
-  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">Ausfallsichere Anwendungen</block>
-  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">Weitere Informationen finden Sie unter <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>.</block>
-  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">Neue E-Mail-Benachrichtigungen</block>
-  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">Die Notfallwiederherstellung bietet nun E-Mail-Benachrichtigungen für die folgenden Ereignisse:</block>
-  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">Annäherung an die Kapazitätsauslastungsgrenze</block>
-  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">Berichtserstellung abgeschlossen</block>
-  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">Jobmisserfolge</block>
-  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">Ablauf der Lizenz oder Verstöße</block>
-  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Swagger-Verbesserungen</block>
-  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
-  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">Sie können nun direkt aus dem Disaster Recovery-Bereich auf die Swagger-Dokumentation zugreifen. Wählen Sie im Disaster Recovery-Menü **Einstellungen** und dann **API-Dokumentation**, um auf Swagger zuzugreifen, oder besuchen Sie diese URL im Inkognito-/Privatmodus Ihres Browsers: <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>Die</block>
-  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">Verbesserte Benutzeroberflächen</block>
-  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">Die Notfallwiederherstellung bietet jetzt verbesserte Warnungen und Fehlerbehebungen. Diese Version behebt einen Fehler, der verhinderte, dass abgebrochene Aufträge in der Benutzeroberfläche angezeigt wurden. Stornierte Aufträge sind jetzt sichtbar. Außerdem gibt es eine neue Warnung, wenn dasselbe Zielnetzwerk mehreren verschiedenen Quellnetzwerken zugeordnet wird.</block>
-  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">Die als Standard hinzugefügte VM-Ordnerstruktur in Replikationsplänen beibehalten</block>
-  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">Beim Erstellen einer Replikation ist die neue Standardeinstellung, die Ordnerstruktur der VM beizubehalten. Falls das Wiederherstellungsziel nicht über die ursprüngliche Ordnerhierarchie verfügt, erstellt Disaster Recovery diese. Sie können diese Option deaktivieren, um die ursprüngliche Ordnerhierarchie zu ignorieren.</block>
-  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">Weitere Informationen finden Sie unter <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
-  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">12. Januar 2026</block>
-  <block id="13e1e540c5d0fb4cabfadd886c98b1ee" category="paragraph">Sie können nun eine bevorzugte Abrechnungsoption für die Berechnung Ihrer Cloud Volumes ONTAP Nutzung und etwaiger Mehrkosten auswählen. Da das Lizenzmodell Bring Your Own Licenses (BYOL) ab dem 25. Juni 2025 nur noch eingeschränkt verfügbar ist, hat NetApp im Abschnitt *Lizenzierung und Abonnements* der NetApp Console bevorzugte Abrechnungsmethoden hinzugefügt. Sie können entweder Ihr jährliches Marktplatz-Abonnement für die Abrechnung und die Beitreibung von Mehrkosten oder das bestehende BYOL-Modell als bevorzugte Option nutzen. Dies gibt Ihnen die Flexibilität, die Abrechnungsmethode zu wählen, die am besten zur Finanzstrategie und den Nutzungsmustern Ihres Unternehmens passt.</block>
-  <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">Abrechnungseinstellungen und Überschreitungen</block>
-  <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>Die</block>
-  <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">Snapshots in ONTAP replizieren</block>
-  <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">Workloads im Rahmen der Ransomware-Resilienz schützen</block>
-  <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">Weitere Informationen finden Sie unter <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>.</block>
-  <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">Workloads von der Ransomware-Resilienz ausschließen</block>
-  <block id="36d62eb8fbffb07f574185bd90036cd1" category="paragraph">Ransomware Resilience unterstützt jetzt das Ausschließen bestimmter Workloads in einem System vom Schutz und vom Ransomware Resilience Dashboard. Sie können Workloads nach der Erkennung ausschließen und sie wieder einbeziehen, wenn Sie einen Ransomware-Schutz hinzufügen möchten. Für ausgeschlossene Arbeitslasten werden Ihnen keine Kosten in Rechnung gestellt.</block>
-  <block id="427dab7765b34a516acce2d3545db33d" category="inline-link-macro">Arbeitslasten ausschließen</block>
-  <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">Weitere Informationen finden Sie unter <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>.</block>
-  <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">Benachrichtigungen als in Überprüfung markieren</block>
-  <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">Ransomware Resilience ermöglicht es Ihnen nun, Warnmeldungen als „In Prüfung“ zu markieren. Verwenden Sie das Label „In Prüfung“, um die Klarheit innerhalb Ihres Teams bei der Priorisierung und dem Management aktiver Ransomware-Bedrohungen zu verbessern.</block>
-  <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">Konsolenagent 4.3.0</block>
-  <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">Die Version 4.3.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.</block>
-  <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">Fähigkeit zur Validierung der Netzwerkverbindungen von Konsolenagenten</block>
-  <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">Unterstützung für die Föderation, wenn sich die NetApp Console im eingeschränkten Modus befindet</block>
-  <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">Sie können jetzt die Föderation für eine NetApp Console -Organisation aktivieren, die sich im eingeschränkten Modus befindet. Dies ermöglicht es Benutzern, sich mit ihren Unternehmensanmeldeinformationen an der Konsole anzumelden und gleichzeitig die Sicherheitsvorteile des eingeschränkten Modus beizubehalten.</block>
-  <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">Nur-Lese-Modus</block>
-  <block id="8fc5022358a80320244b4f909c4293cc" category="paragraph">Sie können eine NetApp Console Organisation in den Nur-Lese-Modus versetzen. Im Nur-Lese-Modus können Benutzer Ressourcen und Einstellungen einsehen, aber keine Änderungen vornehmen. Ein Organisationsadministrator oder Superadministrator kann den Nur-Lese-Modus für eine Organisation aktivieren. Wenn der Nur-Lese-Modus aktiviert ist, müssen Benutzer mit administrativen Rechten ihre Berechtigungen manuell erhöhen, um die erforderlichen Änderungen vornehmen zu können.</block>
-  <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">Erfahren Sie, wie Sie den Nur-Lese-Modus für eine Konsolenorganisation aktivieren.</block>
-  <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
-  <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">Erfahren Sie, wie Sie Ihre Rolle aufwerten können, wenn sich Ihre Organisation im Nur-Lese-Modus befindet.</block>
   <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">Version 1.50</block>
   <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">Verbesserungen der benutzerdefinierten Klassifizierung</block>
   <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">Die Datenklassifizierung unterstützt jetzt das Erstellen benutzerdefinierter Kategorien für Ihre Daten. Sie können Dateien hochladen, um ein KI-Modell, das die Datenklassifizierung verwendet, um die Kategoriemarkierung auf Daten anzuwenden, feinabzustimmen. Die Benutzeroberfläche für alle benutzerdefinierten Klassifizierungen wurde verbessert.</block>
@@ -187,11 +137,6 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">Geschätzte Bearbeitungszeit für Untersuchungsberichte</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Beim Herunterladen eines Untersuchungsberichts zeigt die Datenklassifizierung nun die voraussichtliche Downloadzeit an.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14. Januar 2026</block>
-  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">Rollenbasierter Zugriff für Verbundgruppen in der NetApp Console</block>
-  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">Die NetApp Console unterstützt die Zuweisung von Rollen zu föderierten Gruppen (z. B. Active Directory-Gruppen) und ermöglicht es Administratoren, das Onboarding und Offboarding von Benutzern auf der Grundlage der Gruppenzugehörigkeit im Identitätsanbieter (IdP) der Organisation zu automatisieren. Diese Funktion reduziert den Verwaltungsaufwand und gewährleistet einen sicheren und konsistenten Zugriff, indem der Konsolenzugriff bei Änderungen der Gruppenzugehörigkeiten sofort aktualisiert wird.</block>
-  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">Erfahren Sie, wie Sie Ihrer Organisation Zugriff auf eine föderierte Gruppe gewähren.</block>
-  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
-  <block id="1f48aa3b8a17cda9bff69e07d29acd50" category="paragraph"><block ref="1f48aa3b8a17cda9bff69e07d29acd50" category="inline-link-macro-rx"></block></block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">19. Januar 2026</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP Volume-Workload-Erweiterungen</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">Diese Version der ONTAP Volume-Workloads führt die folgenden erweiterten Funktionen ein:</block>
@@ -218,9 +163,6 @@
   <block id="f411222cfe4404b6e0b3d9790460b804" category="list-text">Sie können jetzt Hyper-V-VM-Backups und -Snapshots an einem alternativen Speicherort wiederherstellen. Nutzen Sie diese Funktion, um VM-Versionen auf verschiedenen Hyper-V-Hosts zu verwalten.</block>
   <block id="83de53928b74eea738d883969ca231fa" category="list-text">NetApp Backup und Recovery unterstützt jetzt Hyper-V-VMs, die von System Center Virtual Machine Manager (SCVMM) bereitgestellt und auf einer CIFS-Freigabe gehostet werden.</block>
   <block id="fe3a06f4a23ebd296fcaecd751b29ac6" category="paragraph">Die KVM-Workload-Vorschau schützt jetzt KVM-Hosts und virtuelle Maschinen, die von Apache CloudStack verwaltet werden.</block>
-  <block id="3a78a8ea0b02debae5e6b16cc1929cb5" category="paragraph">Sie können nun die Netzwerkverbindungen verbundener Console-Agenten direkt von der NetApp Console aus validieren. Diese Funktion hilft, die Konnektivität zu überprüfen und Probleme mit Console-Agenten zu beheben. Dies ist zusätzlich zur bestehenden Möglichkeit, Netzwerkanalysen über die Befehlszeile (CLI) der Console-Agent-Wartungskonsole auszuführen.</block>
-  <block id="16e0d5a8229f3c0136c12aa9def60bb1" category="inline-link-macro">Erfahren Sie, wie Sie die Konfiguration aus der NetApp Console ausführen.</block>
-  <block id="3cb937c3382e580784aa7486c365ec19" category="paragraph"><block ref="3cb937c3382e580784aa7486c365ec19" category="inline-link-macro-rx"></block></block>
   <block id="37c785778d2185acbba38fa4b6624392" category="paragraph"><block ref="b49343ccc7da9738bd595bd89e3d39db" category="inline-link-macro-rx"></block>.</block>
   <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">Interaktive Filterung für täglich akkumulierte Burst-Daten</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">Tägliche angesammelte Burst-Datennutzung anzeigen</block>
@@ -332,7 +274,6 @@
   <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">eine Replikationsbeziehung erstellen</block>
   <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">Schalten Sie die Storage-VM und ihre replizierten Volumes um</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">16. Februar 2026</block>
-  <block id="691a3e8e2059e924160a8104310f552d" category="paragraph">Ransomware Resilience unterstützt jetzt das Hinzufügen der Replikation von Snapshots zu einem sekundären ONTAP Standort. Mit Schutzgruppen, die eine Replikationsrichtlinie verwenden, können Sie für jede Workload an dasselbe oder an unterschiedliche Ziele replizieren. Sie können eine Ransomware-Schutzstrategie erstellen, die die Replikation beinhaltet, oder die vordefinierte Strategie verwenden.</block>
   <block id="83babe62c403f56e76ef6809d4508f91" category="doc">Verbesserte Benutzeroberfläche</block>
   <block id="438ce765c897095715b03fca4b860a61" category="paragraph">Die Disaster Recovery-Benutzeroberfläche wurde basierend auf Rückmeldungen aktualisiert, um die Leistung und die Benutzerfreundlichkeit zu verbessern.</block>
   <block id="c99f25325f86d3f0c79c43f7e35c908e" category="section-title">API Swagger-Dokumentation</block>
@@ -548,8 +489,6 @@
   <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*Unterstützung für Cluster-Hosts*: Sie können jetzt Oracle Real Application Clusters (RAC)-Datenbanken erkennen und schützen, die Oracle Automatic Storage Management (ASM) verwenden und mit VMDK auf VMFS-Dateisystemen bereitgestellt werden. Weitere Informationen finden Sie unter <block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>.</block>
   <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">Konfigurieren einer Oracle-Datenbank</block>
   <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*RMAN-Katalogunterstützung*: Sie können Backup und Recovery jetzt so konfigurieren, dass Schutzmetadaten im RMAN-Wiederherstellungskatalog gespeichert werden, was Redundanz und langfristige Aufbewahrung für den Fall bietet, dass die Kontrolldatei verloren geht. Weitere Informationen finden Sie unter <block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>.</block>
-  <block id="1336b537734375879229275580e44691" category="inline-link">Übersicht zum Schutz von Oracle-Datenbank-Workloads</block>
-  <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">Weitere Informationen zum Schutz von Oracle Database-Workloads finden Sie unter <block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>.</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">31. März 2026</block>
   <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">Oberhalb der Spitzenkapazität im historischen Verbrauchsdiagramm</block>
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Sehen Sie sich die Verbrauchstrends Ihrer Keystone Abonnements an</block>
@@ -565,4 +504,13 @@
   <block id="ed300adca180c1e33d800707367434a6" category="doc">SOAR-Leitfaden für Google SecOps</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience bietet jetzt ein Security Orchestration, Automation, and Response (SOAR) Playbook für <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>. Das Playbook ermöglicht ein einfacheres Management der Bedrohungsreaktion, automatisiert Aufgaben und Tests und unterstützt wichtige Maßnahmen zur Ransomware-Abwehr, einschließlich der Erstellung von Snapshots und der Offline-Schaltung eines Volumes.</block>
+  <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine (GCVE) wird ab sofort allgemein unterstützt (GA)</block>
+  <block id="17eb3abfef8b1a9f92707a05bb82cb53" category="paragraph">NetApp Disaster Recovery-Unterstützung für GCVE ist jetzt allgemein verfügbar (GA). Mit GA-Unterstützung unterstützt Disaster Recovery für GCVE jetzt:</block>
+  <block id="6f9e9024f518a369b5759d900694f8b3" category="list-text">*Plattformverwaltete Snapshots:* Backups und Aufbewahrungsrichtlinien lassen sich nahtlos über ONTAP oder Google Cloud Platform (GCP) verwalten.</block>
+  <block id="045d30a52ce459f46c504234d025f4c3" category="list-text">*Mehrere Datenspeicher pro Replikationsplan:* Vereinfachen Sie Ihre Disaster Recovery-Pläne, indem Sie mehrere Datenspeicher in einer einzigen Replikationsstrategie konsolidieren.</block>
+  <block id="c4eadd4786334639a92ab9b1508f337f" category="list-text">*Erzwingen eines Failovers bei nicht verfügbaren Quellstandorten:* Wechseln Sie zu einem Disaster Recovery-Standort, wenn die Quelle nicht verfügbar ist.</block>
+  <block id="a7772ec1948f1cd5c6087ddb93603474" category="list-text">*Die SnapMirror-Resynchronisierung aufschieben und die Replikation bei Bedarf wiederherstellen:* Schieben Sie SnapMirror-Resynchronisierungen auf, um Auswirkungen auf Produktions-Workloads während Spitzenbetriebszeiten mit der Option „skip protect“ zu vermeiden, und stellen Sie die Replikation später bei Bedarf mit der Option „re-protect“ wieder her.</block>
+  <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Unterstützte Konfigurationen für die Notfallwiederherstellung</block>
+  <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">Weitere Informationen zur Unterstützung von GCVE finden Sie unter <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>.</block>
+  <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">13. April 2026</block>
 </blocks>
