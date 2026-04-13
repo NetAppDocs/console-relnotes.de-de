@@ -121,6 +121,16 @@ Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://
 
 
 
+=== Datenklassifizierung
+
+
+
+==== Version 1.53
+
+Diese Version der Datenklassifizierung enthält Fehlerbehebungen, Sicherheitsverbesserungen und Leistungsoptimierungen.
+
+
+
 === Notfallwiederherstellung
 
 
