@@ -34,6 +34,107 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
 
+=== Konsoleneinrichtung und -verwaltung
+
+
+
+==== Console Agent 4.6.0
+
+Die Version 4.6.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.
+
+Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen sowie die folgende neue Funktion.
+
+.Unterstützung für Konfigurationsprüfungen des benötigten Speicherplatzes
+Sie können mithilfe von Konfigurationsprüfungen sicherstellen, dass der für den Konsolenagenten erforderliche Speicherplatz verfügbar ist. Sie können Konfigurationsprüfungen von der Konsole oder der Wartungskonsole des Agenten aus durchführen. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Erfahren Sie mehr über die Durchführung von Konfigurationsprüfungen auf dem Konsolenagenten"^]
+
+.Aktualisieren Sie einen mit vCenter bereitgestellten Console-Agenten mithilfe einer ISO
+Wenn Sie einen Console-Agenten in vCenter mithilfe einer OVA bereitgestellt haben, können Sie ihn jetzt auf eine neue Version aktualisieren, indem Sie eine ISO an die VM anhängen und das Upgrade über die VM-Wartungskonsole ausführen. link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["Erfahren Sie, wie Sie einen von vCenter bereitgestellten Konsolenagenten aktualisieren"^]
+
+
+
+=== Sicherung und Wiederherstellung
+
+
+
+==== ONTAP Volumes Workloads-Verbesserungen
+
+In dieser Version führt ONTAP Volumes-Workloads die folgende Verbesserung ein:
+
+*NetApp MetroCluster Aktiv/Aktiv-Konfigurationen unterstützt*: NetApp Backup and Recovery for Volumes-Workloads unterstützt jetzt MetroCluster in der Aktiv/Aktiv-Konfiguration.
+
+Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Überblick über den Schutz von ONTAP Volumes Workloads"].
+
+
+
+==== Kubernetes-Workloads-Erweiterungen
+
+In dieser Version führt Kubernetes-Workloads die folgenden Verbesserungen der Datensicherungsstrategie ein:
+
+* *Schutzrichtlinien bearbeiten*: Sie können jetzt die Kubernetes-Workload-Schutzrichtlinien bearbeiten, falls Sie Änderungen vornehmen müssen.
+* *Disk-to-Disk-Unterstützung*: Sie können jetzt Kubernetes-Schutzrichtlinien mit einer Disk-to-Disk-Backup-Architektur konfigurieren.
+* *Unterstützung für Google Cloud Platform storage bucket*: Sie können jetzt Kubernetes-Datensicherungsstrategien so konfigurieren, dass Backups in Google Cloud Platform storage buckets gespeichert werden.
+
+
+Weitere Informationen zu den Datensicherungsstrategien finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["Erstellen und Verwalten von Datensicherungsstrategien in NetApp Backup and Recovery"].
+
+Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Übersicht zum Schutz von Kubernetes-Workloads"].
+
+
+
+==== Hyper-V-Workload-Verbesserungen
+
+In dieser Version werden für Hyper-V-Workloads die folgenden Verbesserungen eingeführt:
+
+* *Verbesserte Auftragsabwicklung*: Backup and Recovery verarbeitet jetzt mehrere gleichzeitig laufende Aufträge effizienter.
+* *SAN-Unterstützung (Vorschau)*: Backup and Recovery unterstützt jetzt den Schutz von Hyper-V-VMs, die auf SAN-Speichern abgelegt sind.
+
+
+Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Übersicht zum Schutz von Hyper-V-Workloads"].
+
+
+
+==== Verbesserungen für KVM-Workloads
+
+In dieser Version werden für KVM-Workloads die folgenden Verbesserungen eingeführt:
+
+* *Verbesserte Auftragsabwicklung*: Backup and Recovery verarbeitet jetzt mehrere gleichzeitig laufende Aufträge effizienter.
+* *Wiederherstellung an alternativem Speicherort (Vorschau)*: Sie können KVM-VMs jetzt an einem alternativen Ziel wiederherstellen. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["Stellen Sie KVM-VMs mit NetApp Backup and Recovery wieder her"].
+
+
+Weitere Informationen zum Schutz von KVM-Workloads finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Übersicht über den Schutz von KVM-Workloads"] .
+
+
+
+==== VMware-Workload-Verbesserungen
+
+In dieser Version führt VMware workloads die folgenden Verbesserungen ein:
+
+* *Tagbasierter Schutz*: Backup and Recovery für VMware-Workloads unterstützt jetzt tagbasierten Schutz für VMs, die auf NFS- und VMFS-Volumes gespeichert sind, sodass Sie Schutzgruppen aus vCenter-Tags anstatt aus einzelnen VMs oder Datenspeichern erstellen können. Wenn Sie VMs und Datenspeicher in vCenter taggen, erkennt Backup and Recovery diese automatisch und schließt sie in zukünftige Backups ein, ohne dass eine manuelle Gruppenverwaltung erforderlich ist. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["Schutzgruppen erstellen und verwalten"].
+* *Wiederherstellung auf alternativem Speichersystem*: Sie können virtuelle Maschinen jetzt auch dann auf einem alternativen Speichersystem wiederherstellen, wenn das ursprüngliche (primäre) Speichersystem vollständig ausgefallen ist. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["VMware-Workloads wiederherstellen"].
+* *Dateien auf Linux-VMs wiederherstellen*: Sie können jetzt VM-Dateien und -Ordner auf Linux-VMs wiederherstellen. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Dateien und Ordner wiederherstellen"].
+* *Unterstützung für Proxy-VMs beim Wiederherstellen von Dateien und Ordnern* – Sie können jetzt Dateien und Ordner auf anderen VMs wiederherstellen, die auf dem Quell-vCenter gehostet werden. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["VMware-Workloads wiederherstellen"].
+* *Rekursive Datei- und Ordnersuche* – Sie können nun eine gesamte VMDK nach einer bestimmten Datei oder einem bestimmten Ordner durchsuchen. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["VMware-Workloads wiederherstellen"].
+* *Verbesserte Auftragsabwicklung*: Backup and Recovery verarbeitet jetzt mehrere gleichzeitig laufende Aufträge effizienter.
+
+
+Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Überblick über den Schutz von VMware-Workloads"].
+
+
+
+=== Datenklassifizierung
+
+
+
+==== Version 1.53
+
+Diese Version der Datenklassifizierung enthält Fehlerbehebungen, Sicherheitsverbesserungen und Leistungsoptimierungen.
+
+Cloud Tiering :leveloffset: +1
+
+Nicht aufgelöste Direktive in _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]
+
+
+
 === Notfallwiederherstellung
 
 
@@ -194,14 +295,14 @@ Die Version 4.5.0 unterstützt sowohl den Standardmodus als auch den eingeschrä
 
 Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen sowie die folgende neue Funktion.
 
-.Unterstützung für Konfigurationsprüfungen für erforderliche Ports
-Sie können mithilfe von Konfigurationsprüfungen überprüfen, ob die erforderlichen Ports für den Console Agent geöffnet sind. Sie können Konfigurationsprüfungen entweder von der Console oder der Agent Maintenance Console aus durchführen. link:https://docs.netapp.com/console-setup-admin/task-troubleshoot-agent.html["Erfahren Sie mehr über die Durchführung von Konfigurationsprüfungen auf dem Console agent."]
+.Unterstützung für Konfigurationsprüfungen der erforderlichen Ports
+Sie können mithilfe von Konfigurationsprüfungen überprüfen, ob die erforderlichen Ports für den Console Agent geöffnet sind. Sie können Konfigurationsprüfungen entweder von der Console oder der Agent Maintenance Console aus durchführen. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Erfahren Sie mehr über die Durchführung von Konfigurationsprüfungen auf dem Console agent."]
 
 
 
 ==== Konsolenverwaltung
 
-Sie können Keystone-Rollen Partnerbenutzern zuweisen, um diesen Benutzern die Verwaltung von Keystone-Ressourcen in einer Partnerorganisation zu ermöglichen. link:https://docs.netapp.com/console-setup-admin/console-administration/task-partnerships-assign-users.html["Erfahren Sie mehr über die Zuweisung von Keystone-Rollen an Partnerbenutzer."]
+Sie können Keystone-Rollen Partnerbenutzern zuweisen, um diesen Benutzern die Verwaltung von Keystone-Ressourcen in einer Partnerorganisation zu ermöglichen. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-assign-users.html["Erfahren Sie mehr über die Zuweisung von Keystone-Rollen an Partnerbenutzer."]
 
 
 
