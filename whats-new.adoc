@@ -148,11 +148,13 @@ Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://
 
 Diese Version der Datenklassifizierung enthält Fehlerbehebungen, Sicherheitsverbesserungen und Leistungsoptimierungen.
 
-Cloud Tiering :leveloffset: +1
+
+
+=== Cloud-Tiering
 
 
 
-=== NetApp Cloud Tiering wird nicht mehr angeboten
+==== NetApp Cloud Tiering wird nicht mehr angeboten
 
 NetApp Cloud Tiering ist ab dem 26. April 2026 nicht mehr zum Kauf oder zur Lizenzverlängerung verfügbar.
 
