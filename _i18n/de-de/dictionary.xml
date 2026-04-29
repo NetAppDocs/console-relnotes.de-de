@@ -511,7 +511,6 @@
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Dateien auf Linux-VMs wiederherstellen*: Sie können jetzt VM-Dateien und -Ordner auf Linux-VMs wiederherstellen. Weitere Informationen finden Sie unter<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">Version 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Diese Version der Datenklassifizierung enthält Fehlerbehebungen, Sicherheitsverbesserungen und Leistungsoptimierungen.</block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Saubere Wiederherstellung</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience unterstützt jetzt Clean Restores, eine neue Wiederherstellungsoption, mit der Sie sich schnell und einfach von Ransomware-Angriffen erholen können. Clean Restores bieten geführte Arbeitsabläufe, die optimale Wiederherstellungspunkte identifizieren, um Ihre Workloads wieder zum Laufen zu bringen und die Ausfallzeit zu minimieren. Die Arbeitsabläufe in Clean Restore bieten außerdem Einblicke auf Dateiebene in Ihre Daten, sodass Sie malwarefreie Workloads wiederherstellen können, was eine erneute Infektion verhindert und Datenverlust minimiert.</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">Erstellen Sie eine isolierte Wiederherstellungsumgebung</block>
@@ -548,4 +547,9 @@
   <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
   <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering FAQ zum Ende der Verfügbarkeit</block>
   <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">Umbenanntes Label für bereitgestellte Kapazität</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">Die Bezeichnung *Bereitgestellte Kapazität* wurde in *Bereitgestellte Volumenkapazität* umbenannt. Die aktualisierte Bezeichnung wird auch in den zugehörigen CSV- und Excel-Berichten berücksichtigt.</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Prognoseumschalter für aufgelaufene Burst-Nutzung</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Sie können jetzt die *Prognose*-Funktion in der Ansicht *Aufgelaufener Burst* auf der Registerkarte *Verbrauchstrend* nutzen, um den aufgelaufenen Burst-Verbrauch für die nächsten 120 Tage ab dem aktuellen Datum zu prognostizieren. Weitere Informationen finden Sie unter <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27. April 2026</block>
 </blocks>
