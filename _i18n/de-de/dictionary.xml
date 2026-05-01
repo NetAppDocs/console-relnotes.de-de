@@ -488,7 +488,6 @@
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Überblick über den Schutz von ONTAP Volumes Workloads</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter <block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="19455401d550e37f86235df1de2da367" category="paragraph">In dieser Version führt Kubernetes-Workloads die folgenden Verbesserungen der Datensicherungsstrategie ein:</block>
-  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*Schutzrichtlinien bearbeiten*: Sie können jetzt die Kubernetes-Workload-Schutzrichtlinien bearbeiten, falls Sie Änderungen vornehmen müssen.</block>
   <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*Disk-to-Disk-Unterstützung*: Sie können jetzt Kubernetes-Schutzrichtlinien mit einer Disk-to-Disk-Backup-Architektur konfigurieren.</block>
   <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Unterstützung für Google Cloud Platform storage bucket*: Sie können jetzt Kubernetes-Datensicherungsstrategien so konfigurieren, dass Backups in Google Cloud Platform storage buckets gespeichert werden.</block>
   <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">Erstellen und Verwalten von Datensicherungsstrategien in NetApp Backup and Recovery</block>
@@ -552,4 +551,5 @@
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Prognoseumschalter für aufgelaufene Burst-Nutzung</block>
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Sie können jetzt die *Prognose*-Funktion in der Ansicht *Aufgelaufener Burst* auf der Registerkarte *Verbrauchstrend* nutzen, um den aufgelaufenen Burst-Verbrauch für die nächsten 120 Tage ab dem aktuellen Datum zu prognostizieren. Weitere Informationen finden Sie unter <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27. April 2026</block>
+  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*Bearbeitung der Schutzrichtlinien*: Sie können jetzt die Kubernetes-Workload-Schutzrichtlinien bearbeiten, falls Sie sie ändern müssen.</block>
 </blocks>
