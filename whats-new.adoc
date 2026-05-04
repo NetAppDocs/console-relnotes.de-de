@@ -30,6 +30,22 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+== 4. Mai 2026
+
+
+
+=== Datenklassifizierung
+
+
+
+==== Datenklassifizierung mit OVA implementieren
+
+NetApp Data Classification unterstützt jetzt die Bereitstellung mit VMware Open Virtual Appliance (OVA) und bietet eine vereinfachte Bereitstellungsstrategie für lokale VMware vSphere-Umgebungen.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["Datenklassifizierung mit OVA implementieren"^].
+
+
+
 == 27. April 2026
 
 
@@ -165,7 +181,7 @@ Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://
 
 
 
-==== Version 1.53
+==== Allgemeine Verbesserungen
 
 Diese Version der Datenklassifizierung enthält Fehlerbehebungen, Sicherheitsverbesserungen und Leistungsoptimierungen.
 
@@ -451,29 +467,40 @@ Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://
 
 
 
-==== Version 1.52
+==== Ressourcenvalidierung
 
-.Ressourcenvalidierung
 Um die Zuverlässigkeit zu gewährleisten, validiert Data Classification nun die verfügbaren Speicher- und Festplattenressourcen während des Scannens, der Berichtserstellung und der Aktionen. Wenn die Speicherauslastung 95 % übersteigt oder der Festplattenspeicher unter 6 GB fällt, pausiert Data Classification die Vorgänge automatisch. Die Vorgänge werden fortgesetzt, sobald die Ressourcen wieder ausreichend sind.
 
 Um Ihre Systemressourcen zu überwachen, siehe link:https://docs.netapp.com/us-en/data-services-data-classification/task-health-monitor.html["Überwachen Sie den Zustand von Data Classification"^].
 
-.Erhöhtes Limit für Kopieren und Verschieben
+
+
+==== Erhöhtes Limit für Kopieren und Verschieben
+
 Die Funktionen Kopieren und Verschieben werden nun auch für CIFS-Ziele unterstützt. Das Größenlimit pro Datei für beide Aktionen wurde von 50 MB auf 1 GB erhöht. Die Operationsgrenzen für beide Aktionen wurden auf 1 TB oder 5 Millionen Dateien erhöht.
 
 Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["Daten kopieren, verschieben und löschen"^].
 
-.Berechtigungen für die Active Directory integration configuration
+
+
+==== Berechtigungen für die Active Directory integration configuration
+
 Änderungen an den Active Directory (AD)-Integrationseinstellungen in Data Classification sind nun auf Administratoren beschränkt. Viewer haben nicht mehr die Möglichkeit, die AD-Einstellungen zu ändern.
 
 Weitere Informationen zur Rolle des Classification viewer finden Sie unter link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["Datendienstrollen"^].
 
-.Unterstützung für RHEL 9.7
+
+
+==== Unterstützung für RHEL 9.7
+
 Data Classification hat Red Hat Enterprise Linux v9.7 für die manuelle Installation vor Ort, einschließlich Dark-Site-Bereitstellungen, hinzugefügt.
 
 Die folgenden Betriebssysteme erfordern die Verwendung der Podman-Container-Engine und sie erfordern Data Classification Version 1.30 oder höher: Red Hat Enterprise Linux Version 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4, 9.5, 9.6 und 9.7.
 
-.Transparente Proxy-Unterstützung
+
+
+==== Transparente Proxy-Unterstützung
+
 Die Datenklassifizierung unterstützt jetzt transparente Proxy-Konfigurationen, was eine reibungslosere Bereitstellung in proxied oder eingeschränkten Netzwerkumgebungen ermöglicht.
 
 Weitere Informationen zum Einsatz in eingeschränkten Umgebungen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-compliance-dark-site.html["Installieren Sie NetApp Data Classification auf einem Linux-Host ohne Internetzugang"^].
@@ -960,26 +987,32 @@ Weitere Informationen zum Schutz von Oracle Database-Workloads finden Sie unter 
 
 
 
-==== Version 1.51
+==== Aktivieren Sie die Datenklassifizierung mit Amazon FSxN für ONTAP direkt aus der NetApp Console-Übersicht
 
-Diese Version der Datenklassifizierung enthält Fehlerbehebungen und die folgenden Aktualisierungen:
-
-.Aktivieren Sie die Datenklassifizierung mit Amazon FSxN für ONTAP direkt aus der NetApp Console-Übersicht
 Sie können Amazon FSxN für ONTAP-Systeme jetzt direkt von der NetApp Console-Oberfläche aus aktivieren, sodass Sie die Datenklassifizierung für Ihre FSxN-Systeme schneller starten können.
 
 Weitere Informationen zur Verwendung von Data Classification mit Amazon FSxN für ONTAP finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-fsx.html["Amazon FSxN nach ONTAP-Volumes scannen"^].
 
-.Erhöhtes Exportlimit für die Untersuchung von Verzeichnissen
+
+
+==== Erhöhtes Exportlimit für die Untersuchung von Verzeichnissen
+
 Beim Export eines Untersuchungsberichts zu Verzeichnissen aus dem Untersuchungs-Dashboard können Sie nun 10.000 Zeilen einbeziehen. Diese Erhöhung gegenüber dem vorherigen Limit von 5.000 Zeilen unterstützt umfangreichere Untersuchungen im Bereich Daten-Governance und Compliance.
 
 Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["Daten untersuchen"^].
 
-.Erhöhte Limits für Kopieren und Verschieben
+
+
+==== Erhöhte Limits für Kopieren und Verschieben
+
 Beim Kopieren oder Verschieben von Dateien können Sie jetzt Dateien mit einer Größe von bis zu 250 MB kopieren oder verschieben, eine Erhöhung gegenüber dem vorherigen Limit von 50 MB.
 
 Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["Daten kopieren, verschieben und löschen"^].
 
-.Verbesserte Darstellung für Bildschirme mit niedriger Auflösung
+
+
+==== Verbesserte Darstellung für Bildschirme mit niedriger Auflösung
+
 Data Classification hat die Anzeigeleistung für Bildschirme mit niedriger Auflösung verbessert und so die Benutzererfahrung verbessert.
 
 
