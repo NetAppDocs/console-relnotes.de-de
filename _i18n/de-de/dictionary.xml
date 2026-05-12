@@ -505,8 +505,6 @@
   <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*Unterstützung für datenspeicherübergreifende Schutzgruppen*: Sie können nun das Verhalten von Schutzgruppen beim Schutz virtueller Maschinen auswählen, deren virtuelle Festplatten sich über mehrere Datenspeicher erstrecken.</block>
   <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*Klonunterstützung*: Sie können jetzt Klone von Snapshots virtueller Maschinen aus dem primären und sekundären Speicher erstellen.</block>
   <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">Verbesserungen für Clean Restore</block>
-  <block id="5214cc2b554214c44574918df0ce4dd1" category="paragraph">Clean Restore unterstützt jetzt die Wiederherstellung auf alternative Cluster und Analysen über sieben Tage hinaus.</block>
-  <block id="b3b5d3c0c3eb03018f8b168331bf449f" category="paragraph"><block ref="b1b57aeec3a947615fddf0610c8788f4" category="inline-link-macro-rx"></block>.</block>
   <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Google SecOps SIEM-Unterstützung</block>
   <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilience unterstützt jetzt Security Information and Event Management (SIEM) mit Google SecOps, wodurch Sie Daten automatisch an Google SecOps senden können, um die Bedrohungsanalyse und -erkennung zu optimieren.</block>
   <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">Informationen zur Konfiguration finden Sie unter <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>.</block>
@@ -548,4 +546,6 @@
   <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">Ändern Sie die Abrechnungsmethoden für Kapazitätslizenzen</block>
   <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">12. Mai 2026</block>
+  <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">Die Funktion „Saubere Wiederherstellung“ unterstützt jetzt die Wiederherstellung an einem alternativen Speicherort, sodass Sie Volumes auf verschiedenen Systemen, Speicher-VMs und Aggregaten wiederherstellen können, die vom selben Console-Agenten verwaltet werden. Außerdem wurde die Sieben-Tage-Beschränkung für die Suche nach geeigneten Snapshots für die Wiederherstellung aufgehoben. Die Funktion „Saubere Wiederherstellung“ durchsucht nun weiterhin alle verfügbaren Snapshots nach einem geeigneten Wiederherstellungspunkt, unabhängig vom Abstand zum Ransomware-Ereignis.</block>
+  <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
 </blocks>
