@@ -402,6 +402,16 @@ Erkenntnisse über Datenschutzverletzungen werden nun 13 Monate nach dem Vorfall
 
 Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["Erfahren Sie mehr über die Erkennung von Benutzeraktivitäten"^].
 
+Replikation :leveloffset: +1
+
+
+
+=== Replikationsmanagement für bestehende Beziehungen mit FSx für ONTAP
+
+Die Replikationsbeziehungsverwaltung für FSx for ONTAP-Dateisysteme als Quelle oder Ziel befindet sich jetzt in NetApp Workload Factory.
+
+link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["Datenreplizierung verwalten"]
+
 
 
 === Cloud Volumes ONTAP
