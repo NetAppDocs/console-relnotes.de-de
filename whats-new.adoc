@@ -158,6 +158,26 @@ Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://
 
 
 
+=== Datenklassifizierung
+
+
+
+==== Verbesserte Konfigurationsseite
+
+Die Datenklassifizierung hat die Konfigurationsseite aktualisiert und verbessert, wodurch die Verwaltung von Einstellungen, Systemen, das Aktivieren von Scans und die Überwachung des Systemzustands benutzerfreundlicher gestaltet werden können. Die neue Konfigurationsseite bietet die bestehenden Funktionen in einem übersichtlicheren Format und ermöglicht zusätzlich das Filtern von Systemen nach Typ, Fehlerstatus und Scanstatus. Die neue Seite bietet außerdem eine Zusammenfassung der verbundenen Systeme sowie Übersichten über aktive und konfigurierte Scans.
+
+Überprüfen Sie eine link:https://youtu.be/_8YJ3KyZ7nI["Video-Anleitung"^]. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-overview.html["Scannen Sie Datenquellen mit Data Classification"^].
+
+
+
+==== Datenklassifizierung mit OVA implementieren
+
+NetApp Data Classification unterstützt jetzt die Bereitstellung mit VMware Open Virtual Appliance (OVA) und bietet eine vereinfachte Bereitstellungsstrategie für lokale VMware vSphere-Umgebungen.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["Datenklassifizierung mit OVA implementieren"^].
+
+
+
 === Notfallwiederherstellung
 
 
@@ -232,22 +252,6 @@ In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen 
 
 
 Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Übersicht zum Schutz von Kubernetes-Workloads"].
-
-
-
-== 4. Mai 2026
-
-
-
-=== Datenklassifizierung
-
-
-
-==== Datenklassifizierung mit OVA implementieren
-
-NetApp Data Classification unterstützt jetzt die Bereitstellung mit VMware Open Virtual Appliance (OVA) und bietet eine vereinfachte Bereitstellungsstrategie für lokale VMware vSphere-Umgebungen.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["Datenklassifizierung mit OVA implementieren"^].
 
 
 

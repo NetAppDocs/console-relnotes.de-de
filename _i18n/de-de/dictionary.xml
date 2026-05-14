@@ -119,7 +119,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Diese Versionshinweise beschreiben die jüngsten Verbesserungen der NetApp Console und der von ihr unterstützten Datendienste. Links zu den vollständigen Versionshinweisen für jeden einzelnen Dienst.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Informieren Sie sich über die neuesten Änderungen an den Funktionen und Datendiensten, die Teil der NetApp Console sind. Eine vollständige Übersicht über die Versionshistorie finden Sie in den vollständigen Versionshinweisen für jeden einzelnen Dienst.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Erstellen eines Replikationsplans</block>
-  <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Unterstützte Konfigurationen für Cloud Volumes ONTAP in Azure</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">Cloud-Bereitstellungsmanager</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware-Workload-Verbesserungen</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Übersicht über den Schutz von KVM-Workloads</block>
@@ -140,14 +139,6 @@
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Übersicht zum Schutz von Oracle Database-Workloads</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Weitere Informationen zum Schutz von Oracle Database-Workloads finden Sie unter <block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen.</block>
-  <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Unterstützung für Ebdsv5- und E104ids_v5-VMs in Azure</block>
-  <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">Ab Cloud Volumes ONTAP 9.18.1 können Sie Ebdsv5 und E104ids_v5 VMs für Einzelknoten- und Hochverfügbarkeitsbereitstellungen (HA) und Upgrades bereitstellen.</block>
-  <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Ebdsv5 VMs innerhalb der Eb-Familie von Azure-VMs sind für eine höhere Remote-Speicherleistung optimiert. Sie können diese VMs für speicherintensive und E/A-lastige Unternehmens-Workloads wie relationale Datenbanken, In-Memory-Analysen und andere anspruchsvolle geschäftskritische Anwendungen verwenden.</block>
-  <block id="3be6e88b099667951f102a7e72ef6b7e" category="paragraph">E104ids_v5 ist eine isolierte VM-Instanz, die Ihnen hilft, geplante Wartungsfenster besser zu verwalten. Im Vergleich zu E80ids_v4 bietet sie einen deutlich höheren Festplattendurchsatz und IOPS sowie eine insgesamt bessere Netzwerkleistung.</block>
-  <block id="374b69ed8baae6c10fc401a5f23dfabf" category="paragraph"><block ref="374b69ed8baae6c10fc401a5f23dfabf" category="inline-link-rx"></block></block>
-  <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure documentation: Edsv5-Größenserie</block>
-  <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
-  <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">12. Februar 2026</block>
   <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">Cloud Volumes ONTAP Unterstützung für Google Cloud VMs der nächsten Generation</block>
   <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">Mit 9.18.1 wechselt NetApp bei neuen Cloud Volumes ONTAP-Bereitstellungen von N2-VMs auf die nächste Generation der Google Cloud C3-Serien-VMs für ein schnelleres und skalierbareres Erlebnis. Sie können jetzt die Vorteile der C3-Serien-VMs nutzen, wenn Sie Cloud Volumes ONTAP 9.18.1 und höher in Google Cloud bereitstellen. Die C3-Serien-Maschinen bieten verbesserte Leistung und höhere Kapazitätsgrenzen durch die Verwendung von Google Virtual NIC (gVNIC) und Hyperdisk Balanced Disks, die dynamische Leistung für intensive Workloads gewährleisten.</block>
   <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">Aktuell unterstützt Cloud Volumes ONTAP die C3-Serie nur in Einzelknoten-Bereitstellungen.</block>
@@ -471,7 +462,6 @@
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">Datenklassifizierung mit OVA implementieren</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification unterstützt jetzt die Bereitstellung mit VMware Open Virtual Appliance (OVA) und bietet eine vereinfachte Bereitstellungsstrategie für lokale VMware vSphere-Umgebungen.</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">Weitere Informationen finden Sie unter <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>.</block>
-  <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">4. Mai 2026</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen eingeführt:</block>
   <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*Native Unterstützung für den Schutz von VMs*: Sie können jetzt VM-basierte Anwendungen erstellen, mit denen Sie virtuelle Maschinen genauso schützen können wie jede andere Anwendung.</block>
   <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*Ressourcentransformationen*: Sie können jetzt Ressourcentransformationen und Ressourcentransformationsvorlagen verwenden, um während des Wiederherstellungsprozesses Ressourcenattribute hinzuzufügen, zu entfernen und zu ändern.</block>
@@ -548,4 +538,9 @@
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">12. Mai 2026</block>
   <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">Die Funktion „Saubere Wiederherstellung“ unterstützt jetzt die Wiederherstellung an einem alternativen Speicherort, sodass Sie Volumes auf verschiedenen Systemen, Speicher-VMs und Aggregaten wiederherstellen können, die vom selben Console-Agenten verwaltet werden. Außerdem wurde die Sieben-Tage-Beschränkung für die Suche nach geeigneten Snapshots für die Wiederherstellung aufgehoben. Die Funktion „Saubere Wiederherstellung“ durchsucht nun weiterhin alle verfügbaren Snapshots nach einem geeigneten Wiederherstellungspunkt, unabhängig vom Abstand zum Ransomware-Ereignis.</block>
   <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
+  <block id="a60267b93ffdd2ed17059222732309c4" category="doc">Verbesserte Konfigurationsseite</block>
+  <block id="4afd879e7ec84c60016c97e64b4fce9d" category="paragraph">Die Datenklassifizierung hat die Konfigurationsseite aktualisiert und verbessert, wodurch die Verwaltung von Einstellungen, Systemen, das Aktivieren von Scans und die Überwachung des Systemzustands benutzerfreundlicher gestaltet werden können. Die neue Konfigurationsseite bietet die bestehenden Funktionen in einem übersichtlicheren Format und ermöglicht zusätzlich das Filtern von Systemen nach Typ, Fehlerstatus und Scanstatus. Die neue Seite bietet außerdem eine Zusammenfassung der verbundenen Systeme sowie Übersichten über aktive und konfigurierte Scans.</block>
+  <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">Video-Anleitung</block>
+  <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">Scannen Sie Datenquellen mit Data Classification</block>
+  <block id="158f63c968216959ea1a95097bf65a32" category="paragraph">Überprüfen Sie eine <block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>. Weitere Informationen finden Sie unter <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>.</block>
 </blocks>
