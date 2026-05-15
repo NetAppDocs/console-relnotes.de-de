@@ -543,4 +543,10 @@
   <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">Video-Anleitung</block>
   <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">Scannen Sie Datenquellen mit Data Classification</block>
   <block id="158f63c968216959ea1a95097bf65a32" category="paragraph">Überprüfen Sie eine <block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>. Weitere Informationen finden Sie unter <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>.</block>
+  <block id="cf975b28ba57e8d6ba85ec36d74a06c3" category="section-title">Compliance-Administrator-IAM-Rolle</block>
+  <block id="7cd2bb6be419d190aa59909bb89ac3d8" category="paragraph">Data Classification unterstützt jetzt eine Compliance-Administratorrolle zur Verwaltung von Berechtigungen in Data Classification. Die Compliance-Administratorrolle hat keinen Zugriff auf Ressourcen, einschließlich Konsolenagenten und Arbeitsbereichen. Benutzer mit der Compliance-Administratorrolle müssen mindestens einer weiteren Rolle zugeordnet sein.</block>
+  <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">Bei der Installation der Data Classification sollten Sie entweder die Rolle eines Console Platform Admin oder die Compliance Admin Rolle haben.</block>
+  <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">Wenn Sie bereits ein Benutzer sind, sollte der Zugriff wie gewohnt weiterlaufen. Beispielsweise hat eine Plattformrolle mit einer Ordner- oder Projektadministratorrolle bereits bestehenden Zugriff.</block>
+  <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Datenklassifizierungsrollen</block>
+  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">Weitere Informationen finden Sie unter <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>.</block>
 </blocks>
