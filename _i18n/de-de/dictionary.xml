@@ -512,4 +512,11 @@
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">Wellness-Überprüfung</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">Ab Juli 2026 ist die Funktion „Wellness-Überprüfung“ im Digital Advisor nicht mehr verfügbar. Bei Fragen senden Sie bitte eine E-Mail an mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">18. Mai 2026</block>
+  <block id="a4ad56ab8baa8582d6dba6091a9bd877" category="doc">Vereinfachte Cloud Volumes ONTAP-Bereitstellung in Azure</block>
+  <block id="8bfd035a33aa401829a9de89b5e0c246" category="paragraph">Mit Quick create können Sie Cloud Volumes ONTAP in Azure sowohl für Einzelknoten- als auch für Hochverfügbarkeitskonfigurationen (HA) bereitstellen. Dieser optimierte Prozess reduziert die Anzahl der Schritte im Vergleich zur fortschrittlichen Methoden, legt automatisch Standardwerte auf einer einzigen Seite fest und minimiert die Navigation, wodurch die Bereitstellung schneller und einfacher wird.</block>
+  <block id="22f179b38b6aab375d21adc5216a57da" category="admonition">Wenn Sie Quick create zur Bereitstellung eines neuen Cloud Volumes ONTAP-Systems in Azure verwenden, wählt die NetApp Console standardmäßig die Azure-Anmeldeinformationen aus. Sie können alle Ihre Cloud Volumes ONTAP-Systeme mit den anfänglichen Azure-Anmeldeinformationen bereitstellen. Wenn Sie ein anderes Abonnement und/oder andere Anmeldeinformationen verwenden möchten, müssen Sie zur Bereitstellung im erweiterten Modus wechseln. Diese Einschränkung wird in einer zukünftigen Version behoben.</block>
+  <block id="da7aee176a6e0989fc4edf2b02e0af34" category="inline-link">Cloud Volumes ONTAP in Azure mit Schnellerstellung bereitstellen</block>
+  <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
+  <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Cloud Volumes ONTAP mit fortschrittlichen Methoden in Azure bereitstellen</block>
+  <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
 </blocks>
