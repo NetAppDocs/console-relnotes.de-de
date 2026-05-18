@@ -1,0 +1,9 @@
+= Wellness-Überprüfung
+:allow-uri-read: 
+
+
+
+
+=== Wellness-Überprüfung
+
+Ab Juli 2026 ist die Funktion „Wellness-Überprüfung“ im Digital Advisor nicht mehr verfügbar. Bei Fragen senden Sie bitte eine E-Mail an mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].

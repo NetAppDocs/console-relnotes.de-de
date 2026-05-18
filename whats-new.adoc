@@ -30,6 +30,20 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+== 18. Mai 2026
+
+
+
+=== Digitaler Berater
+
+
+
+==== Wellness-Überprüfung
+
+Ab Juli 2026 ist die Funktion „Wellness-Überprüfung“ im Digital Advisor nicht mehr verfügbar. Bei Fragen senden Sie bitte eine E-Mail an mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].
+
+
+
 == 12. Mai 2026
 
 
@@ -973,135 +987,3 @@ Sie können jetzt Cloud Volumes ONTAP 9.12.1 GA und höher in einzelnen und mehr
 
 
 Eine Liste aller Regionen finden Sie unter https://bluexp.netapp.com/cloud-volumes-global-regions["Globale Regionskarte unter Azure"^].
-
-
-
-== 17. Februar 2026
-
-
-
-=== Konsoleneinrichtung und -verwaltung
-
-
-
-==== Console Agent 4.4.1
-
-Die Version 4.4.1 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.
-
-Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen.
-
-
-
-==== NetApp Console
-
-Diese Version enthält Folgendes:
-
-
-
-==== NetApp Console
-
-Diese Version enthält Folgendes:
-
-.Zugriff auf NetApp Data Infrastructure Insights von der NetApp Console
-Sie können eine kostenlose Testversion von NetApp Data Infrastructure Insights direkt in der NetApp Console nutzen. Gehen Sie zu *Governance* > *Data Infrastructure Insights*, um sich anzumelden und Einblicke sowie Analysen zu Ihrer Datenumgebung zu erhalten.
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Cloud Volumes ONTAP Unterstützung für Google Cloud VMs der nächsten Generation
-
-Mit 9.18.1 wechselt NetApp bei neuen Cloud Volumes ONTAP-Bereitstellungen von N2-VMs auf die nächste Generation der Google Cloud C3-Serien-VMs für ein schnelleres und skalierbareres Erlebnis. Sie können jetzt die Vorteile der C3-Serien-VMs nutzen, wenn Sie Cloud Volumes ONTAP 9.18.1 und höher in Google Cloud bereitstellen. Die C3-Serien-Maschinen bieten verbesserte Leistung und höhere Kapazitätsgrenzen durch die Verwendung von Google Virtual NIC (gVNIC) und Hyperdisk Balanced Disks, die dynamische Leistung für intensive Workloads gewährleisten.
-
-
-NOTE: Aktuell unterstützt Cloud Volumes ONTAP die C3-Serie nur in Einzelknoten-Bereitstellungen.
-
-Wenn Ihr Cloud Volumes ONTAP-System Version 9.18.1 oder höher ausführt, verwenden die vorkonfigurierten Pakete, die Sie für einfache Einzelknotenbereitstellungen nutzen, automatisch C3-VMs, während Sie die IOPS- und Durchsatzparameter basierend auf Ihren Workload-Anforderungen anpassen können. Ebenso können Sie beim Erstellen von Aggregaten Hyperdisk Balanced-Festplatten hinzufügen, um in Google Cloud eine bessere Leistung und Skalierbarkeit zu erzielen. Zusätzlich können Sie die LSSD-Varianten der C3-Serie für die standardmäßige Flash Cache-Unterstützung auswählen.
-
-Sie können den Datenträgertyp für C3-VMs beim Hinzufügen von Volumes zu Aggregaten nicht ändern, da C3 nur Hyperdisk Balanced-Datenträger unterstützt. Ebenso wird beim Replizieren eines Systems mit N2-VM-Typen auf eine C3-VM der Datenträgertyp standardmäßig auf Hyperdisk Balanced gesetzt.
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Unterstützte Konfigurationen für Cloud Volumes ONTAP in Google Cloud"^]
-
-https://docs.cloud.google.com/compute/docs/general-purpose-machines#c3_series["Google documents: C3-Maschinenserie"^]
-
-
-
-==== VNet-Sicherheit für Cloud Volumes ONTAP in Azure
-
-Cloud Volumes ONTAP 9.18.1 und spätere Deployments in Azure Single- und Multi-Availability Zones unterstützen Azure Virtual Network (VNet)-Verschlüsselung als Teil ihrer mehrschichtigen Sicherheitsstrategie zum Schutz von Daten während der Übertragung. Cloud Volumes ONTAP nutzt Azures natives Datagram Transport Layer Security (DTLS)-Protokoll, um die Kommunikation zwischen ONTAP-Knoten, Managementschnittstellen und anderen Azure-Diensten zu sichern und so das Abfangen und den unbefugten Zugriff zu verhindern. Diese netzwerkbasierte Verschlüsselung ergänzt ONTAPs integrierte Speicher- und Data-at-Rest-Schutzmechanismen, um eine End-to-End-Sicherheit Ihrer Daten zu gewährleisten.
-
-https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-sn-c3-support/reference-networking-azure.html#networking-for-azure-vnet-encryption["Netzwerk für Azure VNet-Verschlüsselung"^]
-
-
-
-== 16. Februar 2026
-
-
-
-=== Notfallwiederherstellung
-
-
-
-==== Verbesserte Benutzeroberfläche
-
-Die Disaster Recovery-Benutzeroberfläche wurde basierend auf Rückmeldungen aktualisiert, um die Leistung und die Benutzerfreundlichkeit zu verbessern.
-
-
-
-==== API Swagger-Dokumentation
-
-Die Swagger-Dokumentation der Disaster Recovery API ist jetzt in einem regulären Browser zugänglich; der Inkognitomodus ist nicht mehr erforderlich. Um auf die API-Dokumentation zuzugreifen, navigieren Sie zum Disaster Recovery Dashboard, wählen Sie das Kontextmenü oben rechts image:../media/use/icon-vertical-dots.png["Aktionssymbol"] und dann **API Documentation** aus, um die Swagger-Dokumentation zu öffnen. Sie können auch link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["URL als Lesezeichen speichern"^].
-
-
-
-=== Ransomware-Resilienz
-
-
-
-==== Azure NetApp Files-Unterstützung
-
-Ransomware Resilience unterstützt jetzt Azure NetApp Files-Systeme und ermöglicht Ihnen, Ransomware-Bedrohungen in Azure NetApp Files effizient zu erkennen und darauf zu reagieren. Wenn Sie Workloads entdecken, zeigt Ransomware Resilience jetzt Azure NetApp Files an und stellt sie im Schutz-Dashboard dar. Die Unterstützung von Ransomware Resilience für Azure NetApp Files umfasst Erkennungs- und Schutzstrategien ausschließlich mit Snapshots. Die Unterstützung für Azure NetApp Files befindet sich derzeit in der Vorschau.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["Erfahren Sie mehr über Ransomware Resilience"^].
-
-
-
-==== Benutzer von Benachrichtigungen zum Benutzerverhalten ausschließen
-
-Ransomware Resilience ermöglicht es Ihnen nun, bestimmte Benutzer von Warnmeldungen zum Benutzerverhalten auszuschließen. Durch den Ausschluss vertrauenswürdiger Benutzer können Fehlalarme und unnötige Warnmeldungen vermieden werden.
-
-Weitere Informationen finden Sie unter folgendem Link: link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["Benutzer von Warnmeldungen ausschließen"^].
-
-
-
-==== Unterstützung von Schutzgruppen für Benutzerverhaltensaktivität
-
-Ransomware Resilience-Schutzgruppen unterstützen jetzt Erkennungsrichtlinien zur Erkennung von verdächtigem Benutzerverhalten. Wenn Sie eine Ransomware-Schutzstrategie auf eine Schutzgruppe anwenden, wird eine Richtlinie auf alle Workloads angewendet, wodurch die Verwaltung Ihrer Cybersicherheitslage optimiert wird.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html#create-a-protection-group["Erstellen Sie eine Schutzgruppe"^].
-
-
-
-=== Amazon FSX für ONTAP
-
-
-
-==== Unterstützung für die Migration von Storage-VMs
-
-NetApp Workload Factory unterstützt jetzt die Migration für Speicher-VMs. Diese Funktion ermöglicht die Migration von ONTAP-Speichersystemdaten und -konfigurationen von lokalen ONTAP-Systemen oder FSx for ONTAP-Dateisystemen der ersten Generation auf FSx for ONTAP-Dateisysteme der zweiten Generation. Sie können Speicher-VM-Daten und -Konfigurationseinstellungen replizieren, um mit minimalen Ausfallzeiten und geringen Beeinträchtigungen für Benutzer und Anwendungen auf das neue Dateisystem zu migrieren.
-
-Um diese Funktion zu nutzen, link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["eine Replikationsbeziehung erstellen"] und wählen Sie *Migration* als Anwendungsfall aus. Um den Migrationsprozess abzuschließen, müssen Sie link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html#cut-over-replication-for-migration-use-cases["Schalten Sie die Storage-VM und ihre replizierten Volumes um"] sofort ausführen, um Daten und Konfigurationseinstellungen der Storage-VMs dauerhaft auf das Ziel-FSx for ONTAP-Dateisystem zu migrieren.
-
-
-
-=== Keystone
-
-Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
-
-
-
-==== DII Add-on-Verbrauchsanzeige
-
-Der Data Infrastructure Insights (DII) Add-on-Verbrauch wird jetzt in den Tabs *Aktueller Verbrauch* und *Verbrauchstrend* angezeigt. Weitere Informationen finden Sie unter link:./concepts/data-infra-insights.html#view-dii-consumption["DII consumption anzeigen"].
