@@ -1007,23 +1007,3 @@ Die Unterstützung für Kubernetes-Workloads ist jetzt allgemein verfügbar (GA)
 *Berichtsunterstützung*: Sie können jetzt Berichte über die Schutzaktivitäten für Kubernetes-Cluster und Anwendungen generieren, die durch NetApp Backup and Recovery geschützt sind.
 
 Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Übersicht zum Schutz von Kubernetes-Workloads"].
-
-
-
-== 19. Februar 2026
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Neue Regionen werden in Azure unterstützt
-
-Sie können jetzt Cloud Volumes ONTAP 9.12.1 GA und höher in einzelnen und mehreren Verfügbarkeitszonen in Azure in den folgenden Regionen bereitstellen. Dies umfasst die Unterstützung sowohl für Einzelknoten- als auch für Hochverfügbarkeits- (HA) Bereitstellungen.
-
-* Japan West (japanwest)
-* Indonesien Central (indonesiacentral)
-
-
-Eine Liste aller Regionen finden Sie unter https://bluexp.netapp.com/cloud-volumes-global-regions["Globale Regionskarte unter Azure"^].
