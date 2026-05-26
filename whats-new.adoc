@@ -994,29 +994,3 @@ Bei Bereitstellungen im privaten Modus sind einige Konfigurationsänderungen erf
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 Versionshinweise"^]
 * https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Erforderliche Berechtigungen für Google Cloud Infrastructure Manager"^]
 
-
-
-
-== 23. Februar 2026
-
-
-
-=== Sicherung und Wiederherstellung
-
-
-
-==== KVM-Workloads, die in der General Availability (GA) unterstützt werden
-
-Die Unterstützung für KVM-Workloads ist jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery.
-
-Weitere Informationen zum Schutz von KVM-Workloads finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Übersicht über den Schutz von KVM-Workloads"] .
-
-
-
-==== Unterstützte Kubernetes-Workloads in der General Availability (GA)
-
-Die Unterstützung für Kubernetes-Workloads ist jetzt allgemein verfügbar (GA) in NetApp Backup and Recovery. Diese Version von Kubernetes-Workloads bietet außerdem die folgenden erweiterten Funktionen:
-
-*Berichtsunterstützung*: Sie können jetzt Berichte über die Schutzaktivitäten für Kubernetes-Cluster und Anwendungen generieren, die durch NetApp Backup and Recovery geschützt sind.
-
-Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Übersicht zum Schutz von Kubernetes-Workloads"].
