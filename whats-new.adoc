@@ -30,6 +30,40 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+== 3. Juni 2026
+
+
+
+=== Lebenszyklusplanung
+
+
+
+==== Aktualisierungen der Funktionsnamen für die Lebenszyklusplanung
+
+Die folgenden Funktionen der Lebenszyklusplanung haben Namensänderungen erfahren:
+
+* Die Funktion „Tech-Aktualisierung“ heißt jetzt *Systemaktualisierung*. Erfahren Sie, wie Sie link:../use/tech-refresh.html["eine Systemaktualisierung bewerten"].
+* Die Funktion „Kapazitätserweiterungen“ heißt jetzt *Speichererweiterung*. Erfahren Sie, wie Sie link:../use/capacity-add.html["Speicherplatz erweitern"].
+* Die Funktion „Verlängerungen“ heißt jetzt *Support Renewals*. Erfahren Sie, wie Sie link:../support/task-support-registration.html["Registrieren Sie sich für Support"].
+
+
+
+
+=== Digitaler Berater
+
+
+
+==== Aktualisierungen des Namens des Digital Advisor-Widgets
+
+Die folgenden Digital Advisor-Funktionen haben Namensänderungen:
+
+* Die Funktion „Tech-Aktualisierung“ heißt jetzt „Systemaktualisierung“. Erfahren Sie, wie Sie link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["eine Systemaktualisierung bewerten"].
+* Die Funktion „Kapazitätserweiterungen“ heißt jetzt „Speichererweiterung“. Erfahren Sie mehr über link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor Widgets"].
+* Die Funktion „Verlängerungen“ heißt jetzt „Support-Verlängerungen“. Erfahren Sie mehr über link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor Widgets"].
+
+
+
+
 == 26. Mai 2026
 
 

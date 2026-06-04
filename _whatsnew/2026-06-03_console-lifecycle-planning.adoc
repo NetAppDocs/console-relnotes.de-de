@@ -1,0 +1,14 @@
+= Aktualisierungen der Funktionsnamen für die Lebenszyklusplanung
+:allow-uri-read: 
+
+
+
+
+=== Aktualisierungen der Funktionsnamen für die Lebenszyklusplanung
+
+Die folgenden Funktionen der Lebenszyklusplanung haben Namensänderungen erfahren:
+
+* Die Funktion „Tech-Aktualisierung“ heißt jetzt *Systemaktualisierung*. Erfahren Sie, wie Sie link:../use/tech-refresh.html["eine Systemaktualisierung bewerten"].
+* Die Funktion „Kapazitätserweiterungen“ heißt jetzt *Speichererweiterung*. Erfahren Sie, wie Sie link:../use/capacity-add.html["Speicherplatz erweitern"].
+* Die Funktion „Verlängerungen“ heißt jetzt *Support Renewals*. Erfahren Sie, wie Sie link:../support/task-support-registration.html["Registrieren Sie sich für Support"].
+
