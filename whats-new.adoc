@@ -59,6 +59,16 @@ Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter  https:/
 
 
 
+=== Datenklassifizierung
+
+
+
+==== Allgemeine Verbesserungen
+
+Diese Version der Datenklassifizierung beinhaltet Sicherheitsverbesserungen und Leistungsverbesserungen.
+
+
+
 == 3. Juni 2026
 
 
