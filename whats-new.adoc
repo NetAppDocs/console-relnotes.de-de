@@ -30,6 +30,35 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+== 08. Juni 2026
+
+
+
+=== Sicherung und Wiederherstellung
+
+
+
+==== ONTAP Volumes Workloads-Verbesserungen
+
+In dieser Version führt ONTAP Volumes-Workloads die folgende Verbesserung ein:
+
+*Unterstützung für S3-kompatiblen Cloud-Speicher*: NetApp Backup and Recovery für Volumes-Workloads unterstützt jetzt das Sichern in S3-kompatiblen Cloud-Speicher.
+
+Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Überblick über den Schutz von ONTAP Volumes Workloads"].
+
+
+
+==== Hyper-V-Workload-Verbesserungen
+
+In dieser Version werden für Hyper-V-Workloads die folgenden Verbesserungen eingeführt:
+
+* *Wiederherstellen von Dateien und Ordnern in einer Gast-VM – Verbesserungen*: Sie können jetzt Dateien und Ordner aus einem Snapshot auf primärem oder sekundärem Speicher in einer Gast-Windows-VM wiederherstellen. Diese Funktion wird nun für CIFS- und SAN-VMs unterstützt.
+
+
+Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Übersicht zum Schutz von Hyper-V-Workloads"].
+
+
+
 == 3. Juni 2026
 
 
@@ -738,187 +767,3 @@ Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://
 Ransomware Resilience bietet jetzt Security Orchestration, Automation, and Response (SOAR)-Playbooks für link:https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/NetApp%20Ransomware%20Resilience/Playbooks["Microsoft Sentinel"^] und link:https://github.com/splunk-soar-connectors/netappransomwareresilience["Splunk"^]. Die Playbooks ermöglichen ein einfacheres Management der Bedrohungsreaktion, automatisieren Aufgaben wie das Testen und wesentliche Maßnahmen zur Ransomware-Abwehr, einschließlich der Erstellung von Snapshots und der Offline-Schaltung eines Volumes.
 
 Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["SOAR-Playbooks integrieren"^].
-
-
-
-== 10. März 2026
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Möglichkeit zur Verwaltung der Console-Agent-Proxy-Einstellungen für Cloud Volumes ONTAP
-
-Sie können jetzt die Proxy-Einstellungen auf dem NetApp Console-Agenten für Cloud Volumes ONTAP verwalten, selbst wenn Sie die Verbindung verlieren oder der Proxy falsch eingerichtet ist. Bisher wurden Ihre manuellen Proxy-Einstellungen durch Standardeinstellungen überschrieben, wenn der Console-Agent 20 Minuten lang keine Verbindung zu Cloud Volumes ONTAP herstellen konnte. Dies führte zu Kommunikationsfehlern, einschließlich Problemen mit AutoSupport-Nachrichten. Um Ihre Proxy-Einstellungen für bestehende Systeme beizubehalten, führen Sie den folgenden API-Aufruf aus:
-
-`PUT /occm/config`
-
-Fügen Sie den folgenden Parameter in den Anfragetext ein:
-
-[source, json]
-----
-{
-  "proxyMode": "No_Overwrites"
-}
-----
-Der Standardmodus ist aktiviert, was bedeutet, dass der Console-Agent Ihre Proxy-Einstellungen mit Standardeinstellungen überschreibt, wenn er 20 Minuten lang keine Verbindung zu Cloud Volumes ONTAP herstellen kann.
-
-https://docs.netapp.com/us-en/console-automation/cvo/put-occm-config.html["Konfigurieren Sie veränderbare NetApp Console-Parameter"^]
-
-
-
-== 09. März 2026
-
-
-
-=== Konsoleneinrichtung und -verwaltung
-
-
-
-==== Console Agent 4.5.0
-
-Die Version 4.5.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.
-
-Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen sowie die folgende neue Funktion.
-
-.Unterstützung für Konfigurationsprüfungen der erforderlichen Ports
-Sie können mithilfe von Konfigurationsprüfungen überprüfen, ob die erforderlichen Ports für den Console Agent geöffnet sind. Sie können Konfigurationsprüfungen entweder von der Console oder der Agent Maintenance Console aus durchführen. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Erfahren Sie mehr über die Durchführung von Konfigurationsprüfungen auf dem Console agent."]
-
-
-
-==== NetApp Console
-
-Sie können Keystone-Rollen Partnerbenutzern zuweisen, um diesen Benutzern die Verwaltung von Keystone-Ressourcen in einer Partnerorganisation zu ermöglichen. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-assign-users.html["Erfahren Sie mehr über die Zuweisung von Keystone-Rollen an Partnerbenutzer."]
-
-
-
-=== Sicherung und Wiederherstellung
-
-
-
-==== ONTAP Volumes Workloads-Verbesserungen
-
-In dieser Version führt ONTAP Volumes Workloads die folgenden erweiterten Funktionen ein:
-
-* *Wiederherstellung am Quellspeicherort*: Sie können jetzt Dateien aus lokalen Snapshots und replizierten Snapshots am Quellspeicherort sowie an einem alternativen Speicherort wiederherstellen.
-* *Stündliche Volumenerkennung*: Das Dashboard erkennt und aktualisiert neue Volumes jetzt schneller.
-* *Unterstützung für Dark Sites*: Sie können Backup und Recovery für Dark Sites jetzt von der https://mysupport.netapp.com/site/products/all/details/netapp-console/downloads-tab/download/61906/4.4.0/downloads["NetApp Support Site"] herunterladen. Aktuell unterstützt NetApp Backup und Recovery für Dark Sites nur ONTAP Volumes-Workloads.
-* *Verbesserungen der Unicode-Kompatibilität*: Die Katalogindizierung verarbeitet Unicode-Zeichen jetzt besser.
-* *Verbesserte FlexGroup-Kompatibilität*: Wenn Sie ein ONTAP FlexVol Volume in ein FlexGroup Volume konvertieren, können Sie jetzt Backups wiederherstellen, die vor der Konvertierung erstellt wurden.
-* *Unterstützung mehrerer Buckets*: Sie können jetzt die Volumes innerhalb eines Systems mit bis zu 6 Buckets pro System über verschiedene Cloud-Anbieter schützen.
-
-
-Weitere Informationen zum Schutz von ONTAP Volume-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Überblick über den Schutz von ONTAP Volume-Workloads"].
-
-
-
-==== VMware-Workload-Verbesserungen
-
-In dieser Version führt VMware workloads die folgenden erweiterten Funktionen ein:
-
-* *Gastdaten aus Objektspeicher wiederherstellen*: Sie können jetzt Gastdateien und -ordner aus dem Objektspeicher wiederherstellen.
-* *Schnellwiederherstellung für VMFS/NFS*: Sie können jetzt die Schnellwiederherstellungsoption beim Wiederherstellen an einem alternativen Speicherort aktivieren. Ist diese Option aktiviert, werden nur VM-Metadaten (Dateien, LUNs und Namespaces) aus dem Objektspeicher abgerufen, wodurch Volumes schneller verfügbar sind als bei einer vollständigen Wiederherstellung.
-* *Unterstützung für Amazon FSx for NetApp ONTAP*: VMware-Workloads unterstützen jetzt Amazon FSx for NetApp ONTAP-Speichersysteme mit Version 9.13.1 oder höher.
-
-
-Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Überblick über den Schutz von VMware-Workloads"].
-
-
-
-=== Datenklassifizierung
-
-
-
-==== Ressourcenvalidierung
-
-Um die Zuverlässigkeit zu gewährleisten, validiert Data Classification nun die verfügbaren Speicher- und Festplattenressourcen während des Scannens, der Berichtserstellung und der Aktionen. Wenn die Speicherauslastung 95 % übersteigt oder der Festplattenspeicher unter 6 GB fällt, pausiert Data Classification die Vorgänge automatisch. Die Vorgänge werden fortgesetzt, sobald die Ressourcen wieder ausreichend sind.
-
-Um Ihre Systemressourcen zu überwachen, siehe link:https://docs.netapp.com/us-en/data-services-data-classification/task-health-monitor.html["Überwachen Sie den Zustand von Data Classification"^].
-
-
-
-==== Erhöhtes Limit für Kopieren und Verschieben
-
-Die Funktionen Kopieren und Verschieben werden nun auch für CIFS-Ziele unterstützt. Das Größenlimit pro Datei für beide Aktionen wurde von 50 MB auf 1 GB erhöht. Die Operationsgrenzen für beide Aktionen wurden auf 1 TB oder 5 Millionen Dateien erhöht.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["Daten kopieren, verschieben und löschen"^].
-
-
-
-==== Berechtigungen für die Active Directory integration configuration
-
-Änderungen an den Active Directory (AD)-Integrationseinstellungen in Data Classification sind nun auf Administratoren beschränkt. Viewer haben nicht mehr die Möglichkeit, die AD-Einstellungen zu ändern.
-
-Weitere Informationen zur Rolle des Classification viewer finden Sie unter link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["Datendienstrollen"^].
-
-
-
-==== Unterstützung für RHEL 9.7
-
-Data Classification hat Red Hat Enterprise Linux v9.7 für die manuelle Installation vor Ort, einschließlich Dark-Site-Bereitstellungen, hinzugefügt.
-
-Die folgenden Betriebssysteme erfordern die Verwendung der Podman-Container-Engine und sie erfordern Data Classification Version 1.30 oder höher: Red Hat Enterprise Linux Version 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4, 9.5, 9.6 und 9.7.
-
-
-
-==== Transparente Proxy-Unterstützung
-
-Die Datenklassifizierung unterstützt jetzt transparente Proxy-Konfigurationen, was eine reibungslosere Bereitstellung in proxied oder eingeschränkten Netzwerkumgebungen ermöglicht.
-
-Weitere Informationen zum Einsatz in eingeschränkten Umgebungen finden Sie unter link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-compliance-dark-site.html["Installieren Sie NetApp Data Classification auf einem Linux-Host ohne Internetzugang"^].
-
-
-
-=== Notfallwiederherstellung
-
-
-
-==== Einen Datenspeicher von Replikationsplänen ausschließen
-
-Beim Erstellen eines Replikationsplans in Disaster können Sie nun bestimmte Datenspeicher von der Replikation ausschließen. In Situationen, in denen eine VM für die Verwendung mehrerer Datenspeicher konfiguriert ist, können Sie so einschränken, welche repliziert werden.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Erstellen eines Replikationsplans"^].
-
-
-
-==== Passwortvalidierung aus vCenter-Passwort entfernt
-
-Die Notfallwiederherstellung hat die Passwortbeschränkungen für vCenter-Passwörter aufgehoben, sodass Passwörter Leerzeichen enthalten dürfen.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/reference/evs-deploy-guide-add-vcenters.html["Fügen Sie lokale und Amazon EVS-vCenter-Cluster in NetApp Disaster Recovery hinzu"^].
-
-
-
-==== Neues Untermenü für Replikationsplan
-
-Disaster Recover bietet jetzt neue Menüoptionen, um vCenter-Aktualisierungen vom Replikationsplan-Dashboard aus auszulösen. Sie können auf das Untermenü über das Aktionsmenü des Replikationsplan-Dashboards zugreifen: Wählen Sie **Plan Health** und dann **Refresh Source vCenter / Refresh Target vCenter**.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#modify-a-replication-plan["Einen Replikationsplan ändern"^].
-
-
-
-==== Verbesserte Netzwerkerkennung
-
-Disaster Recovery umfasst nun eine verbesserte Netzwerkerkennung, um ein breiteres Spektrum an Netzwerkkonfigurationen zu unterstützen.
-
-
-
-=== Ransomware-Resilienz
-
-
-
-==== Benutzer massenhaft von Benutzerverhaltenswarnungen ausschließen
-
-Ransomware Resilience unterstützt jetzt zusätzlich zu den bestehenden UI- und CSV-basierten Optionen das Hochladen einer JSON-Liste von Benutzern, die von Warnmeldungen zum Benutzerverhalten ausgeschlossen werden sollen.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["Benutzer von Warnmeldungen ausschließen"^].
-
-
-
-==== Verbesserungen der Benutzerverhaltenserkennung
-
-Ransomware Resilience bietet verbesserte Einblicke in das Nutzerverhalten durch E-Mail-Benachrichtigungen und die Einbeziehung von Nutzerverhaltensereignissen in die unterstützten SIEM-Ereignisdaten (AWS Security Hub, Microsoft Sentinel, und Splunk Cloud). Diese Verbesserungen bieten genauere Einblicke in Ihre Sicherheits- und Compliance-Überwachung.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["Verbinden Sie NetApp Ransomware Resilience mit einem SIEM"^].
