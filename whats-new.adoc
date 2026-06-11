@@ -30,6 +30,22 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+== 11. Juni 2026
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Unterstützung für eine neue Azure-Region in Cloud Volumes ONTAP
+
+Cloud Volumes ONTAP 9.12.1 GA und höher kann jetzt in Azure in der Region Malaysia West (malaysiawest) in einzelnen und mehreren Verfügbarkeitszonen bereitgestellt werden. Dies umfasst die Unterstützung sowohl für Einzelknoten- als auch für Hochverfügbarkeitsbereitstellungen (HA).
+
+Eine Liste aller Regionen finden Sie unter https://bluexp.netapp.com/cloud-volumes-global-regions["Globale Regionskarte unter Azure"^].
+
+
+
 == 08. Juni 2026
 
 
@@ -862,19 +878,3 @@ In dieser Version führt VMware workloads die folgenden Verbesserungen ein:
 *VM-Konsistenzunterstützung pro Zeitplanstufe*: Sie können jetzt VM-konsistente und anwendungskonsistente Backups für bestimmte Zeitplanstufen aktivieren, wenn Sie Schutzrichtlinien für VMware-Workloads konfigurieren. Jährliche, monatliche und wöchentliche Zeitplanstufen werden unterstützt.
 
 Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Überblick über den Schutz von VMware-Workloads"].
-
-
-
-== 12. März 2026
-
-
-
-=== Ransomware-Resilienz
-
-
-
-==== SOAR-Playbooks für Microsoft Sentinel und Splunk
-
-Ransomware Resilience bietet jetzt Security Orchestration, Automation, and Response (SOAR)-Playbooks für link:https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/NetApp%20Ransomware%20Resilience/Playbooks["Microsoft Sentinel"^] und link:https://github.com/splunk-soar-connectors/netappransomwareresilience["Splunk"^]. Die Playbooks ermöglichen ein einfacheres Management der Bedrohungsreaktion, automatisieren Aufgaben wie das Testen und wesentliche Maßnahmen zur Ransomware-Abwehr, einschließlich der Erstellung von Snapshots und der Offline-Schaltung eines Volumes.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["SOAR-Playbooks integrieren"^].
