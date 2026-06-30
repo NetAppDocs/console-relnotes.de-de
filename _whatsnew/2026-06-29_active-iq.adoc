@@ -1,0 +1,37 @@
+= Health Check GraphQL Migration und Verbesserungen der Datengenauigkeit
+:allow-uri-read: 
+
+
+
+
+=== Health Check GraphQL Migration und Verbesserungen der Datengenauigkeit
+
+Das Modul „Health Check“ wurde mit verbesserter Datengenauigkeit und Versionsempfehlungen gemäß Währungsstandards erweitert. Im Rahmen dieser Version wurde es von der Public API zu GraphQL migriert, was eine verbesserte Performance, flexible Abfragen und langfristigen Support bietet.
+
+
+
+==== Empfohlene Software
+
+Empfohlene Software-Erweiterungen im Modul Health Check liefern nun genauere und konsistentere Daten.
+
+* Die Anzahl der Regale und Laufwerke unter der Firmware-Währung zeigt die genauen Werte pro System an und schließt die Anzahl der HA-Paare nicht mehr ein.
+* Die Empfehlungen für die Mindest- und die neueste Version werden nun auf Clusterebene auf Basis der effektiven Clusterversion gemäß den aktuellen Währungsstandards berechnet, zuvor wurden diese Empfehlungen auf Knotenebene berechnet.
+
+
+
+
+==== AutoSupport Datenabhängigkeit
+
+Aufgrund von Verbesserungen im Backend basieren die Ansichten zur AutoSupport-Adoption und zu empfohlenen Softwareversionen auf den neuesten AutoSupport-Daten. Dies kann Ihre aktuelle Ansicht wie folgt beeinflussen:
+
+[cols="30,70"]
+|===
+| Szenario | Betroffene Systeme 
+
+
+| Es werden keine Daten angezeigt | Systeme, die seit Oktober 2025 keine AutoSupport-Nachricht mehr gesendet haben 
+
+
+| Veraltete Werte | Systeme, die in den letzten 30 Tagen keinen AutoSupport gesendet haben 
+|===
+Lösen Sie AutoSupport auf den oben aufgeführten betroffenen Systemen erneut aus, um die aktuellen Daten in den Health-Check-Ansichten wiederherzustellen.
