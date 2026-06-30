@@ -455,4 +455,8 @@
   <block id="e20432694f9004583c0756c875ad9910" category="cell">Systeme, die in den letzten 30 Tagen keinen AutoSupport gesendet haben</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">Lösen Sie AutoSupport auf den oben aufgeführten betroffenen Systemen erneut aus, um die aktuellen Daten in den Health-Check-Ansichten wiederherzustellen.</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">29. Juni 2026</block>
+  <block id="fb9721f24a420ba827ac36665b13797e" category="doc">Automatisierte Antworten auf Benachrichtigungen zu Benutzeraktivitäten</block>
+  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilience unterstützt jetzt die Automatisierung der Snapshot-Erstellung und das Sperren von Benutzern, wenn eine Benutzeraktivitätswarnung generiert wird. Mit automatisierten Reaktionen lässt sich ein Benutzer unmittelbar nach Generierung einer Warnung sperren und ein Snapshot zur Wiederherstellung erstellen, was eine schnellere Reaktion ohne manuelle Eingriffe ermöglicht.</block>
+  <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">Antworten auf Warnmeldungen zu Benutzeraktivitäten automatisieren</block>
+  <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">Weitere Informationen sind unter <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block> zu finden.</block>
 </blocks>
