@@ -351,11 +351,8 @@
   <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">Die Funktion „Verlängerungen“ heißt jetzt „Support-Verlängerungen“. Erfahren Sie mehr über <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
   <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">Aktualisierungen der Funktionsnamen für die Lebenszyklusplanung</block>
   <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">Die folgenden Funktionen der Lebenszyklusplanung haben Namensänderungen erfahren:</block>
-  <block id="d5ed2e99bd371bcfc460d6572a12add2" category="list-text">Die Funktion „Tech-Aktualisierung“ heißt jetzt *Systemaktualisierung*. Erfahren Sie, wie Sie <block ref="433ac4cec3ceaf7ac84bdaec77992d24" category="inline-link-macro-rx"></block>.</block>
   <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">Speicherplatz erweitern</block>
-  <block id="7909728a25fab3130222a99358ae67a5" category="list-text">Die Funktion „Kapazitätserweiterungen“ heißt jetzt *Speichererweiterung*. Erfahren Sie, wie Sie <block ref="09884e6ec96fe38b804dd493528c8e70" category="inline-link-macro-rx"></block>.</block>
   <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">Registrieren Sie sich für Support</block>
-  <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">Die Funktion „Verlängerungen“ heißt jetzt *Support Renewals*. Erfahren Sie, wie Sie <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block>.</block>
   <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">3. Juni 2026</block>
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Unterstützung für S3-kompatiblen Cloud-Speicher*: NetApp Backup and Recovery für Volumes-Workloads unterstützt jetzt das Sichern in S3-kompatiblen Cloud-Speicher.</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Wiederherstellen von Dateien und Ordnern in einer Gast-VM – Verbesserungen*: Sie können jetzt Dateien und Ordner aus einem Snapshot auf primärem oder sekundärem Speicher in einer Gast-Windows-VM wiederherstellen. Diese Funktion wird nun für CIFS- und SAN-VMs unterstützt.</block>
@@ -481,4 +478,7 @@
   <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Console Agent 4.8.0</block>
   <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">Die Version 4.8.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.</block>
   <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">Diese Version enthält die Sicherheitsverbesserungen und Fehlerbehebungen.</block>
+  <block id="32846264266c0647221942c075bdc06f" category="list-text">Die Funktion „Tech refresh“ heißt jetzt *System Refresh*. Informationen dazu, wie <block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
+  <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">Die Funktion „Kapazitätserweiterungen“ heißt jetzt *Speichererweiterung*. Informationen dazu, wie <block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
+  <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">Die Funktion „Verlängerungen“ heißt jetzt *Support Renewals*. Informationen dazu, wie <block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
 </blocks>
