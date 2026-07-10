@@ -4,6 +4,7 @@
 
 
 
+[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
 === Replikationsmanagement für bestehende Beziehungen mit FSx für ONTAP
 
 Die Replikationsbeziehungsverwaltung für FSx for ONTAP-Dateisysteme als Quelle oder Ziel befindet sich jetzt in NetApp Workload Factory.

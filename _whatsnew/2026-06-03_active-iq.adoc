@@ -4,6 +4,7 @@
 
 
 
+[[digital-advisor-widget-name-updates]]
 === Aktualisierungen des Namens des Digital Advisor-Widgets
 
 Die folgenden Digital Advisor-Funktionen haben Namensänderungen:

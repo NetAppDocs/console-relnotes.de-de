@@ -18,6 +18,7 @@ Sehen Sie sich die vollständigen Versionshinweise zu den NetApp Console Funktio
 
 
 
+[[administration]]
 == Verwaltung
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["Einrichtung und Administration"^]
@@ -31,6 +32,7 @@ Sehen Sie sich die vollständigen Versionshinweise zu den NetApp Console Funktio
 
 
 
+[[storage]]
 == Storage
 
 * https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["Amazon FSx für ONTAP"^]
@@ -48,6 +50,7 @@ Sehen Sie sich die vollständigen Versionshinweise zu den NetApp Console Funktio
 
 
 
+[[storage-as-a-service]]
 == Speicher als Service
 
 * https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
@@ -55,6 +58,7 @@ Sehen Sie sich die vollständigen Versionshinweise zu den NetApp Console Funktio
 
 
 
+[[data-services]]
 == Datendienste
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Sicherung und Wiederherstellung"^]

@@ -4,6 +4,7 @@
 
 
 
+[[lifecycle-planning-feature-name-updates]]
 === Aktualisierungen der Funktionsnamen für die Lebenszyklusplanung
 
 Die folgenden Funktionen der Lebenszyklusplanung haben Namensänderungen erfahren:
