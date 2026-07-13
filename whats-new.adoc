@@ -30,6 +30,64 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[13-july-2026]]
+== 13. Juli 2026
+
+
+
+[[disaster-recovery]]
+=== Notfallwiederherstellung
+
+
+
+==== Kubernetes-Updates
+
+Die Notfallwiederherstellung hat die folgenden Änderungen für Kubernetes-basierte Workloads eingeführt:
+
+
+
+===== Trident Protect über das Menü „Standorte“ verwalten
+
+Disaster Recovery unterstützt jetzt die direkte Verwaltung von Trident Protect über das Menü „Sites“ in der Disaster Recovery-Benutzeroberfläche. Trident Protect kann aktualisiert oder aus Disaster Recovery entfernt werden, wodurch die Verwaltung Ihrer Kubernetes-Ressourcen vereinfacht wird.
+
+Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/manage.html["Standorte verwalten"^].
+
+
+
+==== VMware-Updates
+
+Die Notfallwiederherstellung hat die folgenden Änderungen für VMware basierte Workloads eingeführt:
+
+
+
+===== Failover bei leeren Datenspeichern
+
+Replikationspläne mit leeren Datenspeichern können nun erfolgreich per Failover übernommen werden, ohne dass diese aus dem Plan ausgeschlossen oder ein Failover erzwungen werden muss. Während des Failovers bindet Disaster Recovery den leeren Datenspeicher automatisch am Disaster Recovery-Standort ein, sodass VMs hinzugefügt und für Failback-Operationen geschützt werden können.
+
+Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/failover.html["Failover zu einem Remote-Standort"^].
+
+
+
+===== vCenter Netzwerkautomapping
+
+Netzwerkzuordnungen können nun auf vCenter-Ebene (also außerhalb des Dialogfelds für Replikationspläne) konfiguriert werden. Nach der Konfiguration wendet Disaster Recovery diese Netzwerkzuordnungen beim Hinzufügen oder Bearbeiten eines Replikationsplans automatisch an, was die Verwaltung von Replikationsplänen vereinfacht.
+
+Die Notfallwiederherstellung unterstützt weiterhin planbezogene Überschreibungen. Bestehende Netzwerkzuordnungen, die innerhalb eines Replikationsplans definiert sind, können weiterhin netzwerkbezogen bearbeitet werden; diese Zuordnungen haben Vorrang vor den vCenter-Definitionen auf Netzwerkebene.
+
+
+
+==== Einschränkung der Disaster Recovery Viewer-Rolle
+
+Die Möglichkeit, die Registerkarte „Upgrade System“ anzuzeigen, wurde aus der Rolle „Disaster Recovery viewer“ entfernt. Diese Änderung stimmt die Rolle besser auf die angemessene Erfahrung für Benutzer mit Nur-Lesezugriff ab. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-disaster-rec-roles.html["Informationen zu Benutzerrollen und Berechtigungen in NetApp Disaster Recovery"^].
+
+
+
+==== Systemleistungsverbesserungen
+
+Disaster Recovery hat Änderungen eingeführt, um den Systemressourcenverbrauch zu reduzieren und die Leistung bei allen Vorgängen zu verbessern.
+
+
+
 [[07-july-2026]]
 == 07. Juli 2026
 
@@ -819,213 +877,3 @@ In dieser Version führt VMware Workloads die folgende Verbesserung ein:
 *ASA r2 SAN-Unterstützung*: VMware-Workloads unterstützen jetzt den Schutz von VMs auf VMFS-Datenspeichern, die in NetApp ASA r2 SAN-only-Umgebungen gehostet werden.
 
 Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Überblick über den Schutz von VMware-Workloads"].
-
-
-
-[[13-april-2026]]
-== 13. April 2026
-
-
-
-[[console-setup-and-administration]]
-=== Konsoleneinrichtung und -verwaltung
-
-
-
-==== Console Agent 4.6.0
-
-Die Version 4.6.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.
-
-Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen sowie die folgende neue Funktion.
-
-.Unterstützung für Konfigurationsprüfungen des benötigten Speicherplatzes
-Sie können mithilfe von Konfigurationsprüfungen sicherstellen, dass der für den Konsolenagenten erforderliche Speicherplatz verfügbar ist. Sie können Konfigurationsprüfungen von der Konsole oder der Wartungskonsole des Agenten aus durchführen. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Erfahren Sie mehr über die Durchführung von Konfigurationsprüfungen auf dem Konsolenagent."^]
-
-.Aktualisieren Sie einen mit vCenter bereitgestellten Console-Agenten mithilfe einer ISO
-Wenn Sie einen Console-Agenten in vCenter mithilfe einer OVA bereitgestellt haben, können Sie ihn jetzt auf eine neue Version aktualisieren, indem Sie eine ISO an die VM anhängen und das Upgrade von der VM-Wartungskonsole ausführen. link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["Erfahren Sie, wie Sie einen vCenter-bereitgestellten Konsolenagenten aktualisieren"^]
-
-
-
-[[backup-and-recovery]]
-=== Sicherung und Wiederherstellung
-
-
-
-==== ONTAP Volumes Workloads-Verbesserungen
-
-In dieser Version führt ONTAP Volumes-Workloads die folgende Verbesserung ein:
-
-*NetApp MetroCluster Aktiv/Aktiv-Konfigurationen unterstützt*: NetApp Backup and Recovery for Volumes-Workloads unterstützt jetzt MetroCluster in der Aktiv/Aktiv-Konfiguration.
-
-Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Überblick über den Schutz von ONTAP Volumes Workloads"].
-
-
-
-==== Kubernetes-Workloads-Erweiterungen
-
-In dieser Version führt Kubernetes-Workloads die folgenden Verbesserungen der Datensicherungsstrategie ein:
-
-* *Bearbeitung der Schutzrichtlinien*: Sie können jetzt die Kubernetes-Workload-Schutzrichtlinien bearbeiten, falls Sie sie ändern müssen.
-* *Disk-to-Disk-Unterstützung*: Sie können jetzt Kubernetes-Schutzrichtlinien mit einer Disk-to-Disk-Backup-Architektur konfigurieren.
-* *Unterstützung für Google Cloud Platform storage bucket*: Sie können jetzt Kubernetes-Datensicherungsstrategien so konfigurieren, dass Backups in Google Cloud Platform storage buckets gespeichert werden.
-
-
-Weitere Informationen zu den Datensicherungsstrategien finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["Erstellen und Verwalten von Datensicherungsstrategien in NetApp Backup and Recovery"].
-
-Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Übersicht zum Schutz von Kubernetes-Workloads"].
-
-
-
-==== Hyper-V-Workload-Verbesserungen
-
-In dieser Version werden für Hyper-V-Workloads die folgenden Verbesserungen eingeführt:
-
-* *Verbesserte Auftragsabwicklung*: Backup and Recovery verarbeitet jetzt mehrere gleichzeitig laufende Aufträge effizienter.
-* *SAN-Unterstützung (Vorschau)*: Backup and Recovery unterstützt jetzt den Schutz von Hyper-V-VMs, die auf SAN-Speichern abgelegt sind.
-
-
-Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Übersicht zum Schutz von Hyper-V-Workloads"].
-
-
-
-==== Verbesserungen für KVM-Workloads
-
-In dieser Version werden für KVM-Workloads die folgenden Verbesserungen eingeführt:
-
-* *Verbesserte Auftragsabwicklung*: Backup and Recovery verarbeitet jetzt mehrere gleichzeitig laufende Aufträge effizienter.
-* *Wiederherstellung an alternativem Speicherort (Vorschau)*: Sie können KVM-VMs jetzt an einem alternativen Ziel wiederherstellen. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["Stellen Sie KVM-VMs mit NetApp Backup and Recovery wieder her"].
-
-
-Weitere Informationen zum Schutz von KVM-Workloads finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Übersicht über den Schutz von KVM-Workloads"] .
-
-
-
-==== VMware-Workload-Verbesserungen
-
-In dieser Version führt VMware workloads die folgenden Verbesserungen ein:
-
-* *Tagbasierter Schutz*: Backup and Recovery für VMware-Workloads unterstützt jetzt tagbasierten Schutz für VMs, die auf NFS- und VMFS-Volumes gespeichert sind, sodass Sie Schutzgruppen aus vCenter-Tags anstatt aus einzelnen VMs oder Datenspeichern erstellen können. Wenn Sie VMs und Datenspeicher in vCenter taggen, erkennt Backup and Recovery diese automatisch und schließt sie in zukünftige Backups ein, ohne dass eine manuelle Gruppenverwaltung erforderlich ist. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["Schutzgruppen erstellen und verwalten"].
-* *Wiederherstellung auf alternativem Speichersystem*: Sie können virtuelle Maschinen jetzt auch dann auf einem alternativen Speichersystem wiederherstellen, wenn das ursprüngliche (primäre) Speichersystem vollständig ausgefallen ist. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["VMware-Workloads wiederherstellen"].
-* *Dateien auf Linux-VMs wiederherstellen*: Sie können jetzt VM-Dateien und -Ordner auf Linux-VMs wiederherstellen. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Dateien und Ordner wiederherstellen"].
-* *Unterstützung für Proxy-VMs beim Wiederherstellen von Dateien und Ordnern* – Sie können jetzt Dateien und Ordner von virtuellen Festplatten mithilfe einer Proxy-VM wiederherstellen, wenn Sie die virtuelle Festplatte nicht an die ursprüngliche VM anbinden möchten. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Dateien und Ordner wiederherstellen"].
-* *Rekursive Datei- und Ordnersuche* – Sie können jetzt eine gesamte virtuelle Festplatte nach einer bestimmten Datei oder einem bestimmten Ordner durchsuchen. Weitere Informationen finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Dateien und Ordner wiederherstellen"].
-* *Verbesserte Auftragsabwicklung*: Backup and Recovery verarbeitet jetzt mehrere gleichzeitig laufende Aufträge effizienter.
-
-
-Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Überblick über den Schutz von VMware-Workloads"].
-
-
-
-[[data-classification]]
-=== Datenklassifizierung
-
-
-
-==== Allgemeine Verbesserungen
-
-Diese Version der Datenklassifizierung enthält Fehlerbehebungen, Sicherheitsverbesserungen und Leistungsoptimierungen.
-
-
-
-[[cloud-tiering]]
-=== Cloud-Tiering
-
-
-
-==== NetApp Cloud Tiering wird nicht mehr angeboten
-
-NetApp Cloud Tiering ist ab dem 26. April 2026 nicht mehr zum Kauf oder zur Lizenzverlängerung verfügbar.
-
-Bestehende Kunden können NetApp Cloud Tiering weiterhin nutzen und Support dafür erhalten, bis ihr Abonnement oder Lizenzvertrag abläuft. Nach Ablauf des Abonnements haben Kunden keinen Zugriff mehr auf die Funktionen oder den Support von NetApp Cloud Tiering.
-
-NetApp empfiehlt Kunden, gemeinsam mit ihrem NetApp-Ansprechpartner ihre bestehenden Tiering-Lizenzen auf ONTAP FabricPool-Lizenzen umzustellen, die die Funktionalität für Data Tiering in ONTAP bereitstellen. Siehe link:https://docs.netapp.com/us-en/ontap/fabricpool/install-license-aws-azure-ibm-task.html["Installieren einer FabricPool-Lizenz auf einem ONTAP Cluster"] für weitere Informationen zur Einrichtung von Data Tiering in ONTAP mit FabricPool.
-
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-Notice2.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_9L2PauNXYE0fOs0RIz8KK2q5Jb6sg8Yv-97NNJ53ceAab9UAqpKOrAvByxsOWqhIQHNCHgFfM0q3TI["NetApp Cloud Tiering End-of-Availability-Benachrichtigung"]
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-FAQ-v3.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_rplJe_ZtlY4PQAQRQlewsDa0W4JR55muT0KCThR46zI7-uOhIYfVsxODDKFrnYYvy5uZzvhEKHOwBI["NetApp Cloud Tiering FAQ zum Ende der Verfügbarkeit"]
-
-
-
-
-[[disaster-recovery]]
-=== Notfallwiederherstellung
-
-
-
-==== Google Cloud VMware Engine (GCVE) wird ab sofort allgemein unterstützt (GA)
-
-NetApp Disaster Recovery-Unterstützung für GCVE ist jetzt allgemein verfügbar (GA). Mit GA-Unterstützung unterstützt Disaster Recovery für GCVE jetzt:
-
-* *Plattformverwaltete Snapshots:* Backups und Aufbewahrungsrichtlinien lassen sich nahtlos über ONTAP oder Google Cloud Platform (GCP) verwalten.
-* *Mehrere Datenspeicher pro Replikationsplan:* Vereinfachen Sie Ihre Disaster Recovery-Pläne, indem Sie mehrere Datenspeicher in einer einzigen Replikationsstrategie konsolidieren.
-* *Erzwingen eines Failovers bei nicht verfügbaren Quellstandorten:* Wechseln Sie zu einem Disaster Recovery-Standort, wenn die Quelle nicht verfügbar ist.
-* *Die SnapMirror-Resynchronisierung aufschieben und die Replikation bei Bedarf wiederherstellen:* Schieben Sie SnapMirror-Resynchronisierungen auf, um Auswirkungen auf Produktions-Workloads während Spitzenbetriebszeiten mit der Option „skip protect“ zu vermeiden, und stellen Sie die Replikation später bei Bedarf mit der Option „re-protect“ wieder her.
-
-
-Weitere Informationen zur Unterstützung von GCVE finden Sie unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Unterstützte Konfigurationen für die Notfallwiederherstellung"^].
-
-
-
-[[ransomware-resilience]]
-=== Ransomware-Resilienz
-
-
-
-==== Saubere Wiederherstellung
-
-Ransomware Resilience unterstützt jetzt Clean Restores, eine neue Wiederherstellungsoption, mit der Sie sich schnell und einfach von Ransomware-Angriffen erholen können. Clean Restores bieten geführte Arbeitsabläufe, die optimale Wiederherstellungspunkte identifizieren, um Ihre Workloads wieder zum Laufen zu bringen und die Ausfallzeit zu minimieren. Die Arbeitsabläufe in Clean Restore bieten außerdem Einblicke auf Dateiebene in Ihre Daten, sodass Sie malwarefreie Workloads wiederherstellen können, was eine erneute Infektion verhindert und Datenverlust minimiert.
-
-Informationen zu unterstützten Konfigurationen und zur Konfiguration Ihres Systems für eine vollständige Wiederherstellung finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["Erstellen Sie eine isolierte Wiederherstellungsumgebung"^]. Informationen zur Wiederherstellung mittels vollständiger Wiederherstellung finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["Stellen Sie Workloads mit einer sauberen Wiederherstellung wieder her"^].
-
-
-
-==== SIEM-Unterstützung für Splunk Enterprise
-
-Ransomware Resilience bietet jetzt Security Information Event Management (SIEM)-Unterstützung für Splunk Enterprise, wodurch Sie Protokoll- und Ereignisdaten zentralisieren und die Bedrohungsanalyse und -erkennung optimieren können.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Verbinden Sie NetApp Ransomware Resilience mit einem SIEM"^].
-
-
-
-==== Verbesserung der Benutzerverhaltenserkennung
-
-Erkenntnisse über Datenschutzverletzungen werden nun 13 Monate nach dem Vorfall gespeichert, wodurch eine längere Datenspeicherung für Ihre Berichtspflichten ermöglicht wird.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["Erfahren Sie mehr über die Erkennung des Nutzerverhaltens"^].
-
-Replikation :leveloffset: +1
-
-
-
-[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
-=== Replikationsmanagement für bestehende Beziehungen mit FSx für ONTAP
-
-Die Replikationsbeziehungsverwaltung für FSx for ONTAP-Dateisysteme als Quelle oder Ziel befindet sich jetzt in NetApp Workload Factory.
-
-link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["Datenreplizierung verwalten"]
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Verbesserte Cloud Volumes ONTAP Unterstützung mit Google Cloud C3 VMs
-
-Cloud Volumes ONTAP bietet jetzt erweiterte Unterstützung für die Google Cloud C3-Serie VMs und ermöglicht diese zusätzlichen Funktionen:
-
-* In Ihren Cloud Volumes ONTAP Bereitstellungen können Sie zwischen verschiedenen Instanztypen innerhalb der C3-Familie wechseln.
-* Wenn Sie den Instanztyp ändern und c3-standard-44 oder c3-standard-88 sowie deren LSSD-Varianten als Ziel-VM auswählen, wird der Google Netzwerkservice Egress-Netzwerk-Tier Tier-1 automatisch angewendet. Wenn Sie zu einer anderen C3-Variante wechseln, wird das Egress-Netzwerk-Tier auf Standard gesetzt.
-+
-
-NOTE: Die Umstellung der Ausgangsnetzwerkebene auf Tier-1 verursacht zusätzliche Kosten. Planen Sie die Bereitstellung und das Upgrade entsprechend.
-
-* Wenn Sie die lokalen SSD-Varianten (LSSD) von C3 auswählen, wird Flash Cache standardmäßig aktiviert. Sie können in Ihrer Cloud Volumes ONTAP Bereitstellung nicht zwischen den C3-LSSD-Varianten wechseln, selbst wenn die Zielvariante Flash Cache unterstützt.
-* Auf Ihren C3-VMs können Sie jetzt sowohl neuen als auch bestehenden Aggregaten Volumes hinzufügen.
-* Die IOPS- und Durchsatzeinstellungen können beim Hinzufügen von Volumes über die NetApp Console oder mithilfe der  `PUT /gcp/vsa/aggregates/{workingEnvironmentId}/{aggregateName}` API geändert werden.
-
-
-.Verwandte Links
-* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Unterstützte Konfigurationen für Cloud Volumes ONTAP in Google Cloud"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["Cloud Volumes ONTAP Unterstützung für Google Cloud VMs der nächsten Generation"^]
-
