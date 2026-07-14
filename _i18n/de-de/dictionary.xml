@@ -422,4 +422,8 @@
   <block id="3ddd9403dd985627a83f357af005a768" category="section-title">Systemleistungsverbesserungen</block>
   <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">Disaster Recovery hat Änderungen eingeführt, um den Systemressourcenverbrauch zu reduzieren und die Leistung bei allen Vorgängen zu verbessern.</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">13. Juli 2026</block>
+  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">ARM Vorlage für Microsoft Sentinel</block>
+  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience bietet jetzt eine Azure Resource Manager (ARM) Vorlage für die Verbindung mit Microsoft Sentinel als SIEM und bietet eine zusätzliche Methode zur Vereinfachung der Bereitstellung.</block>
+  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">Anbindung an ein SIEM-System zur Bedrohungserkennung und -analyse</block>
+  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">Weitere Informationen finden sich unter <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>.</block>
 </blocks>
