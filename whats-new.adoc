@@ -30,6 +30,33 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[15-july-2026]]
+== 15. Juli 2026
+
+
+
+[[console-setup-and-administration]]
+=== Konsoleneinrichtung und -verwaltung
+
+
+
+==== Console Agent 4.9.0
+
+Die Version 4.9.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.
+
+Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen.
+
+
+
+==== NetApp Console
+
+.Unterstützung für rollenbasierte Zugriffssteuerung für Cloud Volumes ONTAP
+Die Konsole unterstützt rollenbasierte Zugriffssteuerung für Cloud Volumes ONTAP.
+
+link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.html["Weitere Informationen über rollenbasierte Zugriffssteuerung für Cloud Volumes ONTAP"^].
+
+
+
 [[14-july-2026]]
 == 14. Juli 2026
 
