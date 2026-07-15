@@ -477,4 +477,5 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">15. Juli 2026</block>
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">GenAI-Workload-Entfernung aus den Workloads in der NetApp Console</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">Die GenAI-Workload wurde aus Workloads in der NetApp Console entfernt.</block>
+  <block id="59ff3234d92baf85ab9719aa478962eb" category="paragraph">*Verbesserte Unterstützung für mehrere Buckets*: Ab ONTAP 9.19.1 und neueren Versionen ist es möglich, die Volumes innerhalb eines Systems mit bis zu 100 Buckets pro System über verschiedene Cloud-Anbieter hinweg zu schützen.</block>
 </blocks>
