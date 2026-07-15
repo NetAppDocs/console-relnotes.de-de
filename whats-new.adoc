@@ -57,6 +57,17 @@ link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.h
 
 
 
+[[amazon-fsx-for-ontap]]
+=== Amazon FSX für ONTAP
+
+
+
+==== GenAI-Workload-Entfernung aus den Workloads in der NetApp Console
+
+Die GenAI-Workload wurde aus Workloads in der NetApp Console entfernt.
+
+
+
 [[14-july-2026]]
 == 14. Juli 2026
 
