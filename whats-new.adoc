@@ -1005,23 +1005,3 @@ Die Bezeichnung *Bereitgestellte Kapazität* wurde in *Bereitgestellte Volumenka
 ==== Prognoseumschalter für aufgelaufene Burst-Nutzung
 
 Sie können jetzt die *Prognose*-Funktion in der Ansicht *Aufgelaufener Burst* auf der Registerkarte *Verbrauchstrend* nutzen, um den aufgelaufenen Burst-Verbrauch für die nächsten 120 Tage ab dem aktuellen Datum zu prognostizieren. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Prognosedaten anzeigen"].
-
-
-
-[[20-april-2026]]
-== 20. April 2026
-
-
-
-[[backup-and-recovery]]
-=== Sicherung und Wiederherstellung
-
-
-
-==== VMware-Workload-Verbesserungen
-
-In dieser Version führt VMware Workloads die folgende Verbesserung ein:
-
-*ASA r2 SAN-Unterstützung*: VMware-Workloads unterstützen jetzt den Schutz von VMs auf VMFS-Datenspeichern, die in NetApp ASA r2 SAN-only-Umgebungen gehostet werden.
-
-Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Überblick über den Schutz von VMware-Workloads"].
