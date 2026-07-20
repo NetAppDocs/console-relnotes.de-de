@@ -1,0 +1,8 @@
+= Gut gestaltetes Dashboard
+:allow-uri-read: 
+
+
+
+
+[[well-architected-dashboard]]
+=== Gut gestaltetes Dashboard
