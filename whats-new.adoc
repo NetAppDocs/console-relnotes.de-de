@@ -146,6 +146,19 @@ Die GenAI-Workload wurde aus Workloads in der NetApp Console entfernt.
 
 
 
+[[digital-advisor]]
+=== Digitaler Berater
+
+
+
+==== Hinweis zur Einstellung von Wellness Review
+
+Die Funktion „Wellness Review“ ist veraltet und steht im Digital Advisor seit Juli 2026 nicht mehr zur Verfügung.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].
+
+
+
 [[14-july-2026]]
 == 14. Juli 2026
 
