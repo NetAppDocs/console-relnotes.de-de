@@ -30,6 +30,29 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[23-july-2026]]
+== 23. Juli 2026
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== Unterstützung für die Region Chile Central in Azure
+
+Sie können Cloud Volumes ONTAP 9.12.1 GA und höher jetzt in der Region Chile Central (chilecentral) in Azure bereitstellen. Die folgenden Bereitstellungstypen werden unterstützt:
+
+* Einzelknoten
+* Hochverfügbarkeit in einer einzelnen Verfügbarkeitszone mit lokal redundantem Speicher (LRS)
+* Hochverfügbarkeit in mehreren Verfügbarkeitszonen mittels zonenredundantem Speicher (ZRS)
+
+
+Eine Liste aller unterstützten Regionen ist unter  https://bluexp.netapp.com/cloud-volumes-global-regions["Globale Regionskarte unter Azure"^] zu finden.
+
+
+
 [[20-july-2026]]
 == 20. Juli 2026
 
