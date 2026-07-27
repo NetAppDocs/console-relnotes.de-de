@@ -1133,27 +1133,3 @@ In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen 
 
 
 Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Übersicht zum Schutz von Kubernetes-Workloads"].
-
-
-
-[[27-april-2026]]
-== 27. April 2026
-
-
-
-[[keystone]]
-=== Keystone
-
-Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
-
-
-
-==== Umbenanntes Label für bereitgestellte Kapazität
-
-Die Bezeichnung *Bereitgestellte Kapazität* wurde in *Bereitgestellte Volumenkapazität* umbenannt. Die aktualisierte Bezeichnung wird auch in den zugehörigen CSV- und Excel-Berichten berücksichtigt.
-
-
-
-==== Prognoseumschalter für aufgelaufene Burst-Nutzung
-
-Sie können jetzt die *Prognose*-Funktion in der Ansicht *Aufgelaufener Burst* auf der Registerkarte *Verbrauchstrend* nutzen, um den aufgelaufenen Burst-Verbrauch für die nächsten 120 Tage ab dem aktuellen Datum zu prognostizieren. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Prognosedaten anzeigen"].
