@@ -1,0 +1,32 @@
+= Schutzgruppen werden auf Grundlage von Arbeitslast und Systemtyp standardisiert
+:allow-uri-read: 
+
+
+
+
+[[standardize-protection-groups-based-on-workload-and-system-type]]
+=== Schutzgruppen werden auf Grundlage von Arbeitslast und Systemtyp standardisiert
+
+Ransomware Resilience schreibt nun vor, dass Schutzgruppen nur einen Workload-Typ und Systemtyp enthalten dürfen. Bei der Erstellung einer neuen Schutzgruppe müssen sowohl der Workload-Typ (Dateisystem oder Block) als auch das System für den Workload angegeben werden. Diese Erweiterung stellt sicher, dass die gewählte Ransomware-Schutzstrategie für die Schutzgruppe erfolgreich auf alle Workloads in der Gruppe angewendet werden kann.
+
+Wenn Sie bereits Schutzgruppen haben, die System- und Workload-Typen mischen, können Sie diese weiterhin verwenden, aber Sie können der Schutzgruppe keine Workloads hinzufügen.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["Erstellen Sie eine Schutzgruppe"^].
+
+
+
+[[readiness-drill-enhancement]]
+=== Verbesserung der Readiness Drill
+
+Ransomware Resilience ermöglicht jetzt die Durchführung von Bereitschaftsübungen basierend auf dem Angriffstyp. Ransomware Resilience erkennt fünf Angriffstypen, und für jeden kann eine Bereitschaftsübung durchgeführt werden, um den Angriffs- und Wiederherstellungsprozess zu simulieren und so die eigene Bereitschaft für einen Ransomware-Angriff zu verstehen.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["Führen Sie eine Bereitschaftsübung durch"^].
+
+
+
+[[pause-or-delete-a-siem-system]]
+=== Ein SIEM-System anhalten oder löschen
+
+Ransomware Resilience bietet nun Optionen in der Benutzeroberfläche zum Pausieren oder Löschen eines SIEM-Systems. Diese Erweiterung erleichtert es, das System vorübergehend zur Fehlerbehebung oder Wartung zu deaktivieren oder es vollständig zu entfernen.
+
+Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html#disable-a-siem-system["Deaktivieren eines SIEM-Systems"^].
