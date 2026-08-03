@@ -151,10 +151,6 @@
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification unterstützt jetzt die Bereitstellung mit VMware Open Virtual Appliance (OVA) und bietet eine vereinfachte Bereitstellungsstrategie für lokale VMware vSphere-Umgebungen.</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">Weitere Informationen finden Sie unter <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>.</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen eingeführt:</block>
-  <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*Native Unterstützung für den Schutz von VMs*: Sie können jetzt VM-basierte Anwendungen erstellen, mit denen Sie virtuelle Maschinen genauso schützen können wie jede andere Anwendung.</block>
-  <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*Ressourcentransformationen*: Sie können jetzt Ressourcentransformationen und Ressourcentransformationsvorlagen verwenden, um während des Wiederherstellungsprozesses Ressourcenattribute hinzuzufügen, zu entfernen und zu ändern.</block>
-  <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*Geschützte Ressourcen anzeigen*: Sie können nun die in jedem Wiederherstellungspunkt einer Anwendung enthaltenen Ressourcen anzeigen und einen detaillierten JSON-Bericht herunterladen. Dies gibt Ihnen vollständige Transparenz über Ihre Wiederherstellungspunkte und vereinfacht die Audit-Compliance.</block>
-  <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">05. Mai 2026</block>
   <block id="08940f555ee07e4993dba0f9d919b955" category="doc">Unterstützung für Kubernetes-basierte Workloads (Vorschau)</block>
   <block id="6d2babe4a7d28b244ea0243157a67baf" category="inline-link-macro">jede derzeit von Trident Protect unterstützte Kubernetes-Version</block>
   <block id="f273ad1ac40fd6066b516be98e8466b7" category="paragraph">NetApp Disaster Recovery unterstützt jetzt auch Kubernetes-basierte Workloads. Mit Kubernetes-Unterstützung können Sie Anwendungen schützen, die auf Kubernetes-Clustern laufen, einschließlich OpenShift Virtualisierungsumgebungen. Disaster Recovery unterstützt <block ref="ee3b2775270ba891227fbdcc3618242b" category="inline-link-macro-rx"></block>, was eine nahtlose Integration und robuste Disaster-Recovery-Funktionen für containerisierte Anwendungen gewährleistet.</block>
@@ -247,8 +243,6 @@
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Berichte in Ransomware-Resilienz herunterladen</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">Weitere Informationen zu Berichten finden Sie unter <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>. Weitere Informationen zur Wiederherstellung finden Sie unter <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">Weitere Informationen finden Sie unter <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>.</block>
-  <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*: Diese Version enthält Trident Protect 26.05.</block>
-  <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*Upgrade Trident Protect von Backup und Recovery*: Wenn auf Ihrem Kubernetes-Cluster Trident Protect 26.05 oder neuer ausgeführt wird, können Sie Trident Protect jetzt direkt von Backup und Recovery aus aktualisieren.</block>
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: Diese Version enthält Trident Protect 26.05.1.</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*Wiederherstellung direkt am Ort für VM-basierte Anwendungen*: Sie können VM-basierte Anwendungen jetzt im ursprünglichen Namespace und ursprünglichen Cluster wiederherstellen.</block>
   <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp bietet erweiterte Abrechnungsoptionen für Ihre Cloud Volumes ONTAP-Abonnements in AWS, sodass Sie mehr Kontrolle darüber haben, wie Sie für Cloud Volumes ONTAP-Kapazität und NetApp-Datendienste wie NetApp Backup and Recovery bezahlen. Bisher wurden alle Cloud Volumes ONTAP- und Datendienste-Nutzungen gemeinsam über die NetApp Intelligent Services (NIS)-Auflistung im AWS Marketplace abgerechnet.</block>
@@ -546,4 +540,49 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">Deaktivieren eines SIEM-Systems</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">Weitere Informationen finden Sie unter <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">27. Juli 2026</block>
+  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard</block>
+  <block id="032088baae45e30e8391672094b24e52" category="paragraph">Das übersichtliche Dashboard in NetApp Console enthält nun aktualisierte Speicherkonfigurationsnamen für FSx für ONTAP, um die Übersichtlichkeit und Konsistenz zu verbessern.</block>
+  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">Die folgende Tabelle zeigt die alten Konfigurationsnamen und die entsprechenden neuen Konfigurationsnamen im Well-Architected Dashboard.</block>
+  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Alter Konfigurationsname</block>
+  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Neuer Konfigurationsname</block>
+  <block id="903362563951f197b003dcc5e085f6af" category="cell">Volumes-Backups planen</block>
+  <block id="236cb64067292409b71f3255e98656ec" category="cell">Volume Backups</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">SSD-Kapazitätsschwelle</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">SSD Kapazitätsreserve</block>
+  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">Dateikapazitätsschwelle</block>
+  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">Dateikapazitäts-Spielraum</block>
+  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">Zuverlässigkeit der Langzeitaufbewahrungsdaten</block>
+  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">Replikationsrichtlinienbezeichnungen</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">Geplante lokale Snapshots</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Snapshot-Richtlinie</block>
+  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">Unnötige Backups löschen</block>
+  <block id="01cbe155039c742db3896b9035645b36" category="cell">Ablauf der Sicherung</block>
+  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">Unnötige Snapshots löschen</block>
+  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">Snapshot-Ablauf</block>
+  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">Nicht ausgelastete SSD-Kapazität</block>
+  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">Überdimensionierte SSD-Kapazität</block>
+  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">Inaktive Blockgeräte</block>
+  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">Inaktive Blockgeräte (LUN)</block>
+  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">Optimierung der Gesamtbetriebskosten durch das Tiering von Kaltdaten</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">Kaltdaten-Tiering</block>
+  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">Bericht zur logischen Volumenkapazität</block>
+  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">Host-sichtbare Kapazitätsberichterstattung</block>
+  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">FlexGroup Volumenausgleich</block>
+  <block id="de86f1900d1389562924dab590f1c54b" category="cell">Neu ausbalancieren von FlexGroup-Volumes</block>
+  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">FlexVol Volumenausgleich</block>
+  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">FlexVol Volumes neu verteilen</block>
+  <block id="e64c3fb252960e226830fb49bf513992" category="cell">Schreibmodus für Cache-Beziehungen</block>
+  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache Schreibmodus</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">Cache-Volume-Größe optimieren</block>
+  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache Replika-Größe</block>
+  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">Unbefugter Zugriff auf Volume</block>
+  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">Unautorisierter Zugriff auf iSCSI Volumes</block>
+  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI deaktiviert</block>
+  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">Ransomware-Schutz (ARP/AI)</block>
+  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">Konfigurationen für Cloud Volumes ONTAP in Microsoft Azure beheben, verwerfen und reaktivieren</block>
+  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">Das übersichtliche Dashboard in NetApp Console bietet jetzt die Möglichkeit, Konfigurationsempfehlungen für Ihre Cloud Volumes ONTAP Systeme zu beheben.</block>
+  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">Sie können auch eine oder mehrere Konfigurationen von der Analyse der optimalen Architektur ausschließen. Dadurch ist es möglich, bestimmte Konfigurationen zu ignorieren, die für Ihre Umgebung nicht zutreffen.</block>
+  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">Wenn Sie eine verworfene Konfiguration später wieder einbinden möchten, können Sie sie im Well-Architected Dashboard reaktivieren. Dadurch wird die Konfiguration in die Analyse zurückgeholt und es werden Empfehlungen und Korrekturen dafür bereitgestellt.</block>
+  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03. August 2026</block>
 </blocks>

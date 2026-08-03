@@ -30,6 +30,91 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[03-august-2026]]
+== 03. August 2026
+
+
+
+[[well-architected-dashboard]]
+=== Gut gestaltetes Dashboard
+
+
+
+==== Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard
+
+Das übersichtliche Dashboard in NetApp Console enthält nun aktualisierte Speicherkonfigurationsnamen für FSx für ONTAP, um die Übersichtlichkeit und Konsistenz zu verbessern.
+
+Die folgende Tabelle zeigt die alten Konfigurationsnamen und die entsprechenden neuen Konfigurationsnamen im Well-Architected Dashboard.
+
+[cols="1,1"]
+|===
+| Alter Konfigurationsname | Neuer Konfigurationsname 
+
+
+| Volumes-Backups planen | Volume Backups 
+
+
+| SSD-Kapazitätsschwelle | SSD Kapazitätsreserve 
+
+
+| Dateikapazitätsschwelle | Dateikapazitäts-Spielraum 
+
+
+| Zuverlässigkeit der Langzeitaufbewahrungsdaten | Replikationsrichtlinienbezeichnungen 
+
+
+| Geplante lokale Snapshots | Snapshot-Richtlinie 
+
+
+| Unnötige Backups löschen | Ablauf der Sicherung 
+
+
+| Unnötige Snapshots löschen | Snapshot-Ablauf 
+
+
+| Nicht ausgelastete SSD-Kapazität | Überdimensionierte SSD-Kapazität 
+
+
+| Inaktive Blockgeräte | Inaktive Blockgeräte (LUN) 
+
+
+| Optimierung der Gesamtbetriebskosten durch das Tiering von Kaltdaten | Kaltdaten-Tiering 
+
+
+| Bericht zur logischen Volumenkapazität | Host-sichtbare Kapazitätsberichterstattung 
+
+
+| FlexGroup Volumenausgleich | Neu ausbalancieren von FlexGroup-Volumes 
+
+
+| FlexVol Volumenausgleich | FlexVol Volumes neu verteilen 
+
+
+| Schreibmodus für Cache-Beziehungen | FlexCache Schreibmodus 
+
+
+| Cache-Volume-Größe optimieren | FlexCache Replika-Größe 
+
+
+| Unbefugter Zugriff auf Volume | Unautorisierter Zugriff auf iSCSI Volumes 
+
+
+| ARP/AI deaktiviert | Ransomware-Schutz (ARP/AI) 
+|===
+
+
+==== Konfigurationen für Cloud Volumes ONTAP in Microsoft Azure beheben, verwerfen und reaktivieren
+
+Das übersichtliche Dashboard in NetApp Console bietet jetzt die Möglichkeit, Konfigurationsempfehlungen für Ihre Cloud Volumes ONTAP Systeme zu beheben.
+
+Sie können auch eine oder mehrere Konfigurationen von der Analyse der optimalen Architektur ausschließen. Dadurch ist es möglich, bestimmte Konfigurationen zu ignorieren, die für Ihre Umgebung nicht zutreffen.
+
+Wenn Sie eine verworfene Konfiguration später wieder einbinden möchten, können Sie sie im Well-Architected Dashboard reaktivieren. Dadurch wird die Konfiguration in die Analyse zurückgeholt und es werden Empfehlungen und Korrekturen dafür bereitgestellt.
+
+link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["Konfigurationen für Cloud Volumes ONTAP in Microsoft Azure beheben, verwerfen und reaktivieren"]
+
+
+
 [[27-july-2026]]
 == 27. Juli 2026
 
