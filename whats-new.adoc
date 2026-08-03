@@ -1144,28 +1144,3 @@ Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-s
 Ransomware Resilience unterstützt jetzt das Blockieren einzelner Nutzer mit Google SecOps und Splunk SOAR Playbooks. Mit dieser Erweiterung können Sie das Blockieren von Nutzern automatisieren, wenn Ransomware Resilience verdächtige Nutzeraktivitäten wie einen Datenverstoß oder massenhafte Datenlöschungen erkennt.
 
 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["Integrieren Sie ein SOAR-Playbook"^].
-
-
-
-[[05-may-2026]]
-== 05. Mai 2026
-
-
-
-[[backup-and-recovery]]
-=== Sicherung und Wiederherstellung
-
-
-
-==== Kubernetes-Workloads-Erweiterungen
-
-In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen eingeführt:
-
-* *Trident Protect 26.05*: Diese Version enthält Trident Protect 26.05.
-* *Upgrade Trident Protect von Backup und Recovery*: Wenn auf Ihrem Kubernetes-Cluster Trident Protect 26.05 oder neuer ausgeführt wird, können Sie Trident Protect jetzt direkt von Backup und Recovery aus aktualisieren.
-* *Native Unterstützung für den Schutz von VMs*: Sie können jetzt VM-basierte Anwendungen erstellen, mit denen Sie virtuelle Maschinen genauso schützen können wie jede andere Anwendung.
-* *Ressourcentransformationen*: Sie können jetzt Ressourcentransformationen und Ressourcentransformationsvorlagen verwenden, um während des Wiederherstellungsprozesses Ressourcenattribute hinzuzufügen, zu entfernen und zu ändern.
-* *Geschützte Ressourcen anzeigen*: Sie können nun die in jedem Wiederherstellungspunkt einer Anwendung enthaltenen Ressourcen anzeigen und einen detaillierten JSON-Bericht herunterladen. Dies gibt Ihnen vollständige Transparenz über Ihre Wiederherstellungspunkte und vereinfacht die Audit-Compliance.
-
-
-Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Übersicht zum Schutz von Kubernetes-Workloads"].
