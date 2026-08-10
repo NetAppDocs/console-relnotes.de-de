@@ -542,4 +542,19 @@
   <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">Leistungs- und Ressourcenoptimierung</block>
   <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">Es wurden diverse Verbesserungen im Hintergrund vorgenommen, um den Gesamtressourcenverbrauch des Systems zu reduzieren und die Leistung bei Disaster Recovery-Operationen zu steigern.</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10. August 2026</block>
+  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">Allgemeine NetApp Backup and Recovery-Verbesserungen</block>
+  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*Unterstützung für die lokale Bereitstellung der NetApp Console*: Diese Version von NetApp Backup and Recovery unterstützt die lokale Bereitstellung der NetApp Console im Vorschaustatus.</block>
+  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90 Tage Aufbewahrung von Aufträgen*: Backup and Recovery speichert Auftragsinformationen jetzt 90 Tage lang im Job Monitor.</block>
+  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">In dieser Version führt VMware workloads die folgenden Verbesserungen ein:</block>
+  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*Unterstützung für die Wiederherstellung an einem alternativen Speicherort für SAN-VMs*: Es ist jetzt möglich, SAN-basierte VM-Backups an einem alternativen Speicherort wiederherzustellen.</block>
+  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Unterstützung für das Löschen mehrerer Backups*: Es ist jetzt möglich, mehrere Backups gleichzeitig zu löschen.</block>
+  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Verbesserungen der Oracle Database Workloads</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">In dieser Version werden die folgenden Verbesserungen für Oracle Database workloads eingeführt:</block>
+  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*Wiederherstellung und Klonen von Pluggable Databases (PDB)*: Der Service „Backup and Recovery for NetApp Console“ unterstützt jetzt die Wiederherstellung und das Klonen von Pluggable Databases.</block>
+  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Übersicht zum Schutz von Oracle Database-Workloads</block>
+  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Weitere Informationen zum Schutz von Oracle Database-Workloads finden Sie unter <block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
+  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*Vorschauunterstützung für isolierte Ressourcen*: Wenn NetApp Backup and Recovery in der lokalen NetApp Console-Bereitstellung ausgeführt wird, können isolierte Kubernetes-Ressourcen erkannt, geschützt und wiederhergestellt werden. Diese Funktion befindet sich in dieser Version in der Vorschau.</block>
+  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">In dieser Version wurden für ONTAP Volumes Workloads die folgenden Verbesserungen eingeführt:</block>
+  <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*Wiederherstellungsaufträge gegenüber Backups priorisieren*: Es besteht jetzt die Möglichkeit, Wiederherstellungsaufträge gegenüber Backup-Aufträgen zu priorisieren, wenn VMs oder Dateien wiederhergestellt werden.</block>
+  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*ONTAP Systeme und Volumes ohne Backup and Recovery Aktivierung entdecken*: Es ist jetzt möglich, Systeme und Volumes zu entdecken, ohne Backup and Recovery zu aktivieren.</block>
 </blocks>
