@@ -562,4 +562,7 @@
   <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">Der Dienst verarbeitet nun Cluster-Statusaktualisierungen effizienter, wodurch zeitweilige Timeouts und Ausfallzeiten reduziert und die automatische ungeplante Failover-Mediation für SMaS Beziehungen gestärkt wird.</block>
   <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 Administration umfasst Sicherheits- und Fehlerbehebungen.</block>
   <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">13. August 2026</block>
+  <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">Einen Datensammler löschen</block>
+  <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience unterstützt nun das Löschen eines Datensammlers. Der Datensammler wird automatisch erstellt, wenn die Benutzeraktivitätserkennung für Workloads aktiviert wird; falls der Datensammler veraltet ist, kann er nun manuell gelöscht werden.</block>
+  <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Weitere Informationen finden sich unter <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
 </blocks>
