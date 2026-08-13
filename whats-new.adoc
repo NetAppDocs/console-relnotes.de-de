@@ -73,6 +73,24 @@ Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-
 
 
 
+[[12-august-2026]]
+== 12. August 2026
+
+
+
+[[digital-advisor]]
+=== Digitaler Berater
+
+
+
+==== Hinweis zur Einstellung von Config Drift
+
+Die Funktion „Konfigurationsabweichung“ wird im Digital Advisor im September 2026 eingestellt.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].
+
+
+
 [[10-august-2026]]
 == 10. August 2026
 
