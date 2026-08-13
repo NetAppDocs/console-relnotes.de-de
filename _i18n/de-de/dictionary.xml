@@ -556,4 +556,10 @@
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">Data Classification bietet jetzt im Konfigurationsmenü die Registerkarte *Aktive Scans*, die eine verbesserte Benutzererfahrung für die Verwaltung von Scans ermöglicht. Die Registerkarte *Aktive Scans* bietet eine Übersicht über alle Volumes, die Sie für das Scannen aktiviert haben, mit vertrauten Filtern zum Sortieren Ihrer Ressourcen. Die Registerkarte bietet außerdem einen zentralen Ort, um Scans zu priorisieren, Scans zu pausieren und Fehler zu überprüfen.</block>
   <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">Scans verwalten</block>
   <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">Weitere Informationen finden sich unter <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>.</block>
+  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console Agent 4.10.0</block>
+  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">Die Version 4.10.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.</block>
+  <block id="657b18a162285732ef5f46d679b05663" category="section-title">Verbesserte Reaktionsfähigkeit und Zuverlässigkeit des Cloud Mediators</block>
+  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">Der Dienst verarbeitet nun Cluster-Statusaktualisierungen effizienter, wodurch zeitweilige Timeouts und Ausfallzeiten reduziert und die automatische ungeplante Failover-Mediation für SMaS Beziehungen gestärkt wird.</block>
+  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 Administration umfasst Sicherheits- und Fehlerbehebungen.</block>
+  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">13. August 2026</block>
 </blocks>
