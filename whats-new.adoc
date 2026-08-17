@@ -30,6 +30,54 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[17-august-2026]]
+== 17. August 2026
+
+
+
+[[backup-and-recovery]]
+=== Sicherung und Wiederherstellung
+
+
+
+==== Hyper-V-Workload-Verbesserungen
+
+In dieser Version wird für Hyper-V Workloads die folgende Verbesserung eingeführt:
+
+*Objektspeichersicherung an alternativem Speicherort wiederherstellen*: Es ist jetzt möglich, Hyper-V-VMs, Dateien und Ordner aus dem Objektspeicher an einem alternativen Speicherort wiederherzustellen.
+
+Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Informationen zum Schutz von Hyper-V Workloads mit NetApp Backup and Recovery"].
+
+
+
+==== Kubernetes-Workloads-Erweiterungen
+
+In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen eingeführt:
+
+* *Trident Protect 26.08*: Diese Version enthält Trident Protect 26.08.
+* *Backup-Wiederholungsversuche*: Backup-Wiederholungsversuche können jetzt aktiviert und die Anzahl der Wiederholungsversuche sowie die Intervalle zwischen den Wiederholungsversuchen als erweiterte Einstellungen in Kubernetes-Schutzrichtlinien konfiguriert werden.
+* *Teilweise erfolgreiche Sicherung*: Es besteht jetzt die Möglichkeit, in den Kubernetes-Schutzrichtlinien erweiterte Einstellungen zu konfigurieren, damit die Sicherung auch bei Ausfall einzelner Ressourcen fortgesetzt wird und Sicherungsaufträge als teilweise erfolgreich abgeschlossen werden können. Dadurch ist die Wiederherstellung gesicherter Ressourcen möglich, selbst wenn während des Sicherungsvorgangs einige Ressourcen ausfallen.
+* *Absturzkonsistente und VM-konsistente Backups*: Der Backup and Recovery Dienst für NetApp Console unterstützt jetzt die Konfiguration von Schutzrichtlinien, die absturzkonsistente oder VM-konsistente Backups oder Snapshots erstellen. Es besteht zudem die Möglichkeit, anzupassen, wie VM-Einfrierungen während des Schutzvorgangs durchgeführt werden.
+* *Wiederverbindung des Kubernetes-Clusters bei Änderung der Console-Agent-IP-Adresse*: Der Backup- und Wiederherstellungsdienst für NetApp Console ermöglicht jetzt die erneute Verbindung eines Clusters mit seinem Console-Agenten, wenn sich die IP-Adresse des Agenten ändert.
+* *Cluster auf neuen Console Agent migrieren*: Der Backup and Recovery Dienst für NetApp Console ermöglicht jetzt die Migration eines Clusters auf einen neuen Console Agent, falls der ursprüngliche Agent ausfällt oder gelöscht wird, wodurch ein unterbrechungsfreier Anwendungsschutz sichergestellt wird.
+
+
+Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Informationen zum Schutz von Kubernetes Workloads mit NetApp Backup and Recovery"].
+
+
+
+==== Erweiterung der Oracle Database Workloads
+
+In dieser Version werden die folgenden Verbesserungen für Oracle Database workloads eingeführt:
+
+* *Wiederherstellung von Pluggable Databases (PDBs)*: Es ist jetzt möglich, einzelne Pluggable Databases (PDBs) und PDB-Tablespaces wiederherzustellen, einschließlich zeitpunktgenauer Wiederherstellung.
+* *Pluggable Database (PDB) Klonen*: Es ist jetzt möglich, eine einzelne PDB in eine bestehende Ziel-Containerdatenbank (CDB) zu klonen und optional PDBs auszuschließen, wenn eine komplette Containerdatenbank geklont wird.
+
+
+Weitere Informationen zum Schutz von Oracle Database-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Informationen zum Schutz von Oracle Database Workloads mit NetApp Backup and Recovery"].
+
+
+
 [[13-august-2026]]
 == 13. August 2026
 
@@ -1161,58 +1209,3 @@ Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
 ==== Verbesserte Darstellung mehrerer Aktualisierungen am selben Tag in der Abonnement-Timeline
 
 Die Abonnement-Zeitleiste zeigt nun eine Zahl an, wenn mehrere Abonnementaktualisierungen unterschiedlicher Art am selben Tag erfolgen, anstatt separater Symbole. Bewegen Sie den Mauszeiger über die Zahl, um alle Aktualisierungstypen dieses Tages anzuzeigen. Der heruntergeladene Bericht enthält für jede Aktualisierung eine separate Zeile und bietet Ihnen eine vollständige Übersicht aller Änderungen. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Sehen Sie sich die Zeitleiste Ihrer Keystone Abonnements an"].
-
-
-
-[[18-may-2026]]
-== 18. Mai 2026
-
-
-
-[[ransomware-resilience]]
-=== Ransomware-Resilienz
-
-
-
-==== Google Cloud NetApp Volumes-Unterstützung (Vorschau)
-
-Ransomware Resilience unterstützt jetzt Google Cloud NetApp Volumes-Systeme und ermöglicht Ihnen so die effiziente Erkennung und Abwehr von Ransomware-Bedrohungen in Google Cloud NetApp Volumes. Bei der Erkennung zeigt Ransomware Resilience automatisch Workloads aus Google Cloud NetApp Volumes-Systemen an. Die erkannten Systeme werden im Ransomware Resilience-Dashboard angezeigt. Die Unterstützung für Google Cloud NetApp Volumes in Ransomware Resilience befindet sich derzeit in der Vorschauphase.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["Erfahren Sie mehr über Ransomware Resilience"^]. Informationen zum Umfang der Google Cloud NetApp Volumes-Unterstützung finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["Einschränkungen der Ransomware-Resilienz"^].
-
-
-
-==== Verbesserungen für Clean Restore
-
-Die Funktion „Saubere Wiederherstellung“ unterstützt jetzt Berichte. Mithilfe von Berichten können Sie saubere Wiederherstellungen überprüfen und bewerten und diese Informationen offline als CSV-Datei speichern.
-
-Die saubere Wiederherstellung unterstützt nun auch das Anhalten der Analyse. Wenn Sie die Analyse anhalten, müssen Sie die saubere Wiederherstellung erneut starten.
-
-Weitere Informationen zu Berichten finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Berichte in Ransomware-Resilienz herunterladen"^]. Weitere Informationen zur Wiederherstellung finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["Stellen Sie Workloads mit einer sauberen Wiederherstellung wieder her"^].
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Vereinfachte Cloud Volumes ONTAP-Bereitstellung in Azure
-
-Mit Quick create können Sie Cloud Volumes ONTAP in Azure sowohl für Einzelknoten- als auch für Hochverfügbarkeitskonfigurationen (HA) bereitstellen. Dieser optimierte Prozess reduziert die Anzahl der Schritte im Vergleich zur fortschrittlichen Methoden, legt automatisch Standardwerte auf einer einzigen Seite fest und minimiert die Navigation, wodurch die Bereitstellung schneller und einfacher wird.
-
-.Verwandte Links
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-quick-deploy-azure.html["Cloud Volumes ONTAP in Azure mit Schnellerstellung bereitstellen"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-deploying-otc-azure.html["Cloud Volumes ONTAP mit fortschrittlichen Methoden in Azure bereitstellen"^]
-
-
-
-
-[[digital-advisor]]
-=== Digitaler Berater
-
-
-
-==== Wellness-Überprüfung
-
-Ab Juli 2026 ist die Funktion „Wellness-Überprüfung“ im Digital Advisor nicht mehr verfügbar. Bei Fragen senden Sie bitte eine E-Mail an mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].

@@ -123,7 +123,6 @@
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Übersicht zum Schutz von Kubernetes-Workloads</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter <block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Diese Version des Console-Agenten enthält Sicherheitsverbesserungen und Fehlerbehebungen.</block>
-  <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">Erfahren Sie mehr über Ransomware Resilience</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">Die folgenden Dienste wurden eingestellt:</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes Workloads-Verbesserungen</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Überblick über den Schutz von VMware-Workloads</block>
@@ -133,31 +132,13 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter <block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V-Workload-Verbesserungen</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">In dieser Version werden für Hyper-V-Workloads die folgenden Verbesserungen eingeführt:</block>
-  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">Stellen Sie Workloads mit einer sauberen Wiederherstellung wieder her</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">In dieser Version führt VMware Workloads die folgende Verbesserung ein:</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Allgemeine Verbesserungen</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen eingeführt:</block>
-  <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">Verbesserungen für Clean Restore</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">Integrieren Sie ein SOAR-Playbook</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">Flexible Abrechnung für Cloud Volumes ONTAP und Datendienste in AWS</block>
-  <block id="ba0619dd0f47665766133e60320fb439" category="doc">Wellness-Überprüfung</block>
-  <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">Ab Juli 2026 ist die Funktion „Wellness-Überprüfung“ im Digital Advisor nicht mehr verfügbar. Bei Fragen senden Sie bitte eine E-Mail an mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].</block>
-  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">18. Mai 2026</block>
-  <block id="a4ad56ab8baa8582d6dba6091a9bd877" category="doc">Vereinfachte Cloud Volumes ONTAP-Bereitstellung in Azure</block>
-  <block id="8bfd035a33aa401829a9de89b5e0c246" category="paragraph">Mit Quick create können Sie Cloud Volumes ONTAP in Azure sowohl für Einzelknoten- als auch für Hochverfügbarkeitskonfigurationen (HA) bereitstellen. Dieser optimierte Prozess reduziert die Anzahl der Schritte im Vergleich zur fortschrittlichen Methoden, legt automatisch Standardwerte auf einer einzigen Seite fest und minimiert die Navigation, wodurch die Bereitstellung schneller und einfacher wird.</block>
-  <block id="da7aee176a6e0989fc4edf2b02e0af34" category="inline-link">Cloud Volumes ONTAP in Azure mit Schnellerstellung bereitstellen</block>
-  <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
-  <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Cloud Volumes ONTAP mit fortschrittlichen Methoden in Azure bereitstellen</block>
-  <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes-Unterstützung (Vorschau)</block>
-  <block id="d80af1c0606a32f418ab576db57cacc1" category="paragraph">Ransomware Resilience unterstützt jetzt Google Cloud NetApp Volumes-Systeme und ermöglicht Ihnen so die effiziente Erkennung und Abwehr von Ransomware-Bedrohungen in Google Cloud NetApp Volumes. Bei der Erkennung zeigt Ransomware Resilience automatisch Workloads aus Google Cloud NetApp Volumes-Systemen an. Die erkannten Systeme werden im Ransomware Resilience-Dashboard angezeigt. Die Unterstützung für Google Cloud NetApp Volumes in Ransomware Resilience befindet sich derzeit in der Vorschauphase.</block>
-  <block id="35b27350003f459df80234524883b5fc" category="inline-link-macro">Einschränkungen der Ransomware-Resilienz</block>
-  <block id="cae4e00f2196b1be86c3e1e5dec224f5" category="paragraph">Weitere Informationen finden Sie unter <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>. Informationen zum Umfang der Google Cloud NetApp Volumes-Unterstützung finden Sie unter <block ref="27362f7d9843ec19f9f3145cc1ee646c" category="inline-link-macro-rx"></block>.</block>
-  <block id="f5523776592686b65cfe8d99ccda44ac" category="paragraph">Die Funktion „Saubere Wiederherstellung“ unterstützt jetzt Berichte. Mithilfe von Berichten können Sie saubere Wiederherstellungen überprüfen und bewerten und diese Informationen offline als CSV-Datei speichern.</block>
-  <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">Die saubere Wiederherstellung unterstützt nun auch das Anhalten der Analyse. Wenn Sie die Analyse anhalten, müssen Sie die saubere Wiederherstellung erneut starten.</block>
-  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Berichte in Ransomware-Resilienz herunterladen</block>
-  <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">Weitere Informationen zu Berichten finden Sie unter <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>. Weitere Informationen zur Wiederherstellung finden Sie unter <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Erstellen Sie eine Schutzgruppe in Ransomware Resilience</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">26. Mai 2026</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">Verbesserte Darstellung mehrerer Aktualisierungen am selben Tag in der Abonnement-Timeline</block>
@@ -568,4 +549,23 @@
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Hinweis zur Einstellung von Config Drift</block>
   <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Die Funktion „Konfigurationsabweichung“ wird im Digital Advisor im September 2026 eingestellt.</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12. August 2026</block>
+  <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">In dieser Version wird für Hyper-V Workloads die folgende Verbesserung eingeführt:</block>
+  <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*Objektspeichersicherung an alternativem Speicherort wiederherstellen*: Es ist jetzt möglich, Hyper-V-VMs, Dateien und Ordner aus dem Objektspeicher an einem alternativen Speicherort wiederherzustellen.</block>
+  <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Informationen zum Schutz von Hyper-V Workloads mit NetApp Backup and Recovery</block>
+  <block id="02b4e2b0b1ffdd4b0919e2e3430f47a2" category="paragraph">Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter <block ref="ff9e4811de6c06d1343d50a5a2fb4ef4" category="inline-link-rx"></block>.</block>
+  <block id="d7a71b14f458c01c992ae6ab1d9419fb" category="list-text">*Trident Protect 26.08*: Diese Version enthält Trident Protect 26.08.</block>
+  <block id="a246bba4bc1bf6be5dbc5f0eef6fa916" category="list-text">*Backup-Wiederholungsversuche*: Backup-Wiederholungsversuche können jetzt aktiviert und die Anzahl der Wiederholungsversuche sowie die Intervalle zwischen den Wiederholungsversuchen als erweiterte Einstellungen in Kubernetes-Schutzrichtlinien konfiguriert werden.</block>
+  <block id="af4a914ceb04d24e26988f7034d17a6a" category="list-text">*Teilweise erfolgreiche Sicherung*: Es besteht jetzt die Möglichkeit, in den Kubernetes-Schutzrichtlinien erweiterte Einstellungen zu konfigurieren, damit die Sicherung auch bei Ausfall einzelner Ressourcen fortgesetzt wird und Sicherungsaufträge als teilweise erfolgreich abgeschlossen werden können. Dadurch ist die Wiederherstellung gesicherter Ressourcen möglich, selbst wenn während des Sicherungsvorgangs einige Ressourcen ausfallen.</block>
+  <block id="51d0bd2fc2cb031a5bd97ec4521df850" category="list-text">*Absturzkonsistente und VM-konsistente Backups*: Der Backup and Recovery Dienst für NetApp Console unterstützt jetzt die Konfiguration von Schutzrichtlinien, die absturzkonsistente oder VM-konsistente Backups oder Snapshots erstellen. Es besteht zudem die Möglichkeit, anzupassen, wie VM-Einfrierungen während des Schutzvorgangs durchgeführt werden.</block>
+  <block id="f1aeeb7adfac5302d8957879854e8855" category="list-text">*Wiederverbindung des Kubernetes-Clusters bei Änderung der Console-Agent-IP-Adresse*: Der Backup- und Wiederherstellungsdienst für NetApp Console ermöglicht jetzt die erneute Verbindung eines Clusters mit seinem Console-Agenten, wenn sich die IP-Adresse des Agenten ändert.</block>
+  <block id="137aac5acf6a89b5f2b8d01617331ec5" category="list-text">*Cluster auf neuen Console Agent migrieren*: Der Backup and Recovery Dienst für NetApp Console ermöglicht jetzt die Migration eines Clusters auf einen neuen Console Agent, falls der ursprüngliche Agent ausfällt oder gelöscht wird, wodurch ein unterbrechungsfreier Anwendungsschutz sichergestellt wird.</block>
+  <block id="5bac8342d3d15811fd4569a62898855c" category="inline-link">Informationen zum Schutz von Kubernetes Workloads mit NetApp Backup and Recovery</block>
+  <block id="9768ac88d7eeb5d6d2192e590de89bb4" category="paragraph">Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter <block ref="1288e5e7d4fc4b4cb3f5e18b91f79147" category="inline-link-rx"></block>.</block>
+  <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Erweiterung der Oracle Database Workloads</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">In dieser Version werden die folgenden Verbesserungen für Oracle Database workloads eingeführt:</block>
+  <block id="26d43fe933dfc83c3004371ec611ca0f" category="list-text">*Wiederherstellung von Pluggable Databases (PDBs)*: Es ist jetzt möglich, einzelne Pluggable Databases (PDBs) und PDB-Tablespaces wiederherzustellen, einschließlich zeitpunktgenauer Wiederherstellung.</block>
+  <block id="ba1d750ea9570e1e14902f85cdd21fbd" category="list-text">*Pluggable Database (PDB) Klonen*: Es ist jetzt möglich, eine einzelne PDB in eine bestehende Ziel-Containerdatenbank (CDB) zu klonen und optional PDBs auszuschließen, wenn eine komplette Containerdatenbank geklont wird.</block>
+  <block id="76665439cf119912213e2021a654bd03" category="inline-link">Informationen zum Schutz von Oracle Database Workloads mit NetApp Backup and Recovery</block>
+  <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Weitere Informationen zum Schutz von Oracle Database-Workloads finden Sie unter <block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>.</block>
+  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">17. August 2026</block>
 </blocks>
