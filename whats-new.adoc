@@ -35,6 +35,89 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 
 
 
+[[well-architected-dashboard]]
+=== Gut gestaltetes Dashboard
+
+
+
+==== FSx for ONTAP Unterstützung im Well-Architected Dashboard in der NetApp Console
+
+Das gut strukturierte Dashboard in NetApp Console ist für Amazon FSx for NetApp ONTAP verfügbar.
+
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Informationen zur Konfigurationsanalyse für FSx für ONTAP"]
+
+
+
+
+==== Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard
+
+Das übersichtliche Dashboard in NetApp Console enthält nun neue Speicherkonfigurationsnamen für FSx für ONTAP.
+
+Die folgende Tabelle zeigt die alten Konfigurationsnamen und die entsprechenden neuen Konfigurationsnamen im Well-Architected Dashboard.
+
+[cols="1,1"]
+|===
+| Alter Konfigurationsname | Neuer Konfigurationsname 
+
+
+| Volumes-Backups planen | Volume Backups 
+
+
+| SSD-Kapazitätsschwelle | SSD Kapazitätsreserve 
+
+
+| Dateikapazitätsschwelle | Dateikapazitäts-Spielraum 
+
+
+| Zuverlässigkeit der Langzeitaufbewahrungsdaten | Replikationsrichtlinienbezeichnungen 
+
+
+| Geplante lokale Snapshots | Snapshot-Richtlinie 
+
+
+| Unnötige Backups löschen | Ablauf der Sicherung 
+
+
+| Unnötige Snapshots löschen | Snapshot-Ablauf 
+
+
+| Nicht ausgelastete SSD-Kapazität | Überdimensionierte SSD-Kapazität 
+
+
+| Inaktive Blockgeräte | Inaktive Blockgeräte (LUN) 
+
+
+| Optimierung der Gesamtbetriebskosten durch das Tiering von Kaltdaten | Kaltdaten-Tiering 
+
+
+| Bericht zur logischen Volumenkapazität | Host-sichtbare Kapazitätsberichterstattung 
+
+
+| FlexGroup Volumenausgleich | Neu ausbalancieren von FlexGroup-Volumes 
+
+
+| FlexVol Volumenausgleich | FlexVol Volumes neu verteilen 
+
+
+| Schreibmodus für Cache-Beziehungen | FlexCache Schreibmodus 
+
+
+| Cache-Volume-Größe optimieren | FlexCache Replika-Größe 
+
+
+| Unbefugter Zugriff auf Volume | Unautorisierter Zugriff auf iSCSI Volumes 
+
+
+| ARP/AI deaktiviert | Ransomware-Schutz (ARP/AI) 
+|===
+
+
+==== Gut strukturierte Probleme werden auf der Seite „NetApp Console Systems“ angezeigt
+
+Benachrichtigungen zu Architekturproblemen sind für Cloud Volumes ONTAP in Microsoft Azure auf der Seite „Storage management Systems“ in der NetApp Console verfügbar. Mit dieser Funktion lassen sich Konfigurationsprobleme in Cloud Volumes ONTAP-Systemen in Azure schnell erkennen und vom Hinweis aus zum Workloads well-architected Dashboard wechseln.
+
+
+
 [[backup-and-recovery]]
 === Sicherung und Wiederherstellung
 
@@ -272,69 +355,6 @@ Es wurden diverse Verbesserungen im Hintergrund vorgenommen, um den Gesamtressou
 
 
 
-==== Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard
-
-Das übersichtliche Dashboard in NetApp Console enthält nun aktualisierte Speicherkonfigurationsnamen für FSx für ONTAP, um die Übersichtlichkeit und Konsistenz zu verbessern.
-
-Die folgende Tabelle zeigt die alten Konfigurationsnamen und die entsprechenden neuen Konfigurationsnamen im Well-Architected Dashboard.
-
-[cols="1,1"]
-|===
-| Alter Konfigurationsname | Neuer Konfigurationsname 
-
-
-| Volumes-Backups planen | Volume Backups 
-
-
-| SSD-Kapazitätsschwelle | SSD Kapazitätsreserve 
-
-
-| Dateikapazitätsschwelle | Dateikapazitäts-Spielraum 
-
-
-| Zuverlässigkeit der Langzeitaufbewahrungsdaten | Replikationsrichtlinienbezeichnungen 
-
-
-| Geplante lokale Snapshots | Snapshot-Richtlinie 
-
-
-| Unnötige Backups löschen | Ablauf der Sicherung 
-
-
-| Unnötige Snapshots löschen | Snapshot-Ablauf 
-
-
-| Nicht ausgelastete SSD-Kapazität | Überdimensionierte SSD-Kapazität 
-
-
-| Inaktive Blockgeräte | Inaktive Blockgeräte (LUN) 
-
-
-| Optimierung der Gesamtbetriebskosten durch das Tiering von Kaltdaten | Kaltdaten-Tiering 
-
-
-| Bericht zur logischen Volumenkapazität | Host-sichtbare Kapazitätsberichterstattung 
-
-
-| FlexGroup Volumenausgleich | Neu ausbalancieren von FlexGroup-Volumes 
-
-
-| FlexVol Volumenausgleich | FlexVol Volumes neu verteilen 
-
-
-| Schreibmodus für Cache-Beziehungen | FlexCache Schreibmodus 
-
-
-| Cache-Volume-Größe optimieren | FlexCache Replika-Größe 
-
-
-| Unbefugter Zugriff auf Volume | Unautorisierter Zugriff auf iSCSI Volumes 
-
-
-| ARP/AI deaktiviert | Ransomware-Schutz (ARP/AI) 
-|===
-
-
 ==== Konfigurationen für Cloud Volumes ONTAP in Microsoft Azure beheben, verwerfen und reaktivieren
 
 Das übersichtliche Dashboard in NetApp Console bietet jetzt die Möglichkeit, Konfigurationsempfehlungen für Ihre Cloud Volumes ONTAP Systeme zu beheben.
@@ -473,11 +493,7 @@ Das übersichtliche Dashboard in der NetApp Console bietet eine zentrale Übersi
 
 Erfahren Sie mehr über das link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["gut gestaltetes Dashboard"].
 
-Das gut gestaltete Dashboard in der Konsole ist für die folgenden Speichersysteme verfügbar:
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
-
+Das übersichtliche Dashboard in der Konsole ist verfügbar für link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure."]
 
 
 

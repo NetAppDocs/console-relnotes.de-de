@@ -383,11 +383,6 @@
   <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">Das übersichtliche Dashboard in der NetApp Console bietet eine zentrale Übersicht über Ihre Speichersysteme und Konfigurationen über alle Konten und Regionen hinweg. Das Dashboard liefert Einblicke und Empfehlungen, die zur Erreichung optimaler Betriebsabläufe beitragen. Der Well-Architected-Status Ihrer Konfigurationen, Konfigurationsprobleme, die nach den Säulen des Well-Architected-Frameworks für den von Ihnen verwendeten Speichertyp organisiert sind, sowie eine Liste von Konfigurationsproblemen und Empfehlungen werden angezeigt.</block>
   <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">gut gestaltetes Dashboard</block>
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">Erfahren Sie mehr über das <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>.</block>
-  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">Das gut gestaltete Dashboard in der Konsole ist für die folgenden Speichersysteme verfügbar:</block>
-  <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
-  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
-  <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Cloud Volumes ONTAP in Microsoft Azure</block>
-  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">Eigene benutzerdefinierte Regeln erstellen</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">Benutzerdefinierte Regeln können in einfacher Sprache erstellt werden, damit Ihre Systeme den Standards Ihres Unternehmens und den NetApp Best Practices entsprechen. Die Regeln lassen sich mit einem Probelauf testen und anschließend für die Ausführung in Ihren Umgebungen einplanen.</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">Weitere Informationen zu benutzerdefinierten Regeln</block>
@@ -430,7 +425,6 @@
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">Weitere Informationen finden Sie unter <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">27. Juli 2026</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard</block>
-  <block id="032088baae45e30e8391672094b24e52" category="paragraph">Das übersichtliche Dashboard in NetApp Console enthält nun aktualisierte Speicherkonfigurationsnamen für FSx für ONTAP, um die Übersichtlichkeit und Konsistenz zu verbessern.</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">Die folgende Tabelle zeigt die alten Konfigurationsnamen und die entsprechenden neuen Konfigurationsnamen im Well-Architected Dashboard.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Alter Konfigurationsname</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Neuer Konfigurationsname</block>
@@ -572,4 +566,13 @@
   <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">Das NetApp Console Dashboard unterstützt jetzt Google Cloud NetApp Volumes. Speicheradministratoren können den Status ihrer Speicherpools und Konfigurationen einsehen, Empfehlungen zur Verbesserung von Effizienz, Kosten, Leistung, Zuverlässigkeit und Sicherheit erhalten sowie Maßnahmen zur Optimierung des Betriebs und zur Einhaltung bewährter Verfahren ergreifen.</block>
   <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Konfigurationsanalyse für Google Cloud NetApp Volumes</block>
   <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">Weitere Informationen zu <block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>.</block>
+  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Cloud Volumes ONTAP in Microsoft Azure.</block>
+  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">Das übersichtliche Dashboard in der Konsole ist verfügbar für <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block></block>
+  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">FSx for ONTAP Unterstützung im Well-Architected Dashboard in der NetApp Console</block>
+  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">Das gut strukturierte Dashboard in NetApp Console ist für Amazon FSx for NetApp ONTAP verfügbar.</block>
+  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">Informationen zur Konfigurationsanalyse für FSx für ONTAP</block>
+  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
+  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">Das übersichtliche Dashboard in NetApp Console enthält nun neue Speicherkonfigurationsnamen für FSx für ONTAP.</block>
+  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">Gut strukturierte Probleme werden auf der Seite „NetApp Console Systems“ angezeigt</block>
+  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Benachrichtigungen zu Architekturproblemen sind für Cloud Volumes ONTAP in Microsoft Azure auf der Seite „Storage management Systems“ in der NetApp Console verfügbar. Mit dieser Funktion lassen sich Konfigurationsprobleme in Cloud Volumes ONTAP-Systemen in Azure schnell erkennen und vom Hinweis aus zum Workloads well-architected Dashboard wechseln.</block>
 </blocks>
