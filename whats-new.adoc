@@ -30,6 +30,27 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[20-august-2026]]
+== 20. August 2026
+
+
+
+[[digital-advisor]]
+=== Digitaler Berater
+
+
+
+==== Value Insights – eine Einführung
+
+Die Funktion „Value Insights“ fasst Informationen zu Systemzustand, Einsparungen, Stabilität und Sicherheit von ONTAP Systemen zusammen. Diese Informationen ermöglichen eine Verbesserung von Systemzustand und Leistung durch eine kontinuierliche, datengestützte Betrachtung Ihrer ONTAP Umgebung.
+
+
+NOTE: Value Insights ist nur für ONTAP Systeme verfügbar.
+
+Weitere Informationen zu link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"].
+
+
+
 [[17-august-2026]]
 == 17. August 2026
 
@@ -1219,21 +1240,3 @@ Die folgenden Digital Advisor-Funktionen haben Namensänderungen:
 Ransomware Resilience unterstützt jetzt die Erstellung von Schutzgruppen für Workloads in Google Cloud NetApp Volumes-Systemen, sodass Sie mehrere Workloads unter einer Richtlinie organisieren können, um die Verwaltung zu vereinfachen.
 
 Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["Erstellen Sie eine Schutzgruppe in Ransomware Resilience"^].
-
-
-
-[[25-may-2026]]
-== 25. Mai 2026
-
-
-
-[[keystone]]
-=== Keystone
-
-Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
-
-
-
-==== Verbesserte Darstellung mehrerer Aktualisierungen am selben Tag in der Abonnement-Timeline
-
-Die Abonnement-Zeitleiste zeigt nun eine Zahl an, wenn mehrere Abonnementaktualisierungen unterschiedlicher Art am selben Tag erfolgen, anstatt separater Symbole. Bewegen Sie den Mauszeiger über die Zahl, um alle Aktualisierungstypen dieses Tages anzuzeigen. Der heruntergeladene Bericht enthält für jede Aktualisierung eine separate Zeile und bietet Ihnen eine vollständige Übersicht aller Änderungen. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Sehen Sie sich die Zeitleiste Ihrer Keystone Abonnements an"].

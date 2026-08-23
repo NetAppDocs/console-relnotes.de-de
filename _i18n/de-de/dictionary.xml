@@ -141,9 +141,6 @@
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes-Unterstützung (Vorschau)</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Erstellen Sie eine Schutzgruppe in Ransomware Resilience</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">26. Mai 2026</block>
-  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">Verbesserte Darstellung mehrerer Aktualisierungen am selben Tag in der Abonnement-Timeline</block>
-  <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">Sehen Sie sich die Zeitleiste Ihrer Keystone Abonnements an</block>
-  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">25. Mai 2026</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience unterstützt jetzt die Erstellung von Schutzgruppen für Workloads in Google Cloud NetApp Volumes-Systemen, sodass Sie mehrere Workloads unter einer Richtlinie organisieren können, um die Verwaltung zu vereinfachen.</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">Weitere Informationen finden Sie unter <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>.</block>
   <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Aktualisierungen des Namens des Digital Advisor-Widgets</block>
@@ -280,7 +277,6 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">Die Funktion „Tech refresh“ heißt jetzt *System Refresh*. Informationen dazu, wie <block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">Die Funktion „Kapazitätserweiterungen“ heißt jetzt *Speichererweiterung*. Informationen dazu, wie <block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">Die Funktion „Verlängerungen“ heißt jetzt *Support Renewals*. Informationen dazu, wie <block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
-  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">Die Abonnement-Zeitleiste zeigt nun eine Zahl an, wenn mehrere Abonnementaktualisierungen unterschiedlicher Art am selben Tag erfolgen, anstatt separater Symbole. Bewegen Sie den Mauszeiger über die Zahl, um alle Aktualisierungstypen dieses Tages anzuzeigen. Der heruntergeladene Bericht enthält für jede Aktualisierung eine separate Zeile und bietet Ihnen eine vollständige Übersicht aller Änderungen. Weitere Informationen finden Sie unter<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>.</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">Auf der Registerkarte *Erweiterter Datenschutz (ADP)* ist jetzt ein neuer Unterreiter *Lizenzverteilung* verfügbar, der Einblick in die ADP-Lizenznutzung in Ihren MetroCluster Partnerclustern bietet. Weitere Informationen finden Sie unter<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">Die Registerkarte *Volumes in Clustern* unter *Assets* enthält jetzt eine Spalte *ARP-Status*, die anzeigt, ob der Autonomous Ransomware Protection (ARP) für jedes Volume aktiviert oder deaktiviert ist und Ihnen so einen Überblick über Ihre Ransomware-Schutzmaßnahmen für alle verwalteten Assets gibt. Weitere Informationen zu ARP finden sich unter<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>.</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">Weitere Informationen finden Sie unter<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>.</block>
@@ -575,4 +571,10 @@
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Benachrichtigungen zu Architekturproblemen sind für Cloud Volumes ONTAP in Microsoft Azure auf der Seite „Storage management Systems“ in der NetApp Console verfügbar. Mit dieser Funktion lassen sich Konfigurationsprobleme in Cloud Volumes ONTAP-Systemen in Azure schnell erkennen und vom Hinweis aus zum Workloads well-architected Dashboard wechseln.</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">Aktualisierte Konfigurationsnamen im Well-Architected Dashboard</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">Das übersichtliche Dashboard in NetApp Console enthält nun auch neue Speicherkonfigurationsnamen.</block>
+  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Value Insights – eine Einführung</block>
+  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Die Funktion „Value Insights“ fasst Informationen zu Systemzustand, Einsparungen, Stabilität und Sicherheit von ONTAP Systemen zusammen. Diese Informationen ermöglichen eine Verbesserung von Systemzustand und Leistung durch eine kontinuierliche, datengestützte Betrachtung Ihrer ONTAP Umgebung.</block>
+  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights ist nur für ONTAP Systeme verfügbar.</block>
+  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
+  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">Weitere Informationen zu <block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>.</block>
+  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">20. August 2026</block>
 </blocks>

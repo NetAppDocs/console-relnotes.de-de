@@ -1,0 +1,15 @@
+= Value Insights – eine Einführung
+:allow-uri-read: 
+
+
+
+
+[[introducing-value-insights]]
+=== Value Insights – eine Einführung
+
+Die Funktion „Value Insights“ fasst Informationen zu Systemzustand, Einsparungen, Stabilität und Sicherheit von ONTAP Systemen zusammen. Diese Informationen ermöglichen eine Verbesserung von Systemzustand und Leistung durch eine kontinuierliche, datengestützte Betrachtung Ihrer ONTAP Umgebung.
+
+
+NOTE: Value Insights ist nur für ONTAP Systeme verfügbar.
+
+Weitere Informationen zu link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"].
