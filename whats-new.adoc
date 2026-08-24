@@ -1222,21 +1222,3 @@ Die folgenden Digital Advisor-Funktionen haben Namensänderungen:
 * Die Funktion „Kapazitätserweiterungen“ heißt jetzt „Speichererweiterung“. Erfahren Sie mehr über link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor Widgets"].
 * Die Funktion „Verlängerungen“ heißt jetzt „Support-Verlängerungen“. Erfahren Sie mehr über link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor Widgets"].
 
-
-
-
-[[26-may-2026]]
-== 26. Mai 2026
-
-
-
-[[ransomware-resilience]]
-=== Ransomware-Resilienz
-
-
-
-==== Google Cloud NetApp Volumes-Unterstützung (Vorschau)
-
-Ransomware Resilience unterstützt jetzt die Erstellung von Schutzgruppen für Workloads in Google Cloud NetApp Volumes-Systemen, sodass Sie mehrere Workloads unter einer Richtlinie organisieren können, um die Verwaltung zu vereinfachen.
-
-Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["Erstellen Sie eine Schutzgruppe in Ransomware Resilience"^].
