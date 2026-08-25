@@ -577,4 +577,7 @@
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Unterstützung für die Regionen Austria East und Belgium Central in Azure</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA und höher kann jetzt in den Azure-Regionen Austria East (austriaeast) und Belgium Central (belgiumcentral) bereitgestellt werden. Die folgenden Bereitstellungstypen werden unterstützt:</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">25. August 2026</block>
+  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">SIEM-Ereignisübermittlung über den Console Agent</block>
+  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience unterstützt jetzt neben der bestehenden Option, Ereignisse über die NetApp Console zu übermitteln, auch die Bereitstellung von SIEM-Ereignissen über den Console-Agenten.</block>
+  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">Wenn Sie SIEM-Ereignisse über den Console Agent übermitteln, kann die SIEM-Ereignisübermittlung innerhalb Ihrer Netzwerkgrenze bleiben. Dies vereinfacht die Bereitstellung für lokale Umgebungen mit strikten IP-Adress-Positivlisten und kann besser mit bestehenden Sicherheitskontrollen abgestimmt werden. Für die Nutzung dieser Option muss sichergestellt sein, dass der Console Agent Ihren SIEM-Endpunkt am erforderlichen Port über alle Firewall- oder Proxy-Kontrollen hinweg auflösen und erreichen kann.</block>
 </blocks>
