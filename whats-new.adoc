@@ -1107,21 +1107,3 @@ In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen 
 
 
 Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Übersicht zum Schutz von Kubernetes-Workloads"].
-
-
-
-[[11-june-2026]]
-== 11. Juni 2026
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Unterstützung für eine neue Azure-Region in Cloud Volumes ONTAP
-
-Cloud Volumes ONTAP 9.12.1 GA und höher kann jetzt in Azure in der Region Malaysia West (malaysiawest) in einzelnen und mehreren Verfügbarkeitszonen bereitgestellt werden. Dies umfasst die Unterstützung sowohl für Einzelknoten- als auch für Hochverfügbarkeitsbereitstellungen (HA).
-
-Eine Liste aller Regionen finden Sie unter https://bluexp.netapp.com/cloud-volumes-global-regions["Globale Regionskarte unter Azure"^].
