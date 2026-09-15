@@ -1,0 +1,12 @@
+= Hinweis zur Einstellung der virtuellen Maschine
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-virtual-machine]]
+=== Hinweis zur Einstellung der virtuellen Maschine
+
+Die Funktion „Virtuelle Maschine“ ist im Digital Advisor ab Oktober 2026 veraltet.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].

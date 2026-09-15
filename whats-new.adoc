@@ -30,6 +30,24 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[14-september-2026]]
+== 14. September 2026
+
+
+
+[[digital-advisor]]
+=== Digitaler Berater
+
+
+
+==== Hinweis zur Einstellung der virtuellen Maschine
+
+Die Funktion „Virtuelle Maschine“ ist im Digital Advisor ab Oktober 2026 veraltet.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].
+
+
+
 [[02-september-2026]]
 == 02. September 2026
 

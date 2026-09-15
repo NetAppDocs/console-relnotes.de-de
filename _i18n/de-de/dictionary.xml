@@ -127,97 +127,16 @@
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes Workloads-Verbesserungen</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Überblick über den Schutz von VMware-Workloads</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter <block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
-  <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">In dieser Version führt ONTAP Volumes-Workloads die folgende Verbesserung ein:</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Überblick über den Schutz von ONTAP Volumes Workloads</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter <block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V-Workload-Verbesserungen</block>
-  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">In dieser Version werden für Hyper-V-Workloads die folgenden Verbesserungen eingeführt:</block>
-  <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">In dieser Version führt VMware Workloads die folgende Verbesserung ein:</block>
-  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Allgemeine Verbesserungen</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen eingeführt:</block>
-  <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">Integrieren Sie ein SOAR-Playbook</block>
-  <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">Flexible Abrechnung für Cloud Volumes ONTAP und Datendienste in AWS</block>
-  <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Unterstützung für S3-kompatiblen Cloud-Speicher*: NetApp Backup and Recovery für Volumes-Workloads unterstützt jetzt das Sichern in S3-kompatiblen Cloud-Speicher.</block>
-  <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Wiederherstellen von Dateien und Ordnern in einer Gast-VM – Verbesserungen*: Sie können jetzt Dateien und Ordner aus einem Snapshot auf primärem oder sekundärem Speicher in einer Gast-Windows-VM wiederherstellen. Diese Funktion wird nun für CIFS- und SAN-VMs unterstützt.</block>
-  <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">08. Juni 2026</block>
-  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Diese Version der Datenklassifizierung beinhaltet Sicherheitsverbesserungen und Leistungsverbesserungen.</block>
-  <block id="ad047b692e58386490130db85fe198fd" category="doc">Verbesserte Flexibilität für Schutzstrategien</block>
-  <block id="0492ddae19933de338f553ff06833c6f" category="paragraph">Die Ransomware-Resilienz bietet jetzt mehr Flexibilität bei der Auswahl von Ransomware-Erkennungsstrategien. Bisher mussten alle Ransomware-Schutzstrategien die Erkennung von Verschlüsselung umfassen. Jetzt können Sie eine Ransomware-Schutzstrategie aktivieren, die ausschließlich die Erkennung des Nutzerverhaltens verwendet.</block>
-  <block id="7238c31678a241cb872ee9d18f1e46a2" category="paragraph">Schutzstrategien können weiterhin sowohl die Erkennung von Verschlüsselung _als auch_ die Erkennung verdächtigen Nutzerverhaltens umfassen. Auch das Blockieren von Dateierweiterungen kann in jede Schutzstrategie integriert werden.</block>
-  <block id="bd1924893d8fb00ed3c326b7af6243b5" category="paragraph">Wenn Sie einen Teil der Schutzstrategie einer bestehenden Richtlinie deaktivieren, können alle unter der vorherigen Version der Richtlinie erstellten Warnungen nur als "Behoben" und nicht als "Abgelehnt" markiert werden. Wenn Sie beispielsweise eine Schutzstrategie hatten, die die Erkennung von Verschlüsselung und verdächtigem Benutzerverhalten umfasste, Sie aber die Verschlüsselungserkennung deaktiviert haben, können Sie nur eine bestehende Verschlüsselungswarnung für diese Arbeitslast als behoben markieren.</block>
-  <block id="54a418aa76c7e9afaa77a58a34a3d3ed" category="inline-link-macro">Schützen Sie Ihre Workloads mit NetApp Ransomware Resilience Schutzstrategien</block>
-  <block id="2b7a103134591ddcc36191e5b569a29b" category="paragraph">Weitere Informationen finden Sie unter <block ref="5b0b8f72704979749944145d24f2c6be" category="inline-link-macro-rx"></block>.</block>
-  <block id="eac1000048fff271adb3d0d010dd86f5" category="section-title">SOAR-Playbook-Erweiterungen</block>
-  <block id="993b3419e78327c12451169533b8d701" category="paragraph">Die SOAR-Playbooks für Ransomware-Resilienz bieten nun Maßnahmen zur Behebung von Problemen, nachdem Sie einen Benutzer gesperrt oder ein Volume offline genommen haben. Sie können ein Volume nun wieder online schalten und einen Benutzer entsperren, wenn die Aktion nicht als Ransomware-Bedrohung eingestuft wurde.</block>
-  <block id="957b7705b307b4f695a7cdb201c42bcb" category="paragraph">Cloud Volumes ONTAP 9.16.1 und höher unterstützen die EC2-Instanzfamilien M6id und M6idn sowohl für neue als auch bestehende Einzelknoten- und Hochverfügbarkeits-Bereitstellungen (HA) in AWS. Diese Instanzen der 6. Generation bieten im Vergleich zu den Allzwecksystemen der 5. Generation eine höhere Rechenleistung, verbesserte Netzwerkfunktionen und eine insgesamt höhere Performance.</block>
-  <block id="fa4aff7e4e5120dec944acc145df3c1a" category="list-text">*M6id-Instanzen*: Sie bieten ein ausgewogenes Verhältnis von Rechenleistung und Arbeitsspeicher mit schnellem, mit niedriger Latenz lokalem NVMe-Speicher. Alle M6id-Instanzgrößen unterstützen Flash Cache. Diese Instanzen eignen sich hervorragend für Workloads wie Protokollierung und Medienverarbeitung.</block>
-  <block id="bfe5730fc311788c5b5e63755351140c" category="list-text">*M6idn-Instanzen*: Bieten dieselben lokalen NVMe-Speicherfunktionen wie M6id-Instanzen. Alle M6idn-Instanzgrößen unterstützen Flash Cache.</block>
-  <block id="15172b1a76b99972ddc77977722e7eda" category="paragraph">Wir empfehlen die kleineren Instanztypen m6id.xlarge, m6id.2xlarge, m6idn.xlarge und m6idn.2xlarge nicht für Hochleistungs- oder speicherintensive Workloads. Für diese Workloads verwenden Sie einen Instanztyp mit einer höheren Kernanzahl und mehr Arbeitsspeicher.</block>
-  <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">Unterstützte Konfigurationen für Cloud Volumes ONTAP in AWS</block>
-  <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">Weitere Informationen finden Sie unter <block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>.</block>
-  <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">Unterstützung für neue EC2-Instanzen für Cloud Volumes ONTAP in AWS</block>
   <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Kubernetes-Updates</block>
   <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">Die Notfallwiederherstellung hat die folgenden Änderungen für Kubernetes-basierte Workloads eingeführt:</block>
-  <block id="b1f52bc1b1d4ff2b36103a44b4128f19" category="section-title">Testen Sie die Failover-Unterstützung für Kubernetes-Workloads</block>
-  <block id="7e284075cd571fe0081cd386d1d3493c" category="paragraph">Die Notfallwiederherstellung unterstützt jetzt das Testen des Failover-Prozesses für Kubernetes-Workloads. Durch das Testen des Failovers können Sie Notfallwiederherstellungspläne validieren. Nach Abschluss des Tests können Sie den Test-Failover bereinigen, sodass das System die Testressourcen automatisch freigibt, um den Overhead zu reduzieren und die Konsistenz Ihrer Umgebung sicherzustellen.</block>
-  <block id="ec841432c6696238519b70833f9640bb" category="inline-link-macro">Testen Sie den Failover-Prozess</block>
-  <block id="6031837c36096c58788ef48c962f6ff8" category="paragraph">Weitere Informationen finden Sie unter <block ref="a8818044286b10a3ca635d0b39faff78" category="inline-link-macro-rx"></block>.</block>
-  <block id="9be7f1264301a801add3868ed7829904" category="section-title">Geplante Test-Failover</block>
-  <block id="2cb1fc25b0b81893e3832eea3384812d" category="paragraph">Sie können jetzt Notfallwiederherstellungstests automatisieren, indem Sie Test-Failover planen. Sie können Zeitpläne für wiederkehrende Test-Failover festlegen, um Wiederherstellungspläne kontinuierlich ohne manuelle Eingriffe zu validieren, was dazu beiträgt, das Vertrauen in die Wiederherstellungsziele zu erhalten und Compliance-Anforderungen zu erfüllen.</block>
-  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link-macro">Replikationspläne verwalten</block>
-  <block id="35bd874c9b191a5ec4ef2620bcba1d01" category="paragraph">Weitere Informationen finden Sie unter <block ref="5e1f430868dd2493a6125e8cf919005e" category="inline-link-macro-rx"></block>.</block>
-  <block id="61a19574e3bdebdbc07d7daaaf8f76e1" category="section-title">Geplante Erkennung von Kubernetes-Workloads</block>
-  <block id="d45fce8600e6e092745f48fddf5cd172" category="paragraph">Mit der geplanten Erkennung können Sie steuern, wie häufig Disaster Recovery nach neuen Kubernetes-Workloads sucht. Sie können die Erkennungsintervalle an Ihren Betriebsrhythmus anpassen und so unnötigen Systemaufwand reduzieren, während gleichzeitig sichergestellt wird, dass neue Workloads rechtzeitig erkannt und geschützt werden.</block>
-  <block id="d5500e4522bde3536eb21086a6278cb6" category="inline-link-macro">Entdeckungszeitplan anpassen</block>
-  <block id="58b54ef9bb1184e1a76831a4c8532cdf" category="paragraph">Weitere Informationen finden Sie unter <block ref="00c64813bfb7d5f31a94dc7f7401aec7" category="inline-link-macro-rx"></block>.</block>
   <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">VMware-Updates</block>
-  <block id="239000f59be4987b700a238e8ca4cbac" category="section-title">Schutz für leere Datenspeicher</block>
-  <block id="9a870179d2b3e04319fde1e2148bdde1" category="inline-link-macro">Mapping-Informationen</block>
-  <block id="386068b3c8ab30655c493a434548a956" category="paragraph">Die Notfallwiederherstellung ermöglicht nun die Konfiguration des Schutzes für Datenspeicher, die keine virtuellen Maschinen (VMs) enthalten. Alle VMs, die dem Datenspeicher später hinzugefügt werden, werden von der Notfallwiederherstellung automatisch erkannt, zu diesem Zeitpunkt müssen Sie <block ref="96f22499fac7fb5ec06f64e20472e919" category="inline-link-macro-rx"></block> angeben.</block>
   <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">Failover zu einem Remote-Standort</block>
-  <block id="fcf6f6ded14457afdca64680218d849c" category="paragraph">Wenn Sie einen leeren Datenspeicher zu einem Schutzplan hinzufügen, müssen Sie entweder den Datenspeicher vor dem Failover aus dem Schutzplan entfernen oder ein erzwungenes Failover durchführen. Weitere Informationen finden Sie unter <block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>.</block>
-  <block id="2d2e356e77ef22acf218ffb017d91233" category="section-title">Zuvor ausgeschlossene Datenspeicher in einen Schutzplan zurückholen</block>
-  <block id="1453aa4dc117cbab5d75827143b273ea" category="paragraph">Datenspeicher, die zuvor vom Schutz ausgeschlossen waren, können nun wieder einbezogen werden. Diese Verbesserung bietet mehr Flexibilität bei der Verwaltung und Aktualisierung Ihrer Notfallwiederherstellungskonfigurationen im Laufe der Zeit.</block>
-  <block id="e111b7436e71ef6b7b99d4ab60693716" category="inline-link-macro">Standorte, Ressourcengruppen und Replikationspläne verwalten</block>
-  <block id="0f76cabceee2286086c65391269ec324" category="paragraph">Weitere Informationen finden Sie unter <block ref="37d0eb884ec50ead320898709eb6d605" category="inline-link-macro-rx"></block>.</block>
-  <block id="05c185480595feac79a02ae4a685fcc6" category="section-title">Schnelleres Failover für VMFS-basierte Datastores</block>
-  <block id="e63830ec714a620621135f51c7c84114" category="paragraph">Die Notfallwiederherstellung hat die Failover-Performance für VMFS-basierte Datenspeicher verbessert. Host Bus Adapter (HBA) Rescan- und Datenspeicher-Mount-Operationen werden nun parallel ausgeführt, wodurch die gesamten Failover-Zeiten verkürzt und Ausfallzeiten während Wiederherstellungsereignissen minimiert werden.</block>
-  <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">Ausfallsicherung mit Notfallwiederherstellung</block>
-  <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">Weitere Informationen zu Failover-Prozessen finden Sie unter <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>.</block>
-  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">Unterstützung für eine neue Azure-Region in Cloud Volumes ONTAP</block>
-  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA und höher kann jetzt in Azure in der Region Malaysia West (malaysiawest) in einzelnen und mehreren Verfügbarkeitszonen bereitgestellt werden. Dies umfasst die Unterstützung sowohl für Einzelknoten- als auch für Hochverfügbarkeitsbereitstellungen (HA).</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Globale Regionskarte unter Azure</block>
-  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">Eine Liste aller Regionen finden Sie unter<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
-  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">11. Juni 2026</block>
-  <block id="248bbbcb51ef3ddd3bd9dc8e6ef8b5a1" category="list-text">*Trident Protect 26.06*: Diese Version enthält Trident Protect 26.06.</block>
-  <block id="a322829a7429e3dce13d41945775197c" category="list-text">*Anwendungserstellung bei Wiederherstellung überspringen*: Die automatische Erstellung benutzerdefinierter Anwendungsressourcenobjekte kann während Wiederherstellungsvorgängen nun übersprungen werden. Dies reduziert unnötige Einträge im Anwendungsinventar.</block>
-  <block id="b6e7f9bbbf3d504dc4f264292161745a" category="list-text">*Wiederherstellung persistenter Volume Claims in VMs*: Bei der Wiederherstellung von VM-basierten Anwendungen ist es jetzt möglich, einzelne persistente Volume Claims wiederherzustellen, ohne die gesamte virtuelle Maschine wiederherstellen zu müssen, was die Wiederherstellung beschleunigt, wenn bestimmte Festplatten oder Volumes von Beschädigungen oder Datenverlust betroffen sind.</block>
-  <block id="bf6f998632908219ca091b00cfa53117" category="list-text">*Verbesserungen im Jobmonitor*: Die Überwachung von Jobs bietet jetzt eine verbesserte Transparenz bei Kubernetes-Schutzjobs. Detaillierte Statusinformationen zu Jobs und Subjobs sowie der jeweils verwendete Zielspeicher sind einsehbar.</block>
-  <block id="15957f5a10d7c37b0a0a1daa1c46013a" category="section-title">15. Juni 2026</block>
-  <block id="17eed7efdf891efe01a3f9078fc5227d" category="inline-link">Erstellen und Verwalten von Schutzgruppen für Hyper-V Workloads</block>
-  <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*Schutzgruppen verwenden jetzt die Zeitzone des Hyper-V-Hosts*: Schutzgruppen verwenden nun die Zeitzone des Hyper-V-Hosts. Schutzgruppen, die vor der Einführung der Host-Zeitzonenplanung erstellt wurden, verwenden weiterhin ihre zuvor konfigurierte Zeit (typischerweise UTC). Damit diese Schutzgruppen die Zeitzone des Hyper-V-Hosts verwenden, ist es erforderlich, die Zeitpläne neu zu erstellen. Weitere Informationen sind unter <block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block> verfügbar.</block>
-  <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">Erstellen und Verwalten von Schutzgruppen für VMware Workloads</block>
-  <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*Schutzgruppen verwenden jetzt die Zeitzonenplanung des Hosts*: Schutzgruppen verwenden nun die Zeitzone des VMware vCenter Servers. Schutzgruppen, die vor der Einführung der Host-Zeitzonenplanung erstellt wurden, laufen weiterhin in ihrer zuvor konfigurierten Zeitzone (typischerweise UTC). Um die vCenter-Zeitzone zu nutzen, ist es erforderlich, die Zeitpläne neu zu erstellen. Weitere Informationen sind unter <block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block> verfügbar.</block>
-  <block id="b39dc14a008a29a5ead42173a9e0c598" category="doc">Veröffentlichung im privaten Modus (4.7.0)</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support Site</block>
-  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">Eine neue Version des privaten Modus steht jetzt zum Download aus dem<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block> bereit.</block>
-  <block id="2c0d034db2b48e2c24de792e5f537a36" category="paragraph">Die Version 4.7.0 enthält Aktualisierungen der folgenden NetApp Console-Komponenten und -Dienste.</block>
-  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">Komponente oder Service</block>
-  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">In dieser Version enthalten</block>
-  <block id="5431c829b8b64da3908e102d64527909" category="cell">Änderungen seit der vorherigen privaten Modus-Version</block>
-  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Konsolenagent</block>
-  <block id="d794a9cd24f47c508609ee13d758511f" category="cell">4.7.0</block>
-  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">Was ist neu auf der NetApp Console-Seite</block>
-  <block id="59daf18c0a626a4e9dde08f3ce934dba" category="cell">Gehen Sie zu <block ref="96a354291689d74da1dc3c76f5332e6f" category="inline-link-rx"></block> und informieren Sie sich über die Änderungen in Version 4.7.0.</block>
-  <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup and Recovery</block>
-  <block id="225461e659003503fb35b495b5008e09" category="cell">5.4.0 (08. Juni 2026)</block>
-  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">Was ist neu auf der Seite NetApp Backup and Recovery</block>
-  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Gehe zu<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
-  <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
-  <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0 (11. Mai 2026)</block>
-  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Was ist neu auf der Seite NetApp Klassifizierung</block>
-  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Gehe zu<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
   <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">Health Check GraphQL Migration und Verbesserungen der Datengenauigkeit</block>
   <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">Das Modul „Health Check“ wurde mit verbesserter Datengenauigkeit und Versionsempfehlungen gemäß Währungsstandards erweitert. Im Rahmen dieser Version wurde es von der Public API zu GraphQL migriert, was eine verbesserte Performance, flexible Abfragen und langfristigen Support bietet.</block>
   <block id="d6493900927657728256c0c09c4e62d3" category="section-title">Empfohlene Software</block>
@@ -254,9 +173,6 @@
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">Dateipfade von Benachrichtigungen ausschließen</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">07. Juli 2026</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">Weitere Informationen finden sich unter <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
-  <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Console Agent 4.8.0</block>
-  <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">Die Version 4.8.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.</block>
-  <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">Diese Version enthält die Sicherheitsverbesserungen und Fehlerbehebungen.</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">Auf der Registerkarte *Erweiterter Datenschutz (ADP)* ist jetzt ein neuer Unterreiter *Lizenzverteilung* verfügbar, der Einblick in die ADP-Lizenznutzung in Ihren MetroCluster Partnerclustern bietet. Weitere Informationen finden Sie unter<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">Die Registerkarte *Volumes in Clustern* unter *Assets* enthält jetzt eine Spalte *ARP-Status*, die anzeigt, ob der Autonomous Ransomware Protection (ARP) für jedes Volume aktiviert oder deaktiviert ist und Ihnen so einen Überblick über Ihre Ransomware-Schutzmaßnahmen für alle verwalteten Assets gibt. Weitere Informationen zu ARP finden sich unter<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>.</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">Weitere Informationen finden Sie unter<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>.</block>
@@ -513,8 +429,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">Einen Datensammler löschen</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience unterstützt nun das Löschen eines Datensammlers. Der Datensammler wird automatisch erstellt, wenn die Benutzeraktivitätserkennung für Workloads aktiviert wird; falls der Datensammler veraltet ist, kann er nun manuell gelöscht werden.</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Weitere Informationen finden sich unter <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
-  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">Hyper-V Schutzworkflow mit NetApp Backup and Recovery</block>
-  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">Weitere Informationen zum Schutz von Hyper-V-Workloads finden Sie unter <block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>.</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Hinweis zur Einstellung von Config Drift</block>
   <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Die Funktion „Konfigurationsabweichung“ wird im Digital Advisor im September 2026 eingestellt.</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12. August 2026</block>
@@ -593,4 +507,7 @@
   <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
   <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">02. September 2026</block>
+  <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">Hinweis zur Einstellung der virtuellen Maschine</block>
+  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Die Funktion „Virtuelle Maschine“ ist im Digital Advisor ab Oktober 2026 veraltet.</block>
+  <block id="84de9715d135be833103283dc9df0296" category="section-title">14. September 2026</block>
 </blocks>
