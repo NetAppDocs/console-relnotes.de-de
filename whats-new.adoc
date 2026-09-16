@@ -30,6 +30,22 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[16-september-2026]]
+== 16. September 2026
+
+
+
+[[data-classification]]
+=== Datenklassifizierung
+
+
+
+==== Allgemeine Verbesserungen
+
+Diese Version der Datenklassifizierung beinhaltet Sicherheitsverbesserungen und Leistungsverbesserungen.
+
+
+
 [[14-september-2026]]
 == 14. September 2026
 
