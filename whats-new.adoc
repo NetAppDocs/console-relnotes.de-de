@@ -79,6 +79,57 @@ Diese Version der Datenklassifizierung beinhaltet Sicherheitsverbesserungen und 
 
 
 
+[[disaster-recovery]]
+=== Notfallwiederherstellung
+
+
+
+==== Kubernetes-Unterstützung in NetApp Disaster Recovery ist jetzt allgemein verfügbar (GA)
+
+Die Unterstützung für Kubernetes-basierte Workloads in NetApp Disaster Recovery ist jetzt allgemein verfügbar (GA). Mit Unterstützung für Kubernetes-basierte Workloads können Anwendungen geschützt werden, die auf Kubernetes-Clustern ausgeführt werden, einschließlich OpenShift Virtualisierungsumgebungen. Disaster Recovery unterstützt jede von Trident Protect aktuell unterstützte Kubernetes-Version, was eine nahtlose Integration und robuste Disaster Recovery-Funktionen für containerisierte Anwendungen gewährleistet.
+
+Um mit dem Schutz von Kubernetes-basierten Workloads zu beginnen, siehe link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/task-kubernetes-requirements.html["Kubernetes-Anforderungen für NetApp Disaster Recovery"^].
+
+
+
+==== Ressourcentransformationen
+
+Disaster Recovery unterstützt nun Ressourcentransformationen, sodass jeder Aspekt einer Arbeitslast während eines Failovers angepasst werden kann. Diese Funktion bietet Flexibilität, um Arbeitslasten während eines Notfallwiederherstellungsereignisses an unterschiedliche Umgebungen und Konfigurationen anzupassen.
+
+Ressourcentransformationen werden beim Erstellen eines Replikationsplans angewendet. Ressourcentransformationen können auf der neuen Einstellungsseite erstellt, bearbeitet und gelöscht werden. Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/task-resource-transformation.html["Ressourcentransformationen verwalten"^].
+
+
+
+==== Skriptausführung
+
+Sie können nun benutzerdefinierte Skripte in den Failover-Workflow einbinden, um das Anhalten und die Wiederaufnahme von Anwendungen zu koordinieren. Diese Funktion trägt dazu bei, dass Anwendungen vor der Replikation eines Snapshots ordnungsgemäß vorbereitet und anschließend angemessen wiederhergestellt werden, sodass der Betrieb nach einem Failover nahtlos fortgesetzt werden kann.
+
+Informationen zum Einfügen eines benutzerdefinierten Skripts sind unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Einen Replikationsplan erstellen"^] zu finden.
+
+
+
+==== Neue Workloads-Seite
+
+NetApp Disaster Recovery hat der Benutzeroberfläche eine Workloads-Seite hinzugefügt, die einen umfassenden Überblick über alle erkannten Workloads und deren Schutzstatus bietet. Die Workloads-Seite ermöglicht eine effektivere Überwachung und Verwaltung Ihrer Workloads.
+
+Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/dashboard-view.html["Überprüfen des Gesundheits- und Schutzstatus in NetApp Disaster Recovery"^].
+
+
+
+==== Einstellungsseite
+
+Disaster Recovery bietet jetzt eine Einstellungsseite zur zentralen Verwaltung von Ressourcentransformationsvorlagen und AppVaults. Diese Seite stellt eine einheitliche Schnittstelle zur Konfiguration und Verwaltung dieser wichtigen Komponenten Ihrer Disaster-Recovery-Pläne bereit. Weitere Informationen zu den Optionen auf der Einstellungsseite finden sich unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/task-resource-transformation.html["Ressourcentransformationen verwalten"^] und link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/task-appvault.html["Verwaltung von AppVaults"^].
+
+
+
+==== Allgemeine Verbesserungen
+
+NetApp Disaster Recovery hat erweiterte Validierungen auf der Seite zur Erstellung von Replikationsplänen eingeführt, um eine reibungslosere und fehlerfreie Benutzererfahrung sicherzustellen.
+
+Durch die Notfallwiederherstellung wurde auch die Widerstandsfähigkeit des Dienstes erhöht, um zeitweilige Anforderungs-Timeouts zu tolerieren, wodurch die Gesamtleistung und Zuverlässigkeit der Benutzeroberfläche verbessert wurde.
+
+
+
 [[14-september-2026]]
 == 14. September 2026
 
@@ -147,6 +198,19 @@ Sie können nun eine gesamte empfohlene Konfiguration aus Ihrem Dashboard ausble
 ==== Empfehlungen für Datenbank-Workloads im Well-Architected Dashboard
 
 Empfehlungen für Datenbank-Workloads mit FSx für ONTAP sind jetzt im Well-Architected Dashboard in der NetApp Console verfügbar. Der Status sowohl Ihrer Speicherressourcen als auch Ihrer Datenbank-Workloads ist an einem Ort einsehbar, was einen vollständigen Überblick über den Zustand Ihrer Infrastruktur ermöglicht.
+
+
+
+[[storagegrid]]
+=== StorageGRID
+
+
+
+==== Unterstützung für StorageGRID 12.1
+
+Das StorageGRID 12.1 System kann jetzt über die NetApp Console verwaltet werden.
+
+https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-storagegrid.html["Informationen zur Administration von StorageGRID mithilfe der erweiterten Ansicht in der NetApp Console"].
 
 
 
