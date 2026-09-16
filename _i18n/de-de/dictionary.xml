@@ -513,4 +513,12 @@
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Allgemeine Verbesserungen</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Diese Version der Datenklassifizierung beinhaltet Sicherheitsverbesserungen und Leistungsverbesserungen.</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">16. September 2026</block>
+  <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">In dieser Version führen KVM-, Hyper-V- und VMware-Workloads die folgende Verbesserung ein:</block>
+  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*Auswahl der Anmeldeinformationen bei der VM-Hosterkennung*: Bei der Registrierung eines KVM-, Hyper-V- oder VMware-Hosts ist jetzt die Verwendung von Anmeldeinformationen möglich, die bereits zu Backup and Recovery hinzugefügt wurden.</block>
+  <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*Datenträgerübergreifender Schutz für VMs*: Bei CIFS-Konfigurationen unterstützt NetApp Backup and Recovery jetzt den Schutz aller an jede VM in einer Datensicherungsstrategie angeschlossenen Datenträger. Dies umfasst Dateien, die über mehrere ONTAP Volumes oder ONTAP Speichersysteme verteilt sind (datenträgerübergreifende Datenträger), sowie Dateien, die sich an einem einzigen Speicherort befinden.</block>
+  <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">ONTAP Volumes Workloads-Verbesserung</block>
+  <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">In dieser Version wird für ONTAP Volumes Workloads die folgende Vorschau-Verbesserung eingeführt:</block>
+  <block id="921187f214ef75f0b99f59d69af64c46" category="paragraph">*Täglicher Bericht zum Datentransfer bei Backups*: NetApp Backup and Recovery für Volumes enthält jetzt unter der Registerkarte „Berichte“ einen täglichen Bericht zum Datentransfer bei Backups, der Einblick in die täglichen Backup- und Replikations-Datentransfers in Ihrer Umgebung bietet. Der Bericht kann für das gesamte Konto oder für ausgewählte Speichersysteme erstellt, nach Datumsbereich und Datensicherungsstrategie gefiltert und als CSV heruntergeladen werden.</block>
+  <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">Informationen zum ONTAP Volumeschutz mit NetApp Backup und Recovery</block>
+  <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter <block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>.</block>
 </blocks>
