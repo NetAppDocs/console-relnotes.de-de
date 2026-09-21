@@ -502,7 +502,6 @@
   <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">02. September 2026</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">Hinweis zur Einstellung der virtuellen Maschine</block>
-  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Die Funktion „Virtuelle Maschine“ ist im Digital Advisor ab Oktober 2026 veraltet.</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">14. September 2026</block>
   <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">Cloud Volumes ONTAP unterstützt jetzt die Integration mit <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> in der öffentlichen Vorschau. Cloud Volumes ONTAP kann mit <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block> unter Verwendung von <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> integriert werden, um vorhandene Cloud Volumes ONTAP NAS-Daten für Microsoft Analyse- und KI-Dienste wie Power BI, Azure AI Search, OpenAI und Microsoft Copilot bereitzustellen. Für die Integration ist keine Datenverschiebung oder Duplizierung erforderlich. Die Integration verwendet <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block>-Zugriff, um Cloud Volumes ONTAP mit einem bestehenden Microsoft Fabric lakehouse zu verbinden.</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Allgemeine Verbesserungen</block>
@@ -546,9 +545,6 @@
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">Saubere Wiederherstellungen sind nun nach verdächtigem Nutzerverhalten und benutzerbasierten Verschlüsselungsangriffen möglich. Diese Erweiterung ergänzt die bestehende Unterstützung für (entropiebasierte) Verschlüsselungsangriffe. Diese erweiterte Funktion ermöglicht die Nutzung des geführten Ansatzes der sauberen Wiederherstellung, wobei optimale Wiederherstellungspunkte identifiziert werden, um Datenverlust zu minimieren und die Wiederherstellung zu beschleunigen.</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">Eine isolierte Wiederherstellungsumgebung für eine saubere Wiederherstellung bereitstellen</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">Weitere Informationen finden sich unter <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>.</block>
-  <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">SAN-Unterstützung für Google Cloud NetApp Volumes</block>
-  <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">Ransomware Resilience bietet jetzt Unterstützung für SAN-Workloads aus Google Cloud NetApp Volumes, wodurch die Erkennung von verschlüsselungsbasierten Ransomware-Angriffen auf SAN-Workloads möglich ist. Unterstützung für SAN in Google Cloud NetApp Volumes ist jetzt allgemein verfügbar.</block>
-  <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">Weitere Informationen finden Sie unter <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> und <block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>.</block>
   <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">Cloud Volumes ONTAP mit Quick create in Google Cloud bereitstellen</block>
   <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
   <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">Cloud Volumes ONTAP mit Quick create in AWS bereitstellen</block>
@@ -578,4 +574,5 @@
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Gehe zu<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">17. September 2026</block>
   <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2 (31. August 2026)</block>
+  <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">Die Funktion „Virtuelle Maschine“ wird im Digital Advisor im Oktober 2026 eingestellt.</block>
 </blocks>
