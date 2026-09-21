@@ -575,4 +575,17 @@
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">17. September 2026</block>
   <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2 (31. August 2026)</block>
   <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">Die Funktion „Virtuelle Maschine“ wird im Digital Advisor im Oktober 2026 eingestellt.</block>
+  <block id="b97fde06b7b518f77d6af8b950fd42b8" category="doc">Unterstützung für kapazitätsbasierte Lizenzen in Private-Mode-Bereitstellungen</block>
+  <block id="e7407e69cea5642ae9e0cd7198fe3213" category="paragraph">Cloud Volumes ONTAP Systeme können jetzt im privaten Modus mit kapazitätsbasierten Lizenzen in AWS, Azure und Google Cloud bereitgestellt werden.</block>
+  <block id="5ac8ab42faf3d93a6c3b6ad39ea1d0cf" category="paragraph">NetApp unterstützt nur das Essentials Paket für kapazitätsbasierte Lizenzierung im privaten Modus. Ein kapazitätsbasiertes Bring-Your-Own License (BYOL) Essentials Paket kann von NetApp erworben und während der Bereitstellung dem System zugewiesen werden. Die ersten 500 GiB verbrauchter Kapazität werden nicht auf Ihre Lizenzgebühren angerechnet. Zusätzliche Pakete können erworben werden, wenn der Bedarf an Arbeitslasten steigt.</block>
+  <block id="21712c9baed4035cb4259749b4f6b0b5" category="paragraph">NetApp empfiehlt die kapazitätsbasierte Lizenzierung für alle Cloud Volumes ONTAP Bereitstellungen im privaten Modus. Wenn bereits Bereitstellungen im privaten Modus mit knotenbasierten Lizenzen vorhanden sind, ist eine Umstellung auf kapazitätsbasierte Lizenzierung durch den Erwerb eines Essentials-Pakets von NetApp möglich. Diese neue Bereitstellungsfunktion, kombiniert mit der Umstellungsoption, unterstützt den Plan von NetApp, schrittweise von knotenbasierter auf kapazitätsbasierte Lizenzierung überzugehen.</block>
+  <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link">Cloud Volumes ONTAP Lizenzierung</block>
+  <block id="659a7e43d06893f1e9ea314bf1e995c0" category="list-text"><block ref="659a7e43d06893f1e9ea314bf1e995c0" category="inline-link-rx"></block></block>
+  <block id="98a45c35578305189a0a42309be57c0e" category="inline-link">Informationen zu Cloud Volumes ONTAP BYOL</block>
+  <block id="d9f9f0f56fedf60259b456ffc4e59d78" category="list-text"><block ref="d9f9f0f56fedf60259b456ffc4e59d78" category="inline-link-rx"></block></block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">Ende der Verfügbarkeit knotenbasierter Lizenzen</block>
+  <block id="891135e9b9da3df96fe5c02cfac5295d" category="list-text"><block ref="891135e9b9da3df96fe5c02cfac5295d" category="inline-link-rx"></block></block>
+  <block id="c1abbf97e12a86fa8ee3d99a6d57e8d2" category="inline-link">Knotenbasierte Lizenzen für Cloud Volumes ONTAP verwalten</block>
+  <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
+  <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21. September 2026</block>
 </blocks>
