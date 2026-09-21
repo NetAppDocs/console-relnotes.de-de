@@ -194,8 +194,6 @@
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">13. Juli 2026</block>
   <block id="edf20e41ca56535f9914b651d4176206" category="section-title">ARM Vorlage für Microsoft Sentinel</block>
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience bietet jetzt eine Azure Resource Manager (ARM) Vorlage für die Verbindung mit Microsoft Sentinel als SIEM und bietet eine zusätzliche Methode zur Vereinfachung der Bereitstellung.</block>
-  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">Anbindung an ein SIEM-System zur Bedrohungserkennung und -analyse</block>
-  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">Weitere Informationen finden sich unter <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>.</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">Weitere Informationen zu dieser Version von Cloud Volumes ONTAP</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Unterstützung für Google Cloud VMs der nächsten Generation in Cloud Volumes ONTAP HA</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">Mit Version 9.19.1 wechselt NetApp die Cloud Volumes ONTAP Hochverfügbarkeitsbereitstellungen (HA) von N2 VMs auf die VMs der nächsten Generation der Google Cloud C3-Serie für eine schnellere und skalierbare Benutzererfahrung.</block>
@@ -591,4 +589,8 @@
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: Diese Version enthält Trident Protect 26.09.</block>
   <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*Cluster- und Namespace-spezifische rollenbasierte Zugriffskontrolle*: Während der Kubernetes-Clustererkennung lässt sich der Zugriff auf Ressourcen steuern, indem ein Projekt oder ein Ordner ausgewählt wird, das bzw. der dem neuen Cluster zugeordnet wird. Auch können spezifische Namespaces für die Zugriffskontrolle registriert werden. Dadurch wird eine granularere Zugriffskontrolle auf Cluster- oder Namespace-Ebene ermöglicht.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Dateien und Ordner wiederherstellen*: Es ist jetzt möglich, bestimmte Dateien und Ordner aus Kubernetes VM-basierten Anwendungssicherungen wiederherzustellen oder herunterzuladen.</block>
+  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">Microsoft Sentinel SIEM in NetApp Ransomware Resilience konfigurieren</block>
+  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">Weitere Informationen finden sich unter <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>.</block>
+  <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Konfiguration eines SIEM-Systems mit Webhooks</block>
+  <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Weitere Informationen finden sich unter <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
 </blocks>
