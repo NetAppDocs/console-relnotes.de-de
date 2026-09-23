@@ -139,15 +139,15 @@ Wenn Sie ein neues Abonnement für eine link:https://us-east-1.console.aws.amazo
 
 
 
-==== Allgemeine NetApp Backup and Recovery-Verbesserungen
+==== Allgemeine NetApp Backup and Recovery-Verbesserung
 
 In dieser Version führen KVM-, Hyper-V- und VMware-Workloads die folgende Verbesserung ein:
 
-*Auswahl der Anmeldeinformationen bei der VM-Hosterkennung*: Bei der Registrierung eines KVM-, Hyper-V- oder VMware-Hosts ist jetzt die Verwendung von Anmeldeinformationen möglich, die bereits zu Backup and Recovery hinzugefügt wurden.
+*Auswahl der Anmeldeinformationen bei der VM-Host-Erkennung*: Bei der Erkennung eines KVM-, Hyper-V- oder VMware-Hosts können jetzt Anmeldeinformationen verwendet werden, die bereits zu Backup and Recovery hinzugefügt wurden.
 
 
 
-==== Hyper-V-Workload-Verbesserungen
+==== Hyper-V Workload-Verbesserung
 
 In dieser Version wird für Hyper-V Workloads die folgende Verbesserung eingeführt:
 

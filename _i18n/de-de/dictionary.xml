@@ -506,7 +506,6 @@
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Diese Version der Datenklassifizierung beinhaltet Sicherheitsverbesserungen und Leistungsverbesserungen.</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">16. September 2026</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">In dieser Version führen KVM-, Hyper-V- und VMware-Workloads die folgende Verbesserung ein:</block>
-  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*Auswahl der Anmeldeinformationen bei der VM-Hosterkennung*: Bei der Registrierung eines KVM-, Hyper-V- oder VMware-Hosts ist jetzt die Verwendung von Anmeldeinformationen möglich, die bereits zu Backup and Recovery hinzugefügt wurden.</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*Datenträgerübergreifender Schutz für VMs*: Bei CIFS-Konfigurationen unterstützt NetApp Backup and Recovery jetzt den Schutz aller an jede VM in einer Datensicherungsstrategie angeschlossenen Datenträger. Dies umfasst Dateien, die über mehrere ONTAP Volumes oder ONTAP Speichersysteme verteilt sind (datenträgerübergreifende Datenträger), sowie Dateien, die sich an einem einzigen Speicherort befinden.</block>
   <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">ONTAP Volumes Workloads-Verbesserung</block>
   <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">In dieser Version wird für ONTAP Volumes Workloads die folgende Vorschau-Verbesserung eingeführt:</block>
@@ -593,4 +592,7 @@
   <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">Weitere Informationen finden sich unter <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>.</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Konfiguration eines SIEM-Systems mit Webhooks</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Weitere Informationen finden sich unter <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Allgemeine NetApp Backup and Recovery-Verbesserung</block>
+  <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Auswahl der Anmeldeinformationen bei der VM-Host-Erkennung*: Bei der Erkennung eines KVM-, Hyper-V- oder VMware-Hosts können jetzt Anmeldeinformationen verwendet werden, die bereits zu Backup and Recovery hinzugefügt wurden.</block>
+  <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V Workload-Verbesserung</block>
 </blocks>
