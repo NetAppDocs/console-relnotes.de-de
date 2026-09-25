@@ -1,0 +1,21 @@
+= Inhaltsaktualisierung für das Value Insights Dashboard
+:allow-uri-read: 
+
+
+
+
+[[content-update-for-the-value-insights-dashboard]]
+=== Inhaltsaktualisierung für das Value Insights Dashboard
+
+Eine Aktualisierung der Dokumentation für das Value Insights Dashboard wurde veröffentlicht.
+
+Weitere Informationen zu link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["Verwendung des Value Insights Dashboard in Digital Advisor"^].
+
+
+
+[[deprecation-notice-for-config-drift]]
+=== Hinweis zur Einstellung von Config Drift
+
+Die Funktion „Konfigurationsabweichung“ wurde eingestellt und ist seit September 2026 in Digital Advisor nicht mehr verfügbar.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].

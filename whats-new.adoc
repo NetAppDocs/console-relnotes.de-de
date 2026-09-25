@@ -30,6 +30,32 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[25-september-2026]]
+== 25. September 2026
+
+
+
+[[digital-advisor]]
+=== Digitaler Berater
+
+
+
+==== Inhaltsaktualisierung für das Value Insights Dashboard
+
+Eine Aktualisierung der Dokumentation für das Value Insights Dashboard wurde veröffentlicht.
+
+Weitere Informationen zu link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["Verwendung des Value Insights Dashboard in Digital Advisor"^].
+
+
+
+==== Hinweis zur Einstellung von Config Drift
+
+Die Funktion „Konfigurationsabweichung“ wurde eingestellt und ist seit September 2026 in Digital Advisor nicht mehr verfügbar.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].
+
+
+
 [[21-september-2026]]
 == 21. September 2026
 
