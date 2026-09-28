@@ -30,6 +30,36 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[28-september-2026]]
+== 28. September 2026
+
+
+
+[[backup-and-recovery]]
+=== Sicherung und Wiederherstellung
+
+
+
+==== Allgemeine NetApp Backup and Recovery-Verbesserung
+
+In dieser Version führen KVM-, Hyper-V- und VMware-Workloads die folgende Verbesserung ein:
+
+*Unterstützung für rollenbasierte Zugriffskontrolle (RBAC) in der Console*: Die Hyper-V-, KVM- und VMware-Workloads unterstützen jetzt das NetApp Console Framework für RBAC, sodass Sie den Zugriff auf einzelne Hyper-V-, KVM- oder VMware-Hosts verwalten können.
+
+https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["Weitere Informationen zur Verwendung von RBAC in NetApp Backup and Recovery"].
+
+
+
+==== VMware-Workload-Verbesserungen
+
+In dieser Version führt VMware Workloads die folgende Verbesserung ein:
+
+*Google Cloud NetApp Volumes Flex Unified support*: NetApp Backup and Recovery für VMware Workloads unterstützt jetzt die Flex Unified Service Level für Google Cloud NetApp Volumes. Flex Unified wird nur im ONTAP Modus unterstützt.
+
+Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware-Workloads mit NetApp Backup and Recovery schützen"].
+
+
+
 [[25-september-2026]]
 == 25. September 2026
 
@@ -66,12 +96,22 @@ Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[w
 
 
 
+==== ONTAP Volumes Workloads-Verbesserung
+
+In dieser Version wird für ONTAP Volumes Workloads die folgende Vorschau-Verbesserung eingeführt:
+
+*Verbesserte Unterstützung für Dark Sites*: NetApp Backup and Recovery for dark sites bietet jetzt dieselben ONTAP Volumes Datenschutzfunktionen wie NetApp Backup and Recovery. Diese Verbesserung umfasst aktualisierte Backup-, Wiederherstellungs- und Job-Management-Services sowie eine neue Metadaten-Datenbank. Während eines Upgrades bleiben vorhandene Datenbankdaten erhalten und werden automatisch migriert. Nach dem Upgrade ist eine Überprüfung der Audit-Protokolle erforderlich, um sicherzustellen, dass die Migration erfolgreich abgeschlossen wurde. NetApp Backup and Recovery for dark sites unterstützt nur ONTAP Volumes Workloads.
+
+Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Informationen zum ONTAP Volumeschutz mit NetApp Backup und Recovery"].
+
+
+
 ==== Kubernetes-Workloads-Erweiterungen
 
 In dieser Version werden für Kubernetes-Workloads die folgenden Verbesserungen eingeführt:
 
 * *Trident Protect 26.09*: Diese Version enthält Trident Protect 26.09.
-* *Cluster- und Namespace-spezifische rollenbasierte Zugriffskontrolle*: Während der Kubernetes-Clustererkennung lässt sich der Zugriff auf Ressourcen steuern, indem ein Projekt oder ein Ordner ausgewählt wird, das bzw. der dem neuen Cluster zugeordnet wird. Auch können spezifische Namespaces für die Zugriffskontrolle registriert werden. Dadurch wird eine granularere Zugriffskontrolle auf Cluster- oder Namespace-Ebene ermöglicht.
+* *Cluster- und Namespace-granulare rollenbasierte Zugriffskontrolle (RBAC)*: Bei der Kubernetes Cluster-Erkennung kann der Zugriff auf Ressourcen durch die Auswahl eines Projekts oder Ordners gesteuert werden, das bzw. der dem neuen Cluster zugeordnet wird. Außerdem können bestimmte Namespaces für die Zugriffskontrolle registriert werden. Dadurch wird eine granularere Zugriffskontrolle entweder auf Cluster- oder Namespace-Ebene ermöglicht.
 * *Dateien und Ordner wiederherstellen*: Es ist jetzt möglich, bestimmte Dateien und Ordner aus Kubernetes VM-basierten Anwendungssicherungen wiederherzustellen oder herunterzuladen.
 
 
@@ -1232,97 +1272,3 @@ Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-
 Ransomware Resilience bietet jetzt eine Azure Resource Manager (ARM) Vorlage für die Verbindung mit Microsoft Sentinel als SIEM und bietet eine zusätzliche Methode zur Vereinfachung der Bereitstellung.
 
 Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["Microsoft Sentinel SIEM in NetApp Ransomware Resilience konfigurieren"^].
-
-
-
-[[29-june-2026]]
-== 29. Juni 2026
-
-
-
-[[ransomware-resilience]]
-=== Ransomware-Resilienz
-
-
-
-==== Automatisierte Antworten auf Benachrichtigungen zu Benutzeraktivitäten
-
-Ransomware Resilience unterstützt jetzt automatisierte Reaktionen auf Benutzeraktivitätsereignisse. Benutzer können automatisch gesperrt und ein Snapshot erstellt werden, wenn eine Benutzeraktivitätswarnung generiert wird. Diese Aktionen ermöglichen eine schnellere Reaktion ohne manuelle Eingriffe.
-
-Weitere Informationen sind unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-automate-user-activity.html["Antworten auf Warnmeldungen zu Benutzeraktivitäten automatisieren"^] zu finden.
-
-
-
-[[digital-advisor]]
-=== Digitaler Berater
-
-
-
-==== Health Check GraphQL Migration und Verbesserungen der Datengenauigkeit
-
-Das Modul „Health Check“ wurde mit verbesserter Datengenauigkeit und Versionsempfehlungen gemäß Währungsstandards erweitert. Im Rahmen dieser Version wurde es von der Public API zu GraphQL migriert, was eine verbesserte Performance, flexible Abfragen und langfristigen Support bietet.
-
-
-
-===== Empfohlene Software
-
-Empfohlene Software-Erweiterungen im Modul Health Check liefern nun genauere und konsistentere Daten.
-
-* Die Anzahl der Regale und Laufwerke unter der Firmware-Währung zeigt die genauen Werte pro System an und schließt die Anzahl der HA-Paare nicht mehr ein.
-* Die Empfehlungen für die Mindest- und die neueste Version werden nun auf Clusterebene auf Basis der effektiven Clusterversion gemäß den aktuellen Währungsstandards berechnet, zuvor wurden diese Empfehlungen auf Knotenebene berechnet.
-
-
-
-
-===== AutoSupport Datenabhängigkeit
-
-Aufgrund von Verbesserungen im Backend basieren die Ansichten zur AutoSupport-Adoption und zu empfohlenen Softwareversionen auf den neuesten AutoSupport-Daten. Dies kann Ihre aktuelle Ansicht wie folgt beeinflussen:
-
-[cols="30,70"]
-|===
-| Szenario | Betroffene Systeme 
-
-
-| Es werden keine Daten angezeigt | Systeme, die seit Oktober 2025 keine AutoSupport-Nachricht mehr gesendet haben 
-
-
-| Veraltete Werte | Systeme, die in den letzten 30 Tagen keinen AutoSupport gesendet haben 
-|===
-Lösen Sie AutoSupport auf den oben aufgeführten betroffenen Systemen erneut aus, um die aktuellen Daten in den Health-Check-Ansichten wiederherzustellen.
-
-
-
-[[keystone]]
-=== Keystone
-
-Neue Verbesserungen im Keystone -Dashboard in der NetApp Console:
-
-
-
-==== ADP-Lizenzverteilung für MetroCluster Abonnements anzeigen
-
-Auf der Registerkarte *Erweiterter Datenschutz (ADP)* ist jetzt ein neuer Unterreiter *Lizenzverteilung* verfügbar, der Einblick in die ADP-Lizenznutzung in Ihren MetroCluster Partnerclustern bietet. Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["Verbrauch und Status Ihrer Keystone MetroCluster Abonnements einsehen"].
-
-
-
-==== Ransomware-Schutzstatus für Ihre Volumes
-
-Die Registerkarte *Volumes in Clustern* unter *Assets* enthält jetzt eine Spalte *ARP-Status*, die anzeigt, ob der Autonomous Ransomware Protection (ARP) für jedes Volume aktiviert oder deaktiviert ist und Ihnen so einen Überblick über Ihre Ransomware-Schutzmaßnahmen für alle verwalteten Assets gibt. Weitere Informationen zu ARP finden sich unter https://docs.netapp.com/us-en/ontap/anti-ransomware/["Autonomous Ransomware Protection (ARP) in ONTAP"^].
-
-
-
-==== Feedback kann über die Registerkarte „Feedback“ geteilt werden.
-
-Sie können nun von jedem Bildschirm im Keystone Dashboard aus Feedback geben, indem Sie die neue Registerkarte *Feedback* verwenden, die am unteren rechten Bildschirmrand verankert ist. Ein Klick darauf öffnet ein Fenster, in dem Sie Ihre Erfahrungen mitteilen und Kommentare direkt an NetApp senden können.
-
-
-
-==== Verbesserte Benachrichtigungen für Kapazitätsauslastung und Abonnementablauf
-
-Systemgenerierte Monitore bieten jetzt detailliertere Warnmeldungen zur Kapazitätsauslastung und zum Ablauf von Abonnements.
-
-Bei Ablauf des Abonnements werden nun Warnungen bei fünf Schwellenwerten ausgelöst: 180, 90, 60, 30 und 7 Tage vor Ablauf, wobei der Schweregrad mit Annäherung an das Datum von informativ zu kritisch ansteigt.
-
-Bei der Kapazitätsauslastung basiert der Schwellenwert für die Warnung bei Lastspitzen nun auf dem im Abonnement festgelegten Prozentsatz der zugesicherten Lastspitze anstatt auf einem festen Wert von 20 %. Wenn Ihre zugesicherte Lastspitze beispielsweise 40 % beträgt, wird die kritische Warnung bei 140 % der zugesicherten Kapazitätsauslastung ausgelöst.
-
-Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Benachrichtigungsmonitore für Keystone Abonnements anzeigen und erstellen"].
