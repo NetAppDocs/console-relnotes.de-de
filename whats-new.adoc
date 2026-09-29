@@ -348,7 +348,7 @@ Cloud Volumes ONTAP unterstützt jetzt die Bereitstellung in Azure Government Se
 
 Weitere Informationen sind in der Azure-Dokumentation zu finden:
 
-* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["Cloud für Missionen der US-Regierung^"]
+* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["Cloud für Missionen der US-Regierung"^]
 * https://azure.microsoft.com/en-us/explore/global-infrastructure/government/national-security["Azure Government Secret"^]
 * https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions["Azure Government Top Secret"^]
 
@@ -460,7 +460,7 @@ Cloud Volumes ONTAP 9.12.1 GA und höher kann jetzt in den Azure-Regionen Austri
 * Hochverfügbarkeit in mehreren Verfügbarkeitszonen mittels zonenredundantem Speicher (ZRS)
 
 
-Eine Liste aller unterstützten Regionen ist unter  https://bluexp.netapp.com/cloud-volumes-global-regions["Globale Regionskarte unter Azure"^] zu finden.
+Eine Liste aller unterstützten Regionen ist unter  https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Globale Regionskarte unter Azure"^] zu finden.
 
 
 
@@ -927,7 +927,7 @@ Sie können Cloud Volumes ONTAP 9.12.1 GA und höher jetzt in der Region Chile C
 * Hochverfügbarkeit in mehreren Verfügbarkeitszonen mittels zonenredundantem Speicher (ZRS)
 
 
-Eine Liste aller unterstützten Regionen ist unter  https://bluexp.netapp.com/cloud-volumes-global-regions["Globale Regionskarte unter Azure"^] zu finden.
+Eine Liste aller unterstützten Regionen ist unter  https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Globale Regionskarte unter Azure"^] zu finden.
 
 
 
