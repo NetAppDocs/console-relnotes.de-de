@@ -30,38 +30,8 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
-[[28-september-2026]]
-== 28. September 2026
-
-
-
-[[backup-and-recovery]]
-=== Sicherung und Wiederherstellung
-
-
-
-==== Allgemeine NetApp Backup and Recovery-Verbesserung
-
-In dieser Version führen KVM-, Hyper-V- und VMware-Workloads die folgende Verbesserung ein:
-
-*Unterstützung für rollenbasierte Zugriffskontrolle (RBAC) in der Console*: Die Hyper-V-, KVM- und VMware-Workloads unterstützen jetzt das NetApp Console Framework für RBAC, sodass Sie den Zugriff auf einzelne Hyper-V-, KVM- oder VMware-Hosts verwalten können.
-
-https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["Weitere Informationen zur Verwendung von RBAC in NetApp Backup and Recovery"].
-
-
-
-==== VMware-Workload-Verbesserungen
-
-In dieser Version führt VMware Workloads die folgende Verbesserung ein:
-
-*Google Cloud NetApp Volumes Flex Unified support*: NetApp Backup and Recovery für VMware Workloads unterstützt jetzt die Flex Unified Service Level für Google Cloud NetApp Volumes. Flex Unified wird nur im ONTAP Modus unterstützt.
-
-Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware-Workloads mit NetApp Backup and Recovery schützen"].
-
-
-
-[[27-september-2026]]
-== 27. September 2026
+[[30-september-2026]]
+== 30. September 2026
 
 
 
@@ -97,6 +67,36 @@ link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-a
 ==== Gut strukturierte Probleme werden auf der Seite „NetApp Console Systems“ angezeigt
 
 Benachrichtigungen zu Well-Architected-Problemen sind für Google Cloud NetApp Volumes auf der Seite „Storage management Systems“ in der NetApp Console verfügbar. Diese Funktion hilft Ihnen, Konfigurationsprobleme in Ihren Google Cloud NetApp Volumes Systemen schnell zu erkennen und über die Benachrichtigung zum Well-Architected-Dashboard für Workloads zu navigieren.
+
+
+
+[[28-september-2026]]
+== 28. September 2026
+
+
+
+[[backup-and-recovery]]
+=== Sicherung und Wiederherstellung
+
+
+
+==== Allgemeine NetApp Backup and Recovery-Verbesserung
+
+In dieser Version führen KVM-, Hyper-V- und VMware-Workloads die folgende Verbesserung ein:
+
+*Unterstützung für rollenbasierte Zugriffskontrolle (RBAC) in der Console*: Die Hyper-V-, KVM- und VMware-Workloads unterstützen jetzt das NetApp Console Framework für RBAC, sodass Sie den Zugriff auf einzelne Hyper-V-, KVM- oder VMware-Hosts verwalten können.
+
+https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["Weitere Informationen zur Verwendung von RBAC in NetApp Backup and Recovery"].
+
+
+
+==== VMware-Workload-Verbesserungen
+
+In dieser Version führt VMware Workloads die folgende Verbesserung ein:
+
+*Google Cloud NetApp Volumes Flex Unified support*: NetApp Backup and Recovery für VMware Workloads unterstützt jetzt die Flex Unified Service Level für Google Cloud NetApp Volumes. Flex Unified wird nur im ONTAP Modus unterstützt.
+
+Weitere Informationen zum Schutz von VMware-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware-Workloads mit NetApp Backup and Recovery schützen"].
 
 
 

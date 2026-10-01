@@ -590,5 +590,5 @@
   <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Gut konzipierte Bewertungen für Flex Unified Ressourcen</block>
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">Das optimierte Dashboard analysiert nun Google Cloud NetApp Volumes Flex Unified Speicherpools und Volumes hinsichtlich SSD-Kapazitätsreserve, Volume-Kapazitätsreserve und Snapshot-Richtlinienabdeckung. Die Ergebnisse erscheinen in der optimierten Benutzeroberfläche von Google Cloud NetApp Volumes und kennzeichnen Ressourcen im Default-Modus oder ONTAP-Modus.</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">Benachrichtigungen zu Well-Architected-Problemen sind für Google Cloud NetApp Volumes auf der Seite „Storage management Systems“ in der NetApp Console verfügbar. Diese Funktion hilft Ihnen, Konfigurationsprobleme in Ihren Google Cloud NetApp Volumes Systemen schnell zu erkennen und über die Benachrichtigung zum Well-Architected-Dashboard für Workloads zu navigieren.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27. September 2026</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30. September 2026</block>
 </blocks>
