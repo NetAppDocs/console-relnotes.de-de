@@ -1296,29 +1296,3 @@ Die Möglichkeit, die Registerkarte „Upgrade System“ anzuzeigen, wurde aus d
 ==== Systemleistungsverbesserungen
 
 Disaster Recovery hat Änderungen eingeführt, um den Systemressourcenverbrauch zu reduzieren und die Leistung bei allen Vorgängen zu verbessern.
-
-
-
-[[07-july-2026]]
-== 07. Juli 2026
-
-
-
-[[ransomware-resilience]]
-=== Ransomware-Resilienz
-
-
-
-==== Dateipfade von Benachrichtigungen zum Benutzerverhalten ausschließen
-
-NetApp Ransomware Resilience unterstützt das Ausschließen bestimmter Dateipfade von Warnmeldungen zur Überwachung des Benutzerverhaltens. Dateipfade können ausgeschlossen werden, wenn bekannt ist, dass sie nicht gefährdet sind, oder wenn an Dateien in einem Volume gearbeitet wird, das möglicherweise Warnmeldungen auslösen könnte.
-
-Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html["Dateipfade von Benachrichtigungen ausschließen"^].
-
-
-
-==== ARM Vorlage für Microsoft Sentinel
-
-Ransomware Resilience bietet jetzt eine Azure Resource Manager (ARM) Vorlage für die Verbindung mit Microsoft Sentinel als SIEM und bietet eine zusätzliche Methode zur Vereinfachung der Bereitstellung.
-
-Weitere Informationen finden sich unter link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["Microsoft Sentinel SIEM in NetApp Ransomware Resilience konfigurieren"^].
