@@ -30,6 +30,24 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[04-october-2026]]
+== 04. Oktober 2026
+
+
+
+[[well-architected-dashboard]]
+=== Gut gestaltetes Dashboard
+
+
+
+==== Benutzerdefinierte Regeln bearbeiten und managen
+
+Sie können nun benutzerdefinierte Regeln im Regelkatalog bearbeiten. Sie können Regelnamen und -einstellungen aktualisieren, Änderungen im Chat überprüfen, Bearbeitungen validieren und nicht mehr benötigte Regeln löschen.
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["Informationen zum Managen benutzerdefinierter Regeln"]
+
+
+
 [[30-september-2026]]
 == 30. September 2026
 

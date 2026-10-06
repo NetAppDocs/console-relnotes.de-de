@@ -1,0 +1,12 @@
+= Benutzerdefinierte Regeln bearbeiten und managen
+:allow-uri-read: 
+
+
+
+
+[[edit-and-manage-custom-rules]]
+=== Benutzerdefinierte Regeln bearbeiten und managen
+
+Sie können nun benutzerdefinierte Regeln im Regelkatalog bearbeiten. Sie können Regelnamen und -einstellungen aktualisieren, Änderungen im Chat überprüfen, Bearbeitungen validieren und nicht mehr benötigte Regeln löschen.
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["Informationen zum Managen benutzerdefinierter Regeln"]
