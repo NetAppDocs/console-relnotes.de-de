@@ -584,4 +584,5 @@
   <block id="d76461728409bdd7d106249c2bbd279c" category="inline-link">Vermeidung von Unterbrechungen während der Azure-Wartung für Cloud Volumes ONTAP HA-Paare</block>
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">14. Oktober 2026</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*Benutzerdefinierte Datumsbereichsfilterung im Job Monitor*: Sie können jetzt im Job Monitor nach Jobs aus den vergangenen 90 Tagen suchen, indem Sie in einem Kalender ein benutzerdefiniertes Start- und Enddatum auswählen.</block>
 </blocks>
