@@ -585,4 +585,9 @@
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">14. Oktober 2026</block>
   <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*Benutzerdefinierte Datumsbereichsfilterung im Job Monitor*: Sie können jetzt im Job Monitor nach Jobs aus den vergangenen 90 Tagen suchen, indem Sie in einem Kalender ein benutzerdefiniertes Start- und Enddatum auswählen.</block>
+  <block id="d6705c5666d00557618ae9bce3d12c37" category="doc">Unterstützung von E-Series und StorageGRID in Value Insights</block>
+  <block id="f7074f3c85b7a79fbc50870db7f09881" category="paragraph">Value Insights umfasst jetzt ONTAP, E-Series und StorageGRID Systeme in den Gesamtwerten für Systemstatus, Risiko, Sicherheitsrisiko und Lebenszyklus. Sie können das Dashboard nach Plattform filtern, um plattformspezifische Details anzuzeigen. Realisierte und prognostizierte Einsparungen sind weiterhin nur für ONTAP Systeme verfügbar.</block>
+  <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Wertvolle Einblicke im Digital Advisor entdecken</block>
+  <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>.</block>
+  <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">15. Oktober 2026</block>
 </blocks>
