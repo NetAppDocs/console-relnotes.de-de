@@ -177,7 +177,6 @@
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Unterstützung für die Region Chile Central in Azure</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">Sie können Cloud Volumes ONTAP 9.12.1 GA und höher jetzt in der Region Chile Central (chilecentral) in Azure bereitstellen. Die folgenden Bereitstellungstypen werden unterstützt:</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Einzelknoten</block>
-  <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">Hochverfügbarkeit in einer einzelnen Verfügbarkeitszone mit lokal redundantem Speicher (LRS)</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">Hochverfügbarkeit in mehreren Verfügbarkeitszonen mittels zonenredundantem Speicher (ZRS)</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">23. Juli 2026</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">Schutzgruppen werden auf Grundlage von Arbeitslast und Systemtyp standardisiert</block>
@@ -561,7 +560,6 @@
   <block id="cb7f1191bad9ffa813970eda72e677c3" category="paragraph"><block ref="cb7f1191bad9ffa813970eda72e677c3" category="inline-link-rx"></block></block>
   <block id="b9a06ca155484f482929cec5f8dd93f2" category="section-title">Azure Verschlüsselung auf Hostebene für Cloud Volumes ONTAP</block>
   <block id="65c800dc2b98e78e47a93565108209a8" category="paragraph">Ab Cloud Volumes ONTAP 9.19.1 GA ist die Azure-Verschlüsselung auf Hostebene standardmäßig für neue Azure-Einzelknoten- und Hochverfügbarkeits-Deployments (HA) aktiviert, die die Voraussetzungen erfüllen. Diese Funktion verschlüsselt Daten auf dem physischen Server, auf dem die VM ausgeführt wird, einschließlich des ephemeren Datenträgers und der zugehörigen Caches auf Hostebene, während die Daten auf den Host geschrieben und von ihm gelesen werden.</block>
-  <block id="e4d61d3550f13efd53aeff4a22e83ea8" category="paragraph">Vor dem Einsatz von Cloud Volumes ONTAP in Azure müssen die folgenden Voraussetzungen erfüllt sein:</block>
   <block id="66661aefda04e7e8fc3b285416a5747c" category="inline-link">Microsoft-Dokumentation: Aktivierung der Verschlüsselung auf dem Host</block>
   <block id="ad0c10652c212a9436d51cb4a4ff84e1" category="list-text">Die<block ref="9b5430cc1667a3828b4733b3fceebcc5" prefix=" " category="inline-code"></block>Funktion ist für Ihr Azure-Abonnement registriert. Weitere Informationen finden Sie unter<block ref="7a203e9800b2ad6ccab50741b723916c" category="inline-link-rx"></block>.</block>
   <block id="3ef3dd18f4a36e278227da4d639cfc32" category="inline-link">Microsoft Dokumentation: Unterstützte VM-Größen ermitteln</block>
@@ -590,4 +588,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Wertvolle Einblicke im Digital Advisor entdecken</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>.</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">15. Oktober 2026</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">Hochverfügbarkeit in einer einzigen Verfügbarkeitszone unter Verwendung von lokal redundantem Storage (LRS)</block>
+  <block id="145afd276d37daec187001af80160d51" category="paragraph">Vor dem Deployment von Cloud Volumes ONTAP in Azure muss Ihre Umgebung die folgenden Voraussetzungen erfüllen:</block>
 </blocks>
