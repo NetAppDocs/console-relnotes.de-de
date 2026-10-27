@@ -4,7 +4,7 @@ permalink: release-notes-index.html
 keywords: release notes 
 summary: Sehen Sie sich die vollständigen Versionshinweise zu den Verwaltungs- und Speicherfunktionen der NetApp Console sowie zu den NetApp -Datendiensten an. 
 ---
-= Index der Versionshinweise
+= Index der Versionshinweise für NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
