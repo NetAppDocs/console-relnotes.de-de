@@ -486,4 +486,8 @@
   <block id="08853958e0db62fd50058fd45b355d7a" category="doc">Console Agent 4.12.0</block>
   <block id="67b83a9547aaccf9123cbc81823aeda8" category="paragraph">Die Version 4.12.0 unterstützt sowohl den Standardmodus als auch den eingeschränkten Modus.</block>
   <block id="f3826fe13aaaec9b1aee814413e5cc00" category="paragraph">Diese Version enthält Sicherheitsverbesserungen und Fehlerbehebungen.</block>
+  <block id="2be8ebee916d12326ebe44540fa72ba0" category="doc">Neuer manueller Workflow zur Erstellung eines Benutzeraktivitätsagenten</block>
+  <block id="2ffea3ae8ed4896a570069b1313e624e" category="paragraph">Ransomware Resilience bietet jetzt einen manuellen Workflow zur Erstellung des Benutzeraktivitätsagenten und ermöglicht so eine präzisere Steuerung der Agentenerstellung auf Ihrer VM. Mit diesem neuen Workflow können Sie den Benutzeraktivitätsagenten direkt installieren und Proxy-Einstellungen konfigurieren, ohne VM-SSH-Schlüssel angeben zu müssen.</block>
+  <block id="59ad45573dbf4296a202cefa7894c118" category="inline-link-macro">Erstellen Sie einen Benutzeraktivitätsagenten</block>
+  <block id="77330beb10dbe494866c425493911f54" category="paragraph">Weitere Informationen finden Sie unter <block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>.</block>
 </blocks>
