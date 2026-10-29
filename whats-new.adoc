@@ -656,7 +656,7 @@ Durch die Notfallwiederherstellung wurde auch die Widerstandsfähigkeit des Dien
 
 
 
-==== Verbesserte Unterstützung für saubere Wiederherstellungen
+==== Unterstützung für eine saubere Wiederherstellung bei verdächtigem Benutzerverhalten und benutzerbasierten Verschlüsselungsangriffen
 
 Saubere Wiederherstellungen sind nun nach verdächtigem Nutzerverhalten und benutzerbasierten Verschlüsselungsangriffen möglich. Diese Erweiterung ergänzt die bestehende Unterstützung für (entropiebasierte) Verschlüsselungsangriffe. Diese erweiterte Funktion ermöglicht die Nutzung des geführten Ansatzes der sauberen Wiederherstellung, wobei optimale Wiederherstellungspunkte identifiziert werden, um Datenverlust zu minimieren und die Wiederherstellung zu beschleunigen.
 
