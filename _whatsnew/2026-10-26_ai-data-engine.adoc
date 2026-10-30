@@ -1,0 +1,41 @@
+= AI Data Engine 1.3
+:allow-uri-read: 
+
+
+
+
+[[ai-data-engine-1-3]]
+=== AI Data Engine 1.3
+
+AI Data Engine ist ein Metadaten-Intelligence-Service, der über NetApp Console verwaltet wird, Ihre verbundenen Systeme scannt, einen Metadatenkatalog erstellt und Ihnen die Transparenz und Tools bietet, um Storage zu optimieren und Daten in großem Maßstab zu verwalten. AI Data Engine kann als ein https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["AIDE Einzelknoten-Deployment"^], oder als AIDE Multi-Node-Deployment eingesetzt werden, wenn Ihre Umgebung Kubernetes-basierte Hochverfügbarkeit in großem Maßstab erfordert.
+
+AI Data Engine 1.3 ist die erste allgemein verfügbare (GA) Version.
+
+.Deployment und Anbindung Ihrer Daten
+https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["In dem Umfang einsetzen, den Ihre Umgebung erfordert"^]:: Zur Auswahl stehen ein AIDE Single-Node-Deployment für einen schnellen Start auf einer einzelnen VM oder ein AIDE Multi-Node-Deployment auf Ihrem eigenen Kubernetes-Cluster für Hochverfügbarkeit und größere Skalierbarkeit. Falls Ihre Umgebung für den Internetzugang einen Proxy benötigt, https://docs.netapp.com/us-en/ai-data-engine/deploy/configure-proxy.html["Informationen zu Proxys für AIDE"^] kann das Deployment mit einem Proxy erfolgen.
+https://docs.netapp.com/us-en/ai-data-engine/data-sources/connect-data-source.html["Ihre Daten in den Fokus rücken"^]:: Dateifreigaben, Datenbankserver und StorageGRID Systeme verbinden und auswählen, welche Datenressourcen gescannt werden sollen.
+https://docs.netapp.com/us-en/ai-data-engine/administer/monitor-deployment-health.html["Scans in gutem Zustand halten"^]:: Der Systemstatus Ihres Deployments kann überwacht werden, um Probleme zu identifizieren, die den Scanvorgang unterbrechen könnten, und die Details zu erfassen, die zu deren Behebung erforderlich sind.
+
+
+.Storage optimieren und Ihre Daten analysieren
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["Speicherkapazität wiederherstellen"^]:: Kalte, veraltete und doppelte Daten in Ihren verbundenen Systemen werden anhand Ihrer konfigurierten Schwellenwerte identifiziert, und es wird angezeigt, welche Systeme und Dateneigentümer die höchste Konzentration dieser Daten aufweisen.
+https://docs.netapp.com/us-en/ai-data-engine/administer/configure-settings.html["Kalte und veraltete Daten für Ihr Unternehmen definieren"^]:: Die Schwellenwerte, die festlegen, welche Daten als kalt oder veraltet eingestuft werden, sollten auf Ihre Aufbewahrungsrichtlinien abgestimmt sein.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["Ermitteln, an wen Sie sich bezüglich der Daten wenden können"^]:: Im Dashboard lässt sich ermitteln, welche Dateneigentümer die höchsten Konzentrationen an kalten, veralteten oder doppelten Daten aufweisen. Anschließend lässt sich in der Untersuchungsansicht nach Eigentümer oder Gruppe filtern, um die Ergebnisse zu prüfen und festzustellen, wer zu kontaktieren ist.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["Senkung von Kosten und Risiken"^]:: Verbundene Systeme können nach Zugriffszeit, Änderungsdatum, Erstellungsdatum, Dateigröße, Duplikatstatus und weiteren Kriterien gefiltert werden, um Dateien zu finden, die den Datenmanagementzielen Ihres Unternehmens entsprechen. Auf Grundlage der Ergebnisse können direkt Maßnahmen ergriffen oder die Kriterien als Richtlinie gespeichert werden.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["Duplizierte Daten werden eliminiert"^]:: Dateien finden, die in Ihren verbundenen Systemen doppelt vorhanden sind. Nach dem Attribut „Duplikate“ oder nach dem Dateihash filtern, um Duplikatgruppen zu überprüfen und anschließend die doppelten Kopien zu bereinigen.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-directories.html["Zugriffsrisiken ermitteln"^]:: Verzeichnisse mit offenen Berechtigungen können so identifiziert werden, dass sie für eine Berechtigungsprüfung priorisiert werden können.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-structured.html["Untersuchung strukturierter Daten"^]:: Übergroße oder ungenutzte Datenbanktabellen auf Ihren verbundenen Datenbankservern finden.
+
+
+.Auf Basis der Daten handeln und diese im Laufe der Zeit überwachen
+https://docs.netapp.com/us-en/ai-data-engine/investigate/take-actions.html["Speicherkosten senken"^]:: Die Datenlebenszyklusrichtlinien Ihres Unternehmens lassen sich durch Kopieren und Archivieren von Dateien auf NFS- oder SMB-Ziele, durch Kennzeichnen von Elementen zur Nachverfolgung oder durch dauerhaftes Löschen von Dateien gemäß Ihren Aufbewahrungsanforderungen durchsetzen.
+https://docs.netapp.com/us-en/ai-data-engine/policies/create-policy.html["Datenbedingungen kontinuierlich überwachen"^]:: Filterkriterien lassen sich als benannte Richtlinien speichern, um wiederkehrende Datenzustände im Zeitverlauf nachzuverfolgen, z. B. selten genutzte oder übergroße Dateien, und Benachrichtigungen zu erhalten, wenn sich die Anzahl der betroffenen Dateien ändert.
+
+
+.KI-Zugriff mit Governance
+https://docs.netapp.com/us-en/ai-data-engine/mcp/learn-about-mcp.html["KI-Clients erhalten Governance-konformen Zugriff auf Ihre Metadaten"^]:: Sie können Claude Code, Claude Desktop, Cursor oder OpenCode über das Model Context Protocol (MCP) mit AI Data Engine verbinden. Sie können die Sammlungen aktivieren, die AI Clients durchsuchen können, und Microsoft Entra ID Scopes verwenden, um zu steuern, wer die einzelnen Sammlungen durchsuchen kann. AI Clients können Metadaten und Tag-Dateien durchsuchen.
+
+
+.Verwaltung
+https://docs.netapp.com/us-en/ai-data-engine/administer/manage-users-roles.html["Zuweisung von Administrator- und Betrachterrollen"^]:: Sie können steuern, wer Daten untersuchen und Maßnahmen ergreifen darf, indem Sie Benutzern in Ihrer Organisation die Administrator- oder Viewer-Rolle für AI Data Engine zuweisen.
+
