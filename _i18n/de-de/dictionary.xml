@@ -597,4 +597,11 @@
   <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">In Workload Factory kann für ein Volume erneut eine Latenzanalyse ausgeführt werden, damit die Ergebnisse nach einer Untersuchung oder Änderung aktualisiert werden. Mit *Analyse erneut ausführen* wird eine neue Analyse gestartet und die Ergebnisse werden aktualisiert.</block>
   <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">Informationen zur Analyse von Latenzproblemen</block>
   <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
+  <block id="e9f11fc9d91bec322284ec741f87191d" category="section-title">Erweiterungen für Workload Factory for VMware</block>
+  <block id="2296d077680e104e6519a9745c173ece" category="paragraph">Diese Erweiterungen umfassen den EVS TCO calculator für VMware Migrationen.</block>
+  <block id="37460924712e1c37dc5ad9be085001ad" category="section-title">Unterstützung für i7i.metal-24xl- und i7i.metal-48xl-Instanzen im EVS TCO Rechner</block>
+  <block id="b6c3bb340d0b13e009a53c6c8a2b9219" category="paragraph">Der EVS TCO Rechner unterstützt jetzt AWS i7i.metal-24xl und i7i.metal-48xl EC2 Instanzen als Cluster Hosts. Im Vergleich zu i4i.metal Konfigurationen senken i7i.metal-24xl Instanzen die EVS Startkosten um etwa 33 % für Rechenleistung und 25 % für vSAN Storage.</block>
+  <block id="e50148793a31ae443693925cfda40d91" category="paragraph">Der Rechner vergleicht alle Instanztypen und wählt automatisch die kostengünstigste Option aus. Ein neuer Vergleichsbereich zeigt EVS Hostkonfigurationen nebeneinander an und erleichtert so die Auswahl der optimalen Lösung für Ihre Bedürfnisse.</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Geschätzte Einsparungen für EVS berechnen</block>
+  <block id="536315c4cd9e40b477f48fcc8b1863a7" category="paragraph"><block ref="536315c4cd9e40b477f48fcc8b1863a7" category="inline-link-macro-rx"></block></block>
 </blocks>

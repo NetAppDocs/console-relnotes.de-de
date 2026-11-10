@@ -250,6 +250,22 @@ Sie sehen nun Empfehlungen zum Kundendurchsatz und Entscheidungspunkte für die 
 
 
 
+==== Erweiterungen für Workload Factory for VMware
+
+Diese Erweiterungen umfassen den EVS TCO calculator für VMware Migrationen.
+
+
+
+===== Unterstützung für i7i.metal-24xl- und i7i.metal-48xl-Instanzen im EVS TCO Rechner
+
+Der EVS TCO Rechner unterstützt jetzt AWS i7i.metal-24xl und i7i.metal-48xl EC2 Instanzen als Cluster Hosts. Im Vergleich zu i4i.metal Konfigurationen senken i7i.metal-24xl Instanzen die EVS Startkosten um etwa 33 % für Rechenleistung und 25 % für vSAN Storage.
+
+Der Rechner vergleicht alle Instanztypen und wählt automatisch die kostengünstigste Option aus. Ein neuer Vergleichsbereich zeigt EVS Hostkonfigurationen nebeneinander an und erleichtert so die Auswahl der optimalen Lösung für Ihre Bedürfnisse.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-vmware/calculate-evs-savings.html["Geschätzte Einsparungen für EVS berechnen"]
+
+
+
 ==== Workload Factory für EDA-Erweiterungen
 
 Diese Verbesserungen umfassen Volumendetails in der Latenzanalyse, eine Prüfung des Dateisystemdrucks, Durchsatz Entscheidungspunkte und die erneute Durchführung einer Latenzanalyse.
