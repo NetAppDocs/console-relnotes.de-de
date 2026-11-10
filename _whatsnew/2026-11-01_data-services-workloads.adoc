@@ -186,6 +186,45 @@ Sie sehen nun Empfehlungen zum Kundendurchsatz und Entscheidungspunkte für die 
 
 
 
+[[workload-factory-for-eda-enhancements]]
+=== Workload Factory für EDA-Erweiterungen
+
+Diese Verbesserungen umfassen Volumendetails in der Latenzanalyse, eine Prüfung des Dateisystemdrucks, Durchsatz Entscheidungspunkte und die erneute Durchführung einer Latenzanalyse.
+
+
+
+==== Anzeige von Volumendetails während der Latenzanalyse
+
+Während Sie ein Latenzereignis analysieren, können Sie in Workload Factory weitere Volumendetails anzeigen, damit erkennbar ist, wie das Volume konfiguriert ist. Die Seite „Detaillierte Latenzanalyse“ zeigt *Volume-Typ* (RW oder DP) und *Volume-Stil* (FlexVol oder FlexGroup).
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-trends.html["Erfahren Sie, wie Sie Latenztrends analysieren"]
+
+
+
+==== Überprüfung der Dateisystemauslastung bei einem Latenzereignis
+
+In Workload Factory können Sie überprüfen, ob sich die Dateisystemauslastung bei einem Latenzereignis auf die Performance ausgewirkt hat, um zu entscheiden, ob das Dateisystem näher untersucht werden sollte. Bei einem Volume mit einer Latenzwarnung können Sie die CloudWatch Daten aus den 40 Minuten vor dem Ereignis einsehen und das Dateisystem zur weiteren Untersuchung öffnen.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/learn-latency-monitoring.html#file-system-pressure["Informationen zu Prüfungen des Dateisystemdrucks"]
+
+
+
+==== Überprüfung der Entscheidungspunkte zum Durchsatz für EDA
+
+Auf dem EDA Overview Dashboard können Sie die Entscheidungspunkte für den Client-Durchsatz überprüfen und sehen, wann Workload Factory eine Durchsatzänderung empfohlen oder angewendet hat. Wenn Sie den Mauszeiger auf einen Entscheidungspunkt bewegen, werden Details wie die aktuelle und die empfohlene SKU oder die im betreffenden Zeitraum überschrittenen Metriken angezeigt.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-use-overview-dashboard.html#analyze-capacity-and-throughput-trends-and-decision-points["Informationen zur Überprüfung von Durchsatz-Entscheidungspunkten"]
+
+
+
+==== Erneutes Ausführen einer Latenzanalyse
+
+In Workload Factory kann für ein Volume erneut eine Latenzanalyse ausgeführt werden, damit die Ergebnisse nach einer Untersuchung oder Änderung aktualisiert werden. Mit *Analyse erneut ausführen* wird eine neue Analyse gestartet und die Ergebnisse werden aktualisiert.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-issues.html["Informationen zur Analyse von Latenzproblemen"]
+
+
+
 [[google-cloud-netapp-volumes-enhancements]]
 === Erweiterungen für Google Cloud NetApp Volumes
 
