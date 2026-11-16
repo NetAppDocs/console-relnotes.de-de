@@ -1,0 +1,12 @@
+= Verbesserung der Jobüberwachung beim erneuten Ausführen von Jobs
+:allow-uri-read: 
+
+
+
+
+[[job-monitoring-enhancement-when-rerunning-jobs]]
+=== Verbesserung der Jobüberwachung beim erneuten Ausführen von Jobs
+
+Wenn Sie bestimmte fehlgeschlagene, abgebrochene oder mit Zeitüberschreitung beendete Vorgänge erneut ausführen, registriert NetApp Disaster Recovery diese jetzt als neue Aufträge und identifiziert den Benutzer, der die Aktion initiiert hat. Zuvor listete Disaster Recovery neue Aufträge unter dem ursprünglichen Auftrag auf. Diese Verbesserung schafft eine besser sichtbare Prüfspur für Aufträge in Disaster Recovery, solange die Anforderung nicht geschwärzt wurde. Sie gilt nur für Discovery-, Resync-, Compliance-, Protection-, Replication Plan- und Backup Retention-Aufträge. Erneut ausgeführte Failback-, Failover- und Migrationsvorgänge werden nicht als neue Aufträge aufgeführt. Nur der neueste Auftrag in einer Wiederholungskette ist qualifiziert, und höchstens eine erneute Ausführung kann hinter einer laufenden in die Warteschlange gestellt werden.
+
+Weitere Informationen sind unter link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["Überwachung von Jobs in Disaster Recovery"^] verfügbar.
