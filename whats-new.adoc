@@ -935,17 +935,6 @@ Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter  h
 
 
 
-[[data-classification]]
-=== Datenklassifizierung
-
-
-
-==== Allgemeine Verbesserungen
-
-Diese Version der Datenklassifizierung beinhaltet Sicherheitsverbesserungen und Leistungsverbesserungen.
-
-
-
 [[disaster-recovery]]
 === Notfallwiederherstellung
 
