@@ -30,6 +30,48 @@ Sanierung:: Der Sanierungsdienst wurde am 22. April 2024 entfernt.
 ====
 
 
+[[23-november-2026]]
+== 23. November 2026
+
+
+
+[[backup-and-recovery]]
+=== Sicherung und Wiederherstellung
+
+
+
+==== Kubernetes-Workloads-Erweiterungen
+
+In dieser Version führt NetApp Backup and Recovery für Kubernetes-Workloads die folgenden Verbesserungen ein:
+
+* *Amazon FSx for NetApp ONTAP Unterstützung mit Disk-to-Disk-Backup-Architektur*: Sie können jetzt Kubernetes-Schutzrichtlinien erstellen, die die Disk-to-Disk-Backup-Architektur mit Amazon FSx for NetApp ONTAP als primärem Storage und einem weiteren FSx for NetApp ONTAP Dateisystem als sekundärem Storage in derselben oder in einer anderen AWS-Region verwenden. Cloud Volumes ONTAP kann auch als primärer Storage dienen, während FSx for NetApp ONTAP als sekundärer Storage dient.
+* *Behebung des Problems bei der qtree-Wiederherstellung*: Die Wiederherstellung des ontap-nas-economy Volume stellte zuvor qtree-Verzeichnisse mit falschem Eigentümer und falschen Berechtigungen wieder her. Dieses Problem wurde in dieser Version behoben.
+
+
+Weitere Informationen zum Erstellen von Kubernetes-Schutzrichtlinien finden Sie unter https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-kubernetes-create.html["Erstellen und Verwalten von Kubernetes-Backup-Richtlinien in NetApp Backup und Recovery"^].
+
+Weitere Informationen zum Schutz von Kubernetes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Informationen zum Schutz von Kubernetes Workloads mit NetApp Backup and Recovery"^].
+
+
+
+==== ONTAP Volumes Workloads-Verbesserungen
+
+In dieser Version führt NetApp Backup and Recovery die folgenden Verbesserungen für ONTAP Volumes Workloads ein:
+
+* *Verbesserungen der Wiederherstellungsschnittstelle*: Der Assistent für den Restore für ONTAP Volumes verfügt über ein überarbeitetes Layout und eine verbesserte Navigation:
++
+** *Verbesserte Auswahltabellen*: Die Auswahltabellen zeigen mehr Zeilen und Spalten gleichzeitig an. Die Wiederherstellungsbildschirme verwenden optimierte Abstände und Breadcrumbs, sodass Sie sehen können, wo Sie sich im Workflow befinden.
+** *Schritt-für-Schritt-Navigation*: Die Funktionen der Schaltflächen *Weiter* und *Fortfahren* wurden verbessert, sodass Sie nicht versehentlich zum nächsten wichtigen Schritt springen können. Die Schaltfläche *Zurück* führt Sie zurück zum zuletzt abgeschlossenen Bildschirm und behält Ihre vorherigen Auswahlen bei, sodass Sie den Schritt nicht neu starten müssen.
+** *Mehr Details bei der Auswahl eines Quellvolumes*: Die Volumeliste zeigt jetzt Volumetyp, Volumestil, SnapLock Typ, vorhandenen Schutz und den Systemstatus des Schutzes. Die Spalte „Vorhandener Schutz“ ist breiter, sodass alle Schutzindikatoren (Snapshot, Replikation und Backup) sichtbar sind.
+
+
+* *Unterstützung für den Schutz von Volumes, die in Azure China Regionen gehostet werden*: Sie können ONTAP Volumes jetzt in Azure Blob storage in Azure China (21Vianet) sichern. Diese Unterstützung gilt sowohl für Cloud Volumes ONTAP als auch für ONTAP Systeme in lokalen Umgebungen. Die Regionen „Commercial Azure“ und „Azure Government“ bleiben unverändert.
+
+
+Weitere Informationen zum Schutz von ONTAP Volumes-Workloads finden Sie unter  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Informationen zum ONTAP Volumeschutz mit NetApp Backup und Recovery"^].
+
+
+
 [[18-november-2026]]
 == 18. November 2026
 
