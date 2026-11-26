@@ -493,7 +493,6 @@
   <block id="9744964a1ca6fbce3b75a4f5042f9597" category="section-title">Verbesserungen bei der Migration von Storage VMs</block>
   <block id="e6567f9c034c2cedd4efbe2f207f9b2a" category="paragraph">Workload Factory bietet in der Benutzeroberfläche eine verbesserte Unterstützung für die Migration von Storage VMs. Dies umfasst Schritt-für-Schritt-Anleitungen und einen Testlauf vor der Übernahme der Migration in die Produktionsumgebung.</block>
   <block id="5d9883007f4bc5361c0311ad3ad7cfd1" category="inline-link-macro">Weitere Informationen zur Migration von Storage-VMs</block>
-  <block id="f9aacc67b23285dcf36836993d0a0240" category="paragraph"><block ref="f9aacc67b23285dcf36836993d0a0240" category="inline-link-macro-rx"></block></block>
   <block id="f96336c52a88a7b30c68866854b7e3f2" category="section-title">Verbesserung der E-Mail-Benachrichtigung bei Replikationsverzögerung</block>
   <block id="1e403f6a94558e4fb3362faed8f74a9b" category="paragraph">Wenn eine große Anzahl zusammenhängender Replikationsverzögerungsereignisse auftritt, fasst Workload Factory diese automatisch in einer einzigen E-Mail-Benachrichtigung zusammen, damit Sie nicht von Benachrichtigungen überflutet werden.</block>
   <block id="f45963c176c2d5c66e1ddbfab6e6a59e" category="section-title">Verbesserung des automatischen Kapazitätsmanagements</block>
@@ -650,4 +649,5 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Globale Regionskarte unter Azure</block>
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Eine Liste aller unterstützten Regionen ist unter <block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block> zu finden.</block>
   <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">24. November 2026</block>
+  <block id="d708ba996885d5ea1c1b9727bc557415" category="paragraph"><block ref="d708ba996885d5ea1c1b9727bc557415" category="inline-link-macro-rx"></block></block>
 </blocks>
