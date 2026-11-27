@@ -1,0 +1,153 @@
+= Amazon FSx for NetApp ONTAP Erweiterungen
+:allow-uri-read: 
+
+
+
+
+[[amazon-fsx-for-netapp-ontap-enhancements]]
+=== Amazon FSx for NetApp ONTAP Erweiterungen
+
+
+
+==== Mehrere FSx for ONTAP Dateisysteme mit einem Link verknüpfen
+
+Mehrere FSx for ONTAP Dateisysteme können jetzt in einem Workflow mit einer neuen oder bestehenden Verknüpfung verknüpft werden, anstatt die Verknüpfung für jedes Dateisystem zu wiederholen. Die Authentifizierung der Verknüpfung ist möglich, indem für jedes Dateisystem ONTAP Anmeldeinformationen eingegeben oder dieselben Anmeldeinformationen auf mehrere Dateisysteme angewendet werden.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/setup/links-overview.html["Weitere Informationen zu Links"]
+
+
+
+==== Neue Empfehlungen für Name Services von storage VM
+
+Workload Factory enthält nun in der Well-Architected-Analyse die folgenden Empfehlungen für Name Services von Storage VMs:
+
+*DNS- und LDAP-Serverredundanz*: Es wird empfohlen, mindestens zwei DNS-Server auf Storage VMs, die DNS verwenden, und mindestens zwei LDAP-Server auf Storage VMs, die LDAP verwenden, einzusetzen. Der Ausfall eines einzelnen Servers kann die Namensauflösung, die Domänenauthentifizierung oder den NFS-Zugriff blockieren.
+
+
+
+==== Verbesserungen im Volumes Explorer
+
+
+
+===== Neue Spalten der Tabelle „Volumes explorer“
+
+Die Tabelle „Volumes explorer“ enthält die folgenden neuen Spalten:
+
+* *Logisch belegter Speicherplatz*: zeigt den Speicherplatz an, den Clients als belegt sehen, vor den Einsparungen durch Storage-Effizienz. Diese Spalte wird standardmäßig angezeigt.
+* *Verbindungspfad*: zeigt den Verbindungspfad für ein Volume an.
+
+
+
+
+===== Mount Points managen
+
+Sie können jetzt direkt im Volumes explorer managen, wo Volumes in einem Storage VM Namespace eingehängt sind. Über *Manage mount points* im Menü *Advanced* eines Volumes lässt sich der Storage VM Namespace als Baumstruktur anzeigen; anschließend können Sie das Volume einhängen, aushängen oder den Verbindungspfad für das Volume ändern. Workload Factory prüft Abhängigkeiten, bevor das Aushängen eines Volumes erfolgt. Ein Volume, unter dem andere Volumes eingehängt sind, kann nicht ausgehängt werden, und wenn das Volume SMB-Freigaben hat, wird eine Warnung angezeigt.
+
+
+
+===== Verschachtelte Verbindungspfade für neue Volumes
+
+Beim Erstellen eines Volumes kann nun im Abschnitt *Erweiterte Konfiguration* ein verschachtelter Verbindungspfad wie  `/test1/test2` eingegeben werden.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/create-volume.html["Informationen zum Erstellen eines Volumens"]
+
+
+
+==== Anpassen einer gut strukturierten Konfiguration als benutzerdefinierte Regel
+
+Sie können eine benutzerdefinierte Regel ausgehend von einer Well-Architected-Konfiguration starten, sodass Sie eigene Schwellenwerte oder Bereiche anwenden können, während die ursprüngliche Best Practice bestehen bleibt. Workload Factory öffnet Custom rules mit einem bearbeitbaren Prompt auf Basis dieser Konfiguration. Die Regel beginnt als Entwurf, und ihre Beschreibung gibt an, auf welcher Konfiguration sie basiert.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/improve-configurations.html["Anleitung zum Anpassen einer gut strukturierten Konfiguration"]
+
+
+
+==== Benachrichtigungen für geplante Ausführungen benutzerdefinierter Regeln
+
+Bei einer geplanten benutzerdefinierten Regel lassen sich Benachrichtigungen aktivieren, sodass Ergebnisse ohne Anmeldung bei Workload Factory verfügbar sind. Benachrichtigungen können nach jedem geplanten Lauf oder nur bei einem fehlgeschlagenen oder teilweise erfolgreichen Lauf empfangen werden. Die Benachrichtigungen werden über die von Ihnen bereits eingerichteten Kanäle gesendet. Bei manuellen Tests werden keine Benachrichtigungen gesendet.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/manage-custom-rules.html["Informationen dazu, wie Sie Benachrichtigungen für geplante benutzerdefinierte Regeln erhalten"]
+
+
+
+[[workload-factory-administration-enhancements]]
+=== Verbesserungen bei der Workload Factory Verwaltung
+
+Diese Erweiterungen umfassen benutzerdefinierte Dashboards und andere Verwaltungsaufgaben in Workload Factory.
+
+
+
+==== Bearbeiten eines benutzerdefinierten Dashboard-Titels und einer Beschreibung
+
+Sie können den Titel und die Beschreibung eines benutzerdefinierten Dashboards im Dashboard-Katalog oder in der Dashboardansicht bearbeiten, damit diese bei Änderungen am Dashboard aktuell bleiben. Beide Felder sind erforderlich, und zwei Dashboards können denselben Titel haben.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/admin/manage-custom-dashboards-fsx.html["Informationen zum Managen benutzerdefinierter Dashboards"]
+
+
+
+[[workload-factory-for-eda-enhancements]]
+=== Workload Factory für EDA-Erweiterungen
+
+Diese Verbesserungen umfassen die automatische KI-Analyse für überwachte Volumes, klarere Erklärungen der Grundursache in der KI-Analyse sowie die Aufbewahrungsdauer von Ergebnissen der Latenzanalyse.
+
+
+
+==== Volumes für die automatische KI-Analyse verfolgen
+
+Sie können Volumes für die automatische KI-Analyse markieren, sobald ein Latenzproblem erkannt wird. Die Analyseergebnisse werden 72 Stunden lang gespeichert und in Benachrichtigungs-E-Mails aufgenommen, sodass Sie die Ursache überprüfen können, ohne die Analyse selbst durchführen zu müssen.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["Informationen zur Analyse von Latenzproblemen"^].
+
+
+
+==== Klarere Erklärungen der zugrunde liegenden Ursachen in der KI-Analyse
+
+Mithilfe von KI-Analysen lässt sich die Ursache eines Latenzereignisses genauer ermitteln. Die Analyse prüft Probleme im Zusammenhang mit FlexCache, Kapazitätspools und Dateisystemen sowie Durchsatz- und IOPS-Grenzwerten, hoher SSD-Auslastung, Schreibsättigung und anderen Volumes, die dieselben Ressourcen nutzen.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["Informationen zur Analyse von Latenzproblemen"^].
+
+
+
+==== Die Ergebnisse der Latenzanalyse werden 72 Stunden lang gespeichert
+
+Die Ergebnisse der Latenzanalyse sind nun in der Benutzeroberfläche 72 Stunden statt 24 Stunden lang verfügbar, sodass Sie eine frühere Analyse eines Volumens einsehen können.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["Informationen zur Analyse von Latenzproblemen"^].
+
+
+
+[[google-cloud-netapp-volumes-enhancements]]
+=== Erweiterungen für Google Cloud NetApp Volumes
+
+Diese Verbesserungen umfassen das Löschen von Storage Pools, das Öffnen des Storage Pool Inventars von einem System aus, das Hinzufügen eines Systems über Regionen hinweg und das Managen eines Systems über das rechte Bedienfeld.
+
+
+
+==== Löschen eines Storage Pools
+
+Sie können einen Google Cloud NetApp Volumes Storage Pool löschen, der keine Volumes hat und den Status „Bereit“ oder „Fehler“ aufweist. Der Löschvorgang kann nicht rückgängig gemacht werden. Falls der Löschvorgang fehlschlägt, bleibt der Pool im Inventar, und der Fehler ist im Tracker aufgeführt.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/delete-storage-pool.html["Informationen zum Löschen eines Storage-Pools"]
+
+
+
+==== Den Storage-Pool-Bestand über ein System öffnen
+
+*Enter system* in einem Google Cloud NetApp Volumes System öffnet das Storage Pool Inventar in Workload Factory, wobei Projekt, Anmeldeinformationen und Region dieses Systems bereits ausgewählt sind. Bei einem System, das alle Regionen abdeckt, sind beim Öffnen alle Regionen ausgewählt.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/view-storage-pools.html["Informationen zum Anzeigen von Storage Pools"]
+
+
+
+==== Hinzufügen eines Systems über alle Regionen hinweg
+
+Beim Hinzufügen eines Google Cloud NetApp Volumes Systems ist die Region optional und standardmäßig auf alle Regionen festgelegt. Workload Factory erkennt in jeder Region Storage Pools für die von Ihnen ausgewählten Anmeldeinformationen. Eine ausgewählte Region legt fest, was das System auf dem Canvas anzeigt und was Compliance und DRaaS verwenden. Dies schränkt die Erkennung nicht ein.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/create-discover-systems.html["Informationen zum Hinzufügen eines Systems"]
+
+
+
+==== Managen eines Systems über das rechte Bedienfeld
+
+Im rechten Bereich eines Systems von Google Cloud NetApp Volumes können Sie dessen Volumes anzeigen und das System über die NetApp Console aufrufen.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/view-storage-pools.html["Informationen zum Anzeigen von Storage Pools"]
